@@ -1,0 +1,11 @@
+{
+  "name": "easyrecruit-frontend-tests",
+  "private": true,
+  "description": "HTML-injection regression harness: runs the real frontend pages in jsdom against hostile API data.",
+  "scripts": {
+    "test": "node xss_harness.js ../../frontend/index.html && node xss_harness.js ../../frontend/dashboard.html"
+  },
+  "devDependencies": {
+    "jsdom": "24.1.3"
+  }
+}

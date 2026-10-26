@@ -1,0 +1,1029 @@
+{
+  "degree_order": [
+    "B.E.",
+    "B.Tech.",
+    "B.Sc.",
+    "B.C.A.",
+    "B.B.A.",
+    "B.Com.",
+    "B.A.",
+    "B.Arch.",
+    "B.Pharm.",
+    "B.Des.",
+    "M.C.A.",
+    "M.B.A.",
+    "M.Tech.",
+    "M.E.",
+    "M.Sc."
+  ],
+  "departments": [
+    {
+      "id": "b-e-computer-science-and-engineering",
+      "sno": 1,
+      "degree": "B.E.",
+      "programme": "Computer Science and Engineering",
+      "full_name": "B.E. Computer Science and Engineering",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-tech-information-technology",
+      "sno": 2,
+      "degree": "B.Tech.",
+      "programme": "Information Technology",
+      "full_name": "B.Tech. Information Technology",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-e-electronics-and-communication-engineering",
+      "sno": 3,
+      "degree": "B.E.",
+      "programme": "Electronics and Communication Engineering",
+      "full_name": "B.E. Electronics and Communication Engineering",
+      "categories": [
+        "ece_eee"
+      ]
+    },
+    {
+      "id": "b-e-electrical-and-electronics-engineering",
+      "sno": 4,
+      "degree": "B.E.",
+      "programme": "Electrical and Electronics Engineering",
+      "full_name": "B.E. Electrical and Electronics Engineering",
+      "categories": [
+        "ece_eee"
+      ]
+    },
+    {
+      "id": "b-e-mechanical-engineering",
+      "sno": 5,
+      "degree": "B.E.",
+      "programme": "Mechanical Engineering",
+      "full_name": "B.E. Mechanical Engineering",
+      "categories": [
+        "mech_prod"
+      ]
+    },
+    {
+      "id": "b-e-civil-engineering",
+      "sno": 6,
+      "degree": "B.E.",
+      "programme": "Civil Engineering",
+      "full_name": "B.E. Civil Engineering",
+      "categories": [
+        "civil_env"
+      ]
+    },
+    {
+      "id": "b-tech-artificial-intelligence-and-data-science",
+      "sno": 7,
+      "degree": "B.Tech.",
+      "programme": "Artificial Intelligence and Data Science",
+      "full_name": "B.Tech. Artificial Intelligence and Data Science",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-tech-artificial-intelligence-and-machine-learning",
+      "sno": 8,
+      "degree": "B.Tech.",
+      "programme": "Artificial Intelligence and Machine Learning",
+      "full_name": "B.Tech. Artificial Intelligence and Machine Learning",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-e-biomedical-engineering",
+      "sno": 9,
+      "degree": "B.E.",
+      "programme": "Biomedical Engineering",
+      "full_name": "B.E. Biomedical Engineering",
+      "categories": [
+        "biomed_health"
+      ]
+    },
+    {
+      "id": "b-e-mechatronics-engineering",
+      "sno": 10,
+      "degree": "B.E.",
+      "programme": "Mechatronics Engineering",
+      "full_name": "B.E. Mechatronics Engineering",
+      "categories": [
+        "mech_prod"
+      ]
+    },
+    {
+      "id": "b-tech-computer-science-and-business-systems",
+      "sno": 11,
+      "degree": "B.Tech.",
+      "programme": "Computer Science and Business Systems",
+      "full_name": "B.Tech. Computer Science and Business Systems",
+      "categories": [
+        "cs_it",
+        "business_mgmt"
+      ]
+    },
+    {
+      "id": "b-e-computer-science-and-engineering-cyber-security",
+      "sno": 12,
+      "degree": "B.E.",
+      "programme": "Computer Science and Engineering (Cyber Security)",
+      "full_name": "B.E. Computer Science and Engineering (Cyber Security)",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-e-computer-science-and-engineering-artificial-intelligence-and-machine-learning",
+      "sno": 13,
+      "degree": "B.E.",
+      "programme": "Computer Science and Engineering (Artificial Intelligence and Machine Learning)",
+      "full_name": "B.E. Computer Science and Engineering (Artificial Intelligence and Machine Learning)",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-e-computer-science-and-engineering-data-science",
+      "sno": 14,
+      "degree": "B.E.",
+      "programme": "Computer Science and Engineering (Data Science)",
+      "full_name": "B.E. Computer Science and Engineering (Data Science)",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-e-computer-science-and-engineering-internet-of-things",
+      "sno": 15,
+      "degree": "B.E.",
+      "programme": "Computer Science and Engineering (Internet of Things)",
+      "full_name": "B.E. Computer Science and Engineering (Internet of Things)",
+      "categories": [
+        "cs_it",
+        "ece_eee"
+      ]
+    },
+    {
+      "id": "b-e-electronics-and-instrumentation-engineering",
+      "sno": 16,
+      "degree": "B.E.",
+      "programme": "Electronics and Instrumentation Engineering",
+      "full_name": "B.E. Electronics and Instrumentation Engineering",
+      "categories": [
+        "ece_eee"
+      ]
+    },
+    {
+      "id": "b-e-electronics-and-computer-engineering",
+      "sno": 17,
+      "degree": "B.E.",
+      "programme": "Electronics and Computer Engineering",
+      "full_name": "B.E. Electronics and Computer Engineering",
+      "categories": [
+        "ece_eee",
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-e-instrumentation-and-control-engineering",
+      "sno": 18,
+      "degree": "B.E.",
+      "programme": "Instrumentation and Control Engineering",
+      "full_name": "B.E. Instrumentation and Control Engineering",
+      "categories": [
+        "ece_eee"
+      ]
+    },
+    {
+      "id": "b-e-aeronautical-engineering",
+      "sno": 19,
+      "degree": "B.E.",
+      "programme": "Aeronautical Engineering",
+      "full_name": "B.E. Aeronautical Engineering",
+      "categories": [
+        "mech_prod"
+      ]
+    },
+    {
+      "id": "b-e-aerospace-engineering",
+      "sno": 20,
+      "degree": "B.E.",
+      "programme": "Aerospace Engineering",
+      "full_name": "B.E. Aerospace Engineering",
+      "categories": [
+        "mech_prod"
+      ]
+    },
+    {
+      "id": "b-e-automobile-engineering",
+      "sno": 21,
+      "degree": "B.E.",
+      "programme": "Automobile Engineering",
+      "full_name": "B.E. Automobile Engineering",
+      "categories": [
+        "mech_prod"
+      ]
+    },
+    {
+      "id": "b-e-agricultural-engineering",
+      "sno": 22,
+      "degree": "B.E.",
+      "programme": "Agricultural Engineering",
+      "full_name": "B.E. Agricultural Engineering",
+      "categories": [
+        "agri_hospitality"
+      ]
+    },
+    {
+      "id": "b-tech-biotechnology",
+      "sno": 23,
+      "degree": "B.Tech.",
+      "programme": "Biotechnology",
+      "full_name": "B.Tech. Biotechnology",
+      "categories": [
+        "biotech_life"
+      ]
+    },
+    {
+      "id": "b-tech-chemical-engineering",
+      "sno": 24,
+      "degree": "B.Tech.",
+      "programme": "Chemical Engineering",
+      "full_name": "B.Tech. Chemical Engineering",
+      "categories": [
+        "chem_process"
+      ]
+    },
+    {
+      "id": "b-tech-food-technology",
+      "sno": 25,
+      "degree": "B.Tech.",
+      "programme": "Food Technology",
+      "full_name": "B.Tech. Food Technology",
+      "categories": [
+        "chem_process"
+      ]
+    },
+    {
+      "id": "b-tech-pharmaceutical-technology",
+      "sno": 26,
+      "degree": "B.Tech.",
+      "programme": "Pharmaceutical Technology",
+      "full_name": "B.Tech. Pharmaceutical Technology",
+      "categories": [
+        "biomed_health"
+      ]
+    },
+    {
+      "id": "b-tech-textile-technology",
+      "sno": 27,
+      "degree": "B.Tech.",
+      "programme": "Textile Technology",
+      "full_name": "B.Tech. Textile Technology",
+      "categories": [
+        "chem_process"
+      ]
+    },
+    {
+      "id": "b-tech-fashion-technology",
+      "sno": 28,
+      "degree": "B.Tech.",
+      "programme": "Fashion Technology",
+      "full_name": "B.Tech. Fashion Technology",
+      "categories": [
+        "design_arch"
+      ]
+    },
+    {
+      "id": "b-e-industrial-engineering",
+      "sno": 29,
+      "degree": "B.E.",
+      "programme": "Industrial Engineering",
+      "full_name": "B.E. Industrial Engineering",
+      "categories": [
+        "mech_prod"
+      ]
+    },
+    {
+      "id": "b-e-production-engineering",
+      "sno": 30,
+      "degree": "B.E.",
+      "programme": "Production Engineering",
+      "full_name": "B.E. Production Engineering",
+      "categories": [
+        "mech_prod"
+      ]
+    },
+    {
+      "id": "b-e-manufacturing-engineering",
+      "sno": 31,
+      "degree": "B.E.",
+      "programme": "Manufacturing Engineering",
+      "full_name": "B.E. Manufacturing Engineering",
+      "categories": [
+        "mech_prod"
+      ]
+    },
+    {
+      "id": "b-e-marine-engineering",
+      "sno": 32,
+      "degree": "B.E.",
+      "programme": "Marine Engineering",
+      "full_name": "B.E. Marine Engineering",
+      "categories": [
+        "mech_prod"
+      ]
+    },
+    {
+      "id": "b-e-mining-engineering",
+      "sno": 33,
+      "degree": "B.E.",
+      "programme": "Mining Engineering",
+      "full_name": "B.E. Mining Engineering",
+      "categories": [
+        "mech_prod"
+      ]
+    },
+    {
+      "id": "b-e-metallurgical-engineering",
+      "sno": 34,
+      "degree": "B.E.",
+      "programme": "Metallurgical Engineering",
+      "full_name": "B.E. Metallurgical Engineering",
+      "categories": [
+        "mech_prod"
+      ]
+    },
+    {
+      "id": "b-tech-petroleum-engineering",
+      "sno": 35,
+      "degree": "B.Tech.",
+      "programme": "Petroleum Engineering",
+      "full_name": "B.Tech. Petroleum Engineering",
+      "categories": [
+        "chem_process"
+      ]
+    },
+    {
+      "id": "b-tech-petrochemical-engineering",
+      "sno": 36,
+      "degree": "B.Tech.",
+      "programme": "Petrochemical Engineering",
+      "full_name": "B.Tech. Petrochemical Engineering",
+      "categories": [
+        "chem_process"
+      ]
+    },
+    {
+      "id": "b-tech-polymer-technology",
+      "sno": 37,
+      "degree": "B.Tech.",
+      "programme": "Polymer Technology",
+      "full_name": "B.Tech. Polymer Technology",
+      "categories": [
+        "chem_process"
+      ]
+    },
+    {
+      "id": "b-tech-plastic-technology",
+      "sno": 38,
+      "degree": "B.Tech.",
+      "programme": "Plastic Technology",
+      "full_name": "B.Tech. Plastic Technology",
+      "categories": [
+        "chem_process"
+      ]
+    },
+    {
+      "id": "b-tech-ceramic-technology",
+      "sno": 39,
+      "degree": "B.Tech.",
+      "programme": "Ceramic Technology",
+      "full_name": "B.Tech. Ceramic Technology",
+      "categories": [
+        "chem_process"
+      ]
+    },
+    {
+      "id": "b-e-environmental-engineering",
+      "sno": 40,
+      "degree": "B.E.",
+      "programme": "Environmental Engineering",
+      "full_name": "B.E. Environmental Engineering",
+      "categories": [
+        "civil_env"
+      ]
+    },
+    {
+      "id": "b-tech-environmental-science-and-technology",
+      "sno": 41,
+      "degree": "B.Tech.",
+      "programme": "Environmental Science and Technology",
+      "full_name": "B.Tech. Environmental Science and Technology",
+      "categories": [
+        "civil_env"
+      ]
+    },
+    {
+      "id": "b-e-geo-informatics-engineering",
+      "sno": 42,
+      "degree": "B.E.",
+      "programme": "Geo Informatics Engineering",
+      "full_name": "B.E. Geo Informatics Engineering",
+      "categories": [
+        "civil_env"
+      ]
+    },
+    {
+      "id": "b-e-robotics-and-automation",
+      "sno": 43,
+      "degree": "B.E.",
+      "programme": "Robotics and Automation",
+      "full_name": "B.E. Robotics and Automation",
+      "categories": [
+        "mech_prod"
+      ]
+    },
+    {
+      "id": "b-tech-robotics-and-artificial-intelligence",
+      "sno": 44,
+      "degree": "B.Tech.",
+      "programme": "Robotics and Artificial Intelligence",
+      "full_name": "B.Tech. Robotics and Artificial Intelligence",
+      "categories": [
+        "mech_prod",
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-e-medical-electronics",
+      "sno": 45,
+      "degree": "B.E.",
+      "programme": "Medical Electronics",
+      "full_name": "B.E. Medical Electronics",
+      "categories": [
+        "biomed_health",
+        "ece_eee"
+      ]
+    },
+    {
+      "id": "b-tech-information-science-and-engineering",
+      "sno": 46,
+      "degree": "B.Tech.",
+      "programme": "Information Science and Engineering",
+      "full_name": "B.Tech. Information Science and Engineering",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-e-safety-and-fire-engineering",
+      "sno": 47,
+      "degree": "B.E.",
+      "programme": "Safety and Fire Engineering",
+      "full_name": "B.E. Safety and Fire Engineering",
+      "categories": [
+        "civil_env"
+      ]
+    },
+    {
+      "id": "b-tech-bio-medical-instrumentation",
+      "sno": 48,
+      "degree": "B.Tech.",
+      "programme": "Bio Medical Instrumentation",
+      "full_name": "B.Tech. Bio Medical Instrumentation",
+      "categories": [
+        "biomed_health",
+        "ece_eee"
+      ]
+    },
+    {
+      "id": "b-tech-nanotechnology",
+      "sno": 49,
+      "degree": "B.Tech.",
+      "programme": "Nanotechnology",
+      "full_name": "B.Tech. Nanotechnology",
+      "categories": [
+        "chem_process"
+      ]
+    },
+    {
+      "id": "b-tech-energy-engineering",
+      "sno": 50,
+      "degree": "B.Tech.",
+      "programme": "Energy Engineering",
+      "full_name": "B.Tech. Energy Engineering",
+      "categories": [
+        "chem_process",
+        "ece_eee"
+      ]
+    },
+    {
+      "id": "b-sc-computer-science",
+      "sno": 51,
+      "degree": "B.Sc.",
+      "programme": "Computer Science",
+      "full_name": "B.Sc. Computer Science",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-sc-information-technology",
+      "sno": 52,
+      "degree": "B.Sc.",
+      "programme": "Information Technology",
+      "full_name": "B.Sc. Information Technology",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-sc-artificial-intelligence",
+      "sno": 53,
+      "degree": "B.Sc.",
+      "programme": "Artificial Intelligence",
+      "full_name": "B.Sc. Artificial Intelligence",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-sc-data-science",
+      "sno": 54,
+      "degree": "B.Sc.",
+      "programme": "Data Science",
+      "full_name": "B.Sc. Data Science",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-sc-cyber-security",
+      "sno": 55,
+      "degree": "B.Sc.",
+      "programme": "Cyber Security",
+      "full_name": "B.Sc. Cyber Security",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-sc-software-systems",
+      "sno": 56,
+      "degree": "B.Sc.",
+      "programme": "Software Systems",
+      "full_name": "B.Sc. Software Systems",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-sc-mathematics",
+      "sno": 57,
+      "degree": "B.Sc.",
+      "programme": "Mathematics",
+      "full_name": "B.Sc. Mathematics",
+      "categories": [
+        "pure_sciences"
+      ]
+    },
+    {
+      "id": "b-sc-physics",
+      "sno": 58,
+      "degree": "B.Sc.",
+      "programme": "Physics",
+      "full_name": "B.Sc. Physics",
+      "categories": [
+        "pure_sciences"
+      ]
+    },
+    {
+      "id": "b-sc-chemistry",
+      "sno": 59,
+      "degree": "B.Sc.",
+      "programme": "Chemistry",
+      "full_name": "B.Sc. Chemistry",
+      "categories": [
+        "pure_sciences"
+      ]
+    },
+    {
+      "id": "b-sc-statistics",
+      "sno": 60,
+      "degree": "B.Sc.",
+      "programme": "Statistics",
+      "full_name": "B.Sc. Statistics",
+      "categories": [
+        "pure_sciences"
+      ]
+    },
+    {
+      "id": "b-sc-electronics",
+      "sno": 61,
+      "degree": "B.Sc.",
+      "programme": "Electronics",
+      "full_name": "B.Sc. Electronics",
+      "categories": [
+        "ece_eee"
+      ]
+    },
+    {
+      "id": "b-sc-biotechnology",
+      "sno": 62,
+      "degree": "B.Sc.",
+      "programme": "Biotechnology",
+      "full_name": "B.Sc. Biotechnology",
+      "categories": [
+        "biotech_life"
+      ]
+    },
+    {
+      "id": "b-sc-microbiology",
+      "sno": 63,
+      "degree": "B.Sc.",
+      "programme": "Microbiology",
+      "full_name": "B.Sc. Microbiology",
+      "categories": [
+        "biotech_life"
+      ]
+    },
+    {
+      "id": "b-sc-biochemistry",
+      "sno": 64,
+      "degree": "B.Sc.",
+      "programme": "Biochemistry",
+      "full_name": "B.Sc. Biochemistry",
+      "categories": [
+        "biotech_life"
+      ]
+    },
+    {
+      "id": "b-sc-visual-communication",
+      "sno": 65,
+      "degree": "B.Sc.",
+      "programme": "Visual Communication",
+      "full_name": "B.Sc. Visual Communication",
+      "categories": [
+        "design_arch"
+      ]
+    },
+    {
+      "id": "b-sc-animation-and-multimedia",
+      "sno": 66,
+      "degree": "B.Sc.",
+      "programme": "Animation and Multimedia",
+      "full_name": "B.Sc. Animation and Multimedia",
+      "categories": [
+        "design_arch"
+      ]
+    },
+    {
+      "id": "b-sc-psychology",
+      "sno": 67,
+      "degree": "B.Sc.",
+      "programme": "Psychology",
+      "full_name": "B.Sc. Psychology",
+      "categories": [
+        "arts_humanities"
+      ]
+    },
+    {
+      "id": "b-sc-agriculture",
+      "sno": 68,
+      "degree": "B.Sc.",
+      "programme": "Agriculture",
+      "full_name": "B.Sc. Agriculture",
+      "categories": [
+        "agri_hospitality"
+      ]
+    },
+    {
+      "id": "b-sc-nursing",
+      "sno": 69,
+      "degree": "B.Sc.",
+      "programme": "Nursing",
+      "full_name": "B.Sc. Nursing",
+      "categories": [
+        "biomed_health"
+      ]
+    },
+    {
+      "id": "b-sc-hospitality-and-hotel-administration",
+      "sno": 70,
+      "degree": "B.Sc.",
+      "programme": "Hospitality and Hotel Administration",
+      "full_name": "B.Sc. Hospitality and Hotel Administration",
+      "categories": [
+        "agri_hospitality"
+      ]
+    },
+    {
+      "id": "b-c-a-bachelor-of-computer-applications",
+      "sno": 71,
+      "degree": "B.C.A.",
+      "programme": "Bachelor of Computer Applications",
+      "full_name": "B.C.A. Bachelor of Computer Applications",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-b-a-bachelor-of-business-administration",
+      "sno": 72,
+      "degree": "B.B.A.",
+      "programme": "Bachelor of Business Administration",
+      "full_name": "B.B.A. Bachelor of Business Administration",
+      "categories": [
+        "business_mgmt"
+      ]
+    },
+    {
+      "id": "b-com-general",
+      "sno": 73,
+      "degree": "B.Com.",
+      "programme": "General",
+      "full_name": "B.Com. General",
+      "categories": [
+        "business_mgmt"
+      ]
+    },
+    {
+      "id": "b-com-computer-applications",
+      "sno": 74,
+      "degree": "B.Com.",
+      "programme": "Computer Applications",
+      "full_name": "B.Com. Computer Applications",
+      "categories": [
+        "business_mgmt",
+        "cs_it"
+      ]
+    },
+    {
+      "id": "b-com-accounting-and-finance",
+      "sno": 75,
+      "degree": "B.Com.",
+      "programme": "Accounting and Finance",
+      "full_name": "B.Com. Accounting and Finance",
+      "categories": [
+        "business_mgmt"
+      ]
+    },
+    {
+      "id": "b-com-banking-and-insurance",
+      "sno": 76,
+      "degree": "B.Com.",
+      "programme": "Banking and Insurance",
+      "full_name": "B.Com. Banking and Insurance",
+      "categories": [
+        "business_mgmt"
+      ]
+    },
+    {
+      "id": "b-com-corporate-secretaryship",
+      "sno": 77,
+      "degree": "B.Com.",
+      "programme": "Corporate Secretaryship",
+      "full_name": "B.Com. Corporate Secretaryship",
+      "categories": [
+        "business_mgmt"
+      ]
+    },
+    {
+      "id": "b-com-professional-accounting",
+      "sno": 78,
+      "degree": "B.Com.",
+      "programme": "Professional Accounting",
+      "full_name": "B.Com. Professional Accounting",
+      "categories": [
+        "business_mgmt"
+      ]
+    },
+    {
+      "id": "b-a-english",
+      "sno": 79,
+      "degree": "B.A.",
+      "programme": "English",
+      "full_name": "B.A. English",
+      "categories": [
+        "arts_humanities"
+      ]
+    },
+    {
+      "id": "b-a-economics",
+      "sno": 80,
+      "degree": "B.A.",
+      "programme": "Economics",
+      "full_name": "B.A. Economics",
+      "categories": [
+        "arts_humanities"
+      ]
+    },
+    {
+      "id": "b-a-tamil",
+      "sno": 81,
+      "degree": "B.A.",
+      "programme": "Tamil",
+      "full_name": "B.A. Tamil",
+      "categories": [
+        "arts_humanities"
+      ]
+    },
+    {
+      "id": "b-a-history",
+      "sno": 82,
+      "degree": "B.A.",
+      "programme": "History",
+      "full_name": "B.A. History",
+      "categories": [
+        "arts_humanities"
+      ]
+    },
+    {
+      "id": "b-a-public-administration",
+      "sno": 83,
+      "degree": "B.A.",
+      "programme": "Public Administration",
+      "full_name": "B.A. Public Administration",
+      "categories": [
+        "arts_humanities"
+      ]
+    },
+    {
+      "id": "b-a-journalism-and-mass-communication",
+      "sno": 84,
+      "degree": "B.A.",
+      "programme": "Journalism and Mass Communication",
+      "full_name": "B.A. Journalism and Mass Communication",
+      "categories": [
+        "arts_humanities"
+      ]
+    },
+    {
+      "id": "b-arch-architecture",
+      "sno": 85,
+      "degree": "B.Arch.",
+      "programme": "Architecture",
+      "full_name": "B.Arch. Architecture",
+      "categories": [
+        "design_arch"
+      ]
+    },
+    {
+      "id": "b-pharm-pharmacy",
+      "sno": 86,
+      "degree": "B.Pharm.",
+      "programme": "Pharmacy",
+      "full_name": "B.Pharm. Pharmacy",
+      "categories": [
+        "biomed_health"
+      ]
+    },
+    {
+      "id": "b-des-fashion-design",
+      "sno": 87,
+      "degree": "B.Des.",
+      "programme": "Fashion Design",
+      "full_name": "B.Des. Fashion Design",
+      "categories": [
+        "design_arch"
+      ]
+    },
+    {
+      "id": "b-des-interior-design",
+      "sno": 88,
+      "degree": "B.Des.",
+      "programme": "Interior Design",
+      "full_name": "B.Des. Interior Design",
+      "categories": [
+        "design_arch"
+      ]
+    },
+    {
+      "id": "m-c-a-master-of-computer-applications",
+      "sno": 89,
+      "degree": "M.C.A.",
+      "programme": "Master of Computer Applications",
+      "full_name": "M.C.A. Master of Computer Applications",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "m-b-a-master-of-business-administration",
+      "sno": 90,
+      "degree": "M.B.A.",
+      "programme": "Master of Business Administration",
+      "full_name": "M.B.A. Master of Business Administration",
+      "categories": [
+        "business_mgmt"
+      ]
+    },
+    {
+      "id": "m-tech-computer-science-and-engineering",
+      "sno": 91,
+      "degree": "M.Tech.",
+      "programme": "Computer Science and Engineering",
+      "full_name": "M.Tech. Computer Science and Engineering",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "m-tech-artificial-intelligence",
+      "sno": 92,
+      "degree": "M.Tech.",
+      "programme": "Artificial Intelligence",
+      "full_name": "M.Tech. Artificial Intelligence",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "m-tech-data-science",
+      "sno": 93,
+      "degree": "M.Tech.",
+      "programme": "Data Science",
+      "full_name": "M.Tech. Data Science",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "m-e-applied-electronics",
+      "sno": 94,
+      "degree": "M.E.",
+      "programme": "Applied Electronics",
+      "full_name": "M.E. Applied Electronics",
+      "categories": [
+        "ece_eee"
+      ]
+    },
+    {
+      "id": "m-e-embedded-systems-technologies",
+      "sno": 95,
+      "degree": "M.E.",
+      "programme": "Embedded Systems Technologies",
+      "full_name": "M.E. Embedded Systems Technologies",
+      "categories": [
+        "ece_eee"
+      ]
+    },
+    {
+      "id": "m-e-structural-engineering",
+      "sno": 96,
+      "degree": "M.E.",
+      "programme": "Structural Engineering",
+      "full_name": "M.E. Structural Engineering",
+      "categories": [
+        "civil_env"
+      ]
+    },
+    {
+      "id": "m-e-vlsi-design",
+      "sno": 97,
+      "degree": "M.E.",
+      "programme": "VLSI Design",
+      "full_name": "M.E. VLSI Design",
+      "categories": [
+        "ece_eee"
+      ]
+    },
+    {
+      "id": "m-e-power-systems-engineering",
+      "sno": 98,
+      "degree": "M.E.",
+      "programme": "Power Systems Engineering",
+      "full_name": "M.E. Power Systems Engineering",
+      "categories": [
+        "ece_eee"
+      ]
+    },
+    {
+      "id": "m-sc-computer-science",
+      "sno": 99,
+      "degree": "M.Sc.",
+      "programme": "Computer Science",
+      "full_name": "M.Sc. Computer Science",
+      "categories": [
+        "cs_it"
+      ]
+    },
+    {
+      "id": "m-sc-data-science",
+      "sno": 100,
+      "degree": "M.Sc.",
+      "programme": "Data Science",
+      "full_name": "M.Sc. Data Science",
+      "categories": [
+        "cs_it"
+      ]
+    }
+  ]
+}

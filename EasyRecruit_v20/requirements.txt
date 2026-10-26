@@ -1,0 +1,52 @@
+# EasyRecruit ATS 3.0 v12 — Requirements
+# Tested on Python 3.11, Windows 10/11
+#
+# NOTES:
+#   1. passlib has been REMOVED — bcrypt is called directly (fixes all version conflicts)
+#   2. bcrypt any version >= 3.2 works now (no passlib dependency on __about__)
+#   3. Do NOT pin starlette separately — fastapi bundles it
+#   4. BaseHTTPMiddleware → starlette.middleware.base (NOT fastapi)
+#   5. On Python 3.14+: install_and_run.bat now automatically downloads
+#      and uses a self-contained Python 3.12 inside the project folder
+#      (does not touch your system Python) instead of fighting missing
+#      wheels for packages with compiled code (pydantic-core, numpy, spaCy).
+#      If installing manually with this file on Python 3.14+, drop the
+#      "==" pins to "~=" or ">=" for pydantic, numpy, scikit-learn, and
+#      spacy if you hit a "Building wheel ... did not run successfully"
+#      error, or use Python 3.11-3.13 instead.
+#
+# After install: python -m spacy download en_core_web_sm
+
+# ── Web framework ─────────────────────────────────────────────
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+
+# ── Document parsing ──────────────────────────────────────────
+pdfplumber==0.10.3
+python-docx==1.1.0
+Pillow==10.4.0
+
+# ── NLP / ML ──────────────────────────────────────────────────
+spacy==3.7.2
+sentence-transformers==2.4.0
+numpy==1.26.3
+scikit-learn==1.4.0
+
+# ── Configuration ─────────────────────────────────────────────
+python-dotenv==1.0.0
+pydantic[email]==2.13.5
+
+# ── Authentication ────────────────────────────────────────────
+# passlib REMOVED — bcrypt is used directly (no version conflict possible)
+bcrypt>=3.2.0
+PyJWT==2.8.0
+
+# ── HTTP / Testing ────────────────────────────────────────────
+httpx==0.26.0
+pytest==7.4.4
+pytest-asyncio==0.23.3
+pytest-cov==4.1.0
+
+# ── Production server ─────────────────────────────────────────
+gunicorn==21.2.0

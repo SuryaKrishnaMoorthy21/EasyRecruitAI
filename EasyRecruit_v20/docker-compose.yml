@@ -1,0 +1,36 @@
+version: "3.9"
+
+services:
+  web:
+    build: .
+    ports:
+      - "8001:8001"
+    volumes:
+      # Persist the SQLite database across container restarts
+      - easyrecruit_data:/app/app/data
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8001
+      - DEBUG=false
+      - SECRET_KEY=${SECRET_KEY:?SECRET_KEY must be set - generate one with secrets.token_hex(32)}
+      # Optional first administrator (fresh deployments only; remove after first start)
+      - INITIAL_ADMIN_EMAIL=${INITIAL_ADMIN_EMAIL:-}
+      - INITIAL_ADMIN_PASSWORD=${INITIAL_ADMIN_PASSWORD:-}
+      - INITIAL_ADMIN_ROLE=${INITIAL_ADMIN_ROLE:-admin}
+      - INITIAL_ADMIN_COMPANY=${INITIAL_ADMIN_COMPANY:-}
+      - ACCESS_TOKEN_EXPIRE_MINUTES=1440
+      - DATABASE_PATH=/app/app/data/easyrecruit.db
+      - LOG_LEVEL=INFO
+      # Empty = same-origin only (the container serves its own frontend). Never '*': DEBUG=false refuses it.
+      - CORS_ORIGINS=${CORS_ORIGINS:-}
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/api/v1/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+
+volumes:
+  easyrecruit_data:
+    driver: local

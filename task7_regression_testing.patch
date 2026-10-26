@@ -1,0 +1,622 @@
+diff -ruN a/.env.example b/.env.example
+--- a/.env.example	2026-10-22 00:38:18.000000000 +0000
++++ b/.env.example	2026-10-24 04:16:32.000000000 +0000
+@@ -36,7 +36,10 @@
+ SPACY_MODEL=en_core_web_sm
+ SENTENCE_TRANSFORMER_MODEL=all-MiniLM-L6-v2
+ 
+-# ── Scoring weights (must sum to 1.0) ────────────────
++# ── Legacy scoring-weight settings — NOT USED by the scorer ──────────────
++# Since Task 6 the real weights are fixed, validated constants in app/nlp/enhanced_scorer.py
++# (SCORE_WEIGHTS_WITH_SEMANTIC / SCORE_WEIGHTS_NO_SEMANTIC; the formula is reported in every result's
++# scoring_explanation). Changing the four values below has no effect on any score.
+ KEYWORD_WEIGHT=0.25
+ SKILL_WEIGHT=0.30
+ STRUCTURE_WEIGHT=0.20
+diff -ruN a/CHANGELOG.md b/CHANGELOG.md
+--- a/CHANGELOG.md	2026-10-22 00:38:18.000000000 +0000
++++ b/CHANGELOG.md	2026-10-24 04:24:06.000000000 +0000
+@@ -1,6 +1,26 @@
+ # EasyRecruit ATS 3.0 — Changelog
+ 
+-## v20.6 (Current) — Scoring transparency and fairness
++## v20.7 (Current) — Release verification (Task 7)
++Regression and release verification of Tasks 1-6. One defect class was found and fixed; nothing else changed behaviour.
++- **NaN / Infinity can no longer break a response.** Injecting a non-finite number at the scorer boundary turned 27 of 36
++  probes on `analysis/analyze` (36 of 36 on `analyze-batch`) into an unhandled HTTP 500, because Starlette refuses to render
++  `NaN`; `json.dumps` would have stored it as the non-standard literal `NaN`; and a non-finite sub-score silently
++  decided the overall score (`+inf` gave 100.0 for a resume that otherwise scored 32.6; `NaN` / `-inf` gave 0.0) while the raw
++  `NaN` / `inf` was also returned as that dimension's score. Three layers now: the scorer treats a non-finite dimension like a failed one (the labelled
++  placeholder and a `scoring_explanation.warnings` entry, never a made-up score) and skips a non-finite India adjustment;
++  the app's default response class (`app/json_safety.py`) renders any remaining NaN / Infinity as `null`; the stored result
++  blob is sanitised the same way. The warning log carries a count, never the payload.
++- **Release packager** (`scripts/make_source_dist.py`) also excludes editor, coverage and OS leftovers (`.idea/`, `.vscode/`,
++  `htmlcov/`, `*.egg-info/`, `.coverage`, `.DS_Store`, `Thumbs.db`, `*.swp`, `*.orig`, ...), in addition to secrets and databases.
++- **Test fix, not a weakened test.** `test_shipped_templates_are_rejected_as_keys` failed on every clean checkout because it
++  read `.env.production`, a local git-ignored file that is correctly never shipped. It now requires both shipped templates to
++  exist and checks them, and checks `.env.production` only when present.
++- **Documentation.** `.env.example` / `app/config.py` said `KEYWORD_WEIGHT` / `SKILL_WEIGHT` / `STRUCTURE_WEIGHT` /
++  `SEMANTIC_WEIGHT` set the scoring weights. They are read but unused; the real weights are the `SCORE_WEIGHTS_*` constants.
++  Marked as unused (the values were left alone so existing `.env` files keep working).
++- New tests: `tests/test_task7_regression.py`. Still not testable here: the real sentence-transformer model (see the report).
++
++## v20.6 — Scoring transparency and fairness
+ Nothing here claims improved accuracy: there is no labelled evaluation dataset, so none was measured. These are verified
+ defects and honesty fixes, each reproduced before it was changed.
+ - **Verified, unchanged.** The six JD-based weights (keyword 20 / skill 25 / structure 15 / semantic 20 / experience 10 /
+diff -ruN a/app/api/analysis_routes.py b/app/api/analysis_routes.py
+--- a/app/api/analysis_routes.py	2026-10-19 11:23:20.000000000 +0000
++++ b/app/api/analysis_routes.py	2026-10-24 04:16:24.000000000 +0000
+@@ -26,6 +26,7 @@
+ from app.concurrency import get_gate, singleton_lock
+ from app.config import settings
+ from app.db.database import db
++from app.json_safety import sanitize_non_finite
+ from app.models.schemas import (
+     APIResponse, CustomDatasetCreate, CustomDatasetResponse,
+     PaginatedResponse, ResumeAnalysisFullResponse,
+@@ -505,7 +506,7 @@
+                     score_result.get("breakdown", {})
+                     .get("recommendations", [])
+                 ),
+-                json.dumps(score_result),
++                json.dumps(sanitize_non_finite(score_result)),   # NaN/Infinity are not valid JSON (Task 7)
+                 score_result.get("detected_domain", "general"),
+                 "completed",
+             ),
+diff -ruN a/app/config.py b/app/config.py
+--- a/app/config.py	2026-10-18 23:32:22.000000000 +0000
++++ b/app/config.py	2026-10-24 04:16:36.000000000 +0000
+@@ -329,7 +329,7 @@
+         "SENTENCE_TRANSFORMER_MODEL", "all-MiniLM-L6-v2"
+     )
+ 
+-    # ── Scoring weights ──
++    # ── Scoring weights (legacy, UNUSED: the scorer's weights are the SCORE_WEIGHTS_* constants in enhanced_scorer.py) ──
+     KEYWORD_WEIGHT: float = float(os.getenv("KEYWORD_WEIGHT", "0.25"))
+     SKILL_WEIGHT: float = float(os.getenv("SKILL_WEIGHT", "0.30"))
+     STRUCTURE_WEIGHT: float = float(os.getenv("STRUCTURE_WEIGHT", "0.20"))
+diff -ruN a/app/json_safety.py b/app/json_safety.py
+--- a/app/json_safety.py	1970-01-01 00:00:00.000000000 +0000
++++ b/app/json_safety.py	2026-10-24 04:16:08.000000000 +0000
+@@ -0,0 +1,53 @@
++"""
++Non-finite numbers must never reach a JSON response or a stored JSON document (Task 7).
++
++JSON has no NaN or Infinity. Python's `json.dumps` writes the literals `NaN` / `Infinity` by default, which
++browsers' `JSON.parse` and most clients reject, while Starlette's `JSONResponse` refuses them
++(`allow_nan=False`) and the request dies as an unhandled HTTP 500. Either way a single stray `nan` anywhere in
++a result (a failed division, an empty embedding, a bad model output) used to take the whole response down.
++
++  * `sanitize_non_finite(obj)` returns a copy in which every NaN / +-Infinity float is replaced by `None`
++    (JSON `null`), recursing through dicts, lists, tuples and sets. Everything else is returned unchanged.
++  * `SafeJSONResponse` is the application's default response class: it sanitises before rendering, so every
++    endpoint is covered without each route having to remember to.
++
++`null` is the honest value: "no valid number" is not the same as 0 or 100, and the scorer separately treats a
++non-finite dimension like a failed one (see `EnhancedScorer`), so a core score is never silently invented.
++"""
++import logging
++import math
++from typing import Any
++
++from starlette.responses import JSONResponse
++
++logger = logging.getLogger(__name__)
++
++
++def _clean(value: Any, counter: list) -> Any:
++    if isinstance(value, float):
++        if math.isfinite(value):
++            return value
++        counter[0] += 1
++        return None
++    if isinstance(value, dict):
++        return {k: _clean(v, counter) for k, v in value.items()}
++    if isinstance(value, (list, tuple, set, frozenset)):
++        return [_clean(v, counter) for v in value]
++    return value
++
++
++def sanitize_non_finite(value: Any) -> Any:
++    """Copy of `value` with every NaN / +-Infinity float replaced by None."""
++    return _clean(value, [0])
++
++
++class SafeJSONResponse(JSONResponse):
++    """JSONResponse that turns NaN / Infinity into null instead of failing the request."""
++
++    def render(self, content: Any) -> bytes:
++        counter = [0]
++        cleaned = _clean(content, counter)
++        if counter[0]:
++            # Never log the values or the payload (it can contain personal data); the count is enough to notice.
++            logger.warning("Replaced %d non-finite number(s) with null in a JSON response.", counter[0])
++        return super().render(cleaned)
+diff -ruN a/app/nlp/enhanced_scorer.py b/app/nlp/enhanced_scorer.py
+--- a/app/nlp/enhanced_scorer.py	2026-10-19 05:30:06.000000000 +0000
++++ b/app/nlp/enhanced_scorer.py	2026-10-24 04:16:24.000000000 +0000
+@@ -43,6 +43,11 @@
+ }
+ 
+ 
++def _is_finite_number(value) -> bool:
++    """True for a real, finite int/float (not bool, not NaN, not +-Infinity)."""
++    return isinstance(value, (int, float)) and not isinstance(value, bool) and math.isfinite(value)
++
++
+ def _validate_weights() -> None:
+     for name, weights in (("SCORE_WEIGHTS_WITH_SEMANTIC", SCORE_WEIGHTS_WITH_SEMANTIC),
+                           ("SCORE_WEIGHTS_NO_SEMANTIC", SCORE_WEIGHTS_NO_SEMANTIC)):
+@@ -731,6 +736,24 @@
+             logger.error(f"education_score failed: {e}"); edu_score = 25.0
+             warnings.append("The education score could not be computed; a neutral placeholder of 25 was used.")
+ 
++        # A dimension that returns NaN / Infinity (no exception, so the handlers above never saw it) is treated exactly
++        # like one that failed: labelled placeholder + warning. Otherwise it would reach the weighted sum, where
++        # min()/max() argument order decides whether it silently becomes 0 or a perfect 100 (Task 7).
++        for _label, _value, _placeholder in (("keyword", kw_score, 50.0), ("skill", sk_score, 50.0),
++                                             ("structure", st_score, 50.0), ("experience", exp_score, 50.0),
++                                             ("education", edu_score, 25.0)):
++            if not _is_finite_number(_value):
++                logger.error(f"{_label}_score was not a finite number; a placeholder was used")
++                warnings.append(f"The {_label} score could not be computed; a neutral placeholder of "
++                                f"{_placeholder:g} was used.")
++                if _label == "keyword":     kw_score = _placeholder
++                elif _label == "skill":     sk_score = _placeholder
++                elif _label == "structure": st_score = _placeholder
++                elif _label == "experience": exp_score = _placeholder
++                else:                       edu_score = _placeholder
++        if not _is_finite_number(domain_conf):
++            domain_conf = 0.0
++
+         # Semantic similarity needs a job description AND a working model. If either is missing, or the model fails
+         # at runtime, it is left OUT (sem_score None -> the no-semantic weights apply) rather than scored as 0.
+         sem_score: Optional[float] = None
+@@ -750,6 +773,8 @@
+         try:
+             india_details = self._india_bonus_details(resume_text, indian_ctx, job_description)
+             india_bonus = india_details["total"]
++            if not _is_finite_number(india_bonus):
++                raise ValueError("the India-context adjustment was not a finite number")
+         except Exception as e:
+             logger.error(f"india bonus failed: {e}")
+             india_details = {"policy": self._prestige_policy_name(), "total": 0.0,
+diff -ruN a/main.py b/main.py
+--- a/main.py	2026-10-18 23:32:22.000000000 +0000
++++ b/main.py	2026-10-24 04:16:14.000000000 +0000
+@@ -28,6 +28,7 @@
+ from app.api.profile_routes import router as profile_router, PHOTO_DIR
+ from app.db.database import init_db
+ from app.config import settings, describe_cors, describe_scoring_policy, describe_upload_limits
++from app.json_safety import SafeJSONResponse
+ from app.request_limits import RequestSizeLimitMiddleware
+ 
+ # ── Logging ──────────────────────────────────────────────────────────────────
+@@ -96,6 +97,8 @@
+         redoc_url="/api/redoc"       if settings.DEBUG else None,
+         openapi_url="/api/openapi.json" if settings.DEBUG else None,
+         lifespan=lifespan,
++        # NaN / Infinity can never reach a client as invalid JSON or an unhandled 500 (app/json_safety.py, Task 7).
++        default_response_class=SafeJSONResponse,
+     )
+ 
+     # Middleware — order: outermost added last with add_middleware
+diff -ruN a/scripts/make_source_dist.py b/scripts/make_source_dist.py
+--- a/scripts/make_source_dist.py	2026-10-12 01:47:00.000000000 +0000
++++ b/scripts/make_source_dist.py	2026-10-24 04:17:06.000000000 +0000
+@@ -29,10 +29,13 @@
+ FORBIDDEN_DIRS = {
+     ".git", ".hg", ".svn", "venv", ".venv", "env", "__pycache__", ".pytest_cache",
+     ".mypy_cache", ".cache", "node_modules", "dist", "build", "uploads",
++    # Task 7: editor / coverage / lint / test-runner output that is never part of a release.
++    ".idea", ".vscode", "htmlcov", ".tox", ".nox", ".ruff_cache", ".hypothesis", "temp_uploads",
+ }
++FORBIDDEN_NAMES = {".coverage", ".ds_store", "thumbs.db"}
+ FORBIDDEN_SUFFIXES = {
+     ".db", ".sqlite", ".sqlite3", ".db-wal", ".db-shm", ".db-journal",
+-    ".log", ".pyc", ".pem", ".key", ".p12", ".pfx",
++    ".log", ".pyc", ".pyo", ".pem", ".key", ".p12", ".pfx", ".swp", ".swo", ".orig", ".rej",
+ }
+ CREDENTIAL_DOC_SUFFIXES = {".docx", ".doc", ".xlsx", ".xls", ".pdf", ".csv", ".txt", ".rtf"}
+ SQLITE_MAGIC = b"SQLite format 3\x00"
+@@ -50,8 +53,10 @@
+         if parts[i] == "app" and parts[i + 1] == "data":
+             return "populated data directory (app/data)"
+     for d in parts[:-1]:
+-        if d in FORBIDDEN_DIRS:
++        if d in FORBIDDEN_DIRS or d.endswith(".egg-info"):
+             return f"excluded directory ({d}/)"
++    if lower in FORBIDDEN_NAMES or lower.startswith(".coverage."):
++        return f"generated or OS file ({name})"
+     if (lower == ".env" or lower.startswith(".env.") or lower.endswith(".env")) \
+             and lower not in ALLOWED_ENV_TEMPLATES:
+         return "environment file"
+diff -ruN a/tests/test_credential_hygiene.py b/tests/test_credential_hygiene.py
+--- a/tests/test_credential_hygiene.py	2026-10-12 01:48:18.000000000 +0000
++++ b/tests/test_credential_hygiene.py	2026-10-24 04:16:32.000000000 +0000
+@@ -311,10 +311,21 @@
+         assert a != b and len(a) >= 32
+ 
+     def test_shipped_templates_are_rejected_as_keys(self):
+-        for name in (".env.example", ".env.production.example", ".env.production"):
+-            for line in (ROOT / name).read_text(encoding="utf-8").splitlines():
+-                if line.startswith("SECRET_KEY="):
+-                    assert secret_key_problem(line.split("=", 1)[1].strip()), name
++        # The two templates ship in every release, so they must exist and are always checked. `.env.production` is a
++        # LOCAL, git-ignored deployment file that the safe packager deliberately leaves out: it is checked when present
++        # but its absence is not a failure (it used to be, on every clean checkout and extracted release - Task 7).
++        for name in (".env.example", ".env.production.example"):
++            assert (ROOT / name).is_file(), f"{name} must ship with the project"
++        names = [".env.example", ".env.production.example"]
++        if (ROOT / ".env.production").is_file():
++            names.append(".env.production")
++        for name in names:
++            lines = (ROOT / name).read_text(encoding="utf-8").splitlines()
++            keys = [line for line in lines if line.startswith("SECRET_KEY=")]
++            if name != ".env.production":
++                assert keys, f"{name} must define SECRET_KEY as a placeholder"
++            for line in keys:
++                assert secret_key_problem(line.split("=", 1)[1].strip()), name
+ 
+     def test_no_secret_default_left_in_config_source(self):
+         assert "CHANGE-ME-in-production" not in (ROOT / "app/config.py").read_text(encoding="utf-8")
+diff -ruN a/tests/test_task7_regression.py b/tests/test_task7_regression.py
+--- a/tests/test_task7_regression.py	1970-01-01 00:00:00.000000000 +0000
++++ b/tests/test_task7_regression.py	2026-10-24 04:17:40.000000000 +0000
+@@ -0,0 +1,355 @@
++"""
++EasyRecruit ATS - Task 7 regression tests.
++
++Covers what Task 7 found and fixed:
++
++  1. NaN / Infinity can never produce an invalid JSON body or an unhandled HTTP 500
++     (app/json_safety.py, the app's default response class, the scorer's finite guards, the stored result blob).
++  2. The release packager excludes editor, coverage and OS leftovers as well as secrets and databases.
++
++Tests that run the real scorer need spaCy + en_core_web_sm and are SKIPPED (environment-blocked), not failed, without
++them. None of them loads the real sentence-transformer model; a scorer under test has no semantic model.
++"""
++import json
++import math
++import os
++import sys
++import uuid
++from unittest import mock
++
++sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
++sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
++
++import pytest
++from fastapi import APIRouter
++from fastapi.testclient import TestClient
++from pydantic import BaseModel
++
++import upload_fixtures as fx
++from app.json_safety import SafeJSONResponse, sanitize_non_finite
++from main import app, create_app
++
++try:
++    import app.nlp.enhanced_scorer as es
++    _SCORER_IMPORT_ERROR = None
++except Exception as exc:                                    # pragma: no cover - environment-blocked
++    es, _SCORER_IMPORT_ERROR = None, exc
++
++
++def _spacy_ready():
++    try:
++        import spacy
++        return spacy.util.is_package("en_core_web_sm")
++    except Exception:
++        return False
++
++
++needs_scorer = pytest.mark.skipif(
++    es is None or not _spacy_ready(),
++    reason="environment-blocked: the scorer needs spaCy + en_core_web_sm (and numpy / scikit-learn / sentence-transformers to import)",
++)
++
++NAN, INF, NINF = float("nan"), float("inf"), float("-inf")
++
++
++def _reject_constant(name):
++    raise ValueError(f"non-standard JSON constant in the response: {name}")
++
++
++def strict_json(raw):
++    """Parse like a browser's JSON.parse: NaN / Infinity / -Infinity are errors."""
++    if isinstance(raw, bytes):
++        raw = raw.decode("utf-8")
++    return json.loads(raw, parse_constant=_reject_constant)
++
++
++def all_floats(value):
++    if isinstance(value, float):
++        yield value
++    elif isinstance(value, dict):
++        for v in value.values():
++            yield from all_floats(v)
++    elif isinstance(value, (list, tuple)):
++        for v in value:
++            yield from all_floats(v)
++
++
++# ════════════════════════════════════════════════════════════════════════════
++# 1a. sanitize_non_finite / SafeJSONResponse (no NLP needed)
++# ════════════════════════════════════════════════════════════════════════════
++
++class TestSanitize:
++    @pytest.mark.parametrize("bad", [NAN, INF, NINF], ids=["nan", "inf", "-inf"])
++    def test_a_non_finite_float_becomes_none(self, bad):
++        assert sanitize_non_finite(bad) is None
++
++    def test_it_recurses_through_dicts_lists_and_tuples(self):
++        src = {"a": NAN, "b": [1.5, INF, {"c": NINF, "d": (2.0, NAN)}], "e": {"f": [[NAN]]}}
++        out = sanitize_non_finite(src)
++        assert out == {"a": None, "b": [1.5, None, {"c": None, "d": [2.0, None]}], "e": {"f": [[None]]}}
++        assert list(all_floats(out)) == [1.5, 2.0]
++
++    def test_finite_values_and_other_types_are_unchanged(self):
++        src = {"i": 0, "z": 0.0, "neg": -3.5, "big": 1e300, "t": True, "f": False, "n": None, "s": "NaN", "l": [1, "x", 2.25]}
++        assert sanitize_non_finite(src) == src
++        assert sanitize_non_finite(True) is True and sanitize_non_finite("Infinity") == "Infinity"
++
++    def test_the_input_is_not_mutated(self):
++        src = {"a": NAN, "b": [INF]}
++        sanitize_non_finite(src)
++        assert math.isnan(src["a"]) and src["b"][0] == INF
++
++    def test_numpy_floats_are_handled(self):
++        np = pytest.importorskip("numpy")
++        assert sanitize_non_finite({"x": np.float64("nan"), "y": np.float64(2.5)}) == {"x": None, "y": 2.5}
++
++    def test_the_result_is_strictly_serialisable(self):
++        out = sanitize_non_finite({"a": [NAN, INF, NINF, 1.0]})
++        assert json.dumps(out, allow_nan=False) == '{"a": [null, null, null, 1.0]}'
++
++    def test_a_plain_jsonresponse_fails_on_nan_which_is_why_the_safe_class_exists(self):
++        from starlette.responses import JSONResponse
++        with pytest.raises(ValueError):
++            JSONResponse({"x": NAN})
++        assert strict_json(SafeJSONResponse({"x": NAN, "y": 1}).body) == {"x": None, "y": 1}
++
++    def test_the_warning_log_never_contains_the_payload(self, caplog):
++        with caplog.at_level("WARNING", logger="app.json_safety"):
++            SafeJSONResponse({"secret_name": "Priya Nair", "score": NAN})
++        text = " ".join(r.getMessage() for r in caplog.records)
++        assert "1 non-finite" in text and "Priya" not in text and "secret_name" not in text
++
++
++# ════════════════════════════════════════════════════════════════════════════
++# 1b. the application itself uses it, for every kind of route (no NLP needed)
++# ════════════════════════════════════════════════════════════════════════════
++
++class _Score(BaseModel):
++    overall_score: float
++    note: str = "x"
++
++
++def _client_with_probe_routes():
++    fresh = create_app()
++    probe = APIRouter(prefix="/__task7")
++
++    @probe.get("/plain")
++    def plain():
++        return {"score": NAN, "list": [INF, 1.0], "nested": {"x": NINF}}
++
++    @probe.get("/model", response_model=_Score)
++    def model():
++        return {"overall_score": NAN}
++
++    @probe.get("/model-inf", response_model=_Score)
++    def model_inf():
++        return {"overall_score": INF}
++
++    fresh.include_router(probe)
++    return TestClient(fresh, raise_server_exceptions=False)
++
++
++class TestAppWideResponseSafety:
++    def test_a_plain_dict_with_non_finite_numbers_is_valid_json(self):
++        r = _client_with_probe_routes().get("/__task7/plain")
++        assert r.status_code == 200
++        assert strict_json(r.content) == {"score": None, "list": [None, 1.0], "nested": {"x": None}}
++
++    @pytest.mark.parametrize("path", ["/__task7/model", "/__task7/model-inf"])
++    def test_a_response_model_route_does_not_crash(self, path):
++        r = _client_with_probe_routes().get(path)
++        assert r.status_code == 200, r.text
++        assert strict_json(r.content)["overall_score"] is None
++
++    def test_finite_responses_are_byte_for_byte_what_they_were(self):
++        r = TestClient(app).get("/api/v1/health")
++        assert r.status_code == 200 and strict_json(r.content)["status"]
++
++    def test_the_application_default_is_the_safe_response_class(self):
++        assert create_app().router.default_response_class is SafeJSONResponse
++
++
++# ════════════════════════════════════════════════════════════════════════════
++# 1c. the scorer: a non-finite dimension is a failed dimension, not a score
++# ════════════════════════════════════════════════════════════════════════════
++
++RESUME = """Priya Nair
++priya.nair@example.com | +91 98765 43210
++SUMMARY
++Software engineer with 4 years of experience building backend services in Python and Java.
++EXPERIENCE
++Software Engineer - Acme Systems (2021 - Present)
++Developed REST APIs using FastAPI and Django, improved response time by 35%.
++Managed PostgreSQL databases and deployed services with Docker on AWS.
++EDUCATION
++B.Tech in Computer Science - ABC Engineering College (2020)
++SKILLS
++Python, Java, SQL, Docker, Git, AWS, FastAPI, Django, PostgreSQL
++"""
++JD = "Backend Engineer. Required: Python, FastAPI, Docker, AWS, PostgreSQL. 3+ years of experience."
++
++
++@pytest.fixture(scope="module")
++def _scorer():
++    with mock.patch.object(es.EnhancedScorer, "_load_model_safely", staticmethod(lambda *a, **k: None)):
++        yield es.EnhancedScorer()
++
++
++@needs_scorer
++class TestScorerNonFinite:
++    DIMENSIONS = [
++        ("_keyword_score", "keyword", 50.0, "keyword_match_score"),
++        ("_skill_score_with_breakdown", "skill", 50.0, "skill_match_score"),
++        ("_structure_score", "structure", 50.0, "structure_score"),
++        ("_experience_score", "experience", 50.0, "experience_score"),
++        ("_education_score", "education", 25.0, "education_score"),
++    ]
++
++    @pytest.mark.parametrize("bad", [NAN, INF, NINF], ids=["nan", "inf", "-inf"])
++    @pytest.mark.parametrize("method,label,placeholder,key", DIMENSIONS, ids=[d[1] for d in DIMENSIONS])
++    def test_a_non_finite_dimension_is_replaced_by_its_labelled_placeholder(self, _scorer, method, label, placeholder, key, bad):
++        value = (bad, {"matched_skills": [], "missing_skills": [], "categorized_skills": {}}) if method.startswith("_skill") else bad
++        with mock.patch.object(_scorer, method, return_value=value):
++            r = _scorer.calculate_ats_score(RESUME, JD)
++        assert r[key] == placeholder
++        assert 0.0 <= r["overall_score"] <= 100.0 and math.isfinite(r["overall_score"])
++        assert all(math.isfinite(v) for v in all_floats(r))
++        expected = f"The {label} score could not be computed; a neutral placeholder of {placeholder:g} was used."
++        assert expected in r["scoring_explanation"]["warnings"]
++
++    @pytest.mark.parametrize("bad", [NAN, INF, NINF], ids=["nan", "inf", "-inf"])
++    def test_inf_in_one_dimension_can_no_longer_make_a_perfect_score(self, _scorer, bad):
++        """Before the guard, +inf in a sub-score passed through min(..., 100) and produced exactly 100.0."""
++        with mock.patch.object(_scorer, "_keyword_score", return_value=bad):
++            r = _scorer.calculate_ats_score(RESUME, JD)
++        assert r["overall_score"] < 100.0
++
++    @pytest.mark.parametrize("bad", [NAN, INF], ids=["nan", "inf"])
++    def test_a_non_finite_india_adjustment_is_skipped_with_a_warning(self, _scorer, bad):
++        details = {"policy": "off", "total": bad, "cap": 15.0, "components": []}
++        with mock.patch.object(_scorer, "_india_bonus_details", return_value=details):
++            r = _scorer.calculate_ats_score(RESUME, JD)
++        assert math.isfinite(r["india_context_bonus"]) and r["india_context_bonus"] == 0.0
++        assert math.isfinite(r["overall_score"])
++        assert any("India-context adjustment" in w for w in r["scoring_explanation"]["warnings"])
++
++    @pytest.mark.parametrize("bad", [NAN, INF], ids=["nan", "inf"])
++    def test_a_non_finite_domain_confidence_is_zeroed(self, _scorer, bad):
++        with mock.patch.object(_scorer.extractor, "detect_domain", return_value=("general", bad)):
++            r = _scorer.calculate_ats_score(RESUME, JD)
++        assert math.isfinite(r["domain_confidence"]) and math.isfinite(r["overall_score"])
++
++    def test_normal_scoring_is_unchanged_and_has_no_new_warnings(self, _scorer):
++        r = _scorer.calculate_ats_score(RESUME, JD)
++        assert r["scoring_explanation"]["warnings"] == []
++        assert all(math.isfinite(v) for v in all_floats(r))
++
++    def test_a_missing_semantic_model_is_still_reported_as_unavailable_not_failed(self, _scorer):
++        r = _scorer.calculate_ats_score(RESUME, JD)
++        assert r["semantic_similarity"] is None
++
++
++# ════════════════════════════════════════════════════════════════════════════
++# 1d. end to end: injected NaN / Infinity at the scorer boundary, every score endpoint
++# ════════════════════════════════════════════════════════════════════════════
++
++DOCX = None
++
++
++def _docx():
++    global DOCX
++    if DOCX is None:
++        DOCX = fx.make_docx()
++    return DOCX
++
++
++MIME_DOCX = "application/vnd.openxmlformats-officedocument.wordprocessingml.document"
++ENDPOINTS = {
++    "analysis/analyze": ("/api/v1/analysis/analyze", "file"),
++    "analysis/analyze-batch": ("/api/v1/analysis/analyze-batch", "files"),
++    "public analyze": ("/api/v1/analyze", "file"),
++    "bias/blind-score": ("/api/v1/bias/blind-score", "file"),
++}
++INJECT = ["overall_score", "keyword_match_score", "semantic_similarity", "india_context_bonus", "NESTED"]
++
++
++def _inject(original, field, bad):
++    def patched(self, *a, **k):
++        r = original(self, *a, **k)
++        if field == "NESTED":
++            r.setdefault("breakdown", {})["probe"] = [bad, {"deep": bad}]
++            if isinstance(r.get("scoring_explanation"), dict):
++                r["scoring_explanation"]["probe"] = bad
++        else:
++            r[field] = bad
++        return r
++    return patched
++
++
++@needs_scorer
++class TestEndpointsSurviveNonFiniteScores:
++    @pytest.mark.parametrize("bad", [NAN, INF], ids=["nan", "inf"])
++    @pytest.mark.parametrize("field", INJECT)
++    @pytest.mark.parametrize("endpoint", list(ENDPOINTS))
++    def test_no_5xx_and_strictly_valid_json(self, monkeypatch, endpoint, field, bad):
++        monkeypatch.setattr(es.EnhancedScorer, "calculate_ats_score", _inject(es.EnhancedScorer.calculate_ats_score, field, bad))
++        path, part = ENDPOINTS[endpoint]
++        client = TestClient(app, raise_server_exceptions=False)
++        r = client.post(path, files=[(part, ("cv.docx", _docx(), MIME_DOCX))], data={"job_description": JD})
++        assert r.status_code < 500, (r.status_code, r.text[:300])
++        body = strict_json(r.content)
++        assert not any(isinstance(v, float) and not math.isfinite(v) for v in all_floats(body))
++        assert "NaN" not in r.text and "Infinity" not in r.text
++
++    def test_an_injected_nan_comes_back_as_null_not_as_a_made_up_number(self, monkeypatch):
++        monkeypatch.setattr(es.EnhancedScorer, "calculate_ats_score",
++                            _inject(es.EnhancedScorer.calculate_ats_score, "overall_score", NAN))
++        r = TestClient(app, raise_server_exceptions=False).post(
++            "/api/v1/analysis/analyze", files={"file": ("cv.docx", _docx(), MIME_DOCX)}, data={"job_description": JD})
++        assert r.status_code == 201 and r.json()["overall_score"] is None
++
++    def test_a_saved_analysis_with_a_non_finite_value_is_stored_and_read_back_as_valid_json(self, monkeypatch):
++        client = TestClient(app, raise_server_exceptions=False)
++        tag = uuid.uuid4().hex[:10]
++        email = f"t7_{tag}@easyrecruit.dev"
++        reg = client.post("/api/v1/auth/register", json={"email": email, "username": f"t7_{tag}", "password": "TestPass1",
++                                                         "full_name": "T Seven", "role": "candidate"})
++        assert reg.status_code == 201, reg.text
++        token = client.post("/api/v1/auth/login", json={"email": email, "password": "TestPass1"}).json()["access_token"]
++        headers = {"Authorization": f"Bearer {token}"}
++        monkeypatch.setattr(es.EnhancedScorer, "calculate_ats_score",
++                            _inject(es.EnhancedScorer.calculate_ats_score, "NESTED", NAN))
++        r = client.post("/api/v1/analysis/analyze", headers=headers,
++                        files={"file": ("cv.docx", _docx(), MIME_DOCX)}, data={"job_description": JD, "save_to_db": "true"})
++        assert r.status_code == 201, r.text
++        body = strict_json(r.content)
++        assert body["saved"] is True, body.get("save_error")
++        got = client.get(f"/api/v1/analysis/{body['analysis_id']}", headers=headers)
++        assert got.status_code == 200
++        strict_json(got.content)
++        assert "NaN" not in got.text
++
++
++# ════════════════════════════════════════════════════════════════════════════
++# 2. release hygiene: generated and editor files are excluded too
++# ════════════════════════════════════════════════════════════════════════════
++
++from scripts import make_source_dist as msd   # noqa: E402
++
++
++class TestReleaseExcludesGeneratedFiles:
++    @pytest.mark.parametrize("path", [
++        ".coverage", ".coverage.host.123", "a/.DS_Store", "Thumbs.db", "x.swp", "x.swo", "x.pyo", "x.py.orig",
++        ".idea/workspace.xml", ".vscode/settings.json", "htmlcov/index.html", "easyrecruit.egg-info/PKG-INFO",
++        ".pytest_cache/v/cache", "tests/frontend/node_modules/jsdom/index.js", "app/nlp/__pycache__/a.cpython-312.pyc",
++        ".ruff_cache/x", "temp_uploads/a.pdf",
++    ])
++    def test_forbidden(self, path):
++        assert msd.forbidden_reason(path), path
++
++    @pytest.mark.parametrize("path", [
++        "tests/frontend/package.json", "tests/frontend/xss_harness.js", "app/json_safety.py",
++        "tests/test_task7_regression.py", "datasets/cse/resources.json", ".env.example", ".gitignore", ".dockerignore",
++    ])
++    def test_allowed(self, path):
++        assert msd.forbidden_reason(path) is None, path

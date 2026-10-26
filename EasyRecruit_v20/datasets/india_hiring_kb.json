@@ -1,0 +1,387 @@
+{
+  "version": "1.0",
+  "source": "EasyRecruit India Hiring Knowledge Base — Indian & South Indian job market, 2024-25",
+  "description": "Curated dataset of Indian employer expectations, top hiring companies, regional skill demands, and ATS keywords for the Indian job market. Especially covers South Indian IT hubs: Bengaluru, Chennai, Hyderabad, Coimbatore, Kochi.",
+  "top_indian_companies": {
+    "it_services": [
+      "TCS", "Infosys", "Wipro", "HCL Technologies", "Tech Mahindra",
+      "Mphasis", "L&T Infotech", "LTIMindtree", "Persistent Systems",
+      "Hexaware", "Coforge", "NIIT Technologies", "Mastech Digital",
+      "Sonata Software", "Zensar Technologies", "Cyient", "KPIT Technologies",
+      "Sasken Technologies", "Mindtree", "Happiest Minds"
+    ],
+    "product_startups": [
+      "Zoho", "Freshworks", "Chargebee", "Postman", "BrowserStack",
+      "Razorpay", "PhonePe", "Zepto", "CRED", "Swiggy", "Zomato",
+      "Ola", "Udaan", "Meesho", "Byju's", "Unacademy", "Sharechat",
+      "Slice", "Open Financial", "Setu", "Cashfree", "Juspay",
+      "Facets.cloud", "Innovaccer", "Darwinbox", "Leadsquared",
+      "Hasura", "Dgraph", "MinIO", "Appsmith", "Requestly"
+    ],
+    "mnc_india_centres": [
+      "Google India", "Microsoft India", "Amazon India", "Samsung R&D",
+      "Intel India", "Qualcomm India", "Cisco India", "Oracle India",
+      "IBM India", "SAP India", "Accenture India", "Capgemini India",
+      "Deloitte India", "EY India", "KPMG India", "PwC India",
+      "Goldman Sachs India", "JP Morgan India", "Deutsche Bank India",
+      "Société Générale India", "Barclays India", "Fidelity India",
+      "Wells Fargo India", "American Express India", "PayPal India",
+      "Adobe India", "Intuit India", "Honeywell India", "Siemens India",
+      "Bosch India", "Schneider Electric India", "ABB India"
+    ],
+    "south_india_specific": [
+      "Zoho Corporation", "Freshworks", "Ramco Systems", "IBS Software",
+      "UST Global", "Muthoot Group", "Infosys BPM", "Wipro BPS",
+      "TCS Chennai", "CGI Group Chennai", "Caritor", "Polaris",
+      "NIIT Technologies Chennai", "Cognizant Chennai", "Hexaware Chennai",
+      "Verizon India", "Ford India IT", "Hyundai IT", "TVS Motor IT",
+      "Ashok Leyland IT", "Daimler India", "Caterpillar India",
+      "Trimble India", "Payoda Technologies", "Kissflow",
+      "Amitech Solutions", "ManageEngine", "Qspiders", "CSS Corp",
+      "iGate", "Accolite", "Prime Focus Technologies", "Sutherland Global",
+      "WNS Global", "EXL Service", "Firstsource", "Mphasis BFL",
+      "Mindtree Bengaluru", "Manipal Technologies"
+    ],
+    "banking_finance_india": [
+      "HDFC Bank", "ICICI Bank", "SBI", "Axis Bank", "Kotak Mahindra Bank",
+      "Yes Bank", "IndusInd Bank", "Federal Bank", "South Indian Bank",
+      "Karnataka Bank", "City Union Bank", "Dhanlaxmi Bank",
+      "IDFC First Bank", "Bandhan Bank", "RBL Bank",
+      "Bajaj Finance", "Muthoot Finance", "Manappuram Finance",
+      "IIFL Finance", "Aditya Birla Finance", "L&T Finance",
+      "HDFC Life", "SBI Life", "LIC", "Max Life", "Tata AIA",
+      "Zerodha", "Upstox", "Groww", "Angel One", "5paisa"
+    ]
+  },
+  "indian_education_institutes": {
+    "premium_tier": [
+      "IIT Bombay", "IIT Delhi", "IIT Madras", "IIT Kanpur", "IIT Kharagpur",
+      "IIT Roorkee", "IIT Hyderabad", "IIT Gandhinagar", "IIT Guwahati",
+      "IISc Bangalore", "IIM Ahmedabad", "IIM Bangalore", "IIM Calcutta",
+      "IIM Lucknow", "IIM Kozhikode", "IIM Indore", "IIM Shillong",
+      "BITS Pilani", "NIT Trichy", "NIT Warangal", "NIT Calicut",
+      "NIT Surathkal", "NIT Rourkela", "IIIT Hyderabad", "IIIT Bangalore",
+      "VIT Vellore", "PSG College of Technology", "CEG Anna University",
+      "Coimbatore Institute of Technology"
+    ],
+    "good_tier": [
+      "SRM Institute of Science and Technology", "Manipal Institute of Technology",
+      "Amrita University", "Sastra University", "Shanmugha Arts Science Technology",
+      "Kongu Engineering College", "GCT Coimbatore", "Bannari Amman Institute",
+      "Kumaraguru College", "REC Thiagarajar", "Madurai Kamaraj University",
+      "University of Madras", "Loyola College", "St. Xavier's College",
+      "Bharathiar University", "Annamalai University",
+      "Osmania University", "Jawaharlal Nehru Technological University",
+      "Andhra University", "Sri Venkateswara University",
+      "Kuvempu University", "Mysore University", "Visvesvaraya Technological University",
+      "Cochin University of Science and Technology", "Kerala University",
+      "MG University", "Calicut University"
+    ]
+  },
+  "india_specific_skills": {
+    "it_services_skills": [
+      "core java", "j2ee", "spring framework", "spring mvc", "spring boot",
+      "hibernate", "struts", "ejb", "weblogic", "websphere",
+      "mainframe", "cobol", "jcl", "cics", "db2",
+      "sap basis", "sap abap", "sap fico", "sap mm", "sap sd", "sap hr",
+      "sap s/4hana", "sap bw", "sap hana", "sap ui5", "fiori",
+      "oracle ebs", "oracle fusion", "oracle hrms", "oracle scm",
+      "siebel crm", "peoplesoft", "servicenow", "salesforce apex",
+      "salesforce lightning", "mulesoft", "tibco", "informatica",
+      "datastage", "talend", "iics", "abinitio",
+      "microstrategy", "cognos", "business objects", "hyperion",
+      "tibco ems", "ibm mq", "activemq", "webmethods",
+      "tosca", "hp alm", "quality center", "rational clearcase"
+    ],
+    "devops_cloud_india": [
+      "openshift", "rancher", "vmware vsphere", "citrix", "f5",
+      "dynatrace", "appdynamics", "new relic", "sumo logic",
+      "hashicorp vault", "consul", "packer", "vagrant",
+      "nexus", "artifactory", "sonarqube", "checkmarx", "veracode",
+      "oci oracle cloud", "ibm cloud", "alibaba cloud"
+    ],
+    "indian_banking_fintech": [
+      "core banking", "finacle", "flexcube", "temenos", "fis", "finastra",
+      "rbi compliance", "sebi regulations", "nbfc regulations",
+      "kyc aml", "fatca", "ind as", "ifrs", "us gaap",
+      "swift messaging", "neft rtgs imps", "upi payment gateway",
+      "payment reconciliation", "nostro vostro", "trade finance",
+      "letter of credit", "bank guarantee", "forex treasury",
+      "anti money laundering", "sanctions screening", "fraud detection",
+      "credit risk", "market risk", "operational risk", "basel iii",
+      "npa management", "loan origination", "loan management system",
+      "account opening", "kyc onboarding", "digital banking",
+      "mobile banking", "internet banking", "payment switch",
+      "pos terminal", "atm switch", "card management", "iso 8583"
+    ],
+    "indian_it_certifications": [
+      "tcs ion", "infosys springboard", "nasscom", "istqb",
+      "pmp", "prince2", "itil v4", "cobit", "togaf", "zachman",
+      "aws certified solutions architect", "aws certified developer",
+      "azure fundamentals", "az-900", "az-204", "az-305",
+      "gcp associate cloud engineer", "gcp professional cloud architect",
+      "oracle certified professional", "red hat certified engineer",
+      "linux foundation certified", "cka", "ckad",
+      "salesforce administrator", "salesforce developer",
+      "servicenow certified", "workday hcm certified",
+      "sap certified application associate", "sap certified consultant",
+      "microsoft certified", "google certified", "cisco ccna ccnp",
+      "ethical hacking ceh", "cissp", "cism", "oscp"
+    ],
+    "south_india_specific_skills": [
+      "zoho crm", "zoho books", "zoho one", "zoho recruit", "zoho people",
+      "freshdesk", "freshservice", "freshsales", "freshchat",
+      "ramco erp", "ramco payroll", "ramco hr",
+      "kissflow workflow", "kissflow digital workplace",
+      "manageengine servicedesk", "manageengine adselfservice",
+      "ibs ibs.net", "ifs applications",
+      "tamil", "telugu", "kannada", "malayalam", "multilingual support"
+    ],
+    "india_compliance_legal": [
+      "companies act", "income tax act", "gst filing", "tds tcs",
+      "pf esic", "labour law", "factories act", "shops and establishments",
+      "fema regulations", "rbi guidelines", "sebi regulations",
+      "irdai compliance", "posh act", "vishaka guidelines",
+      "msme registration", "startup india", "make in india"
+    ]
+  },
+  "indian_job_titles": {
+    "it_roles": [
+      "Software Engineer", "Senior Software Engineer", "Lead Engineer",
+      "Principal Engineer", "Staff Engineer", "Distinguished Engineer",
+      "Associate Software Engineer", "Programmer Analyst", "Systems Analyst",
+      "Technical Lead", "Tech Lead", "Module Lead", "Project Lead",
+      "Solution Architect", "Enterprise Architect", "Cloud Architect",
+      "Data Engineer", "MLOps Engineer", "DevOps Engineer", "SRE",
+      "QA Engineer", "SDET", "Automation Engineer", "Performance Engineer",
+      "Scrum Master", "Agile Coach", "Business Analyst", "Functional Consultant",
+      "SAP Consultant", "Oracle Consultant", "Salesforce Developer",
+      "Full Stack Developer", "MEAN Stack Developer", "MERN Stack Developer",
+      "Java Developer", "Python Developer", "Dot Net Developer",
+      "Android Developer", "iOS Developer", "Flutter Developer",
+      "Data Scientist", "Data Analyst", "BI Developer", "ETL Developer"
+    ],
+    "management_roles": [
+      "Engineering Manager", "Delivery Manager", "Project Manager",
+      "Program Manager", "Product Manager", "Product Owner",
+      "Account Manager", "Engagement Manager", "Client Partner",
+      "Practice Head", "Competency Head", "Centre of Excellence Lead",
+      "Associate Vice President", "Vice President", "Senior Vice President",
+      "General Manager", "Associate Director", "Director", "Senior Director",
+      "CTO", "CIO", "CISO", "CDO", "CPO"
+    ],
+    "support_roles": [
+      "L1 Support", "L2 Support", "L3 Support", "Application Support",
+      "Production Support", "Database Administrator", "System Administrator",
+      "Network Engineer", "Security Analyst", "NOC Engineer",
+      "IT Helpdesk", "Desktop Support", "Infrastructure Engineer"
+    ]
+  },
+  "indian_resume_keywords": {
+    "common_ats_terms": [
+      "notice period", "immediate joiner", "serving notice",
+      "relieving letter", "experience letter", "offer letter",
+      "ctc", "current ctc", "expected ctc", "hike",
+      "variable pay", "joining bonus", "retention bonus",
+      "appraisal", "performance review", "increment",
+      "bond period", "service agreement", "non-poaching",
+      "pan card", "aadhaar", "form 16", "itr filing",
+      "bgv background verification", "reference check",
+      "onsite opportunity", "client visit", "travel required",
+      "work from home", "hybrid", "wfh", "remote",
+      "bangalore", "bengaluru", "chennai", "hyderabad", "pune",
+      "mumbai", "delhi ncr", "gurgaon", "noida", "kolkata",
+      "coimbatore", "kochi", "trivandrum", "mysore", "mangalore",
+      "vijayawada", "visakhapatnam", "tirupati"
+    ],
+    "indian_soft_skills": [
+      "client facing", "onsite coordination", "offshore delivery",
+      "cross-cultural communication", "stakeholder management india",
+      "vendor management", "escalation handling", "war room management",
+      "delivery excellence", "sla adherence", "kpi tracking",
+      "resource planning", "capacity planning", "people management",
+      "attrition management", "talent retention", "campus hiring",
+      "lateral hiring", "niche hiring", "bulk hiring",
+      "seat utilization", "billability", "utilization rate"
+    ],
+    "fresher_keywords": [
+      "fresher", "fresh graduate", "campus placement", "campus recruit",
+      "trainee", "associate engineer", "graduate engineer trainee",
+      "get", "junior developer", "junior analyst", "junior consultant",
+      "internship", "intern", "6 months internship", "industrial training",
+      "project work", "mini project", "major project", "capstone",
+      "hackathon", "coding competition", "smart india hackathon",
+      "paper presentation", "technical symposium", "workshop"
+    ]
+  },
+  "south_india_hiring_patterns": {
+    "bengaluru": {
+      "description": "India's Silicon Valley — largest IT hub",
+      "top_sectors": ["IT Services", "Product Companies", "Startups", "Fintech", "Biotech"],
+      "key_skills_in_demand": [
+        "cloud native", "kubernetes", "microservices", "golang", "rust",
+        "react", "nextjs", "graphql", "kafka", "elasticsearch",
+        "machine learning", "llm", "generative ai", "langchain",
+        "data engineering", "dbt", "apache spark", "airflow",
+        "product thinking", "system design", "high level design",
+        "low level design", "distributed systems"
+      ],
+      "typical_salary_range": "6-50 LPA for software roles",
+      "prominent_areas": ["Koramangala", "Whitefield", "Electronic City", "Indiranagar", "HSR Layout", "Bellandur"]
+    },
+    "chennai": {
+      "description": "Strong IT services + automotive IT + manufacturing IT",
+      "top_sectors": ["IT Services", "Automotive IT", "Banking IT", "Manufacturing IT", "BPO/KPO"],
+      "key_skills_in_demand": [
+        "java j2ee", "sap", "oracle", "mainframe cobol",
+        "automotive embedded", "can bus", "autosar", "matlab simulink",
+        "python django", "selenium testing", "manual testing",
+        "servicenow", "salesforce", "tableau", "power bi",
+        "sql server", "oracle dba", "tibco informatica",
+        "zoho tools", "freshworks stack"
+      ],
+      "typical_salary_range": "4-35 LPA for software roles",
+      "prominent_areas": ["OMR Old Mahabalipuram Road", "Guindy", "Tidel Park", "Sholinganallur", "Perungudi", "Ambattur"]
+    },
+    "hyderabad": {
+      "description": "HITEC City — fast-growing IT hub with pharma and biotech",
+      "top_sectors": ["IT Services", "Pharma IT", "Biotech", "BFSI IT", "Gaming"],
+      "key_skills_in_demand": [
+        "azure devops", "dot net core", "c# asp.net", "angular",
+        "sql server dba", "power platform", "dynamics 365",
+        "pharma domain", "clinical data management", "sas programming",
+        "bioinformatics", "r programming", "sas", "spss",
+        "sharepoint", "ms dynamics", "power automate",
+        "gaming unity", "unreal engine", "game development"
+      ],
+      "typical_salary_range": "5-40 LPA for software roles",
+      "prominent_areas": ["HITEC City", "Gachibowli", "Madhapur", "Kondapur", "Nanakramguda"]
+    },
+    "coimbatore": {
+      "description": "Emerging IT hub — strong in textiles IT, manufacturing IT, embedded",
+      "top_sectors": ["IT Services", "Embedded Systems", "Textile IT", "Manufacturing IT", "ITES/BPO"],
+      "key_skills_in_demand": [
+        "embedded c", "arm cortex", "rtos", "iot protocols",
+        "industrial automation", "plc scada", "autocad",
+        "erp tally", "zoho erp", "manufacturing execution system",
+        "textile erp", "inventory management", "supply chain",
+        "python automation", "selenium", "api testing postman"
+      ],
+      "typical_salary_range": "3-20 LPA for software roles",
+      "prominent_areas": ["Saravanampatti", "Peelamedu", "Avinashi Road", "Hopes College Junction"]
+    },
+    "kochi_trivandrum": {
+      "description": "Kerala IT — NASSCOM recognized hub, strong in product companies",
+      "top_sectors": ["IT Services", "Fintech", "Tourism IT", "Startup Ecosystem"],
+      "key_skills_in_demand": [
+        "flutter dart", "react native", "ruby on rails",
+        "golang", "elixir phoenix", "nodejs express",
+        "mongodb firebase", "aws serverless", "docker kubernetes",
+        "fintech payments", "upi integration", "payment gateway",
+        "blockchain ethereum", "solidity smart contracts",
+        "cybersecurity devsecops", "owasp zap"
+      ],
+      "typical_salary_range": "4-30 LPA for software roles",
+      "prominent_areas": ["Infopark Kochi", "Technopark Trivandrum", "Cyberpark Kozhikode"]
+    }
+  },
+  "indian_domain_skill_requirements": {
+    "it_services_freshers": {
+      "required": ["core java", "oops concepts", "data structures", "algorithms",
+                   "sql basics", "html css", "problem solving", "communication"],
+      "good_to_have": ["spring boot", "python", "git", "agile basics", "project experience"],
+      "certifications_valued": ["java oracle", "aws cloud practitioner", "azure fundamentals", "istqb foundation"]
+    },
+    "product_companies": {
+      "required": ["data structures", "algorithms", "system design", "problem solving",
+                   "coding proficiency", "computer science fundamentals"],
+      "good_to_have": ["open source contributions", "competitive programming", "github portfolio",
+                       "leetcode codeforces", "hackathon wins"],
+      "certifications_valued": ["not typically required — portfolio matters more"]
+    },
+    "sap_consulting": {
+      "required": ["sap module knowledge", "business process understanding", "functional specs",
+                   "gap analysis", "user acceptance testing", "training documentation"],
+      "modules": ["sap fico", "sap mm", "sap sd", "sap pp", "sap qm", "sap wm", "sap hr", "sap basis",
+                  "sap abap", "sap bw bi", "sap s4hana", "sap ariba", "sap successfactors",
+                  "sap concur", "sap hybris", "sap fieldglass"],
+      "good_to_have": ["s/4 hana migration", "fiori ui5", "sap activate methodology"],
+      "certifications_valued": ["sap certified application associate", "sap certified professional"]
+    },
+    "banking_fintech": {
+      "required": ["core banking knowledge", "payment systems", "sql", "api development",
+                   "regulatory compliance", "rbi guidelines", "risk management"],
+      "good_to_have": ["finacle flexcube", "swift messaging", "pci dss", "iso 27001",
+                       "microservices", "kafka event driven"],
+      "certifications_valued": ["cfa", "frm", "prmia", "cfp", "cpa icai"]
+    },
+    "embedded_automotive": {
+      "required": ["embedded c c++", "rtos", "microcontrollers", "protocol communication",
+                   "can lin flexray", "autosar", "diagnostic protocols"],
+      "good_to_have": ["matlab simulink", "model based development", "dspace", "vector canoe",
+                       "iso 26262 functional safety", "aspice"],
+      "certifications_valued": ["certified embedded systems professional", "autosar developer certified"]
+    }
+  },
+  "ats_boosting_keywords_india": {
+    "experience_levels": {
+      "fresher_0_1yr": ["fresher", "graduate", "trainee", "entry level", "campus hire",
+                         "associate", "junior", "0-1 year", "less than 1 year"],
+      "junior_1_3yr": ["junior developer", "junior engineer", "1-3 years", "associate engineer",
+                        "software engineer", "analyst", "consultant"],
+      "mid_3_6yr": ["mid level", "3-6 years", "senior analyst", "senior engineer",
+                     "senior developer", "module lead", "technical lead"],
+      "senior_6_10yr": ["senior", "lead", "6-10 years", "principal", "staff engineer",
+                          "solution architect", "manager", "project manager"],
+      "expert_10plus": ["10+ years", "director", "vice president", "head of engineering",
+                         "distinguished engineer", "chief architect", "partner"]
+    },
+    "indian_resume_sections": [
+      "career objective", "professional summary", "key skills", "technical skills",
+      "work experience", "professional experience", "internships", "projects",
+      "academic projects", "live projects", "achievements", "co-curricular activities",
+      "extra curricular", "hobbies", "declaration", "place date signature",
+      "references available on request"
+    ],
+    "power_verbs_india": [
+      "developed", "designed", "implemented", "delivered", "managed",
+      "coordinated", "collaborated", "streamlined", "optimised", "automated",
+      "reduced", "increased", "achieved", "spearheaded", "championed",
+      "mentored", "trained", "conducted", "performed", "executed",
+      "analysed", "resolved", "migrated", "integrated", "deployed",
+      "configured", "customised", "documented", "presented", "negotiated"
+    ]
+  },
+  "indian_scoring_adjustments": {
+    "education_bonuses": {
+      "iit_any": 15,
+      "iim_any": 15,
+      "nit_any": 10,
+      "iisc": 15,
+      "iiit_any": 8,
+      "bits_pilani": 10,
+      "anna_university_ceg": 7,
+      "vit_manipal": 5,
+      "tier2_recognized": 3
+    },
+    "certification_bonuses": {
+      "aws_certification": 8,
+      "azure_certification": 7,
+      "gcp_certification": 7,
+      "sap_certification": 10,
+      "salesforce_certification": 8,
+      "oracle_certification": 7,
+      "pmp": 6,
+      "itil": 5,
+      "istqb": 5,
+      "cissp_cism": 9
+    },
+    "company_bonuses": {
+      "faang_equivalent": 12,
+      "tier1_it": 8,
+      "tier1_product": 10,
+      "unicorn_startup": 8,
+      "mnc_india": 6
+    }
+  }
+}

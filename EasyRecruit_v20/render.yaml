@@ -1,0 +1,43 @@
+# ─────────────────────────────────────────────────────────────
+# EasyRecruit ATS 3.0 — Render.com deployment config
+# Push this repo to GitHub, connect it on render.com,
+# and Render will auto-deploy on every git push.
+# ─────────────────────────────────────────────────────────────
+
+services:
+  - type: web
+    name: easyrecruit-ats
+    runtime: python
+    region: singapore          # closest to India; change to "ohio" for US
+    plan: free                 # free tier — upgrade to "starter" for always-on
+
+    buildCommand: |
+      pip install --upgrade pip
+      pip install -r requirements.txt
+      python -m spacy download en_core_web_sm
+
+    startCommand: uvicorn main:app --host 0.0.0.0 --port $PORT --workers 1
+
+    # Persistent disk — your SQLite database lives here across deploys
+    disk:
+      name: easyrecruit-data
+      mountPath: /app/app/data
+      sizeGB: 1                # 1 GB is enough for SQLite + uploads
+
+    envVars:
+      - key: SECRET_KEY
+        generateValue: true    # Render auto-generates a secure random value
+      - key: DEBUG
+        value: "false"
+      - key: LOG_LEVEL
+        value: INFO
+      - key: DATABASE_PATH
+        value: /app/app/data/easyrecruit.db
+      - key: ACCESS_TOKEN_EXPIRE_MINUTES
+        value: "1440"
+      - key: CORS_ORIGINS
+        value: ""              # empty = same-origin only (Render serves the frontend from this app).
+                               # Never "*": with DEBUG=false the app refuses to start. Separate frontend?
+                               # set exact https origins here, comma-separated.
+      - key: PORT
+        value: "10000"         # Render injects $PORT automatically

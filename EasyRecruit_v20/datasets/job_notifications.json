@@ -1,0 +1,920 @@
+{
+  "notifications": [
+    {
+      "id": 1,
+      "company": "Zoho Corporation",
+      "location": "Chennai, Tamil Nadu",
+      "logo_initial": "Z",
+      "color": "#e53935",
+      "tier": "product",
+      "deadline": "2026-09-19",
+      "apply_link": "https://careers.zoho.com",
+      "positions": [
+        {
+          "title": "Software Development Engineer",
+          "type": "Full Time",
+          "openings": 45,
+          "experience": "0-3 yrs",
+          "skills": [
+            "Java",
+            "Python",
+            "React"
+          ]
+        },
+        {
+          "title": "QA Automation Engineer",
+          "type": "Full Time",
+          "openings": 20,
+          "experience": "1-4 yrs",
+          "skills": [
+            "Selenium",
+            "TestNG",
+            "SQL"
+          ]
+        },
+        {
+          "title": "Technical Support Engineer",
+          "type": "Full Time",
+          "openings": 30,
+          "experience": "Freshers",
+          "skills": [
+            "Networking",
+            "Linux",
+            "Communication"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "company": "Freshworks",
+      "location": "Chennai, Tamil Nadu",
+      "logo_initial": "F",
+      "color": "#1565c0",
+      "tier": "product",
+      "deadline": "2026-09-23",
+      "apply_link": "https://careers.freshworks.com",
+      "positions": [
+        {
+          "title": "Backend Engineer (Ruby on Rails)",
+          "type": "Full Time",
+          "openings": 12,
+          "experience": "2-5 yrs",
+          "skills": [
+            "Ruby",
+            "Rails",
+            "PostgreSQL"
+          ]
+        },
+        {
+          "title": "Data Engineer",
+          "type": "Full Time",
+          "openings": 8,
+          "experience": "2-4 yrs",
+          "skills": [
+            "Spark",
+            "Kafka",
+            "Python"
+          ]
+        },
+        {
+          "title": "Product Manager",
+          "type": "Full Time",
+          "openings": 5,
+          "experience": "3-6 yrs",
+          "skills": [
+            "Agile",
+            "Product Strategy",
+            "SaaS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "company": "Tata Consultancy Services",
+      "location": "Chennai, Tamil Nadu",
+      "logo_initial": "T",
+      "color": "#00695c",
+      "tier": "it_services",
+      "deadline": "2026-09-27",
+      "apply_link": "https://www.tcs.com/careers",
+      "positions": [
+        {
+          "title": "Systems Engineer",
+          "type": "Full Time",
+          "openings": 500,
+          "experience": "Freshers",
+          "skills": [
+            "Java",
+            "SQL",
+            "Communication"
+          ]
+        },
+        {
+          "title": "IT Analyst",
+          "type": "Full Time",
+          "openings": 150,
+          "experience": "2-4 yrs",
+          "skills": [
+            "SAP",
+            "ABAP",
+            "Business Analysis"
+          ]
+        },
+        {
+          "title": "Cloud Infrastructure Specialist",
+          "type": "Full Time",
+          "openings": 60,
+          "experience": "3-6 yrs",
+          "skills": [
+            "AWS",
+            "Terraform",
+            "Linux"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "company": "Infosys BPM",
+      "location": "Chennai & Coimbatore, Tamil Nadu",
+      "logo_initial": "I",
+      "color": "#4527a0",
+      "tier": "it_services",
+      "deadline": "2026-10-01",
+      "apply_link": "https://career.infosys.com",
+      "positions": [
+        {
+          "title": "Process Executive",
+          "type": "Full Time",
+          "openings": 200,
+          "experience": "Freshers",
+          "skills": [
+            "Communication",
+            "MS Office",
+            "Data Entry"
+          ]
+        },
+        {
+          "title": "Senior Software Engineer (Java)",
+          "type": "Full Time",
+          "openings": 80,
+          "experience": "3-7 yrs",
+          "skills": [
+            "Java",
+            "Spring Boot",
+            "Microservices"
+          ]
+        },
+        {
+          "title": "SAP FI/CO Consultant",
+          "type": "Full Time",
+          "openings": 25,
+          "experience": "4-8 yrs",
+          "skills": [
+            "SAP FI",
+            "SAP CO",
+            "FICO"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "company": "Cognizant Technology Solutions",
+      "location": "Chennai, Tamil Nadu",
+      "logo_initial": "C",
+      "color": "#0d47a1",
+      "tier": "it_services",
+      "deadline": "2026-10-05",
+      "apply_link": "https://careers.cognizant.com",
+      "positions": [
+        {
+          "title": "Programmer Analyst Trainee",
+          "type": "Full Time",
+          "openings": 300,
+          "experience": "Freshers / 0-1 yr",
+          "skills": [
+            "Python",
+            "SQL",
+            "OOPS"
+          ]
+        },
+        {
+          "title": ".NET Developer",
+          "type": "Full Time",
+          "openings": 70,
+          "experience": "2-5 yrs",
+          "skills": [
+            "C#",
+            ".NET Core",
+            "Azure"
+          ]
+        },
+        {
+          "title": "Business Analyst (Banking Domain)",
+          "type": "Full Time",
+          "openings": 18,
+          "experience": "4-7 yrs",
+          "skills": [
+            "Core Banking",
+            "JIRA",
+            "Requirements Gathering"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "company": "Hexaware Technologies",
+      "location": "Chennai, Tamil Nadu",
+      "logo_initial": "H",
+      "color": "#6a1b9a",
+      "tier": "it_services",
+      "deadline": "2026-10-08",
+      "apply_link": "https://www.hexaware.com/careers",
+      "positions": [
+        {
+          "title": "RPA Developer (UiPath)",
+          "type": "Full Time",
+          "openings": 22,
+          "experience": "1-3 yrs",
+          "skills": [
+            "UiPath",
+            "RPA",
+            "VBA"
+          ]
+        },
+        {
+          "title": "Cloud DevOps Engineer",
+          "type": "Full Time",
+          "openings": 30,
+          "experience": "2-5 yrs",
+          "skills": [
+            "AWS",
+            "Jenkins",
+            "Docker",
+            "Kubernetes"
+          ]
+        },
+        {
+          "title": "Selenium Test Engineer",
+          "type": "Full Time",
+          "openings": 15,
+          "experience": "2-4 yrs",
+          "skills": [
+            "Selenium",
+            "Java",
+            "TestNG"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "company": "Sutherland Global Services",
+      "location": "Chennai & Coimbatore, Tamil Nadu",
+      "logo_initial": "S",
+      "color": "#2e7d32",
+      "tier": "it_services",
+      "deadline": "2026-10-12",
+      "apply_link": "https://www.sutherlandglobal.com/careers",
+      "positions": [
+        {
+          "title": "Customer Support Executive",
+          "type": "Full Time",
+          "openings": 120,
+          "experience": "Freshers",
+          "skills": [
+            "Communication",
+            "English",
+            "MS Office"
+          ]
+        },
+        {
+          "title": "Technical Support L2 Engineer",
+          "type": "Full Time",
+          "openings": 40,
+          "experience": "1-3 yrs",
+          "skills": [
+            "Networking",
+            "Windows Server",
+            "ITIL"
+          ]
+        },
+        {
+          "title": "Java Developer (Telecom)",
+          "type": "Full Time",
+          "openings": 18,
+          "experience": "3-5 yrs",
+          "skills": [
+            "Java",
+            "Spring",
+            "REST API"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "company": "TVS Motor Company",
+      "location": "Hosur, Tamil Nadu",
+      "logo_initial": "T",
+      "color": "#bf360c",
+      "tier": "manufacturing",
+      "deadline": "2026-10-16",
+      "apply_link": "https://www.tvsmotor.com/career",
+      "positions": [
+        {
+          "title": "Embedded Systems Engineer",
+          "type": "Full Time",
+          "openings": 15,
+          "experience": "1-4 yrs",
+          "skills": [
+            "Embedded C",
+            "CAN bus",
+            "RTOS"
+          ]
+        },
+        {
+          "title": "SAP PP/MM Consultant",
+          "type": "Full Time",
+          "openings": 8,
+          "experience": "4-7 yrs",
+          "skills": [
+            "SAP PP",
+            "SAP MM",
+            "Manufacturing"
+          ]
+        },
+        {
+          "title": "Graduate Engineer Trainee",
+          "type": "Full Time",
+          "openings": 50,
+          "experience": "Freshers",
+          "skills": [
+            "AutoCAD",
+            "CATIA",
+            "Manufacturing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "company": "Rane Group",
+      "location": "Chennai, Tamil Nadu",
+      "logo_initial": "R",
+      "color": "#33691e",
+      "tier": "manufacturing",
+      "deadline": "2026-10-20",
+      "apply_link": "https://www.rane.co.in/careers",
+      "positions": [
+        {
+          "title": "Automotive Software Engineer",
+          "type": "Full Time",
+          "openings": 12,
+          "experience": "2-5 yrs",
+          "skills": [
+            "AUTOSAR",
+            "C/C++",
+            "CAN"
+          ]
+        },
+        {
+          "title": "Production Planning Engineer",
+          "type": "Full Time",
+          "openings": 8,
+          "experience": "2-4 yrs",
+          "skills": [
+            "SAP PP",
+            "ERP",
+            "Lean Manufacturing"
+          ]
+        },
+        {
+          "title": "Quality Engineer (IATF)",
+          "type": "Full Time",
+          "openings": 6,
+          "experience": "3-6 yrs",
+          "skills": [
+            "IATF 16949",
+            "PPAP",
+            "FMEA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "company": "Wipro Limited",
+      "location": "Chennai, Tamil Nadu",
+      "logo_initial": "W",
+      "color": "#37474f",
+      "tier": "it_services",
+      "deadline": "2026-10-24",
+      "apply_link": "https://careers.wipro.com",
+      "positions": [
+        {
+          "title": "Project Engineer (Python)",
+          "type": "Full Time",
+          "openings": 100,
+          "experience": "0-2 yrs",
+          "skills": [
+            "Python",
+            "Django",
+            "REST API"
+          ]
+        },
+        {
+          "title": "SAP HANA Consultant",
+          "type": "Full Time",
+          "openings": 20,
+          "experience": "4-8 yrs",
+          "skills": [
+            "SAP HANA",
+            "ABAP",
+            "Fiori"
+          ]
+        },
+        {
+          "title": "Cybersecurity Analyst",
+          "type": "Full Time",
+          "openings": 15,
+          "experience": "3-6 yrs",
+          "skills": [
+            "SIEM",
+            "SOC",
+            "Threat Intelligence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "company": "ELGI Equipments",
+      "location": "Coimbatore, Tamil Nadu",
+      "logo_initial": "E",
+      "color": "#00838f",
+      "tier": "manufacturing",
+      "deadline": "2026-10-28",
+      "apply_link": "https://www.elgi.com/careers",
+      "positions": [
+        {
+          "title": "Design Engineer (Compressors)",
+          "type": "Full Time",
+          "openings": 10,
+          "experience": "2-5 yrs",
+          "skills": [
+            "SolidWorks",
+            "FEA",
+            "ASME"
+          ]
+        },
+        {
+          "title": "IT Systems Administrator",
+          "type": "Full Time",
+          "openings": 5,
+          "experience": "2-4 yrs",
+          "skills": [
+            "Windows Server",
+            "Active Directory",
+            "VMware"
+          ]
+        },
+        {
+          "title": "ERP (Tally / SAP) Specialist",
+          "type": "Full Time",
+          "openings": 4,
+          "experience": "2-5 yrs",
+          "skills": [
+            "Tally ERP",
+            "SAP",
+            "Accounts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "company": "Amazon Development Centre India",
+      "location": "Chennai, Tamil Nadu",
+      "logo_initial": "A",
+      "color": "#f57c00",
+      "tier": "mnc",
+      "deadline": "2026-11-01",
+      "apply_link": "https://www.amazon.jobs/en/location/chennai-india",
+      "positions": [
+        {
+          "title": "SDE-I (Backend Systems)",
+          "type": "Full Time",
+          "openings": 25,
+          "experience": "0-2 yrs",
+          "skills": [
+            "Java",
+            "Python",
+            "AWS",
+            "Distributed Systems"
+          ]
+        },
+        {
+          "title": "Data Scientist (Supply Chain)",
+          "type": "Full Time",
+          "openings": 10,
+          "experience": "2-5 yrs",
+          "skills": [
+            "Machine Learning",
+            "Python",
+            "SQL"
+          ]
+        },
+        {
+          "title": "Solutions Architect (AWS)",
+          "type": "Full Time",
+          "openings": 8,
+          "experience": "5-10 yrs",
+          "skills": [
+            "AWS",
+            "Cloud Architecture",
+            "Terraform"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "company": "Chargebee",
+      "location": "Chennai, Tamil Nadu",
+      "logo_initial": "C",
+      "color": "#7b1fa2",
+      "tier": "product",
+      "deadline": "2026-11-05",
+      "apply_link": "https://www.chargebee.com/careers",
+      "positions": [
+        {
+          "title": "Full Stack Engineer (React + Node)",
+          "type": "Full Time",
+          "openings": 7,
+          "experience": "2-5 yrs",
+          "skills": [
+            "React",
+            "Node.js",
+            "TypeScript",
+            "PostgreSQL"
+          ]
+        },
+        {
+          "title": "Site Reliability Engineer",
+          "type": "Full Time",
+          "openings": 4,
+          "experience": "3-6 yrs",
+          "skills": [
+            "Kubernetes",
+            "AWS",
+            "Prometheus",
+            "Grafana"
+          ]
+        },
+        {
+          "title": "Customer Success Manager",
+          "type": "Full Time",
+          "openings": 5,
+          "experience": "2-4 yrs",
+          "skills": [
+            "SaaS",
+            "CRM",
+            "Customer Engagement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "company": "Ramco Systems",
+      "location": "Chennai, Tamil Nadu",
+      "logo_initial": "R",
+      "color": "#c62828",
+      "tier": "product",
+      "deadline": "2026-11-09",
+      "apply_link": "https://www.ramco.com/careers",
+      "positions": [
+        {
+          "title": "ERP Implementation Consultant",
+          "type": "Full Time",
+          "openings": 18,
+          "experience": "2-5 yrs",
+          "skills": [
+            "ERP",
+            "SQL",
+            "Business Analysis"
+          ]
+        },
+        {
+          "title": "React UI Developer",
+          "type": "Full Time",
+          "openings": 12,
+          "experience": "1-4 yrs",
+          "skills": [
+            "React",
+            "Redux",
+            "JavaScript"
+          ]
+        },
+        {
+          "title": "Techno-Functional Consultant (HCM)",
+          "type": "Full Time",
+          "openings": 10,
+          "experience": "3-6 yrs",
+          "skills": [
+            "HR ERP",
+            "Payroll",
+            "Functional Consulting"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "company": "Ford Motor Company India",
+      "location": "Chennai, Tamil Nadu",
+      "logo_initial": "F",
+      "color": "#1a237e",
+      "tier": "mnc",
+      "deadline": "2026-11-13",
+      "apply_link": "https://jobs.ford.com",
+      "positions": [
+        {
+          "title": "Connected Vehicle Software Engineer",
+          "type": "Full Time",
+          "openings": 20,
+          "experience": "2-5 yrs",
+          "skills": [
+            "C++",
+            "AUTOSAR",
+            "OTA",
+            "Telematics"
+          ]
+        },
+        {
+          "title": "Cloud Platform Engineer (Azure)",
+          "type": "Full Time",
+          "openings": 10,
+          "experience": "3-6 yrs",
+          "skills": [
+            "Azure",
+            "DevOps",
+            "Python",
+            "CI/CD"
+          ]
+        },
+        {
+          "title": "Data Analytics Engineer",
+          "type": "Full Time",
+          "openings": 8,
+          "experience": "2-4 yrs",
+          "skills": [
+            "Python",
+            "Power BI",
+            "SQL",
+            "ETL"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "company": "Intellect Design Arena",
+      "location": "Chennai, Tamil Nadu",
+      "logo_initial": "I",
+      "color": "#00796b",
+      "tier": "banking",
+      "deadline": "2026-11-16",
+      "apply_link": "https://www.intellectdesign.com/careers",
+      "positions": [
+        {
+          "title": "Core Banking Engineer",
+          "type": "Full Time",
+          "openings": 20,
+          "experience": "2-6 yrs",
+          "skills": [
+            "Core Banking",
+            "Java",
+            "TEMENOS",
+            "Finacle"
+          ]
+        },
+        {
+          "title": "UI/UX Designer (FinTech Platform)",
+          "type": "Full Time",
+          "openings": 8,
+          "experience": "2-5 yrs",
+          "skills": [
+            "Figma",
+            "UX Research",
+            "Design Systems"
+          ]
+        },
+        {
+          "title": "Machine Learning Engineer (Risk)",
+          "type": "Full Time",
+          "openings": 6,
+          "experience": "3-6 yrs",
+          "skills": [
+            "ML",
+            "Python",
+            "Credit Risk",
+            "NLP"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "company": "Ashok Leyland",
+      "location": "Chennai & Hosur, Tamil Nadu",
+      "logo_initial": "A",
+      "color": "#558b2f",
+      "tier": "manufacturing",
+      "deadline": "2026-11-20",
+      "apply_link": "https://www.ashokleyland.com/en/careers",
+      "positions": [
+        {
+          "title": "Graduate Trainee Engineer (EV)",
+          "type": "Full Time",
+          "openings": 35,
+          "experience": "Freshers",
+          "skills": [
+            "Electrical Engineering",
+            "Battery Management",
+            "AutoCAD"
+          ]
+        },
+        {
+          "title": "IT Application Developer (SAP)",
+          "type": "Full Time",
+          "openings": 10,
+          "experience": "3-7 yrs",
+          "skills": [
+            "SAP ECC",
+            "ABAP",
+            "SAP BTP"
+          ]
+        },
+        {
+          "title": "Supply Chain Analyst",
+          "type": "Full Time",
+          "openings": 12,
+          "experience": "2-4 yrs",
+          "skills": [
+            "SAP MM",
+            "Logistics",
+            "Supply Chain"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "company": "Standard Chartered GBS",
+      "location": "Chennai, Tamil Nadu",
+      "logo_initial": "S",
+      "color": "#00695c",
+      "tier": "banking",
+      "deadline": "2026-11-24",
+      "apply_link": "https://www.sc.com/en/global-banking-services/careers",
+      "positions": [
+        {
+          "title": "Full Stack Developer (Banking)",
+          "type": "Full Time",
+          "openings": 15,
+          "experience": "3-7 yrs",
+          "skills": [
+            "Java",
+            "Angular",
+            "Spring Boot",
+            "Core Banking"
+          ]
+        },
+        {
+          "title": "Data Governance Analyst",
+          "type": "Full Time",
+          "openings": 8,
+          "experience": "3-5 yrs",
+          "skills": [
+            "SQL",
+            "Data Governance",
+            "Collibra"
+          ]
+        },
+        {
+          "title": "Risk & Compliance Analyst",
+          "type": "Full Time",
+          "openings": 10,
+          "experience": "2-5 yrs",
+          "skills": [
+            "Risk Management",
+            "Basel III",
+            "Regulatory Compliance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "company": "Tata Elxsi",
+      "location": "Chennai & Bengaluru",
+      "logo_initial": "T",
+      "color": "#283593",
+      "tier": "it_services",
+      "deadline": "2026-11-28",
+      "apply_link": "https://www.tataelxsi.com/careers",
+      "positions": [
+        {
+          "title": "ADAS Software Engineer",
+          "type": "Full Time",
+          "openings": 18,
+          "experience": "2-5 yrs",
+          "skills": [
+            "C++",
+            "ROS",
+            "Computer Vision",
+            "AUTOSAR"
+          ]
+        },
+        {
+          "title": "UI Engineer (HMI)",
+          "type": "Full Time",
+          "openings": 12,
+          "experience": "1-4 yrs",
+          "skills": [
+            "QT",
+            "C++",
+            "HMI",
+            "Embedded Linux"
+          ]
+        },
+        {
+          "title": "Systems Test Engineer",
+          "type": "Full Time",
+          "openings": 10,
+          "experience": "2-4 yrs",
+          "skills": [
+            "CANoe",
+            "HIL",
+            "DOORS",
+            "Testing"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "company": "NatWest Group India",
+      "location": "Chennai, Tamil Nadu",
+      "logo_initial": "N",
+      "color": "#7b1fa2",
+      "tier": "banking",
+      "deadline": "2026-12-02",
+      "apply_link": "https://jobs.natwestgroup.com",
+      "positions": [
+        {
+          "title": "Java Microservices Developer",
+          "type": "Full Time",
+          "openings": 22,
+          "experience": "3-7 yrs",
+          "skills": [
+            "Java 17",
+            "Microservices",
+            "Spring Cloud",
+            "Kafka"
+          ]
+        },
+        {
+          "title": "Business Intelligence Developer",
+          "type": "Full Time",
+          "openings": 10,
+          "experience": "2-5 yrs",
+          "skills": [
+            "Tableau",
+            "SQL",
+            "Power BI",
+            "ETL"
+          ]
+        },
+        {
+          "title": "DevSecOps Engineer",
+          "type": "Full Time",
+          "openings": 7,
+          "experience": "4-7 yrs",
+          "skills": [
+            "DevOps",
+            "SAST/DAST",
+            "Jenkins",
+            "Security"
+          ]
+        }
+      ]
+    }
+  ]
+}

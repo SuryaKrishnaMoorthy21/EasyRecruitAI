@@ -1,0 +1,1025 @@
+{
+  "common": [
+    {
+      "q": "Tell me about yourself.",
+      "a": "Give a brief professional summary: your education, 2-3 relevant skills or projects, and what you're looking for next. Keep it under 90 seconds and tie it to the role."
+    },
+    {
+      "q": "Why should we hire you for this role?",
+      "a": "Match 2-3 of your strongest skills or achievements directly to the job's requirements, with one concrete proof point for each."
+    },
+    {
+      "q": "What are your strengths and weaknesses?",
+      "a": "Pick strengths relevant to the job with a quick example; for weaknesses, choose a real one and show the specific step you're taking to improve it."
+    },
+    {
+      "q": "Where do you see yourself in five years?",
+      "a": "Show a realistic growth path within the field or organisation, tying your ambition to skills you plan to build."
+    },
+    {
+      "q": "Describe a challenging project and how you handled it.",
+      "a": "Use the STAR method (Situation, Task, Action, Result) and quantify the outcome where possible."
+    },
+    {
+      "q": "Tell me about a time you worked in a team with conflicting opinions.",
+      "a": "Focus on how you listened, found common ground, and what the resolved outcome was."
+    },
+    {
+      "q": "How do you handle tight deadlines or pressure?",
+      "a": "Describe your prioritisation method, such as breaking tasks down or communicating early, backed by one real example."
+    },
+    {
+      "q": "Describe a time you failed and what you learned.",
+      "a": "Own the mistake honestly, explain the root cause, and end with the concrete change you made afterward."
+    },
+    {
+      "q": "How do you keep your technical or domain knowledge up to date?",
+      "a": "Mention specific habits, such as courses, journals, or communities, and name real ones you actually follow."
+    },
+    {
+      "q": "Why do you want to work with our organisation?",
+      "a": "Show you've researched the company's work or products and connect it to your own interests and skills."
+    },
+    {
+      "q": "How do you prioritise multiple tasks with the same deadline?",
+      "a": "Explain a method, such as weighing impact versus effort or urgency, and give an example of applying it."
+    },
+    {
+      "q": "Describe a time you had to learn something new very quickly.",
+      "a": "Explain your learning approach, such as breaking the topic down and practising hands-on, and the result it produced."
+    },
+    {
+      "q": "How do you handle feedback or criticism?",
+      "a": "Show that you separate the message from the messenger, ask clarifying questions, and describe a change you made from past feedback."
+    },
+    {
+      "q": "Tell me about a leadership experience, even without a formal title.",
+      "a": "Describe how you influenced or guided others toward a shared outcome."
+    },
+    {
+      "q": "What motivates you at work?",
+      "a": "Be specific and tie it to the nature of the role you're applying for, such as problem-solving, learning, impact, or ownership."
+    },
+    {
+      "q": "How do you handle a disagreement with your manager?",
+      "a": "Explain that you state your reasoning with evidence, listen to their view, and commit fully once a decision is made."
+    },
+    {
+      "q": "What questions do you have for us?",
+      "a": "Prepare 2-3 thoughtful questions about the team, role expectations, or growth; avoid asking only about pay or leave at this stage."
+    },
+    {
+      "q": "How do you approach ethical dilemmas at work?",
+      "a": "Describe weighing the situation against organisational values or policy and escalating when unsure, rather than deciding alone."
+    }
+  ],
+  "aptitude": [
+    {
+      "q": "A train 180 m long crosses a platform 220 m long in 20 seconds. Find its speed in km/h.",
+      "a": "Total distance covered = 180 + 220 = 400 m in 20 s, so speed = 20 m/s = 20 x 18/5 = 72 km/h."
+    },
+    {
+      "q": "If the ratio of two numbers is 3:4 and their sum is 63, find the numbers.",
+      "a": "Let the numbers be 3x and 4x. Then 7x = 63, so x = 9, giving the numbers 27 and 36."
+    },
+    {
+      "q": "A can complete a work in 12 days and B in 18 days. How long will they take working together?",
+      "a": "Combined rate = 1/12 + 1/18 = 5/36 of the work per day, so together they take 36/5 = 7.2 days."
+    },
+    {
+      "q": "Find the next number in the series: 2, 6, 12, 20, 30, ?",
+      "a": "The differences are 4, 6, 8, 10, 12, following the pattern n(n+1); the next term is 30 + 12 = 42."
+    },
+    {
+      "q": "What is the probability of getting a sum of 7 when two dice are rolled?",
+      "a": "There are 6 favourable outcomes out of 36 total combinations, so the probability is 6/36 = 1/6."
+    },
+    {
+      "q": "A shopkeeper marks an item 25% above cost price and gives a 10% discount. Find his profit percentage.",
+      "a": "Taking cost price as 100, marked price = 125, and selling price = 125 x 0.9 = 112.5, giving a profit of 12.5%."
+    },
+    {
+      "q": "If CODING is written as DPEJOH, how is FLOWER written in the same code?",
+      "a": "Each letter is shifted forward by one position, so FLOWER becomes GMPXFS."
+    },
+    {
+      "q": "How do you approach a logical puzzle you haven't seen before in an interview?",
+      "a": "Read the constraints carefully, try a small example or table to spot the pattern, and think aloud so the interviewer can follow your reasoning."
+    },
+    {
+      "q": "A sum of money doubles itself in 8 years at simple interest. Find the rate of interest.",
+      "a": "Since the interest equals the principal in 8 years, P = P x R x 8 / 100, giving R = 12.5% per annum."
+    },
+    {
+      "q": "Explain the difference between permutation and combination with one example each.",
+      "a": "Permutation cares about order, such as arranging 3 books on a shelf out of 3 in 3P3 = 6 ways; combination does not, such as choosing 3 books out of 5 to keep in 5C3 = 10 ways."
+    }
+  ],
+  "categories": {
+    "cs_it": {
+      "label": "Computer Science, IT & AI/ML",
+      "items": [
+        {
+          "q": "What is the difference between an array and a linked list?",
+          "a": "Arrays store elements in contiguous memory with O(1) random access but costly resizing; linked lists use nodes with pointers, giving O(1) insertion or deletion at a known position but O(n) access."
+        },
+        {
+          "q": "Explain time complexity — what does O(n log n) mean?",
+          "a": "It describes how runtime grows with input size n; O(n log n) means runtime grows proportionally to n multiplied by log n, typical of efficient sorting algorithms like merge sort."
+        },
+        {
+          "q": "What are the four pillars of OOP?",
+          "a": "Encapsulation (bundling data with methods), Abstraction (hiding implementation detail), Inheritance (reusing behaviour from a parent class), and Polymorphism (same interface, different implementations)."
+        },
+        {
+          "q": "Differentiate between a process and a thread.",
+          "a": "A process is an independent program with its own memory space; a thread is a lightweight unit of execution within a process that shares memory with other threads of the same process."
+        },
+        {
+          "q": "What is normalization in DBMS? Explain 1NF, 2NF and 3NF briefly.",
+          "a": "Normalization removes redundancy by organising data into related tables. 1NF removes repeating groups, 2NF removes partial dependency on a composite key, and 3NF removes transitive dependency on non-key attributes."
+        },
+        {
+          "q": "Explain the difference between SQL and NoSQL databases.",
+          "a": "SQL databases are relational, schema-fixed, and use tables with joins, such as MySQL; NoSQL databases are schema-flexible and store data as documents, key-value pairs, or graphs, such as MongoDB, suited to unstructured or fast-changing data."
+        },
+        {
+          "q": "What is a deadlock, and name one way to prevent it?",
+          "a": "A deadlock occurs when processes wait indefinitely for resources held by each other in a circular chain; it can be prevented by imposing a strict ordering on resource acquisition."
+        },
+        {
+          "q": "Explain the OSI model in brief.",
+          "a": "A seven-layer conceptual model — Physical, Data Link, Network, Transport, Session, Presentation, Application — describing how data moves from a sender's application to a receiver's."
+        },
+        {
+          "q": "What is the difference between TCP and UDP?",
+          "a": "TCP is connection-oriented and reliable, using acknowledgements and retransmission; UDP is connectionless and faster but does not guarantee delivery, which is why it suits streaming or gaming."
+        },
+        {
+          "q": "What is a hash table, and what causes collisions?",
+          "a": "A hash table maps keys to array indices via a hash function for near O(1) lookup; collisions happen when two keys hash to the same index, resolved using chaining or open addressing."
+        },
+        {
+          "q": "Explain recursion with a simple example.",
+          "a": "Recursion is a function calling itself with a smaller input until a base case is reached, for example factorial(n) = n times factorial(n-1), with factorial(0) = 1."
+        },
+        {
+          "q": "What is the difference between supervised and unsupervised learning?",
+          "a": "Supervised learning trains on labelled data to predict outcomes, such as classification; unsupervised learning finds patterns in unlabelled data, such as clustering."
+        },
+        {
+          "q": "What is overfitting in machine learning and how do you reduce it?",
+          "a": "Overfitting is when a model learns noise in the training data and performs poorly on new data; it is reduced with more data, regularisation, simpler models, or cross-validation."
+        },
+        {
+          "q": "Explain the CIA triad in cybersecurity.",
+          "a": "Confidentiality (only authorised access), Integrity (data isn't tampered with), and Availability (systems stay accessible when needed) — the three goals security controls aim to protect."
+        },
+        {
+          "q": "What is SQL injection and how is it prevented?",
+          "a": "It's an attack where malicious SQL is inserted through user input to manipulate a database; it's prevented using parameterised queries or prepared statements and strict input validation."
+        },
+        {
+          "q": "What is the difference between REST and SOAP APIs?",
+          "a": "REST is a lightweight, stateless architectural style typically using JSON over HTTP; SOAP is a stricter protocol using XML with built-in standards for security and transactions."
+        },
+        {
+          "q": "What is version control, and why is Git useful in a team project?",
+          "a": "Version control tracks changes to code over time; Git lets multiple developers branch, merge, and revert changes without overwriting each other's work."
+        },
+        {
+          "q": "Explain Big-O notation and give the complexity of binary search.",
+          "a": "Big-O describes the worst-case growth rate of an algorithm's running time relative to input size; binary search runs in O(log n) because it halves the search space at every step."
+        },
+        {
+          "q": "What is the difference between a compiler and an interpreter?",
+          "a": "A compiler translates the entire source code into machine code before execution; an interpreter executes code line by line at runtime."
+        },
+        {
+          "q": "What is cloud computing, and name its three main service models?",
+          "a": "Cloud computing delivers computing resources over the internet; the three models are IaaS (infrastructure), PaaS (platform), and SaaS (software)."
+        },
+        {
+          "q": "Explain the difference between IPv4 and IPv6.",
+          "a": "IPv4 uses 32-bit addresses, giving about 4.3 billion addresses; IPv6 uses 128-bit addresses, providing a vastly larger address space for more connected devices."
+        },
+        {
+          "q": "What is an activation function in a neural network, and why is it needed?",
+          "a": "It's a function applied to a neuron's weighted input to introduce non-linearity, such as ReLU or sigmoid, allowing the network to learn complex, non-linear patterns."
+        },
+        {
+          "q": "What is the difference between a stack and a queue?",
+          "a": "A stack follows LIFO — Last In, First Out — as in undo operations; a queue follows FIFO — First In, First Out — as in task scheduling."
+        },
+        {
+          "q": "What is Agile methodology and how does it differ from Waterfall?",
+          "a": "Agile delivers software in short, iterative sprints with continuous feedback; Waterfall follows a fixed, sequential, phase-by-phase process planned upfront."
+        },
+        {
+          "q": "What is the Internet of Things (IoT)? Give one real-world example.",
+          "a": "IoT is a network of physical devices embedded with sensors and software that collect and exchange data over the internet, such as a smart thermostat that adjusts temperature based on occupancy patterns."
+        },
+        {
+          "q": "How would you explain what a database index does?",
+          "a": "An index is a data structure, often a B-tree, that speeds up data retrieval on a column at the cost of extra storage and slightly slower writes — similar to an index at the back of a book."
+        },
+        {
+          "q": "What is the difference between a shallow copy and a deep copy of an object?",
+          "a": "A shallow copy duplicates the top-level object but still references the same nested objects as the original, so changes to nested data affect both copies; a deep copy recursively duplicates every nested object so the copy is fully independent."
+        },
+        {
+          "q": "Explain the difference between multithreading and multiprocessing.",
+          "a": "Multithreading runs multiple threads inside a single process sharing the same memory space, which is lightweight but can be limited by locks; multiprocessing runs separate processes with their own memory, giving true parallelism at the cost of higher overhead and inter-process communication."
+        },
+        {
+          "q": "What is an API gateway, and why is it used in a microservices architecture?",
+          "a": "An API gateway is a single entry point that routes client requests to the appropriate backend microservice, handling cross-cutting concerns like authentication, rate limiting, and load balancing so individual services don't have to duplicate that logic."
+        }
+      ]
+    },
+    "ece_eee": {
+      "label": "Electronics, EEE & Instrumentation",
+      "items": [
+        {
+          "q": "What is the difference between analog and digital signals?",
+          "a": "Analog signals vary continuously over time and amplitude; digital signals represent information as discrete binary levels, which makes them more noise-resistant."
+        },
+        {
+          "q": "Explain Kirchhoff's Current and Voltage Laws.",
+          "a": "KCL states the sum of currents entering a node equals the sum leaving it, reflecting charge conservation; KVL states the sum of voltage drops around any closed loop equals zero, reflecting energy conservation."
+        },
+        {
+          "q": "What is the difference between a microprocessor and a microcontroller?",
+          "a": "A microprocessor is just a CPU that needs external memory and peripherals; a microcontroller integrates CPU, memory, and I/O peripherals on a single chip for embedded applications."
+        },
+        {
+          "q": "What is modulation, and why is it needed in communication systems?",
+          "a": "Modulation varies a carrier signal's amplitude, frequency, or phase with the message signal so it can be transmitted efficiently over long distances and through a shared medium."
+        },
+        {
+          "q": "Explain the difference between an open-loop and a closed-loop control system.",
+          "a": "An open-loop system has no feedback, so the output doesn't affect the control action; a closed-loop system continuously measures the output and feeds it back to correct errors automatically."
+        },
+        {
+          "q": "What is the function of a PID controller?",
+          "a": "It computes the error between a desired setpoint and the measured value, correcting it using Proportional, Integral, and Derivative terms to achieve fast, stable, and accurate control."
+        },
+        {
+          "q": "What is the difference between series and parallel circuits?",
+          "a": "In series circuits, current is the same through all components while voltage divides; in parallel circuits, voltage is the same across all branches while current divides."
+        },
+        {
+          "q": "Explain what VLSI means and why it matters.",
+          "a": "Very Large Scale Integration packs millions or billions of transistors onto a single chip, enabling the compact, powerful, energy-efficient processors used in modern electronics."
+        },
+        {
+          "q": "What is the difference between a sensor and a transducer?",
+          "a": "A transducer converts one form of energy to another; a sensor is a specific type of transducer that detects a physical quantity, such as temperature, and converts it into a measurable electrical signal."
+        },
+        {
+          "q": "Explain the working principle of an operational amplifier briefly.",
+          "a": "An op-amp is a high-gain differential amplifier that amplifies the voltage difference between its two inputs; with feedback components it can add, integrate, or filter signals."
+        },
+        {
+          "q": "What is the difference between AC and DC power transmission?",
+          "a": "AC power can be stepped up or down easily with transformers for efficient long-distance transmission; DC transmission avoids reactive power losses and is preferred for very long or undersea links via HVDC."
+        },
+        {
+          "q": "What is an embedded system? Give an example.",
+          "a": "It's a combination of hardware and software designed to perform a specific, dedicated function within a larger system, such as the controller inside a washing machine or a car's ABS module."
+        },
+        {
+          "q": "Explain the difference between synchronous and asynchronous communication protocols.",
+          "a": "Synchronous communication uses a shared clock signal to time data transfer, as in SPI; asynchronous communication has no shared clock and instead uses start and stop bits to frame each byte, as in UART."
+        },
+        {
+          "q": "What is the purpose of a transformer, and what is its basic working principle?",
+          "a": "It transfers electrical energy between circuits at different voltage levels using electromagnetic induction between a primary and secondary winding sharing a common magnetic core."
+        },
+        {
+          "q": "What is the difference between latency and bandwidth in a communication system?",
+          "a": "Latency is the time delay for a signal to travel from sender to receiver; bandwidth is the maximum rate of data that can be transmitted per unit time."
+        },
+        {
+          "q": "What is the role of instrumentation in a process control system?",
+          "a": "Instrumentation measures process variables like pressure, flow, or temperature and feeds them to a controller so it can adjust actuators and keep the process within desired limits."
+        },
+        {
+          "q": "What is the difference between an ADC and a DAC?",
+          "a": "An ADC (Analog-to-Digital Converter) converts a continuous analog signal into discrete digital values for a processor to use, while a DAC (Digital-to-Analog Converter) does the reverse, turning digital data back into an analog signal."
+        },
+        {
+          "q": "Explain the purpose of a rectifier circuit.",
+          "a": "A rectifier converts alternating current (AC) into direct current (DC) by allowing current to flow in only one direction, typically using diodes, and is a key stage in most DC power supplies."
+        },
+        {
+          "q": "What is the difference between half-duplex and full-duplex communication?",
+          "a": "In half-duplex communication, both devices can send and receive data but not at the same time, like a walkie-talkie; in full-duplex, both devices can transmit and receive simultaneously, like a phone call."
+        }
+      ]
+    },
+    "mech_prod": {
+      "label": "Mechanical, Production, Automobile, Aerospace & Robotics",
+      "items": [
+        {
+          "q": "State the first law of thermodynamics.",
+          "a": "Energy cannot be created or destroyed, only converted from one form to another; for a closed system, the change in internal energy equals the heat added minus the work done by the system."
+        },
+        {
+          "q": "What is the difference between stress and strain?",
+          "a": "Stress is the internal resisting force per unit area developed inside a material under load; strain is the resulting fractional deformation, or change in length divided by original length."
+        },
+        {
+          "q": "Explain the working principle of an IC engine in brief.",
+          "a": "A fuel-air mixture is compressed and ignited inside a cylinder, and the expansion of the resulting hot gases pushes a piston, converting chemical energy into mechanical work via a crankshaft."
+        },
+        {
+          "q": "What is the difference between ductile and brittle materials?",
+          "a": "Ductile materials, such as mild steel, deform plastically and show necking before fracture; brittle materials, such as cast iron, fracture with little or no plastic deformation."
+        },
+        {
+          "q": "What is CNC machining?",
+          "a": "Computer Numerical Control machining uses pre-programmed software to control machine tool movement, giving precise, repeatable manufacturing of complex parts."
+        },
+        {
+          "q": "Explain the difference between a two-stroke and a four-stroke engine.",
+          "a": "A two-stroke engine completes a power cycle in one crankshaft revolution; a four-stroke engine takes two revolutions across intake, compression, power, and exhaust, giving better efficiency and lower emissions."
+        },
+        {
+          "q": "What is the purpose of a gear train in machinery?",
+          "a": "It transmits motion and power between shafts while changing speed, torque, or direction as required by the application."
+        },
+        {
+          "q": "What is Six Sigma in manufacturing or quality management?",
+          "a": "It's a data-driven methodology aimed at reducing process defects to fewer than 3.4 per million opportunities, using the DMAIC cycle of Define, Measure, Analyse, Improve, and Control."
+        },
+        {
+          "q": "What is the difference between forward and inverse kinematics in robotics?",
+          "a": "Forward kinematics computes the end-effector's position from known joint angles; inverse kinematics computes the joint angles needed to reach a desired end-effector position."
+        },
+        {
+          "q": "Explain the concept of Just-In-Time (JIT) manufacturing.",
+          "a": "It's a production strategy where materials and parts are supplied and produced only as needed, minimising inventory holding costs and waste."
+        },
+        {
+          "q": "What is fatigue failure in materials?",
+          "a": "It's progressive, localised structural damage caused by repeated cyclic loading, which can cause a part to fail well below its static strength limit."
+        },
+        {
+          "q": "What is the difference between a PLC and a microcontroller in automation?",
+          "a": "A PLC is a ruggedised industrial controller built for reliability in harsh environments; a microcontroller is a general-purpose compact chip often used in smaller embedded or robotics applications."
+        },
+        {
+          "q": "Explain Bernoulli's principle and its relevance to aircraft lift.",
+          "a": "As fluid speed increases, its pressure decreases; air moving faster over a curved aerofoil's upper surface creates lower pressure above the wing than below it, generating lift."
+        },
+        {
+          "q": "What is the difference between welding and brazing?",
+          "a": "Welding melts and fuses the base metals themselves, with or without filler; brazing joins metals using a filler metal melted above 450 degrees Celsius without melting the base metal."
+        },
+        {
+          "q": "What safety precautions are critical in a mining or underground work environment?",
+          "a": "Continuous gas monitoring, proper ventilation, structural support of tunnels, and strict adherence to emergency evacuation protocols."
+        },
+        {
+          "q": "What is the difference between alloying and heat treatment in metallurgy?",
+          "a": "Alloying changes a metal's composition by adding other elements to alter its properties; heat treatment changes the properties of an existing composition through controlled heating and cooling."
+        },
+        {
+          "q": "What is the difference between a turbine and a compressor?",
+          "a": "A turbine extracts energy from a moving fluid, such as gas, steam, or water, and converts it into mechanical work to drive a shaft, while a compressor uses mechanical work to increase the pressure and reduce the volume of a fluid, typically a gas."
+        },
+        {
+          "q": "Explain the concept of factor of safety in mechanical design.",
+          "a": "Factor of safety is the ratio of a component's maximum load-bearing capacity to the expected actual load applied, built in to account for uncertainties in loading, material defects, and manufacturing variation so the design doesn't fail under normal use."
+        },
+        {
+          "q": "What is the difference between casting and forging as manufacturing processes?",
+          "a": "Casting shapes a component by pouring molten metal into a mould and letting it solidify, which suits complex shapes but can leave internal porosity; forging shapes solid metal using compressive force, aligning the grain structure to generally produce stronger, tougher parts."
+        },
+        {
+          "q": "What is the purpose of a flywheel in an engine?",
+          "a": "A flywheel stores rotational kinetic energy and releases it steadily through the engine cycle, smoothing out fluctuations in torque from individual power strokes and keeping the crankshaft speed uniform."
+        },
+        {
+          "q": "Explain the difference between hydraulic and pneumatic systems.",
+          "a": "Hydraulic systems use a pressurised, incompressible liquid, usually oil, to transmit force and suit high-force, precise applications; pneumatic systems use compressed, compressible air, which is lighter, cleaner, and faster but less precise and lower in force output."
+        }
+      ]
+    },
+    "civil_env": {
+      "label": "Civil, Structural & Environmental Engineering",
+      "items": [
+        {
+          "q": "What is the difference between dead load and live load in structural design?",
+          "a": "Dead load is the permanent, static weight of the structure itself, such as beams and walls; live load is the temporary or variable load from occupants, furniture, or moving vehicles."
+        },
+        {
+          "q": "Explain the purpose of a soil test before construction.",
+          "a": "It determines bearing capacity, soil type, and moisture content so foundations can be designed to safely support the structure without excessive settlement."
+        },
+        {
+          "q": "What is the difference between RCC and PCC?",
+          "a": "Plain Cement Concrete has no reinforcement and is used where tensile stress is minimal, such as flooring; Reinforced Cement Concrete embeds steel bars to resist tensile forces, used in beams, columns, and slabs."
+        },
+        {
+          "q": "What is BOD (Biochemical Oxygen Demand) and why is it measured in water quality testing?",
+          "a": "It measures the oxygen consumed by microorganisms breaking down organic matter in water; a higher BOD indicates greater organic pollution and lower water quality."
+        },
+        {
+          "q": "Explain the concept of a sustainable or green building.",
+          "a": "It's a building designed to minimise environmental impact through energy efficiency, water conservation, sustainable materials, and reduced waste over its lifecycle."
+        },
+        {
+          "q": "What is GIS (Geographic Information System) used for?",
+          "a": "It captures, stores, analyses, and visualises spatial or geographic data, used in urban planning, disaster management, and infrastructure mapping."
+        },
+        {
+          "q": "What is the difference between a flexible and a rigid pavement?",
+          "a": "Flexible pavements, such as asphalt, distribute load over a smaller area and flex slightly under traffic; rigid pavements, such as concrete, distribute load over a larger area through slab bending action."
+        },
+        {
+          "q": "What are the main causes of building fires, and how does fire-rated design help?",
+          "a": "Common causes include electrical faults, flammable material storage, and poor heat ventilation; fire-rated walls, doors, and compartmentalisation slow flame and smoke spread to allow safe evacuation."
+        },
+        {
+          "q": "What is the difference between primary, secondary, and tertiary wastewater treatment?",
+          "a": "Primary treatment physically removes solids by settling; secondary treatment biologically breaks down organic matter; tertiary treatment removes remaining nutrients or pathogens for higher-quality discharge or reuse."
+        },
+        {
+          "q": "Explain the purpose of an Environmental Impact Assessment (EIA).",
+          "a": "It's a systematic study conducted before a project begins to predict its environmental effects and propose mitigation measures before approval is granted."
+        },
+        {
+          "q": "What is the difference between a beam and a column in structural terms?",
+          "a": "A beam is a horizontal member primarily resisting bending from transverse loads; a column is a vertical member primarily resisting axial compressive loads."
+        },
+        {
+          "q": "What safety measures are essential on a construction site?",
+          "a": "Personal protective equipment, secured scaffolding, clear signage, regular safety audits, and trained personnel for handling machinery and hazardous materials."
+        },
+        {
+          "q": "What is the difference between bearing capacity and settlement of soil?",
+          "a": "Bearing capacity is the maximum load per unit area that soil can safely support without shear failure, while settlement is the vertical movement of the ground under a structure's load; a foundation design must satisfy both a safe bearing capacity and an acceptable settlement limit."
+        },
+        {
+          "q": "Explain the purpose of a bar bending schedule in construction.",
+          "a": "A bar bending schedule lists the shape, size, cutting length, and quantity of every reinforcement bar required for a structural element, helping estimate steel quantities accurately and guiding site fabrication so bars are cut and bent correctly before placement."
+        },
+        {
+          "q": "What is the difference between surveying with a total station and a GPS-based method?",
+          "a": "A total station measures angles and distances optically from a fixed point to determine relative positions with very high local precision, while GPS-based surveying uses satellite signals to fix absolute coordinates over larger areas, and is faster but slightly less precise at small scale."
+        },
+        {
+          "q": "What is the significance of the water-cement ratio in concrete strength?",
+          "a": "The water-cement ratio controls the porosity of hardened concrete — a lower ratio generally produces denser, stronger, and more durable concrete, while too much water weakens the mix even though it improves workability during placement."
+        }
+      ]
+    },
+    "chem_process": {
+      "label": "Chemical & Process Engineering",
+      "items": [
+        {
+          "q": "What is the difference between a batch process and a continuous process in chemical manufacturing?",
+          "a": "A batch process produces material in discrete, fixed-quantity runs with a clear start and end; a continuous process runs materials through the system steadily without interruption, suited to high-volume production."
+        },
+        {
+          "q": "Explain the concept of mass balance in a chemical process.",
+          "a": "Based on conservation of mass, mass entering a system equals mass leaving plus any accumulation, used to design and troubleshoot process equipment."
+        },
+        {
+          "q": "What is pasteurization, and why is it used in food processing?",
+          "a": "It's a mild heat treatment that kills pathogenic microorganisms and extends shelf life while minimising changes to a food's taste and nutrients."
+        },
+        {
+          "q": "What is the difference between natural and synthetic fibres in textiles?",
+          "a": "Natural fibres come from plant or animal sources, such as cotton, wool, or silk; synthetic fibres are manufactured from polymers, such as polyester or nylon, and generally offer more consistent strength and durability."
+        },
+        {
+          "q": "What is fractional distillation, and where is it used in the petroleum industry?",
+          "a": "It's a separation process that splits crude oil into components like petrol, diesel, and kerosene based on differences in boiling point inside a distillation column."
+        },
+        {
+          "q": "What is a polymer, and what is the difference between a thermoplastic and a thermoset?",
+          "a": "A polymer is a large molecule made of repeating monomer units; thermoplastics soften and can be remoulded when heated, while thermosets form permanent cross-links and cannot be remelted once cured."
+        },
+        {
+          "q": "What is the difference between ceramics and glass from a materials standpoint?",
+          "a": "Ceramics are typically crystalline, inorganic, non-metallic solids formed by firing; glass is amorphous, or non-crystalline, and formed by rapid cooling from a molten state."
+        },
+        {
+          "q": "What is nanotechnology, and give one practical application?",
+          "a": "It's the engineering of materials and devices at roughly 1 to 100 nanometres, exploited in applications like targeted drug delivery or highly durable coatings."
+        },
+        {
+          "q": "What is the difference between renewable and non-renewable energy sources?",
+          "a": "Renewable sources, such as solar, wind, and hydro, replenish naturally within a human timescale; non-renewable sources, such as coal, oil, and gas, exist in finite quantities and deplete with use."
+        },
+        {
+          "q": "Explain what a heat exchanger does in a process plant.",
+          "a": "It transfers heat between two fluids at different temperatures without mixing them, used for heating, cooling, or energy recovery in a process."
+        },
+        {
+          "q": "What is the difference between refining and cracking in petroleum processing?",
+          "a": "Refining separates crude oil into useful fractions by distillation; cracking breaks larger, heavier hydrocarbon molecules into smaller, more valuable ones like petrol."
+        },
+        {
+          "q": "What is the role of a catalyst in a chemical reaction?",
+          "a": "It speeds up a reaction by providing an alternative pathway with lower activation energy, without itself being permanently consumed."
+        },
+        {
+          "q": "What is petrochemical feedstock, and why does it matter to the plastics industry?",
+          "a": "It refers to raw materials like naphtha or natural gas liquids derived from petroleum, used as the starting building blocks for manufacturing plastics and other polymers."
+        },
+        {
+          "q": "What safety hazards are unique to chemical or process plants, and how are they managed?",
+          "a": "Risks include toxic exposure, fire or explosion from flammable chemicals, and pressure vessel failure, managed through PPE, ventilation, pressure relief systems, and strict standard operating procedures."
+        },
+        {
+          "q": "What is the difference between exothermic and endothermic reactions in a process context?",
+          "a": "An exothermic reaction releases heat to its surroundings and may need cooling to control the reaction rate, while an endothermic reaction absorbs heat and needs a continuous heat supply to proceed, both of which shape reactor design and energy costs."
+        },
+        {
+          "q": "Explain the concept of reflux ratio in a distillation column.",
+          "a": "Reflux ratio is the ratio of liquid returned to the top of a distillation column compared to the amount drawn off as distillate; a higher reflux ratio improves separation purity but increases energy consumption and equipment size."
+        },
+        {
+          "q": "What is the difference between absorption and adsorption?",
+          "a": "Absorption is a bulk process where one substance is taken up into the volume of another, like a gas dissolving into a liquid, whereas adsorption is a surface phenomenon where molecules adhere to the outer surface of a solid or liquid."
+        },
+        {
+          "q": "What is corrosion, and how is it typically controlled in process equipment?",
+          "a": "Corrosion is the gradual degradation of a material, usually a metal, through chemical or electrochemical reaction with its environment; it is commonly controlled using protective coatings, corrosion-resistant alloys, cathodic protection, or inhibitors added to the process fluid."
+        }
+      ]
+    },
+    "biotech_life": {
+      "label": "Biotechnology & Life Sciences",
+      "items": [
+        {
+          "q": "What is the difference between a prokaryotic and a eukaryotic cell?",
+          "a": "Prokaryotic cells, such as bacteria, lack a membrane-bound nucleus and organelles; eukaryotic cells, such as plant, animal, and fungal cells, have a true nucleus and membrane-bound organelles."
+        },
+        {
+          "q": "What is PCR (Polymerase Chain Reaction) used for?",
+          "a": "It's a technique that amplifies a specific DNA segment into millions of copies through repeated cycles of denaturation, annealing, and extension, widely used in diagnostics and research."
+        },
+        {
+          "q": "Explain the central dogma of molecular biology.",
+          "a": "Genetic information flows from DNA to RNA through transcription, and from RNA to protein through translation, describing how genes are expressed as functional proteins."
+        },
+        {
+          "q": "What is the difference between an enzyme and a hormone?",
+          "a": "An enzyme is a biological catalyst that speeds up specific biochemical reactions; a hormone is a chemical messenger secreted into the bloodstream to regulate processes in target organs."
+        },
+        {
+          "q": "What is fermentation, and give one industrial application?",
+          "a": "It's a metabolic process where microorganisms convert sugars into products like alcohol or acids without oxygen, used industrially to produce antibiotics, beverages, and biofuels."
+        },
+        {
+          "q": "What is the difference between gram-positive and gram-negative bacteria?",
+          "a": "Gram-positive bacteria have a thick peptidoglycan cell wall that retains crystal violet stain, appearing purple; gram-negative bacteria have a thinner wall with an outer membrane and stain pink or red."
+        },
+        {
+          "q": "What is recombinant DNA technology?",
+          "a": "It's a technique that combines DNA from different sources, such as inserting a human gene into bacteria, to produce a desired protein or trait, foundational to producing insulin and vaccines."
+        },
+        {
+          "q": "What is the difference between DNA and RNA?",
+          "a": "DNA is double-stranded, contains deoxyribose sugar and thymine, and stores genetic information; RNA is typically single-stranded, contains ribose sugar and uracil, and helps express that information."
+        },
+        {
+          "q": "What is an ELISA test used for?",
+          "a": "Enzyme-Linked Immunosorbent Assay detects and quantifies specific antigens or antibodies in a sample, commonly used for disease diagnosis."
+        },
+        {
+          "q": "What is the difference between mitosis and meiosis?",
+          "a": "Mitosis produces two genetically identical diploid daughter cells for growth and repair; meiosis produces four genetically distinct haploid cells for sexual reproduction."
+        },
+        {
+          "q": "What is a bioreactor, and what role does it play in industrial biotechnology?",
+          "a": "A bioreactor is a controlled vessel that provides the right temperature, pH, oxygen, and nutrient conditions for cells or microorganisms to grow and produce a target product, such as insulin, enzymes, or biofuels, at an industrial scale."
+        },
+        {
+          "q": "Explain the difference between in vitro and in vivo studies.",
+          "a": "In vitro studies are conducted outside a living organism, typically in a test tube or culture dish, while in vivo studies are conducted within a living organism, giving results that better reflect real biological complexity but take longer and cost more."
+        },
+        {
+          "q": "What is CRISPR-Cas9, and what is it used for?",
+          "a": "CRISPR-Cas9 is a gene-editing technology that uses a guide RNA to direct the Cas9 enzyme to a specific DNA sequence, where it cuts the DNA, allowing genes to be disabled, corrected, or inserted; it is widely used in research, agriculture, and emerging gene therapies."
+        },
+        {
+          "q": "What is the difference between a vaccine and an antibody?",
+          "a": "A vaccine trains the immune system to recognise a pathogen so the body produces its own antibodies and memory cells in advance of infection, while an antibody is the actual protein the immune system, or a lab, produces to bind to and neutralise a specific pathogen."
+        },
+        {
+          "q": "What is genome sequencing, and why is it useful?",
+          "a": "Genome sequencing determines the exact order of nucleotides in an organism's DNA, which is used to identify disease-causing mutations, understand evolutionary relationships, and support applications from personalised medicine to crop improvement."
+        }
+      ]
+    },
+    "biomed_health": {
+      "label": "Biomedical, Pharmacy & Healthcare",
+      "items": [
+        {
+          "q": "What is the difference between diagnostic and therapeutic biomedical equipment?",
+          "a": "Diagnostic equipment, such as an ECG or MRI machine, is used to detect and monitor a medical condition; therapeutic equipment, such as pacemakers or dialysis machines, is used to treat or manage it."
+        },
+        {
+          "q": "Explain how an ECG (electrocardiogram) works in simple terms.",
+          "a": "It records the heart's electrical activity through electrodes placed on the skin, producing a waveform that reflects the timing of heart muscle contraction and relaxation."
+        },
+        {
+          "q": "What is the difference between generic and branded drugs?",
+          "a": "A generic drug contains the same active ingredient, dosage, and effect as its branded counterpart but is sold under its chemical name, usually at a lower cost after the original patent expires."
+        },
+        {
+          "q": "What is bioavailability in pharmacology?",
+          "a": "It's the proportion of an administered drug that reaches systemic circulation in an active form, affecting how much of the dose actually produces a therapeutic effect."
+        },
+        {
+          "q": "What is the role of a clinical trial in drug development?",
+          "a": "It's a phased, controlled study on human volunteers to test a new drug's safety, dosage, and effectiveness before it is approved for public use."
+        },
+        {
+          "q": "What is the difference between an implantable and a wearable medical device?",
+          "a": "An implantable device, such as a pacemaker, is surgically placed inside the body; a wearable device, such as a fitness tracker or insulin patch, is worn externally and is generally non-invasive."
+        },
+        {
+          "q": "What is telemedicine, and what problem does it solve?",
+          "a": "It's the delivery of healthcare consultation and monitoring remotely via digital communication, improving access to care in areas with limited hospital availability."
+        },
+        {
+          "q": "What is the nursing process, and what are its main steps?",
+          "a": "It's a systematic patient-care method with five steps: Assessment, Diagnosis, Planning, Implementation, and Evaluation, used to deliver individualised care."
+        },
+        {
+          "q": "What is the difference between sterilization and disinfection?",
+          "a": "Sterilization destroys all forms of microbial life, including spores; disinfection reduces the number of pathogenic microorganisms but may not eliminate all of them."
+        },
+        {
+          "q": "What is biocompatibility, and why does it matter for implants?",
+          "a": "It's the ability of a material to perform its function in the body without triggering an adverse immune or toxic reaction, critical for anything implanted or in prolonged bodily contact."
+        },
+        {
+          "q": "What is the difference between a drug's efficacy and its safety profile?",
+          "a": "Efficacy measures how well a drug produces the intended therapeutic effect; safety profile describes the type and frequency of side effects or adverse reactions it causes."
+        },
+        {
+          "q": "How do you handle a high-stress or emergency situation in a clinical setting?",
+          "a": "Stay calm, follow established triage or emergency protocols, communicate clearly with the team, and prioritise the most critical needs first."
+        },
+        {
+          "q": "What is the difference between an MRI and a CT scan?",
+          "a": "An MRI uses strong magnetic fields and radio waves to produce detailed images of soft tissue without ionising radiation, while a CT scan combines multiple X-ray images into cross-sectional views, making it faster and better suited to bone or emergency trauma imaging."
+        },
+        {
+          "q": "Explain the purpose of a pulse oximeter.",
+          "a": "A pulse oximeter is a non-invasive device clipped onto a fingertip or earlobe that estimates blood oxygen saturation and pulse rate by measuring how much light of different wavelengths is absorbed by the blood."
+        },
+        {
+          "q": "What is the difference between Type 1 and Type 2 diabetes, from a biomedical perspective?",
+          "a": "Type 1 diabetes is an autoimmune condition where the pancreas produces little or no insulin, usually requiring lifelong insulin therapy, while Type 2 diabetes involves insulin resistance and relative insulin deficiency, often managed initially with lifestyle changes and oral medication."
+        },
+        {
+          "q": "What is medical device calibration, and why is it critical?",
+          "a": "Calibration is the process of checking and adjusting a medical device's measurements against a known standard to ensure accuracy; it is critical because an uncalibrated device can give incorrect readings that lead to misdiagnosis or inappropriate treatment."
+        }
+      ]
+    },
+    "business_mgmt": {
+      "label": "Business, Commerce & Management",
+      "items": [
+        {
+          "q": "What is the difference between marketing and sales?",
+          "a": "Marketing builds awareness and demand for a product or brand over the longer term; sales focuses on directly converting that interest into a completed transaction."
+        },
+        {
+          "q": "Explain the difference between debit and credit in accounting.",
+          "a": "A debit increases asset or expense accounts and decreases liability, income, or equity accounts; a credit does the opposite. Every transaction has equal debits and credits under the double-entry system."
+        },
+        {
+          "q": "What is the difference between a balance sheet and a profit & loss statement?",
+          "a": "A balance sheet is a snapshot of assets, liabilities, and equity at a point in time; a profit and loss statement shows revenue and expenses over a period, resulting in net profit or loss."
+        },
+        {
+          "q": "What is working capital, and why does it matter to a business?",
+          "a": "It's the difference between current assets and current liabilities, indicating a company's short-term liquidity and ability to fund day-to-day operations."
+        },
+        {
+          "q": "Explain the 4 Ps of marketing.",
+          "a": "Product (what is offered), Price (what it costs), Place (where it's distributed), and Promotion (how it's communicated) form the core elements of a marketing mix."
+        },
+        {
+          "q": "What is the difference between a bank's savings account and a current account?",
+          "a": "A savings account is meant for individuals to save money and earns interest with transaction limits; a current account is meant for businesses with frequent transactions and typically earns no interest."
+        },
+        {
+          "q": "What is SWOT analysis used for?",
+          "a": "It's a strategic planning tool that evaluates a business's internal Strengths and Weaknesses alongside external Opportunities and Threats to inform decision-making."
+        },
+        {
+          "q": "What is the role of a company secretary in corporate governance?",
+          "a": "Ensuring the company complies with statutory and regulatory requirements, maintaining records, and acting as a key link between the board, shareholders, and regulators."
+        },
+        {
+          "q": "What is the difference between GST and income tax?",
+          "a": "GST is an indirect tax levied on the supply of goods and services at each stage of the value chain; income tax is a direct tax levied on an individual's or entity's earned income."
+        },
+        {
+          "q": "Explain the concept of insurance underwriting.",
+          "a": "It's the process an insurer uses to assess the risk of insuring a person or asset and decide the terms, premium, and coverage to offer."
+        },
+        {
+          "q": "What is the difference between micro and macroeconomics?",
+          "a": "Microeconomics studies individual consumers, firms, and markets; macroeconomics studies the economy as a whole, including inflation, GDP, and unemployment."
+        },
+        {
+          "q": "What is break-even analysis?",
+          "a": "It's a calculation that determines the sales volume at which total revenue equals total costs, so the business is neither making a profit nor a loss."
+        },
+        {
+          "q": "How would you handle a dissatisfied customer or client?",
+          "a": "Listen without interrupting, acknowledge the issue, offer a concrete resolution or next step, and follow up to confirm it was resolved."
+        },
+        {
+          "q": "What is the difference between leadership and management?",
+          "a": "Management focuses on planning, organising, and controlling resources to meet defined objectives; leadership focuses on inspiring and guiding people toward a shared vision, often through change."
+        },
+        {
+          "q": "What is the difference between a fixed cost and a variable cost?",
+          "a": "A fixed cost stays constant regardless of production or sales volume, such as rent, while a variable cost changes in proportion to output, such as raw materials — a distinction that is central to break-even and profitability analysis."
+        },
+        {
+          "q": "Explain the concept of supply chain management.",
+          "a": "Supply chain management is the coordination of all activities involved in sourcing raw materials, manufacturing, and delivering a finished product to the customer, aiming to minimise cost and delay while maintaining quality and reliability across every link."
+        },
+        {
+          "q": "What is the difference between horizontal and vertical integration in business strategy?",
+          "a": "Horizontal integration is acquiring or merging with competitors at the same stage of the value chain to increase market share, while vertical integration is acquiring suppliers or distributors at different stages to gain control over the supply chain."
+        },
+        {
+          "q": "What is a KPI (Key Performance Indicator), and how would you choose one for a role?",
+          "a": "A KPI is a measurable value that shows how effectively an objective is being achieved; a good KPI for a role should be specific, tied directly to a business goal, and something the person in that role can actually influence through their day-to-day work."
+        }
+      ]
+    },
+    "arts_humanities": {
+      "label": "Arts, Humanities & Social Sciences",
+      "items": [
+        {
+          "q": "What is the difference between qualitative and quantitative research methods?",
+          "a": "Qualitative research explores meaning and experience through non-numeric data, such as interviews or observation; quantitative research measures variables numerically and analyses them statistically."
+        },
+        {
+          "q": "What is the role of a journalist in verifying information before publishing?",
+          "a": "Cross-checking facts with multiple independent, credible sources and being transparent about uncertainty, to avoid spreading misinformation."
+        },
+        {
+          "q": "Explain the difference between classical and operant conditioning in psychology.",
+          "a": "Classical conditioning links a neutral stimulus with an automatic response through repeated pairing, as in Pavlov's dogs; operant conditioning shapes voluntary behaviour through reinforcement or punishment following that behaviour."
+        },
+        {
+          "q": "What is the difference between fiscal policy and monetary policy?",
+          "a": "Fiscal policy uses government spending and taxation to influence the economy; monetary policy uses tools like interest rates and money supply, typically managed by the central bank."
+        },
+        {
+          "q": "What is public administration, and how does it differ from private-sector management?",
+          "a": "Public administration implements government policy and delivers public services; unlike private management, it is guided by public accountability and legal constraints rather than profit."
+        },
+        {
+          "q": "What is the difference between primary and secondary sources in historical research?",
+          "a": "A primary source is original evidence from the time period studied, such as letters or artefacts; a secondary source interprets or analyses primary sources after the fact, such as textbooks or articles."
+        },
+        {
+          "q": "What is the importance of editorial ethics in mass media?",
+          "a": "It ensures accuracy, fairness, and accountability in reporting, protecting public trust and preventing harm from biased or false coverage."
+        },
+        {
+          "q": "Explain the concept of literary criticism with reference to close reading.",
+          "a": "Close reading is a careful, detailed analysis of a text's language, structure, and themes to interpret meaning beyond a surface-level reading."
+        },
+        {
+          "q": "What is the difference between GDP and GNP?",
+          "a": "GDP measures the total value of goods and services produced within a country's borders; GNP measures the total value produced by a country's citizens and companies, including income earned abroad."
+        },
+        {
+          "q": "What is the significance of Sangam literature in Tamil history?",
+          "a": "It is among the earliest bodies of Tamil poetry and prose, offering insight into the social, cultural, and political life of ancient Tamil society."
+        },
+        {
+          "q": "What is cognitive bias? Give one example relevant to decision-making.",
+          "a": "It's a systematic pattern of deviation from rational judgment, such as confirmation bias — the tendency to favour information that confirms one's existing beliefs."
+        },
+        {
+          "q": "How do you approach writing a balanced news report on a controversial topic?",
+          "a": "Present multiple credible viewpoints fairly, separate fact from opinion clearly, and avoid loaded language that signals a personal stance."
+        },
+        {
+          "q": "What is the difference between sociology and anthropology as disciplines?",
+          "a": "Sociology studies the structures, institutions, and patterns of behaviour within human societies, often in large-scale or contemporary contexts, while anthropology takes a broader, often comparative and cross-cultural view that traditionally includes culture, language, and human evolution."
+        },
+        {
+          "q": "Explain the concept of soft power in international relations.",
+          "a": "Soft power is a country's ability to influence others through attraction and persuasion — via culture, values, and diplomacy — rather than coercion or payment, contrasting with hard power, which relies on military or economic force."
+        },
+        {
+          "q": "What is the difference between denotation and connotation in language studies?",
+          "a": "Denotation is the literal, dictionary meaning of a word, while connotation is the additional emotional or cultural association the word carries beyond its literal meaning."
+        },
+        {
+          "q": "What is ethnography, and how is it used as a research method?",
+          "a": "Ethnography is a qualitative research method where the researcher immerses themselves in a community or setting, using observation and interviews to understand people's behaviour and culture from an insider's perspective."
+        }
+      ]
+    },
+    "pure_sciences": {
+      "label": "Mathematics, Physics, Chemistry & Statistics",
+      "items": [
+        {
+          "q": "State and explain the Pythagorean theorem.",
+          "a": "In a right-angled triangle, the square of the hypotenuse equals the sum of the squares of the other two sides: a squared plus b squared equals c squared."
+        },
+        {
+          "q": "What is the difference between speed and velocity?",
+          "a": "Speed is a scalar quantity describing how fast an object moves; velocity is a vector quantity that also specifies direction."
+        },
+        {
+          "q": "Explain Newton's second law of motion.",
+          "a": "The net force acting on an object equals the rate of change of its momentum, commonly expressed as F = ma for constant mass."
+        },
+        {
+          "q": "What is the difference between an acid and a base?",
+          "a": "An acid donates protons, or H+ ions, and has a pH below 7; a base accepts protons, or donates OH- ions, and has a pH above 7."
+        },
+        {
+          "q": "What is the difference between mean, median, and mode?",
+          "a": "Mean is the arithmetic average, median is the middle value when data is ordered, and mode is the most frequently occurring value in the dataset."
+        },
+        {
+          "q": "Explain the concept of a derivative in calculus.",
+          "a": "The derivative measures the instantaneous rate of change of a function with respect to its variable, geometrically the slope of the tangent line at a point."
+        },
+        {
+          "q": "What is the difference between correlation and causation in statistics?",
+          "a": "Correlation means two variables move together in a pattern; causation means a change in one variable directly produces a change in the other. Correlation alone does not prove causation."
+        },
+        {
+          "q": "State the law of conservation of energy.",
+          "a": "Energy in an isolated system cannot be created or destroyed, only transformed from one form to another, with the total energy remaining constant."
+        },
+        {
+          "q": "What is the difference between an element and a compound?",
+          "a": "An element is a pure substance made of only one type of atom; a compound forms when two or more different elements chemically bond together in fixed proportions."
+        },
+        {
+          "q": "What is standard deviation, and what does a low value indicate?",
+          "a": "It's a measure of how spread out data values are from the mean; a low standard deviation indicates the data points are clustered closely around the mean."
+        },
+        {
+          "q": "What is the difference between a scalar and a vector quantity?",
+          "a": "A scalar quantity has only magnitude, such as mass or temperature, while a vector quantity has both magnitude and direction, such as velocity or force."
+        },
+        {
+          "q": "Explain the concept of half-life in radioactive decay.",
+          "a": "Half-life is the time taken for half of the radioactive atoms in a sample to decay into a more stable form; it is constant for a given isotope regardless of sample size, which makes it useful for dating and safety calculations."
+        },
+        {
+          "q": "What is the difference between kinetic energy and potential energy?",
+          "a": "Kinetic energy is the energy an object possesses due to its motion, calculated as half its mass times velocity squared, while potential energy is stored energy due to an object's position or state, such as height in a gravitational field."
+        },
+        {
+          "q": "What is the difference between a rational and an irrational number?",
+          "a": "A rational number can be expressed as a fraction of two integers, like 3/4, while an irrational number cannot be written as such a fraction and has a non-terminating, non-repeating decimal expansion, like pi or the square root of 2."
+        },
+        {
+          "q": "What is the difference between a hypothesis and a theory in the scientific method?",
+          "a": "A hypothesis is a specific, testable prediction proposed before experimentation, while a theory is a well-substantiated explanation of some aspect of the natural world that has been repeatedly tested and confirmed through extensive evidence."
+        }
+      ]
+    },
+    "agri_hospitality": {
+      "label": "Agriculture & Hospitality",
+      "items": [
+        {
+          "q": "What is precision agriculture?",
+          "a": "It's the use of technology like sensors, GPS, and data analytics to monitor field variability and apply water, fertiliser, or pesticide only where and when needed, improving yield and reducing waste."
+        },
+        {
+          "q": "What is crop rotation, and why is it practiced?",
+          "a": "Growing different crops sequentially on the same land across seasons to maintain soil fertility, break pest and disease cycles, and improve long-term yield."
+        },
+        {
+          "q": "What is the difference between irrigation and drainage in farm management?",
+          "a": "Irrigation supplies water to crops when natural rainfall is insufficient; drainage removes excess water from the field to prevent waterlogging and root damage."
+        },
+        {
+          "q": "What is the role of a front office in hotel operations?",
+          "a": "It's the first and last point of guest contact, handling reservations, check-in and check-out, billing, and guest service coordination across departments."
+        },
+        {
+          "q": "What is the difference between organic and inorganic fertilizers?",
+          "a": "Organic fertilizers come from natural sources like compost or manure and release nutrients slowly; inorganic fertilizers are manufactured chemically and release nutrients quickly but can degrade soil health if overused."
+        },
+        {
+          "q": "How would you handle a guest complaint in a hotel setting?",
+          "a": "Listen fully without interrupting, apologise sincerely, resolve the issue quickly within your authority, and follow up to ensure satisfaction."
+        },
+        {
+          "q": "What is farm mechanization, and what is one benefit it provides?",
+          "a": "It's the use of machinery like tractors and harvesters to replace manual or animal labour in farming, increasing efficiency and reducing the time and physical labour needed per acre."
+        },
+        {
+          "q": "What is food and beverage costing, and why does it matter in hotel management?",
+          "a": "It's calculating the cost of ingredients and portions against menu pricing to ensure profitability while maintaining quality and competitive pricing."
+        },
+        {
+          "q": "What is integrated pest management (IPM)?",
+          "a": "Integrated pest management is an approach that combines biological, cultural, mechanical, and chemical methods to control pests economically and with minimal risk to people and the environment, using chemical pesticides only as a last resort."
+        },
+        {
+          "q": "What is the difference between horticulture and agronomy?",
+          "a": "Horticulture focuses on cultivating fruits, vegetables, flowers, and ornamental plants, often on a smaller, more intensive scale, while agronomy deals with field crop production and soil management on a larger agricultural scale."
+        },
+        {
+          "q": "What is the role of the housekeeping department in hotel operations?",
+          "a": "The housekeeping department is responsible for cleanliness, maintenance, and aesthetic upkeep of guest rooms and public areas, directly shaping guest comfort and satisfaction as well as the hotel's overall image."
+        },
+        {
+          "q": "What is farm-to-table sourcing, and why has it become popular in hospitality?",
+          "a": "Farm-to-table sourcing means procuring ingredients directly from local farms with minimal steps in between, and it has grown popular because it offers fresher food, supports local producers, and appeals to guests who value sustainability and traceability."
+        },
+        {
+          "q": "What is post-harvest management, and why does it matter?",
+          "a": "Post-harvest management covers the handling, storage, and processing of crops after harvesting to reduce spoilage and quality loss; it matters because a significant share of agricultural produce would otherwise be wasted before it ever reaches the consumer."
+        }
+      ]
+    },
+    "design_arch": {
+      "label": "Design, Architecture & Visual Communication",
+      "items": [
+        {
+          "q": "What is the design process, from concept to final output?",
+          "a": "Typically research and brief, then ideation and sketching, prototyping, feedback and revision, and final execution — an iterative cycle rather than a strictly linear one."
+        },
+        {
+          "q": "What is the difference between 2D and 3D animation?",
+          "a": "2D animation creates movement using flat, two-dimensional artwork, whether traditional or vector-based; 3D animation builds and animates objects within a three-dimensional digital space with depth and lighting."
+        },
+        {
+          "q": "Explain the principle of balance in visual design.",
+          "a": "Distributing visual weight, such as colour, size, or shape, evenly or intentionally asymmetrically across a composition so it feels stable rather than lopsided."
+        },
+        {
+          "q": "What is the difference between load-bearing and framed structures in architecture?",
+          "a": "A load-bearing structure transfers loads directly through its walls to the foundation; a framed structure uses a skeleton of beams and columns to carry loads, allowing thinner, more flexible walls."
+        },
+        {
+          "q": "What is the role of color theory in fashion or interior design?",
+          "a": "Understanding how colors interact, such as complementary, analogous, or contrasting schemes, to evoke mood, create visual harmony, and guide attention within a space or garment."
+        },
+        {
+          "q": "What is the difference between a mood board and a storyboard?",
+          "a": "A mood board collects visual references like colors, textures, and images to communicate a design's overall look and feel; a storyboard sequences frames to plan the narrative flow of a video or animation."
+        },
+        {
+          "q": "What is sustainable or eco-friendly design, and how is it applied in fashion or architecture?",
+          "a": "Designing with minimal environmental impact by using recycled or renewable materials, energy-efficient methods, and durability, to reduce waste over the product or building's lifecycle."
+        },
+        {
+          "q": "What is the difference between draping and flat pattern-making in garment construction?",
+          "a": "Draping shapes fabric directly on a mannequin to develop a design three-dimensionally; flat pattern-making creates the same shapes using two-dimensional measurements and geometric drafting on paper."
+        },
+        {
+          "q": "What is ergonomics, and why does it matter in interior or product design?",
+          "a": "Designing spaces or objects around how the human body moves and interacts with them, to improve comfort, safety, and efficiency of use."
+        },
+        {
+          "q": "How do you handle creative feedback that conflicts with your original vision?",
+          "a": "Separate the client's underlying goal from their specific suggestion, propose alternatives that satisfy that goal, and stay open to iterating without losing the design's core intent."
+        },
+        {
+          "q": "What is the difference between typography and calligraphy?",
+          "a": "Typography is the art and technique of arranging pre-designed type for readability and visual appeal, typically in print or digital media, while calligraphy is the art of hand-lettering each character individually with decorative, expressive strokes."
+        },
+        {
+          "q": "What is a floor plan, and what key information does it convey to a builder?",
+          "a": "A floor plan is a scaled, top-down drawing of a building's layout showing room dimensions, wall placement, doors, windows, and fixtures, giving a builder the precise spatial information needed to construct the space accurately."
+        },
+        {
+          "q": "What is the difference between UI design and UX design?",
+          "a": "UI (User Interface) design focuses on the visual look and interactive elements of a product, like buttons, colours, and layout, while UX (User Experience) design focuses on the overall usability and feel of the journey a user takes to accomplish their goal."
+        },
+        {
+          "q": "What is a fashion silhouette, and why is it important in garment design?",
+          "a": "A silhouette is the overall outline or shape a garment creates on the body, and it matters because it's often the first thing noticed from a distance, setting the era, style, and mood of a design before any detail is seen up close."
+        }
+      ]
+    }
+  },
+  "meta": {
+    "total_questions": 238,
+    "total_categories": 12,
+    "source": "Original content authored for EasyRecruit — not sourced from any third-party website."
+  }
+}

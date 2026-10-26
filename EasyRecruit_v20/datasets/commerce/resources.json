@@ -1,0 +1,2310 @@
+{
+  "meta": {
+    "domain": "Commerce",
+    "domain_full": "Commerce, Accountant & Receptionist Career Track",
+    "version": "1.0",
+    "description": "Curated free and premium learning resources for B.Com, Accountant and Receptionist career tracks",
+    "last_updated": "2026-03-31"
+  },
+  "skill_topic_map": {
+    "accountant": [
+      "accountant",
+      "accounting",
+      "accounts",
+      "bookkeeping",
+      "tally",
+      "gst",
+      "taxation",
+      "financial accounting",
+      "cost accounting"
+    ],
+    "bcom": [
+      "bcom",
+      "b.com",
+      "commerce",
+      "business",
+      "economics",
+      "business law",
+      "marketing"
+    ],
+    "receptionist": [
+      "receptionist",
+      "front office",
+      "customer service",
+      "business communication",
+      "ms office",
+      "soft skills"
+    ],
+    "finance": [
+      "finance",
+      "banking",
+      "investment",
+      "stock market",
+      "financial planning"
+    ],
+    "excel": [
+      "excel",
+      "spreadsheet",
+      "ms office",
+      "data analysis"
+    ],
+    "taxation": [
+      "taxation",
+      "gst",
+      "income tax",
+      "tds",
+      "tax filing"
+    ],
+    "tally": [
+      "tally",
+      "erp",
+      "accounting software",
+      "tally prime"
+    ]
+  },
+  "free_resources": [
+    {
+      "id": "f001",
+      "career_track": "Accountant / B.Com",
+      "subject": "Accounting Basics",
+      "title": "Accounting Basics – Full Course for Beginners",
+      "url": "https://www.youtube.com/results?search_query=Accounting%20Basics%20%E2%80%93%20Full%20Course%20for%20Beginners%20Accounting%20Stuff",
+      "channel": "Accounting Stuff",
+      "duration": "2 h",
+      "rating": 4.9,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "accounting basics",
+        "accounts",
+        "bookkeeping",
+        "debit",
+        "credit"
+      ],
+      "why": "Best intro to accounting on YouTube — debits, credits, T-accounts explained simply"
+    },
+    {
+      "id": "f002",
+      "career_track": "Accountant / B.Com",
+      "subject": "Accounting Basics",
+      "title": "Accounting 101 – Complete Playlist",
+      "url": "https://www.youtube.com/results?search_query=Accounting%20101%20%E2%80%93%20Complete%20Playlist%20Accounting%20Stuff",
+      "channel": "Accounting Stuff",
+      "duration": "12 h",
+      "rating": 4.9,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "accounting basics",
+        "accounts",
+        "bookkeeping",
+        "debit",
+        "credit"
+      ],
+      "why": "30+ short videos; journal entries, trial balance, financial statements"
+    },
+    {
+      "id": "f003",
+      "career_track": "Accountant / B.Com",
+      "subject": "Accounting Basics",
+      "title": "Financial Accounting – Full University Course",
+      "url": "https://www.youtube.com/results?search_query=Financial%20Accounting%20%E2%80%93%20Full%20University%20Course%20freeCodeCamp",
+      "channel": "freeCodeCamp",
+      "duration": "11 h",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "accounting basics",
+        "accounts",
+        "bookkeeping",
+        "debit",
+        "credit"
+      ],
+      "why": "University-level financial accounting — income statement to cash flow"
+    },
+    {
+      "id": "f004",
+      "career_track": "Accountant / B.Com",
+      "subject": "Accounting Basics",
+      "title": "Bookkeeping Basics – QuickBooks Tutorial",
+      "url": "https://www.youtube.com/results?search_query=Bookkeeping%20Basics%20%E2%80%93%20QuickBooks%20Tutorial%20Hector%20Garcia%20CPA",
+      "channel": "Hector Garcia CPA",
+      "duration": "3 h",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "accounting basics",
+        "accounts",
+        "bookkeeping",
+        "debit",
+        "credit"
+      ],
+      "why": "Practical bookkeeping in QuickBooks — real small-business workflow"
+    },
+    {
+      "id": "f005",
+      "career_track": "Accountant / B.Com",
+      "subject": "Accounting Basics",
+      "title": "Introduction to Accounting – Khan Academy",
+      "url": "https://www.youtube.com/results?search_query=Introduction%20to%20Accounting%20%E2%80%93%20Khan%20Academy",
+      "channel": "Khan Academy",
+      "duration": "5 h",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "accounting basics",
+        "accounts",
+        "bookkeeping",
+        "debit",
+        "credit"
+      ],
+      "why": "Calm, clear Khan Academy style — accounting equation, balance sheet"
+    },
+    {
+      "id": "f006",
+      "career_track": "Accountant / B.Com",
+      "subject": "Financial Accounting",
+      "title": "Financial Accounting – NPTEL IIT Madras",
+      "url": "https://www.youtube.com/results?search_query=Financial%20Accounting%20%E2%80%93%20NPTEL%20IIT%20Madras",
+      "channel": "NPTEL",
+      "duration": "35 h",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "financial accounting",
+        "journal",
+        "ledger",
+        "balance sheet"
+      ],
+      "why": "IIT-quality financial accounting; GAAP, depreciation, partnerships"
+    },
+    {
+      "id": "f007",
+      "career_track": "Accountant / B.Com",
+      "subject": "Financial Accounting",
+      "title": "Balance Sheet & Income Statement Explained",
+      "url": "https://www.youtube.com/results?search_query=Balance%20Sheet%20%26%20Income%20Statement%20Explained%20Accounting%20Stuff",
+      "channel": "Accounting Stuff",
+      "duration": "45 min",
+      "rating": 4.9,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "financial accounting",
+        "journal",
+        "ledger",
+        "balance sheet"
+      ],
+      "why": "Best visual explanation of the 3 core financial statements"
+    },
+    {
+      "id": "f008",
+      "career_track": "Accountant / B.Com",
+      "subject": "Financial Accounting",
+      "title": "Cash Flow Statement – Full Tutorial",
+      "url": "https://www.youtube.com/results?search_query=Cash%20Flow%20Statement%20%E2%80%93%20Full%20Tutorial%20Accounting%20Stuff",
+      "channel": "Accounting Stuff",
+      "duration": "40 min",
+      "rating": 4.9,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "financial accounting",
+        "journal",
+        "ledger",
+        "balance sheet"
+      ],
+      "why": "Direct vs indirect method — cash flow mastery"
+    },
+    {
+      "id": "f009",
+      "career_track": "Accountant / B.Com",
+      "subject": "Financial Accounting",
+      "title": "Depreciation Methods – Straight Line, WDV, Units",
+      "url": "https://www.youtube.com/results?search_query=Depreciation%20Methods%20%E2%80%93%20Straight%20Line%2C%20WDV%2C%20Units%20Accounting%20Stuff",
+      "channel": "Accounting Stuff",
+      "duration": "30 min",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "financial accounting",
+        "journal",
+        "ledger",
+        "balance sheet"
+      ],
+      "why": "All depreciation methods with solved examples"
+    },
+    {
+      "id": "f010",
+      "career_track": "Accountant / B.Com",
+      "subject": "Financial Accounting",
+      "title": "Bank Reconciliation Statement – Step by Step",
+      "url": "https://www.youtube.com/results?search_query=Bank%20Reconciliation%20Statement%20%E2%80%93%20Step%20by%20Step%20Learnoid",
+      "channel": "Learnoid",
+      "duration": "30 min",
+      "rating": 4.7,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "financial accounting",
+        "journal",
+        "ledger",
+        "balance sheet"
+      ],
+      "why": "BRS from scratch — practical India-focused examples"
+    },
+    {
+      "id": "f011",
+      "career_track": "Accountant / B.Com",
+      "subject": "Cost Accounting",
+      "title": "Cost Accounting – Complete Course",
+      "url": "https://www.youtube.com/results?search_query=Cost%20Accounting%20%E2%80%93%20Complete%20Course%20Leila%20Gharani",
+      "channel": "Leila Gharani",
+      "duration": "8 h",
+      "rating": 4.7,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "cost accounting",
+        "costing",
+        "marginal costing"
+      ],
+      "why": "Job costing, process costing, activity-based costing — clear and practical"
+    },
+    {
+      "id": "f012",
+      "career_track": "Accountant / B.Com",
+      "subject": "Cost Accounting",
+      "title": "Management Accounting – NPTEL",
+      "url": "https://www.youtube.com/results?search_query=Management%20Accounting%20%E2%80%93%20NPTEL",
+      "channel": "NPTEL",
+      "duration": "30 h",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "cost accounting",
+        "costing",
+        "marginal costing"
+      ],
+      "why": "Budgeting, variance analysis, marginal costing — IIT standard"
+    },
+    {
+      "id": "f013",
+      "career_track": "Accountant / B.Com",
+      "subject": "Cost Accounting",
+      "title": "Standard Costing & Variance Analysis",
+      "url": "https://www.youtube.com/results?search_query=Standard%20Costing%20%26%20Variance%20Analysis%20Accounting%20Stuff",
+      "channel": "Accounting Stuff",
+      "duration": "1 h",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "cost accounting",
+        "costing",
+        "marginal costing"
+      ],
+      "why": "Material, labour, overhead variances — solved problems"
+    },
+    {
+      "id": "f014",
+      "career_track": "Accountant / B.Com",
+      "subject": "Cost Accounting",
+      "title": "Break-Even Analysis – Cost Volume Profit",
+      "url": "https://www.youtube.com/results?search_query=Break-Even%20Analysis%20%E2%80%93%20Cost%20Volume%20Profit%20Accounting%20Stuff",
+      "channel": "Accounting Stuff",
+      "duration": "30 min",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "cost accounting",
+        "costing",
+        "marginal costing"
+      ],
+      "why": "CVP analysis, contribution margin, BEP — essential for B.Com"
+    },
+    {
+      "id": "f015",
+      "career_track": "Accountant / B.Com",
+      "subject": "Taxation",
+      "title": "Income Tax – Complete Course for Beginners (India)",
+      "url": "https://www.youtube.com/results?search_query=Income%20Tax%20%E2%80%93%20Complete%20Course%20for%20Beginners%20%28India%29%20CA%20Rachana%20Ranade",
+      "channel": "CA Rachana Ranade",
+      "duration": "20 h",
+      "rating": 4.9,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "taxation",
+        "tax",
+        "gst",
+        "income tax",
+        "tds"
+      ],
+      "why": "India's most popular income tax series — slabs, deductions, ITR filing"
+    },
+    {
+      "id": "f016",
+      "career_track": "Accountant / B.Com",
+      "subject": "Taxation",
+      "title": "GST Complete Course – India",
+      "url": "https://www.youtube.com/results?search_query=GST%20Complete%20Course%20%E2%80%93%20India%20CA%20Guru%20Ji",
+      "channel": "CA Guru Ji",
+      "duration": "15 h",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "taxation",
+        "tax",
+        "gst",
+        "income tax",
+        "tds"
+      ],
+      "why": "GST registration, returns, e-way bill, TDS — comprehensive India GST"
+    },
+    {
+      "id": "f017",
+      "career_track": "Accountant / B.Com",
+      "subject": "Taxation",
+      "title": "TDS & TCS – Complete Guide",
+      "url": "https://www.youtube.com/results?search_query=TDS%20%26%20TCS%20%E2%80%93%20Complete%20Guide%20CA%20Rachana%20Ranade",
+      "channel": "CA Rachana Ranade",
+      "duration": "5 h",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "taxation",
+        "tax",
+        "gst",
+        "income tax",
+        "tds"
+      ],
+      "why": "TDS rates, filing, challan 280/281 — practical and up to date"
+    },
+    {
+      "id": "f018",
+      "career_track": "Accountant / B.Com",
+      "subject": "Taxation",
+      "title": "US Tax Basics – Individual Tax Return",
+      "url": "https://www.youtube.com/results?search_query=US%20Tax%20Basics%20%E2%80%93%20Individual%20Tax%20Return%20LYFE%20Accounting",
+      "channel": "LYFE Accounting",
+      "duration": "6 h",
+      "rating": 4.7,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "taxation",
+        "tax",
+        "gst",
+        "income tax",
+        "tds"
+      ],
+      "why": "Form 1040, W-2, deductions — for US accounting learners"
+    },
+    {
+      "id": "f019",
+      "career_track": "Accountant / B.Com",
+      "subject": "Auditing",
+      "title": "Auditing – Basics to Advanced",
+      "url": "https://www.youtube.com/results?search_query=Auditing%20%E2%80%93%20Basics%20to%20Advanced%20ICAI%20Study",
+      "channel": "ICAI Study",
+      "duration": "10 h",
+      "rating": 4.7,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "auditing"
+      ],
+      "why": "Audit procedures, evidence, internal controls — CA/B.Com standard"
+    },
+    {
+      "id": "f020",
+      "career_track": "Accountant / B.Com",
+      "subject": "Auditing",
+      "title": "Internal Audit vs External Audit – Explained",
+      "url": "https://www.youtube.com/results?search_query=Internal%20Audit%20vs%20External%20Audit%20%E2%80%93%20Explained%20Accounting%20Stuff",
+      "channel": "Accounting Stuff",
+      "duration": "20 min",
+      "rating": 4.7,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "auditing"
+      ],
+      "why": "Clear distinction of audit types with real-world examples"
+    },
+    {
+      "id": "f021",
+      "career_track": "Accountant / B.Com",
+      "subject": "Tally / ERP",
+      "title": "Tally Prime – Complete Course (Hindi/English)",
+      "url": "https://www.youtube.com/results?search_query=Tally%20Prime%20%E2%80%93%20Complete%20Course%20%28Hindi/English%29%20Marg%20ERP",
+      "channel": "Marg ERP",
+      "duration": "20 h",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "tally / erp"
+      ],
+      "why": "Ledgers, vouchers, GST in Tally Prime — job-ready skills"
+    },
+    {
+      "id": "f022",
+      "career_track": "Accountant / B.Com",
+      "subject": "Tally / ERP",
+      "title": "Tally ERP 9 Full Tutorial – Zero to Advanced",
+      "url": "https://www.youtube.com/results?search_query=Tally%20ERP%209%20Full%20Tutorial%20%E2%80%93%20Zero%20to%20Advanced%20Learn%20Tally",
+      "channel": "Learn Tally",
+      "duration": "18 h",
+      "rating": 4.7,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "tally / erp"
+      ],
+      "why": "India's most-used accounting software — payroll to GST returns"
+    },
+    {
+      "id": "f023",
+      "career_track": "Accountant / B.Com",
+      "subject": "Tally / ERP",
+      "title": "QuickBooks Online – Full Tutorial 2024",
+      "url": "https://www.youtube.com/results?search_query=QuickBooks%20Online%20%E2%80%93%20Full%20Tutorial%202024%20Hector%20Garcia%20CPA",
+      "channel": "Hector Garcia CPA",
+      "duration": "4 h",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "tally / erp"
+      ],
+      "why": "Global standard accounting software — invoicing, payroll, reports"
+    },
+    {
+      "id": "f024",
+      "career_track": "Accountant / B.Com",
+      "subject": "Tally / ERP",
+      "title": "Zoho Books – Complete Tutorial",
+      "url": "https://www.youtube.com/results?search_query=Zoho%20Books%20%E2%80%93%20Complete%20Tutorial",
+      "channel": "Zoho",
+      "duration": "2 h",
+      "rating": 4.6,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "tally / erp"
+      ],
+      "why": "Cloud-based accounting — GST-ready, popular in India & globally"
+    },
+    {
+      "id": "f025",
+      "career_track": "Accountant / B.Com",
+      "subject": "Excel for Accounting",
+      "title": "Excel for Accountants – Full Course",
+      "url": "https://www.youtube.com/results?search_query=Excel%20for%20Accountants%20%E2%80%93%20Full%20Course%20Leila%20Gharani",
+      "channel": "Leila Gharani",
+      "duration": "3 h",
+      "rating": 4.9,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "excel for accounting"
+      ],
+      "why": "VLOOKUP, pivot tables, IF formulas — accounting-specific Excel skills"
+    },
+    {
+      "id": "f026",
+      "career_track": "Accountant / B.Com",
+      "subject": "Excel for Accounting",
+      "title": "Advanced Excel – Full Course",
+      "url": "https://www.youtube.com/results?search_query=Advanced%20Excel%20%E2%80%93%20Full%20Course%20freeCodeCamp",
+      "channel": "freeCodeCamp",
+      "duration": "6 h",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "excel for accounting"
+      ],
+      "why": "Power Query, dashboards, financial modelling in Excel"
+    },
+    {
+      "id": "f027",
+      "career_track": "Accountant / B.Com",
+      "subject": "Excel for Accounting",
+      "title": "Excel Pivot Tables – Full Tutorial",
+      "url": "https://www.youtube.com/results?search_query=Excel%20Pivot%20Tables%20%E2%80%93%20Full%20Tutorial%20Kevin%20Stratvert",
+      "channel": "Kevin Stratvert",
+      "duration": "1.5 h",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "excel for accounting"
+      ],
+      "why": "Pivot tables for financial reporting and analysis"
+    },
+    {
+      "id": "f028",
+      "career_track": "Accountant / B.Com",
+      "subject": "Excel for Accounting",
+      "title": "Financial Modelling in Excel – Basics",
+      "url": "https://www.youtube.com/results?search_query=Financial%20Modelling%20in%20Excel%20%E2%80%93%20Basics%20Leila%20Gharani",
+      "channel": "Leila Gharani",
+      "duration": "2 h",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        "excel for accounting"
+      ],
+      "why": "Build a 3-statement model from scratch — DCF basics"
+    },
+    {
+      "id": "f029",
+      "career_track": "B.Com",
+      "subject": "Business Economics",
+      "title": "Microeconomics – Full Course – Khan Academy",
+      "url": "https://www.youtube.com/results?search_query=Microeconomics%20%E2%80%93%20Full%20Course%20%E2%80%93%20Khan%20Academy",
+      "channel": "Khan Academy",
+      "duration": "10 h",
+      "rating": 4.9,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "business economics",
+        "economics",
+        "micro",
+        "macro",
+        "gdp"
+      ],
+      "why": "Supply, demand, elasticity, market structures — clear visuals"
+    },
+    {
+      "id": "f030",
+      "career_track": "B.Com",
+      "subject": "Business Economics",
+      "title": "Macroeconomics – Crash Course",
+      "url": "https://www.youtube.com/results?search_query=Macroeconomics%20%E2%80%93%20Crash%20Course%20CrashCourse",
+      "channel": "CrashCourse",
+      "duration": "6 h",
+      "rating": 4.8,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "business economics",
+        "economics",
+        "micro",
+        "macro",
+        "gdp"
+      ],
+      "why": "GDP, inflation, monetary policy — engaging animated series"
+    },
+    {
+      "id": "f031",
+      "career_track": "B.Com",
+      "subject": "Business Finance",
+      "title": "Corporate Finance – Full Course",
+      "url": "https://www.youtube.com/results?search_query=Corporate%20Finance%20%E2%80%93%20Full%20Course%20freeCodeCamp",
+      "channel": "freeCodeCamp",
+      "duration": "8 h",
+      "rating": 4.7,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "business finance"
+      ],
+      "why": "Time value of money, NPV, IRR, capital budgeting — complete"
+    },
+    {
+      "id": "f032",
+      "career_track": "B.Com",
+      "subject": "Business Finance",
+      "title": "Personal Finance – Andrei Jikh",
+      "url": "https://www.youtube.com/results?search_query=Personal%20Finance%20%E2%80%93%20Andrei%20Jikh",
+      "channel": "Andrei Jikh",
+      "duration": "varies",
+      "rating": 4.8,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "business finance"
+      ],
+      "why": "Investing, budgeting, tax — personal finance for young professionals"
+    },
+    {
+      "id": "f033",
+      "career_track": "B.Com",
+      "subject": "Business Law",
+      "title": "Business Law – Complete Course for B.Com",
+      "url": "https://www.youtube.com/results?search_query=Business%20Law%20%E2%80%93%20Complete%20Course%20for%20B.Com%20Examrace",
+      "channel": "Examrace",
+      "duration": "12 h",
+      "rating": 4.7,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "business law",
+        "law",
+        "legal",
+        "contracts",
+        "company law"
+      ],
+      "why": "Indian Contract Act, Sale of Goods, Negotiable Instruments — B.Com syllabus"
+    },
+    {
+      "id": "f034",
+      "career_track": "B.Com",
+      "subject": "Company Law",
+      "title": "Company Law – Companies Act 2013",
+      "url": "https://www.youtube.com/results?search_query=Company%20Law%20%E2%80%93%20Companies%20Act%202013%20CA%20Rachana%20Ranade",
+      "channel": "CA Rachana Ranade",
+      "duration": "8 h",
+      "rating": 4.8,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "company law"
+      ],
+      "why": "Incorporation, types of companies, board meetings — India focused"
+    },
+    {
+      "id": "f035",
+      "career_track": "Receptionist",
+      "subject": "Communication Skills",
+      "title": "Professional Communication Skills – Full Course",
+      "url": "https://www.youtube.com/results?search_query=Professional%20Communication%20Skills%20%E2%80%93%20Full%20Course%20Skillshare",
+      "channel": "Skillshare",
+      "duration": "2 h",
+      "rating": 4.8,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "communication skills"
+      ],
+      "why": "Verbal, non-verbal, email — complete workplace communication"
+    },
+    {
+      "id": "f036",
+      "career_track": "Receptionist",
+      "subject": "Communication Skills",
+      "title": "Business English – Complete Course",
+      "url": "https://www.youtube.com/results?search_query=Business%20English%20%E2%80%93%20Complete%20Course%20Ganesh%20Kumar",
+      "channel": "Ganesh Kumar",
+      "duration": "15 h",
+      "rating": 4.8,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "communication skills"
+      ],
+      "why": "Professional vocabulary, emails, phone calls in English"
+    },
+    {
+      "id": "f037",
+      "career_track": "Receptionist",
+      "subject": "Communication Skills",
+      "title": "Phone Etiquette & Customer Service",
+      "url": "https://www.youtube.com/results?search_query=Phone%20Etiquette%20%26%20Customer%20Service%20Business%20Training%20Works",
+      "channel": "Business Training Works",
+      "duration": "30 min",
+      "rating": 4.8,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "communication skills"
+      ],
+      "why": "Exactly how to answer calls, hold, transfer — receptionist essentials"
+    },
+    {
+      "id": "f038",
+      "career_track": "Receptionist",
+      "subject": "Communication Skills",
+      "title": "Public Speaking – Confidence & Delivery",
+      "url": "https://www.youtube.com/results?search_query=Public%20Speaking%20%E2%80%93%20Confidence%20%26%20Delivery%20TED",
+      "channel": "TED",
+      "duration": "18 min",
+      "rating": 4.9,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "communication skills"
+      ],
+      "why": "Science of great talks — confidence, pace, presence"
+    },
+    {
+      "id": "f039",
+      "career_track": "Receptionist",
+      "subject": "Communication Skills",
+      "title": "Active Listening Skills – Workplace Training",
+      "url": "https://www.youtube.com/results?search_query=Active%20Listening%20Skills%20%E2%80%93%20Workplace%20Training%20Mind%20Tools",
+      "channel": "Mind Tools",
+      "duration": "15 min",
+      "rating": 4.7,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "communication skills"
+      ],
+      "why": "Active listening techniques for professional settings"
+    },
+    {
+      "id": "f040",
+      "career_track": "Receptionist",
+      "subject": "Front Office Operations",
+      "title": "Hotel Front Office – Front Desk Procedures",
+      "url": "https://www.youtube.com/results?search_query=Hotel%20Front%20Office%20%E2%80%93%20Front%20Desk%20Procedures%20Hotel%20Management%20School",
+      "channel": "Hotel Management School",
+      "duration": "8 h",
+      "rating": 4.7,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "front office operations"
+      ],
+      "why": "Check-in, check-out, reservations — hotel front desk complete guide"
+    },
+    {
+      "id": "f041",
+      "career_track": "Receptionist",
+      "subject": "Front Office Operations",
+      "title": "Medical Receptionist Training – Full Guide",
+      "url": "https://www.youtube.com/results?search_query=Medical%20Receptionist%20Training%20%E2%80%93%20Full%20Guide%20Medisolv",
+      "channel": "Medisolv",
+      "duration": "1 h",
+      "rating": 4.7,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "front office operations"
+      ],
+      "why": "Patient scheduling, HIPAA basics, EMR navigation"
+    },
+    {
+      "id": "f042",
+      "career_track": "Receptionist",
+      "subject": "Front Office Operations",
+      "title": "Office Administration – Complete Course",
+      "url": "https://www.youtube.com/results?search_query=Office%20Administration%20%E2%80%93%20Complete%20Course%20Alison",
+      "channel": "Alison",
+      "duration": "3 h",
+      "rating": 4.7,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "front office operations"
+      ],
+      "why": "Filing, scheduling, office management — all reception duties"
+    },
+    {
+      "id": "f043",
+      "career_track": "Receptionist",
+      "subject": "Front Office Operations",
+      "title": "Customer Service Excellence – Disney Method",
+      "url": "https://www.youtube.com/results?search_query=Customer%20Service%20Excellence%20%E2%80%93%20Disney%20Method%20Business%20Training%20Works",
+      "channel": "Business Training Works",
+      "duration": "45 min",
+      "rating": 4.8,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "front office operations"
+      ],
+      "why": "World-class customer service principles — Disney framework"
+    },
+    {
+      "id": "f044",
+      "career_track": "Receptionist",
+      "subject": "MS Office Skills",
+      "title": "Microsoft Word – Full Tutorial for Beginners",
+      "url": "https://www.youtube.com/results?search_query=Microsoft%20Word%20%E2%80%93%20Full%20Tutorial%20for%20Beginners%20Kevin%20Stratvert",
+      "channel": "Kevin Stratvert",
+      "duration": "1.5 h",
+      "rating": 4.8,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "ms office skills",
+        "ms office",
+        "word",
+        "powerpoint",
+        "excel"
+      ],
+      "why": "Documents, formatting, letters, mail merge — Word mastery"
+    },
+    {
+      "id": "f045",
+      "career_track": "Receptionist",
+      "subject": "MS Office Skills",
+      "title": "Microsoft Excel Basics – Full Course",
+      "url": "https://www.youtube.com/results?search_query=Microsoft%20Excel%20Basics%20%E2%80%93%20Full%20Course%20Leila%20Gharani",
+      "channel": "Leila Gharani",
+      "duration": "3 h",
+      "rating": 4.9,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "ms office skills",
+        "ms office",
+        "word",
+        "powerpoint",
+        "excel"
+      ],
+      "why": "Spreadsheets, formulas, data entry — admin and receptionist skills"
+    },
+    {
+      "id": "f046",
+      "career_track": "Receptionist",
+      "subject": "MS Office Skills",
+      "title": "Microsoft Outlook – Complete Tutorial",
+      "url": "https://www.youtube.com/results?search_query=Microsoft%20Outlook%20%E2%80%93%20Complete%20Tutorial%20Kevin%20Stratvert",
+      "channel": "Kevin Stratvert",
+      "duration": "1 h",
+      "rating": 4.8,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "ms office skills",
+        "ms office",
+        "word",
+        "powerpoint",
+        "excel"
+      ],
+      "why": "Email management, calendar, scheduling, contacts in Outlook"
+    },
+    {
+      "id": "f047",
+      "career_track": "Receptionist",
+      "subject": "MS Office Skills",
+      "title": "Google Workspace – Gmail, Drive, Calendar",
+      "url": "https://www.youtube.com/results?search_query=Google%20Workspace%20%E2%80%93%20Gmail%2C%20Drive%2C%20Calendar%20Kevin%20Stratvert",
+      "channel": "Kevin Stratvert",
+      "duration": "1 h",
+      "rating": 4.7,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "ms office skills",
+        "ms office",
+        "word",
+        "powerpoint",
+        "excel"
+      ],
+      "why": "Cloud office suite — scheduling, shared docs, Gmail"
+    },
+    {
+      "id": "f048",
+      "career_track": "Receptionist",
+      "subject": "Soft Skills",
+      "title": "Body Language for Professionals",
+      "url": "https://www.youtube.com/results?search_query=Body%20Language%20for%20Professionals%20TED",
+      "channel": "TED",
+      "duration": "21 min",
+      "rating": 4.9,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "soft skills"
+      ],
+      "why": "Amy Cuddy's power posing — presence, confidence at reception"
+    },
+    {
+      "id": "f049",
+      "career_track": "Receptionist",
+      "subject": "Soft Skills",
+      "title": "Workplace Etiquette & Professionalism",
+      "url": "https://www.youtube.com/results?search_query=Workplace%20Etiquette%20%26%20Professionalism%20Indeed",
+      "channel": "Indeed",
+      "duration": "20 min",
+      "rating": 4.7,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "soft skills"
+      ],
+      "why": "Dress code, punctuality, email tone, workplace behaviour"
+    },
+    {
+      "id": "f050",
+      "career_track": "Receptionist",
+      "subject": "Soft Skills",
+      "title": "Conflict Resolution at Work",
+      "url": "https://www.youtube.com/results?search_query=Conflict%20Resolution%20at%20Work%20Shapiro%20Negotiations",
+      "channel": "Shapiro Negotiations",
+      "duration": "30 min",
+      "rating": 4.7,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "soft skills"
+      ],
+      "why": "De-escalation, empathy, problem-solving — reception scenarios"
+    },
+    {
+      "id": "f051",
+      "career_track": "Receptionist",
+      "subject": "Soft Skills",
+      "title": "Time Management & Prioritization",
+      "url": "https://www.youtube.com/results?search_query=Time%20Management%20%26%20Prioritization%20Thomas%20Frank",
+      "channel": "Thomas Frank",
+      "duration": "15 min",
+      "rating": 4.8,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "soft skills"
+      ],
+      "why": "Manage multiple callers, visitors and tasks simultaneously"
+    },
+    {
+      "id": "f052",
+      "career_track": "Receptionist",
+      "subject": "Scheduling & CRM",
+      "title": "Calendly – Full Tutorial for Scheduling",
+      "url": "https://www.youtube.com/results?search_query=Calendly%20%E2%80%93%20Full%20Tutorial%20for%20Scheduling%20Kevin%20Stratvert",
+      "channel": "Kevin Stratvert",
+      "duration": "30 min",
+      "rating": 4.7,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "scheduling & crm"
+      ],
+      "why": "Automated scheduling tool used by modern offices and clinics"
+    },
+    {
+      "id": "f053",
+      "career_track": "Receptionist",
+      "subject": "Scheduling & CRM",
+      "title": "Salesforce CRM for Beginners",
+      "url": "https://www.youtube.com/results?search_query=Salesforce%20CRM%20for%20Beginners",
+      "channel": "Salesforce",
+      "duration": "2 h",
+      "rating": 4.7,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "scheduling & crm"
+      ],
+      "why": "CRM basics — customer records, tasks, leads — used in many front desks"
+    },
+    {
+      "id": "f054",
+      "career_track": "Receptionist",
+      "subject": "Scheduling & CRM",
+      "title": "Zoho CRM – Full Beginner Tutorial",
+      "url": "https://www.youtube.com/results?search_query=Zoho%20CRM%20%E2%80%93%20Full%20Beginner%20Tutorial",
+      "channel": "Zoho",
+      "duration": "1.5 h",
+      "rating": 4.6,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        "scheduling & crm"
+      ],
+      "why": "Popular India CRM — contacts, appointments, follow-ups"
+    },
+    {
+      "id": "f055",
+      "career_track": "B.Com",
+      "subject": "Business Statistics",
+      "title": "Business Statistics – Full Course",
+      "url": "https://www.youtube.com/results?search_query=Business%20Statistics%20%E2%80%93%20Full%20Course%20NPTEL",
+      "channel": "NPTEL",
+      "duration": "25 h",
+      "rating": 4.8,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "business statistics"
+      ],
+      "why": "Mean, median, regression, probability — NPTEL business stats"
+    },
+    {
+      "id": "f056",
+      "career_track": "B.Com",
+      "subject": "Business Statistics",
+      "title": "Statistics for Beginners – CrashCourse",
+      "url": "https://www.youtube.com/results?search_query=Statistics%20for%20Beginners%20%E2%80%93%20CrashCourse",
+      "channel": "CrashCourse",
+      "duration": "7 h",
+      "rating": 4.8,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "business statistics"
+      ],
+      "why": "Animated statistics series — probability to hypothesis testing"
+    },
+    {
+      "id": "f057",
+      "career_track": "B.Com",
+      "subject": "Research Methods",
+      "title": "Business Research Methods – NPTEL",
+      "url": "https://www.youtube.com/results?search_query=Business%20Research%20Methods%20%E2%80%93%20NPTEL",
+      "channel": "NPTEL",
+      "duration": "20 h",
+      "rating": 4.7,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "research methods"
+      ],
+      "why": "Qualitative, quantitative research, survey design"
+    },
+    {
+      "id": "f058",
+      "career_track": "B.Com",
+      "subject": "Marketing",
+      "title": "Marketing Management – Philip Kotler Concepts",
+      "url": "https://www.youtube.com/results?search_query=Marketing%20Management%20%E2%80%93%20Philip%20Kotler%20Concepts%20Marketing%2091",
+      "channel": "Marketing 91",
+      "duration": "10 h",
+      "rating": 4.7,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "marketing"
+      ],
+      "why": "4Ps, STP, branding, consumer behaviour — B.Com marketing"
+    },
+    {
+      "id": "f059",
+      "career_track": "B.Com",
+      "subject": "HRM",
+      "title": "Human Resource Management – Complete Course",
+      "url": "https://www.youtube.com/results?search_query=Human%20Resource%20Management%20%E2%80%93%20Complete%20Course%20NPTEL",
+      "channel": "NPTEL",
+      "duration": "20 h",
+      "rating": 4.7,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "hrm"
+      ],
+      "why": "Recruitment, training, performance appraisal — NPTEL HRM"
+    },
+    {
+      "id": "f060",
+      "career_track": "B.Com",
+      "subject": "Digital Skills",
+      "title": "Digital Marketing – Google Digital Garage",
+      "url": "https://www.youtube.com/results?search_query=Digital%20Marketing%20%E2%80%93%20Google%20Digital%20Garage",
+      "channel": "Google Digital Garage",
+      "duration": "40 h",
+      "rating": 4.8,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "digital skills"
+      ],
+      "why": "SEO, SEM, social media — free Google-certified course"
+    }
+  ],
+  "premium_resources": [
+    {
+      "id": "p001",
+      "platform": "NPTEL",
+      "title": "Financial Accounting & Analysis – IIT Kanpur",
+      "url": "https://nptel.ac.in/courses?searchText=Financial%20Accounting%20%26%20Analysis%20%E2%80%93%20IIT%20Kanpur",
+      "instructor": "IIT Kanpur Faculty",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "career_track": "Accountant / B.Com",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "IIT-grade financial accounting — journal to financial statements"
+    },
+    {
+      "id": "p002",
+      "platform": "NPTEL",
+      "title": "Management Accounting – IIT Madras",
+      "url": "https://nptel.ac.in/courses?searchText=Management%20Accounting%20%E2%80%93%20IIT%20Madras",
+      "instructor": "Naga Srinivasan",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "career_track": "Accountant / B.Com",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Budgeting, costing, control reports — IIT Madras quality"
+    },
+    {
+      "id": "p003",
+      "platform": "NPTEL",
+      "title": "Corporate Finance – IIT Kharagpur",
+      "url": "https://nptel.ac.in/courses?searchText=Corporate%20Finance%20%E2%80%93%20IIT%20Kharagpur",
+      "instructor": "Aswath Damodaran style",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "career_track": "B.Com / Finance",
+      "rating": 4.8,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Capital budgeting, WACC, valuation — complete corporate finance"
+    },
+    {
+      "id": "p004",
+      "platform": "NPTEL",
+      "title": "Business Statistics – IIT Roorkee",
+      "url": "https://nptel.ac.in/courses?searchText=Business%20Statistics%20%E2%80%93%20IIT%20Roorkee",
+      "instructor": "IIT Roorkee Faculty",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "career_track": "B.Com",
+      "rating": 4.7,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Probability, regression, hypothesis testing for business"
+    },
+    {
+      "id": "p005",
+      "platform": "NPTEL",
+      "title": "Marketing Management – IIT Kharagpur",
+      "url": "https://nptel.ac.in/courses?searchText=Marketing%20Management%20%E2%80%93%20IIT%20Kharagpur",
+      "instructor": "Jayanta Chatterjee",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "career_track": "B.Com / Marketing",
+      "rating": 4.7,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "STP, branding, pricing strategy — IIT KGP marketing"
+    },
+    {
+      "id": "p006",
+      "platform": "NPTEL",
+      "title": "Human Resource Management – IIT Kharagpur",
+      "url": "https://nptel.ac.in/courses?searchText=Human%20Resource%20Management%20%E2%80%93%20IIT%20Kharagpur",
+      "instructor": "B Mahadevan",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "career_track": "B.Com / HRM",
+      "rating": 4.7,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Recruitment, training, appraisal — comprehensive HRM"
+    },
+    {
+      "id": "p007",
+      "platform": "NPTEL",
+      "title": "Entrepreneurship – IIT Kharagpur",
+      "url": "https://nptel.ac.in/courses?searchText=Entrepreneurship%20%E2%80%93%20IIT%20Kharagpur",
+      "instructor": "Kalyan Bhaskar",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "career_track": "B.Com",
+      "rating": 4.7,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Startup, business plan, funding — practical entrepreneurship"
+    },
+    {
+      "id": "p008",
+      "platform": "Coursera",
+      "title": "Financial Accounting Specialization – Wharton",
+      "url": "https://www.coursera.org/search?query=Financial%20Accounting%20Specialization%20%E2%80%93%20Wharton",
+      "instructor": "Wharton / UPenn",
+      "price": "$49/mo",
+      "certificate": true,
+      "career_track": "Accountant / B.Com",
+      "rating": 4.9,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "4-course Wharton path — accruals, valuation, financial analysis"
+    },
+    {
+      "id": "p009",
+      "platform": "Coursera",
+      "title": "Accounting Analytics – Wharton",
+      "url": "https://www.coursera.org/search?query=Accounting%20Analytics%20%E2%80%93%20Wharton",
+      "instructor": "Christopher Ittner",
+      "price": "$49/mo",
+      "certificate": true,
+      "career_track": "Accountant",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        ""
+      ],
+      "why": "Data-driven accounting decisions — Excel + regression"
+    },
+    {
+      "id": "p010",
+      "platform": "Coursera",
+      "title": "Excel Skills for Business Specialization – Macquarie",
+      "url": "https://www.coursera.org/search?query=Excel%20Skills%20for%20Business%20Specialization%20%E2%80%93%20Macquarie",
+      "instructor": "Nicky Bull",
+      "price": "$49/mo",
+      "certificate": true,
+      "career_track": "Accountant / Receptionist",
+      "rating": 4.9,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "Best Excel specialization — 4 courses from basics to advanced"
+    },
+    {
+      "id": "p011",
+      "platform": "Coursera",
+      "title": "Business Finance Specialization – Univ of Illinois",
+      "url": "https://www.coursera.org/search?query=Business%20Finance%20Specialization%20%E2%80%93%20Univ%20of%20Illinois",
+      "instructor": "Heitor Almeida",
+      "price": "$49/mo",
+      "certificate": true,
+      "career_track": "B.Com / Finance",
+      "rating": 4.8,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Corporate finance, investments, risk — 5-course path"
+    },
+    {
+      "id": "p012",
+      "platform": "Coursera",
+      "title": "Introduction to Corporate Finance – Wharton",
+      "url": "https://www.coursera.org/search?query=Introduction%20to%20Corporate%20Finance%20%E2%80%93%20Wharton",
+      "instructor": "Michael Roberts",
+      "price": "$49/mo",
+      "certificate": true,
+      "career_track": "B.Com / Finance",
+      "rating": 4.8,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "NPV, IRR, capital budgeting — foundational corporate finance"
+    },
+    {
+      "id": "p013",
+      "platform": "Coursera",
+      "title": "Financial Markets – Yale",
+      "url": "https://www.coursera.org/search?query=Financial%20Markets%20%E2%80%93%20Yale",
+      "instructor": "Robert Shiller",
+      "price": "$49/mo",
+      "certificate": true,
+      "career_track": "B.Com / Finance",
+      "rating": 4.9,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Nobel laureate Shiller — stocks, bonds, derivatives, risk"
+    },
+    {
+      "id": "p014",
+      "platform": "Coursera",
+      "title": "Forensic Accounting & Fraud Examination – West Virginia",
+      "url": "https://www.coursera.org/search?query=Forensic%20Accounting%20%26%20Fraud%20Examination%20%E2%80%93%20West%20Virginia",
+      "instructor": "Roger Doost",
+      "price": "$49/mo",
+      "certificate": true,
+      "career_track": "Accountant",
+      "rating": 4.7,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        ""
+      ],
+      "why": "Fraud detection, internal control, audit evidence — specialist skill"
+    },
+    {
+      "id": "p015",
+      "platform": "Coursera",
+      "title": "US Federal Taxation Specialization – Illinois",
+      "url": "https://www.coursera.org/search?query=US%20Federal%20Taxation%20Specialization%20%E2%80%93%20Illinois",
+      "instructor": "Jeffrey Brown",
+      "price": "$49/mo",
+      "certificate": true,
+      "career_track": "Accountant",
+      "rating": 4.7,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        ""
+      ],
+      "why": "Individual and business taxes, deductions — 4-course US tax path"
+    },
+    {
+      "id": "p016",
+      "platform": "Coursera",
+      "title": "Business Communication Specialization – UCD",
+      "url": "https://www.coursera.org/search?query=Business%20Communication%20Specialization%20%E2%80%93%20UCD",
+      "instructor": "Patrick Flanagan",
+      "price": "$49/mo",
+      "certificate": true,
+      "career_track": "Receptionist / B.Com",
+      "rating": 4.7,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "Written, verbal, presentation — professional communication"
+    },
+    {
+      "id": "p017",
+      "platform": "Coursera",
+      "title": "Customer Service Fundamentals – Salesforce",
+      "url": "https://www.coursera.org/search?query=Customer%20Service%20Fundamentals%20%E2%80%93%20Salesforce",
+      "instructor": "Salesforce",
+      "price": "$49/mo",
+      "certificate": true,
+      "career_track": "Receptionist",
+      "rating": 4.7,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "CRM-backed customer service — ticketing, SLAs, escalation"
+    },
+    {
+      "id": "p018",
+      "platform": "Coursera",
+      "title": "People and Soft Skills for Professional Success – IBM",
+      "url": "https://www.coursera.org/search?query=People%20and%20Soft%20Skills%20for%20Professional%20Success%20%E2%80%93%20IBM",
+      "instructor": "IBM",
+      "price": "$49/mo",
+      "certificate": true,
+      "career_track": "Receptionist / B.Com",
+      "rating": 4.7,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "Communication, teamwork, leadership — IBM-certified soft skills"
+    },
+    {
+      "id": "p019",
+      "platform": "edX / Columbia",
+      "title": "Financial Analysis for Decision Making",
+      "url": "https://www.edx.org/search?q=Financial%20Analysis%20for%20Decision%20Making",
+      "instructor": "Columbia University",
+      "price": "$249",
+      "certificate": true,
+      "career_track": "Accountant / B.Com",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Ratio analysis, forecasting, valuation models"
+    },
+    {
+      "id": "p020",
+      "platform": "edX / Wharton",
+      "title": "Business Analytics – MicroMasters",
+      "url": "https://www.edx.org/search?q=Business%20Analytics%20%E2%80%93%20MicroMasters",
+      "instructor": "Wharton / UPenn",
+      "price": "$900 program",
+      "certificate": true,
+      "career_track": "B.Com / Analytics",
+      "rating": 4.9,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Wharton's analytics path — statistics, data, customer insights"
+    },
+    {
+      "id": "p021",
+      "platform": "edX / Microsoft",
+      "title": "Excel: Essential Skills",
+      "url": "https://www.edx.org/search?q=Excel%3A%20Essential%20Skills",
+      "instructor": "Microsoft",
+      "price": "Free / $99 cert",
+      "certificate": true,
+      "career_track": "Receptionist / Accountant",
+      "rating": 4.7,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "Microsoft-authored Excel course — data entry to pivot tables"
+    },
+    {
+      "id": "p022",
+      "platform": "edX / MIT",
+      "title": "Organizational Leadership",
+      "url": "https://www.edx.org/search?q=Organizational%20Leadership",
+      "instructor": "MIT Sloan",
+      "price": "$3500",
+      "certificate": true,
+      "career_track": "B.Com / Management",
+      "rating": 4.8,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Leadership, strategy, organizational change — MIT Sloan quality"
+    },
+    {
+      "id": "p023",
+      "platform": "Udemy",
+      "title": "The Complete Financial Analyst Course",
+      "url": "https://www.udemy.com/courses/search/?q=The%20Complete%20Financial%20Analyst%20Course",
+      "instructor": "365 Careers",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "career_track": "Accountant / B.Com",
+      "rating": 4.7,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Excel, PowerPoint, financial statements, DCF — full analyst path"
+    },
+    {
+      "id": "p024",
+      "platform": "Udemy",
+      "title": "Accounting Basics – Become a Bookkeeper",
+      "url": "https://www.udemy.com/courses/search/?q=Accounting%20Basics%20%E2%80%93%20Become%20a%20Bookkeeper",
+      "instructor": "Dru Armstrong",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "career_track": "Accountant",
+      "rating": 4.7,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        ""
+      ],
+      "why": "Double-entry bookkeeping from scratch — practical focus"
+    },
+    {
+      "id": "p025",
+      "platform": "Udemy",
+      "title": "GST & Income Tax – Complete India Course",
+      "url": "https://www.udemy.com/courses/search/?q=GST%20%26%20Income%20Tax%20%E2%80%93%20Complete%20India%20Course",
+      "instructor": "CA N Raja",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "career_track": "Accountant (India)",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        ""
+      ],
+      "why": "India-specific GST, ITR, TDS — practical compliance skills"
+    },
+    {
+      "id": "p026",
+      "platform": "Udemy",
+      "title": "QuickBooks Online – Complete Training",
+      "url": "https://www.udemy.com/courses/search/?q=QuickBooks%20Online%20%E2%80%93%20Complete%20Training",
+      "instructor": "Hector Garcia CPA",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "career_track": "Accountant",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        ""
+      ],
+      "why": "Most popular QuickBooks course — invoicing, payroll, reports"
+    },
+    {
+      "id": "p027",
+      "platform": "Udemy",
+      "title": "Tally Prime – Complete Course with GST",
+      "url": "https://www.udemy.com/courses/search/?q=Tally%20Prime%20%E2%80%93%20Complete%20Course%20with%20GST",
+      "instructor": "MARG ERP",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "career_track": "Accountant (India)",
+      "rating": 4.7,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        ""
+      ],
+      "why": "India's most-used accounting software — job-ready skills"
+    },
+    {
+      "id": "p028",
+      "platform": "Udemy",
+      "title": "Microsoft Excel – Excel from Beginner to Advanced",
+      "url": "https://www.udemy.com/courses/search/?q=Microsoft%20Excel%20%E2%80%93%20Excel%20from%20Beginner%20to%20Advanced",
+      "instructor": "Kyle Pew",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "career_track": "Receptionist / Accountant",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "Best-selling Excel course — 500,000+ students, pivot to macros"
+    },
+    {
+      "id": "p029",
+      "platform": "Udemy",
+      "title": "The Complete Communication Skills Master Class",
+      "url": "https://www.udemy.com/courses/search/?q=The%20Complete%20Communication%20Skills%20Master%20Class",
+      "instructor": "TJ Walker",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "career_track": "Receptionist / B.Com",
+      "rating": 4.6,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "Public speaking, email, negotiation — complete soft skills"
+    },
+    {
+      "id": "p030",
+      "platform": "Udemy",
+      "title": "Customer Service Mastery",
+      "url": "https://www.udemy.com/courses/search/?q=Customer%20Service%20Mastery",
+      "instructor": "Derek Stockley",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "career_track": "Receptionist",
+      "rating": 4.6,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "Handling complaints, difficult customers, service recovery"
+    },
+    {
+      "id": "p031",
+      "platform": "Udemy",
+      "title": "Receptionist & Office Admin – Complete Guide",
+      "url": "https://www.udemy.com/courses/search/?q=Receptionist%20%26%20Office%20Admin%20%E2%80%93%20Complete%20Guide",
+      "instructor": "Peter Alkema",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "career_track": "Receptionist",
+      "rating": 4.6,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "Front desk operations, scheduling, professional etiquette"
+    },
+    {
+      "id": "p032",
+      "platform": "Udemy",
+      "title": "Business English – Certificate Course",
+      "url": "https://www.udemy.com/courses/search/?q=Business%20English%20%E2%80%93%20Certificate%20Course",
+      "instructor": "Unlimited English",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "career_track": "Receptionist / B.Com",
+      "rating": 4.6,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "Emails, presentations, meetings, negotiations in English"
+    },
+    {
+      "id": "p033",
+      "platform": "Udemy",
+      "title": "Investment Banking – Valuation, LBO, M&A",
+      "url": "https://www.udemy.com/courses/search/?q=Investment%20Banking%20%E2%80%93%20Valuation%2C%20LBO%2C%20M%26A",
+      "instructor": "365 Careers",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "career_track": "B.Com / Finance",
+      "rating": 4.7,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "LBO, DCF, comparable company — IB interview prep"
+    },
+    {
+      "id": "p034",
+      "platform": "Udemy",
+      "title": "Power BI – Business Intelligence for Accountants",
+      "url": "https://www.udemy.com/courses/search/?q=Power%20BI%20%E2%80%93%20Business%20Intelligence%20for%20Accountants",
+      "instructor": "Maven Analytics",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "career_track": "Accountant / B.Com",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Power BI dashboards for financial reporting — modern data skill"
+    },
+    {
+      "id": "p035",
+      "platform": "Udemy",
+      "title": "Python for Finance – Investment & Accounting",
+      "url": "https://www.udemy.com/courses/search/?q=Python%20for%20Finance%20%E2%80%93%20Investment%20%26%20Accounting",
+      "instructor": "Udemy",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "career_track": "Accountant / B.Com",
+      "rating": 4.6,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Automate accounting reports, financial analysis with Python"
+    },
+    {
+      "id": "p036",
+      "platform": "ICAI (India)",
+      "title": "CA Foundation – Complete Self-Study",
+      "url": "https://www.google.com/search?q=CA%20Foundation%20%E2%80%93%20Complete%20Self-Study%20course",
+      "instructor": "ICAI",
+      "price": "₹9,000 reg",
+      "certificate": true,
+      "career_track": "Accountant (India)",
+      "rating": 4.9,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        ""
+      ],
+      "why": "India's gold-standard accountancy qualification — CA pathway"
+    },
+    {
+      "id": "p037",
+      "platform": "ICAI (India)",
+      "title": "CA Intermediate – Accounting & Law",
+      "url": "https://www.google.com/search?q=CA%20Intermediate%20%E2%80%93%20Accounting%20%26%20Law%20course",
+      "instructor": "ICAI",
+      "price": "₹15,000 reg",
+      "certificate": true,
+      "career_track": "Accountant (India)",
+      "rating": 4.9,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        ""
+      ],
+      "why": "CA Intermediate — advanced accounting, audit, taxation"
+    },
+    {
+      "id": "p038",
+      "platform": "AICPA / Becker",
+      "title": "CPA Exam Prep – All 4 Sections",
+      "url": "https://www.google.com/search?q=CPA%20Exam%20Prep%20%E2%80%93%20All%204%20Sections%20course",
+      "instructor": "Becker Professional",
+      "price": "$3,000–4,500",
+      "certificate": true,
+      "career_track": "Accountant (US/Global)",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        ""
+      ],
+      "why": "US CPA — gold standard global accounting qualification"
+    },
+    {
+      "id": "p039",
+      "platform": "ACCA (Global)",
+      "title": "ACCA Professional Qualification",
+      "url": "https://www.google.com/search?q=ACCA%20Professional%20Qualification%20course",
+      "instructor": "ACCA Global",
+      "price": "₹15,000–50,000",
+      "certificate": true,
+      "career_track": "Accountant (Global)",
+      "rating": 4.9,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        ""
+      ],
+      "why": "World's most recognised accounting qualification — 180+ countries"
+    },
+    {
+      "id": "p040",
+      "platform": "CMA India",
+      "title": "CMA – Cost Management Accountant",
+      "url": "https://www.google.com/search?q=CMA%20%E2%80%93%20Cost%20Management%20Accountant%20course",
+      "instructor": "ICMAI",
+      "price": "₹25,000 total",
+      "certificate": true,
+      "career_track": "Accountant (India)",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        ""
+      ],
+      "why": "Cost and management accounting — India's CMA path"
+    },
+    {
+      "id": "p041",
+      "platform": "LinkedIn Learning",
+      "title": "Accounting Foundations",
+      "url": "https://www.linkedin.com/learning/search?keywords=Accounting%20Foundations",
+      "instructor": "LinkedIn / Bonnie Biafore",
+      "price": "$39.99/mo",
+      "certificate": true,
+      "career_track": "Accountant / B.Com",
+      "rating": 4.7,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "LinkedIn profile badge; solid accounting overview for professionals"
+    },
+    {
+      "id": "p042",
+      "platform": "LinkedIn Learning",
+      "title": "Receptionist Career Essentials Path",
+      "url": "https://www.linkedin.com/learning/search?keywords=Receptionist%20Career%20Essentials%20Path",
+      "instructor": "LinkedIn Learning",
+      "price": "$39.99/mo",
+      "certificate": true,
+      "career_track": "Receptionist",
+      "rating": 4.6,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "Office tools, communication, scheduling — LinkedIn-certified path"
+    },
+    {
+      "id": "p043",
+      "platform": "Google",
+      "title": "Google Digital Marketing & E-Commerce Cert",
+      "url": "https://www.google.com/search?q=Google%20Digital%20Marketing%20%26%20E-Commerce%20Cert%20course",
+      "instructor": "Google",
+      "price": "$49/mo Coursera",
+      "certificate": true,
+      "career_track": "B.Com / Marketing",
+      "rating": 4.7,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Google-certified digital marketing — SEO, ads, analytics, Shopify"
+    },
+    {
+      "id": "p044",
+      "platform": "Google",
+      "title": "Google Data Analytics Certificate",
+      "url": "https://www.google.com/search?q=Google%20Data%20Analytics%20Certificate%20course",
+      "instructor": "Google",
+      "price": "$49/mo Coursera",
+      "certificate": true,
+      "career_track": "B.Com / Analytics",
+      "rating": 4.7,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Data-driven business decisions — SQL, R, Tableau, BigQuery"
+    },
+    {
+      "id": "p045",
+      "platform": "Microsoft",
+      "title": "Microsoft Office Specialist (MOS) – Excel Expert",
+      "url": "https://www.google.com/search?q=Microsoft%20Office%20Specialist%20%28MOS%29%20%E2%80%93%20Excel%20Expert%20course",
+      "instructor": "Microsoft",
+      "price": "$165 exam",
+      "certificate": true,
+      "career_track": "Receptionist / Accountant",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "Industry-recognised Excel cert — pivots, Power Query, macros"
+    },
+    {
+      "id": "p046",
+      "platform": "Microsoft",
+      "title": "Microsoft 365 Fundamentals (MS-900)",
+      "url": "https://www.google.com/search?q=Microsoft%20365%20Fundamentals%20%28MS-900%29%20course",
+      "instructor": "Microsoft Learn",
+      "price": "$165 exam",
+      "certificate": true,
+      "career_track": "Receptionist / B.Com",
+      "rating": 4.6,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "Teams, SharePoint, OneDrive — modern office suite certification"
+    },
+    {
+      "id": "p047",
+      "platform": "HubSpot Academy",
+      "title": "HubSpot CRM + Sales Software Cert",
+      "url": "https://www.google.com/search?q=HubSpot%20CRM%20%2B%20Sales%20Software%20Cert%20course",
+      "instructor": "HubSpot",
+      "price": "Free",
+      "certificate": true,
+      "career_track": "Receptionist / B.Com",
+      "rating": 4.8,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "CRM basics, contacts, deals, pipelines — industry-standard free cert"
+    },
+    {
+      "id": "p048",
+      "platform": "Tally Education",
+      "title": "Tally Certified Professional (TCP)",
+      "url": "https://www.google.com/search?q=Tally%20Certified%20Professional%20%28TCP%29%20course",
+      "instructor": "Tally Solutions",
+      "price": "₹5,000–10,000",
+      "certificate": true,
+      "career_track": "Accountant (India)",
+      "rating": 4.7,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        ""
+      ],
+      "why": "Official Tally certification — highest value for India accounting jobs"
+    },
+    {
+      "id": "p049",
+      "platform": "Coursera",
+      "title": "Everyday Excel Specialization – CU Boulder",
+      "url": "https://www.coursera.org/search?query=Everyday%20Excel%20Specialization%20%E2%80%93%20CU%20Boulder",
+      "instructor": "Charlie Nuttelman",
+      "price": "$49/mo",
+      "certificate": true,
+      "career_track": "Receptionist / Accountant",
+      "rating": 4.8,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "3-course Excel path — from basics to automation with VBA"
+    },
+    {
+      "id": "p050",
+      "platform": "edX / Purdue",
+      "title": "Management for a Competitive Edge",
+      "url": "https://www.edx.org/search?q=Management%20for%20a%20Competitive%20Edge",
+      "instructor": "Purdue",
+      "price": "$750",
+      "certificate": true,
+      "career_track": "B.Com / Management",
+      "rating": 4.6,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Leadership, strategy, operations — professional managers cert"
+    },
+    {
+      "id": "p051",
+      "platform": "Alison",
+      "title": "Diploma in Accounting",
+      "url": "https://www.google.com/search?q=Diploma%20in%20Accounting%20course",
+      "instructor": "Alison",
+      "price": "Free / €20 cert",
+      "certificate": true,
+      "career_track": "Accountant",
+      "rating": 4.5,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        ""
+      ],
+      "why": "Free diploma-level accounting course with certified completion"
+    },
+    {
+      "id": "p052",
+      "platform": "Alison",
+      "title": "Diploma in Office Administration",
+      "url": "https://www.google.com/search?q=Diploma%20in%20Office%20Administration%20course",
+      "instructor": "Alison",
+      "price": "Free / €20 cert",
+      "certificate": true,
+      "career_track": "Receptionist",
+      "rating": 4.5,
+      "tags": [
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "Office procedures, admin skills — free with certificate option"
+    },
+    {
+      "id": "p053",
+      "platform": "Udemy",
+      "title": "SAP FICO – Financial Accounting & Controlling",
+      "url": "https://www.udemy.com/courses/search/?q=SAP%20FICO%20%E2%80%93%20Financial%20Accounting%20%26%20Controlling",
+      "instructor": "Michael Management",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "career_track": "Accountant",
+      "rating": 4.7,
+      "tags": [
+        "accountant",
+        "accounting",
+        "finance",
+        ""
+      ],
+      "why": "SAP FICO is #1 ERP for accountants — global industry demand"
+    },
+    {
+      "id": "p054",
+      "platform": "Coursera",
+      "title": "Communication in the 21st Century Workplace – UC Davis",
+      "url": "https://www.coursera.org/search?query=Communication%20in%20the%2021st%20Century%20Workplace%20%E2%80%93%20UC%20Davis",
+      "instructor": "UC Davis",
+      "price": "$49/mo",
+      "certificate": true,
+      "career_track": "Receptionist / B.Com",
+      "rating": 4.7,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        "receptionist",
+        "front office",
+        "customer service",
+        ""
+      ],
+      "why": "Workplace communication, listening, conflict — practical skills"
+    },
+    {
+      "id": "p055",
+      "platform": "Simplilearn / Coursera",
+      "title": "Post Graduate Program in Financial Analysis",
+      "url": "https://www.coursera.org/search?query=Post%20Graduate%20Program%20in%20Financial%20Analysis",
+      "instructor": "Simplilearn",
+      "price": "₹50,000+",
+      "certificate": true,
+      "career_track": "B.Com / Finance",
+      "rating": 4.6,
+      "tags": [
+        "bcom",
+        "commerce",
+        "business",
+        ""
+      ],
+      "why": "Financial modelling, valuation, CFA prep — India placement track"
+    }
+  ]
+}

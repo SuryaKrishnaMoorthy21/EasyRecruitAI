@@ -1,0 +1,314 @@
+EASYRECRUIT AI PROJECT OVERVIEW, SETUP GUIDE, REQUIREMENTS, AND
+DEVELOPMENT STATUS Prepared for GitHub review and the Hack for Social
+Cause hackathon
+
+IMPORTANT STATUS NOTICE EasyRecruit AI is still under development. It is
+an evolving software prototype, not a fully validated or
+production-ready recruitment product. The current package is based on
+the Task 7 release. Some verification remains incomplete: the real
+Sentence Transformers semantic model was not loaded in the recorded
+verification environment, a model-dependent test remained failing, and
+deployment to Docker, Render, and Railway was not verified. Do not
+interpret the available test results as proof of recruitment accuracy,
+fairness, or real-world impact.
+
+1.  PROJECT OVERVIEW
+
+EasyRecruit AI is an AI-assisted recruitment and resume-screening
+prototype. It is designed to help recruiters organise resume information
+and compare candidate qualifications with job requirements. The system
+uses text extraction and Natural Language Processing (NLP) techniques,
+including keyword and skill matching, with semantic similarity when the
+required model is available.
+
+The aim is to reduce repetitive manual screening work and provide
+structured information that can support a recruiter’s review.
+EasyRecruit AI is intended to assist human decision-making, not
+independently make hiring decisions.
+
+2.  PROBLEM STATEMENT
+
+Recruiters may receive many resumes for a single vacancy. Reviewing each
+resume manually can take time, and strict keyword matching may miss
+relevant experience or skills described using different terminology. A
+recruitment-assistance tool can help extract relevant information and
+organise comparisons against a job description.
+
+This project explores a technical approach to that problem. Its
+practical usefulness must still be evaluated with recruiters,
+appropriate sample data, and a documented evaluation method.
+
+3.  MAIN FEATURES IN THE CURRENT PROJECT
+
+-   Resume text extraction and analysis for supported document formats.
+-   Keyword extraction and skill matching against job requirements.
+-   Weighted scoring that combines multiple evaluation dimensions.
+-   Semantic similarity when the configured Sentence Transformers model
+    is available.
+-   Batch resume analysis, subject to configured upload and processing
+    limits.
+-   Candidate-oriented results intended to help recruiters review
+    qualifications.
+-   Authentication and access-control functionality.
+-   Input and upload validation, request limits, and CORS configuration.
+-   Scoring explanations and handling for non-finite values such as NaN
+    and Infinity.
+-   Additional recruitment-related API routes, including job, profile,
+    recommendation, interview, fraud-indicator, and bias-indicator
+    functionality.
+
+Feature availability and behaviour should be confirmed by running the
+application and testing the relevant workflow. Fraud and bias indicators
+are only prompts for human review; they are not proof of misconduct or
+discrimination.
+
+4.  TECHNOLOGY STACK
+
+-   Backend: Python and FastAPI.
+-   Frontend: HTML, CSS, and JavaScript.
+-   Database: SQLite by default in the supplied configuration.
+-   Resume parsing: pdfplumber and python-docx.
+-   NLP and machine learning: spaCy, Sentence Transformers, NumPy, and
+    scikit-learn.
+-   Authentication and configuration: bcrypt, PyJWT, and python-dotenv.
+-   Testing: pytest and a JavaScript frontend-security test harness.
+-   Deployment files: Dockerfile, Docker Compose configuration, and
+    example Render/Railway configuration.
+
+5.  REQUIREMENTS
+
+Recommended baseline: - Python 3.11, as stated by the project’s
+requirements and documentation. - pip and virtual-environment support. -
+Internet access during initial dependency installation and, if needed,
+semantic-model download. - Sufficient disk space and memory for Python
+dependencies and NLP/ML libraries. - A modern web browser. - Git, if
+cloning the repository from GitHub.
+
+The real semantic model may require additional download time, storage,
+memory, and compatible dependencies. If it cannot be downloaded or
+loaded, semantic matching may be unavailable and the application may use
+its fallback behaviour. This fallback does not verify the real semantic
+model.
+
+6.  GET THE PROJECT
+
+After the repository has been published, clone it using the actual
+repository URL:
+
+    git clone https://github.com/YOUR-USERNAME/EasyRecruitAI.git
+    cd EasyRecruitAI
+
+Replace YOUR-USERNAME with the GitHub account or organisation that owns
+the repository. If the project folder has a different name after
+cloning, change into that folder instead.
+
+Alternatively, download the repository ZIP from GitHub, extract it, and
+open a terminal in the extracted project root. The project root is the
+directory containing main.py, requirements.txt, README.md, and the app
+and frontend folders.
+
+7.  CREATE A VIRTUAL ENVIRONMENT AND INSTALL DEPENDENCIES
+
+Windows PowerShell:
+
+    py -3.11 -m venv .venv
+    .\.venv\Scripts\Activate.ps1
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+    python -m spacy download en_core_web_sm
+
+If PowerShell blocks virtual-environment activation, consult the Python
+documentation or use Command Prompt with:
+
+    py -3.11 -m venv .venv
+    .venv\Scripts\activate.bat
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+    python -m spacy download en_core_web_sm
+
+macOS or Linux:
+
+    python3.11 -m venv .venv
+    source .venv/bin/activate
+    python -m pip install --upgrade pip
+    pip install -r requirements.txt
+    python -m spacy download en_core_web_sm
+
+Dependency installation may fail on unsupported Python versions, missing
+build tools, incompatible packages, or network restrictions. The project
+requirements are pinned and documented for the intended environment; use
+Python 3.11 first and record any installation errors rather than
+silently changing versions.
+
+8.  CONFIGURE ENVIRONMENT VARIABLES
+
+Copy the example configuration to a local .env file.
+
+Windows PowerShell:
+
+    Copy-Item .env.example .env
+
+macOS or Linux:
+
+    cp .env.example .env
+
+Open .env and replace the example SECRET_KEY with a strong random value.
+One way to generate a value is:
+
+    python -c "import secrets; print(secrets.token_hex(32))"
+
+The example configuration is for local development only. Review
+.env.example and .env.production.example before changing settings. Do
+not use example secrets in a real deployment.
+
+Never commit .env, real API keys, passwords, production credentials,
+local database files, private resumes, or other personal information.
+Keep real values in local environment variables or the hosting
+platform’s secret/environment-variable settings. The repository’s
+.gitignore should be checked before staging files.
+
+9.  RUN THE APPLICATION LOCALLY
+
+From the project root, with the virtual environment activated and
+dependencies installed:
+
+    python -m uvicorn main:app --host 127.0.0.1 --port 8001 --reload
+
+Open this address in a browser:
+
+    http://127.0.0.1:8001
+
+Use the application-served frontend. Do not open frontend/index.html
+directly using a file:// URL, because the frontend is intended to
+communicate with the backend application.
+
+The first startup may take longer while dependencies or NLP resources
+are initialised. If startup fails, read the terminal error, confirm the
+virtual environment is active, confirm .env is configured, and check
+that required dependencies and the spaCy model are installed.
+
+10. RUN TESTS
+
+With the virtual environment activated, run the test suite from the
+project root:
+
+    python -m pytest -q
+
+To run the frontend security test file through pytest:
+
+    python -m pytest -q tests/test_frontend_xss.py
+
+The repository also contains a frontend test harness under
+tests/frontend. Follow the instructions in that directory if running it
+directly.
+
+Record the exact command and results. Passed, failed, skipped, and
+errored tests are different outcomes. A skipped test is not a pass. If
+tests fail during collection because a dependency is missing, install
+the declared requirements in a clean environment and rerun the tests. Do
+not change or delete a test only to obtain a green result.
+
+11. CURRENT VERIFICATION LIMITATIONS
+
+The accompanying Task 7 verification report states that: - A recorded
+run using a stub for the unavailable semantic model reported 765 passed,
+1 failed, 0 skipped. - Without the stub, the recorded environment had
+missing sentence_transformers errors and additional skipped tests. - The
+real Sentence Transformers model was not loaded and tested in that
+verification environment. - The test named
+test_score_with_jd_higher_than_without remained failing because it
+depends on the real model. - Docker, Render, Railway, real-browser
+testing, load testing, and a complete clean installation of requirements
+were not verified in that report. - No labelled evaluation dataset was
+supplied to establish predictive accuracy or fairness.
+
+These are limitations of the available verification evidence, not proof
+that every workflow is broken. Re-run tests in the intended environment
+and update this section only when new results are available. Do not
+claim the real model works unless it is actually loaded and tested.
+
+12. RESPONSIBLE USE, PRIVACY, AND FAIRNESS
+
+-   Treat scores as heuristic decision-support signals, not hiring
+    probabilities or guaranteed measures of candidate quality.
+-   A high score does not guarantee that a candidate is suitable, and a
+    low score does not prove that a candidate is unsuitable.
+-   Recruiters must review candidate qualifications and make final
+    hiring decisions.
+-   Fraud or bias indicators must be investigated by a qualified human
+    and must not be treated as definitive conclusions.
+-   Use synthetic or appropriately anonymised resumes for demonstrations
+    and testing.
+-   Collect and process personal information only when authorised, with
+    appropriate safeguards and retention practices.
+-   Before real-world use, evaluate matching quality, usability, data
+    protection, and potential differences in outcomes across relevant
+    groups.
+
+13. HACKATHON AND SOCIAL-IMPACT CONTEXT
+
+EasyRecruit AI is being prepared for the Hack for Social Cause
+hackathon. Its intended social value is to explore whether NLP-assisted
+resume analysis can reduce repetitive screening effort and help organise
+candidate information. The project is relevant to discussions around
+decent work and more inclusive access to employment opportunities, but
+it does not yet prove that it improves employment outcomes or eliminates
+bias.
+
+Potential future evaluation measures include screening time, consistency
+of system outputs, agreement with qualified human reviewers, usability
+feedback, and differences in results across relevant candidate groups.
+These measures should be collected and reported transparently.
+
+14. DEVELOPMENT ROADMAP
+
+Suggested next steps: 1. Reproduce the existing tests from a clean
+environment and resolve confirmed defects. 2. Load and test the real
+semantic model where dependencies, network access, and resources permit.
+3. Test the complete resume-to-results workflow with synthetic or
+anonymised examples. 4. Review authentication, access control, upload
+limits, secret handling, and database configuration. 5. Verify Docker
+and hosting deployment separately before claiming deployment readiness.
+6. Gather structured feedback from recruiters or representative users.
+7. Evaluate matching quality and potential bias using a documented,
+appropriate dataset and method. 8. Update the README and verification
+report with reproducible evidence before a public release.
+
+15. TEAM
+
+SURYA K — Project Lead, Backend Development, and System Integration.
+KAVIMANI K — Frontend Development and User Interface. ANUGAYATRE S —
+Testing, Documentation, and Validation.
+
+These are the proposed project roles and should be confirmed by the team
+before publication. The team collaborates on planning, debugging,
+integration, testing, and documentation.
+
+16. REPOSITORY AND CONTRIBUTION NOTES
+
+-   Keep README.md in the repository root.
+-   Keep requirements.txt, .gitignore, .env.example, and
+    setup/deployment documentation aligned with the actual code.
+-   Do not commit secrets, personal data, local databases, virtual
+    environments, cache directories, or generated test artifacts.
+-   Use clear commit messages and review staged files with git status
+    before pushing.
+-   Document known limitations instead of hiding failures.
+-   No open-source license has been selected in the supplied project
+    documentation. Until a license is added, do not assume others have
+    permission to reuse or redistribute the code. The team should select
+    a suitable license before inviting external reuse or contributions.
+
+17. PROJECT STATUS SUMMARY
+
+Status: IN DEVELOPMENT — ACADEMIC / HACKATHON PROTOTYPE.
+
+The project contains a substantial implementation and testing structure,
+but complete verification is pending. The real semantic model and
+deployment have not been fully verified in the recorded Task 7 report.
+Accuracy, fairness, user adoption, and social impact have not been
+established through a labelled evaluation or real-world study. The
+application should be treated as a prototype for further testing, not as
+a fully validated production hiring system.
+
+END OF DOCUMENT

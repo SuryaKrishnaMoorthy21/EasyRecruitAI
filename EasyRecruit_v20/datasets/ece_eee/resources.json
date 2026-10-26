@@ -1,0 +1,2162 @@
+{
+  "meta": {
+    "domain": "ece_eee",
+    "domain_full": "Electronics & Communication Engineering / Electrical & Electronics Engineering",
+    "version": "1.0",
+    "description": "Curated YouTube playlists and courses for ECE/EEE students and job seekers",
+    "last_updated": "2026-03-31"
+  },
+  "skill_topic_map": {
+    "basic_electronics": [
+      "basic electronics",
+      "diodes",
+      "bjt",
+      "mosfet",
+      "opamp",
+      "transistor"
+    ],
+    "digital_electronics": [
+      "digital electronics",
+      "logic gates",
+      "flip flop",
+      "sequential",
+      "combinational"
+    ],
+    "signals_systems": [
+      "signals & systems",
+      "signals and systems",
+      "dsp",
+      "fourier",
+      "laplace"
+    ],
+    "control_systems": [
+      "control systems",
+      "pid",
+      "transfer function",
+      "bode plot",
+      "stability"
+    ],
+    "vlsi": [
+      "vlsi design",
+      "cmos",
+      "chip design",
+      "verilog",
+      "vhdl"
+    ],
+    "iot_embedded": [
+      "iot & embedded",
+      "iot",
+      "embedded systems",
+      "arduino",
+      "raspberry pi",
+      "microcontroller"
+    ],
+    "microprocessors": [
+      "microprocessors",
+      "8085",
+      "arm",
+      "assembly",
+      "mcu"
+    ],
+    "power_systems": [
+      "power systems",
+      "transmission",
+      "distribution",
+      "grid",
+      "generation"
+    ],
+    "power_electronics": [
+      "power electronics",
+      "converter",
+      "inverter",
+      "rectifier",
+      "pwm"
+    ],
+    "communication": [
+      "communication systems",
+      "modulation",
+      "analog comms",
+      "digital comms",
+      "wireless"
+    ],
+    "analog_electronics": [
+      "analog electronics",
+      "amplifier",
+      "bjt amplifier",
+      "operational amplifier"
+    ],
+    "electromagnetics": [
+      "electromagnetic theory",
+      "emf",
+      "maxwell",
+      "antenna",
+      "rf"
+    ],
+    "circuit_theory": [
+      "circuit theory",
+      "kvl",
+      "kcl",
+      "thevenin",
+      "norton",
+      "mesh"
+    ],
+    "electrical_machines": [
+      "electrical machines",
+      "induction motor",
+      "transformer",
+      "synchronous machine"
+    ],
+    "instrumentation": [
+      "instrumentation",
+      "sensors",
+      "transducers",
+      "measurement"
+    ],
+    "engineering_maths": [
+      "engineering maths",
+      "calculus",
+      "linear algebra",
+      "differential equations"
+    ]
+  },
+  "free_resources": [
+    {
+      "id": "f001",
+      "subject": "Basic Electronics",
+      "branch": "ECE/EEE",
+      "title": "Basic Electronics – Complete Course",
+      "url": "https://www.youtube.com/results?search_query=Basic%20Electronics%20%E2%80%93%20Complete%20Course%20Neso%20Academy",
+      "channel": "Neso Academy",
+      "duration": "18 h",
+      "rating": 4.9,
+      "tags": [
+        "opamp",
+        "basic",
+        "bjt",
+        "diodes",
+        "electronics",
+        "ece",
+        "eee"
+      ],
+      "why": "Diodes, BJTs, FETs, op-amps — university-level depth"
+    },
+    {
+      "id": "f002",
+      "subject": "Basic Electronics",
+      "branch": "ECE/EEE",
+      "title": "Electronics – Crash Course Engineering",
+      "url": "https://www.youtube.com/results?search_query=Electronics%20%E2%80%93%20Crash%20Course%20Engineering%20CrashCourse",
+      "channel": "CrashCourse",
+      "duration": "5 h",
+      "rating": 4.7,
+      "tags": [
+        "opamp",
+        "basic",
+        "bjt",
+        "diodes",
+        "electronics",
+        "ece",
+        "eee"
+      ],
+      "why": "Visually engaging overview; great starting point"
+    },
+    {
+      "id": "f003",
+      "subject": "Basic Electronics",
+      "branch": "ECE/EEE",
+      "title": "Electronic Devices & Circuits – NPTEL",
+      "url": "https://www.youtube.com/results?search_query=Electronic%20Devices%20%26%20Circuits%20%E2%80%93%20NPTEL",
+      "channel": "NPTEL",
+      "duration": "30 h",
+      "rating": 4.8,
+      "tags": [
+        "opamp",
+        "basic",
+        "bjt",
+        "diodes",
+        "electronics",
+        "ece",
+        "eee"
+      ],
+      "why": "IIT-quality lectures; semiconductor physics to amplifiers"
+    },
+    {
+      "id": "f004",
+      "subject": "Basic Electronics",
+      "branch": "ECE/EEE",
+      "title": "Electronics for Beginners – AddOhms",
+      "url": "https://www.youtube.com/results?search_query=Electronics%20for%20Beginners%20%E2%80%93%20AddOhms",
+      "channel": "AddOhms",
+      "duration": "varies",
+      "rating": 4.7,
+      "tags": [
+        "opamp",
+        "basic",
+        "bjt",
+        "diodes",
+        "electronics",
+        "ece",
+        "eee"
+      ],
+      "why": "Bite-sized concept videos; resistors, capacitors, transistors"
+    },
+    {
+      "id": "f005",
+      "subject": "Circuit Theory",
+      "branch": "ECE/EEE",
+      "title": "Circuit Theory – Gate Smashers",
+      "url": "https://www.youtube.com/results?search_query=Circuit%20Theory%20%E2%80%93%20Gate%20Smashers",
+      "channel": "Gate Smashers",
+      "duration": "20 h",
+      "rating": 4.9,
+      "tags": [
+        "eee",
+        "theory",
+        "circuit",
+        "ece"
+      ],
+      "why": "KVL, KCL, Thevenin, Norton — GATE-ready circuit analysis"
+    },
+    {
+      "id": "f006",
+      "subject": "Circuit Theory",
+      "branch": "ECE/EEE",
+      "title": "Network Theory – Neso Academy",
+      "url": "https://www.youtube.com/results?search_query=Network%20Theory%20%E2%80%93%20Neso%20Academy",
+      "channel": "Neso Academy",
+      "duration": "25 h",
+      "rating": 4.8,
+      "tags": [
+        "eee",
+        "theory",
+        "circuit",
+        "ece"
+      ],
+      "why": "Two-port networks, resonance, transient analysis"
+    },
+    {
+      "id": "f007",
+      "subject": "Circuit Theory",
+      "branch": "ECE/EEE",
+      "title": "All About Circuits – EEVblog",
+      "url": "https://www.youtube.com/results?search_query=All%20About%20Circuits%20%E2%80%93%20EEVblog",
+      "channel": "EEVblog",
+      "duration": "varies",
+      "rating": 4.8,
+      "tags": [
+        "eee",
+        "theory",
+        "circuit",
+        "ece"
+      ],
+      "why": "Practical real-world circuit analysis with Dave Jones"
+    },
+    {
+      "id": "f008",
+      "subject": "Circuit Theory",
+      "branch": "ECE/EEE",
+      "title": "MIT 6.002 Circuits & Electronics",
+      "url": "https://www.youtube.com/results?search_query=MIT%206.002%20Circuits%20%26%20Electronics%20MIT%20OpenCourseWare",
+      "channel": "MIT OpenCourseWare",
+      "duration": "30 h",
+      "rating": 4.9,
+      "tags": [
+        "eee",
+        "theory",
+        "circuit",
+        "ece"
+      ],
+      "why": "MIT's legendary circuits course — rigorous & visual"
+    },
+    {
+      "id": "f009",
+      "subject": "Signals & Systems",
+      "branch": "ECE/EEE",
+      "title": "Signals & Systems – Neso Academy",
+      "url": "https://www.youtube.com/results?search_query=Signals%20%26%20Systems%20%E2%80%93%20Neso%20Academy",
+      "channel": "Neso Academy",
+      "duration": "30 h",
+      "rating": 4.9,
+      "tags": [
+        "dsp",
+        "signals",
+        "ece",
+        "eee",
+        "gate ece",
+        "systems"
+      ],
+      "why": "Fourier, Laplace, Z-transform — clearest S&S playlist"
+    },
+    {
+      "id": "f010",
+      "subject": "Signals & Systems",
+      "branch": "ECE/EEE",
+      "title": "Signals & Systems – NPTEL IIT Delhi",
+      "url": "https://www.youtube.com/results?search_query=Signals%20%26%20Systems%20%E2%80%93%20NPTEL%20IIT%20Delhi",
+      "channel": "NPTEL",
+      "duration": "40 h",
+      "rating": 4.8,
+      "tags": [
+        "dsp",
+        "signals",
+        "ece",
+        "eee",
+        "gate ece",
+        "systems"
+      ],
+      "why": "S Dasgupta IIT Delhi — university exam standard"
+    },
+    {
+      "id": "f011",
+      "subject": "Signals & Systems",
+      "branch": "ECE/EEE",
+      "title": "DSP – Digital Signal Processing – Iain Explains",
+      "url": "https://www.youtube.com/results?search_query=DSP%20%E2%80%93%20Digital%20Signal%20Processing%20%E2%80%93%20Iain%20Explains%20Iain%20Explains%20Signals",
+      "channel": "Iain Explains Signals",
+      "duration": "10 h",
+      "rating": 4.8,
+      "tags": [
+        "dsp",
+        "signals",
+        "ece",
+        "eee",
+        "gate ece",
+        "systems"
+      ],
+      "why": "Intuitive DSP; FFT, filters, sampling theorem"
+    },
+    {
+      "id": "f012",
+      "subject": "Signals & Systems",
+      "branch": "ECE/EEE",
+      "title": "Fourier Series & Transform Visually",
+      "url": "https://www.youtube.com/results?search_query=Fourier%20Series%20%26%20Transform%20Visually%203Blue1Brown",
+      "channel": "3Blue1Brown",
+      "duration": "20 min",
+      "rating": 5.0,
+      "tags": [
+        "dsp",
+        "signals",
+        "ece",
+        "eee",
+        "gate ece",
+        "systems"
+      ],
+      "why": "Most beautiful visual explanation of Fourier transform"
+    },
+    {
+      "id": "f013",
+      "subject": "Analog Electronics",
+      "branch": "ECE",
+      "title": "Analog Electronics – NPTEL IIT Kharagpur",
+      "url": "https://www.youtube.com/results?search_query=Analog%20Electronics%20%E2%80%93%20NPTEL%20IIT%20Kharagpur",
+      "channel": "NPTEL",
+      "duration": "40 h",
+      "rating": 4.8,
+      "tags": [
+        "analog",
+        "electronics",
+        "ece"
+      ],
+      "why": "Op-amp circuits, feedback, oscillators — complete analog"
+    },
+    {
+      "id": "f014",
+      "subject": "Analog Electronics",
+      "branch": "ECE",
+      "title": "Op-Amp Circuits – All About Electronics",
+      "url": "https://www.youtube.com/results?search_query=Op-Amp%20Circuits%20%E2%80%93%20All%20About%20Electronics",
+      "channel": "All About Electronics",
+      "duration": "10 h",
+      "rating": 4.8,
+      "tags": [
+        "analog",
+        "electronics",
+        "ece"
+      ],
+      "why": "Every op-amp circuit type with simulation demos"
+    },
+    {
+      "id": "f015",
+      "subject": "Analog Electronics",
+      "branch": "ECE",
+      "title": "Transistor Amplifiers – The Engineering Mindset",
+      "url": "https://www.youtube.com/results?search_query=Transistor%20Amplifiers%20%E2%80%93%20The%20Engineering%20Mindset",
+      "channel": "The Engineering Mindset",
+      "duration": "3 h",
+      "rating": 4.7,
+      "tags": [
+        "analog",
+        "electronics",
+        "ece"
+      ],
+      "why": "BJT & FET amplifier design from scratch"
+    },
+    {
+      "id": "f016",
+      "subject": "Analog Electronics",
+      "branch": "ECE",
+      "title": "Analog IC Design – MIT OCW 6.301",
+      "url": "https://www.youtube.com/results?search_query=Analog%20IC%20Design%20%E2%80%93%20MIT%20OCW%206.301%20MIT%20OpenCourseWare",
+      "channel": "MIT OpenCourseWare",
+      "duration": "25 h",
+      "rating": 4.8,
+      "tags": [
+        "analog",
+        "electronics",
+        "ece"
+      ],
+      "why": "MIT analog IC — op-amps to feedback amplifiers"
+    },
+    {
+      "id": "f017",
+      "subject": "Digital Electronics",
+      "branch": "ECE/EEE",
+      "title": "Digital Electronics – Neso Academy",
+      "url": "https://www.youtube.com/results?search_query=Digital%20Electronics%20%E2%80%93%20Neso%20Academy",
+      "channel": "Neso Academy",
+      "duration": "25 h",
+      "rating": 4.9,
+      "tags": [
+        "digital",
+        "logic gates",
+        "electronics",
+        "ece",
+        "sequential",
+        "eee"
+      ],
+      "why": "Boolean algebra, K-maps, flip-flops, counters — best DE"
+    },
+    {
+      "id": "f018",
+      "subject": "Digital Electronics",
+      "branch": "ECE/EEE",
+      "title": "Digital Electronics – Gate Smashers",
+      "url": "https://www.youtube.com/results?search_query=Digital%20Electronics%20%E2%80%93%20Gate%20Smashers",
+      "channel": "Gate Smashers",
+      "duration": "20 h",
+      "rating": 4.9,
+      "tags": [
+        "digital",
+        "logic gates",
+        "electronics",
+        "ece",
+        "sequential",
+        "eee"
+      ],
+      "why": "GATE-focused digital; combinational + sequential circuits"
+    },
+    {
+      "id": "f019",
+      "subject": "Digital Electronics",
+      "branch": "ECE/EEE",
+      "title": "VHDL & FPGA – FPGAs for Beginners",
+      "url": "https://www.youtube.com/results?search_query=VHDL%20%26%20FPGA%20%E2%80%93%20FPGAs%20for%20Beginners%20Digilent",
+      "channel": "Digilent",
+      "duration": "8 h",
+      "rating": 4.7,
+      "tags": [
+        "digital",
+        "logic gates",
+        "electronics",
+        "ece",
+        "sequential",
+        "eee"
+      ],
+      "why": "VHDL coding, simulation, Vivado FPGA design"
+    },
+    {
+      "id": "f020",
+      "subject": "Digital Electronics",
+      "branch": "ECE/EEE",
+      "title": "Verilog HDL – NPTEL",
+      "url": "https://www.youtube.com/results?search_query=Verilog%20HDL%20%E2%80%93%20NPTEL",
+      "channel": "NPTEL",
+      "duration": "15 h",
+      "rating": 4.7,
+      "tags": [
+        "digital",
+        "logic gates",
+        "electronics",
+        "ece",
+        "sequential",
+        "eee"
+      ],
+      "why": "Verilog from scratch — RTL design and synthesis"
+    },
+    {
+      "id": "f021",
+      "subject": "Electromagnetic Theory",
+      "branch": "ECE/EEE",
+      "title": "Electromagnetic Fields – NPTEL IIT Madras",
+      "url": "https://www.youtube.com/results?search_query=Electromagnetic%20Fields%20%E2%80%93%20NPTEL%20IIT%20Madras",
+      "channel": "NPTEL",
+      "duration": "35 h",
+      "rating": 4.8,
+      "tags": [
+        "eee",
+        "theory",
+        "ece",
+        "electromagnetic"
+      ],
+      "why": "Maxwell's equations, wave propagation — IIT standard"
+    },
+    {
+      "id": "f022",
+      "subject": "Electromagnetic Theory",
+      "branch": "ECE/EEE",
+      "title": "Electromagnetics – Michel van Biezen",
+      "url": "https://www.youtube.com/results?search_query=Electromagnetics%20%E2%80%93%20Michel%20van%20Biezen",
+      "channel": "Michel van Biezen",
+      "duration": "20 h",
+      "rating": 4.8,
+      "tags": [
+        "eee",
+        "theory",
+        "ece",
+        "electromagnetic"
+      ],
+      "why": "Step-by-step solutions; Gauss, Biot-Savart, Faraday"
+    },
+    {
+      "id": "f023",
+      "subject": "Electromagnetic Theory",
+      "branch": "ECE/EEE",
+      "title": "Antenna Theory – CW2 Engineering",
+      "url": "https://www.youtube.com/results?search_query=Antenna%20Theory%20%E2%80%93%20CW2%20Engineering",
+      "channel": "CW2 Engineering",
+      "duration": "8 h",
+      "rating": 4.6,
+      "tags": [
+        "eee",
+        "theory",
+        "ece",
+        "electromagnetic"
+      ],
+      "why": "Dipole, patch, array antennas — radiation patterns"
+    },
+    {
+      "id": "f024",
+      "subject": "Control Systems",
+      "branch": "ECE/EEE",
+      "title": "Control Systems – NPTEL IIT Madras",
+      "url": "https://www.youtube.com/results?search_query=Control%20Systems%20%E2%80%93%20NPTEL%20IIT%20Madras",
+      "channel": "NPTEL",
+      "duration": "40 h",
+      "rating": 4.9,
+      "tags": [
+        "pid",
+        "ece",
+        "control",
+        "eee",
+        "transfer function",
+        "systems"
+      ],
+      "why": "Bode plot, root locus, PID, stability — gold standard"
+    },
+    {
+      "id": "f025",
+      "subject": "Control Systems",
+      "branch": "ECE/EEE",
+      "title": "Control Systems – Brian Douglas",
+      "url": "https://www.youtube.com/results?search_query=Control%20Systems%20%E2%80%93%20Brian%20Douglas",
+      "channel": "Brian Douglas",
+      "duration": "10 h",
+      "rating": 5.0,
+      "tags": [
+        "pid",
+        "ece",
+        "control",
+        "eee",
+        "transfer function",
+        "systems"
+      ],
+      "why": "Best intuitive control systems channel; Laplace to PID"
+    },
+    {
+      "id": "f026",
+      "subject": "Control Systems",
+      "branch": "ECE/EEE",
+      "title": "MATLAB Control Toolbox – MathWorks",
+      "url": "https://www.youtube.com/results?search_query=MATLAB%20Control%20Toolbox%20%E2%80%93%20MathWorks",
+      "channel": "MathWorks",
+      "duration": "5 h",
+      "rating": 4.7,
+      "tags": [
+        "pid",
+        "ece",
+        "control",
+        "eee",
+        "transfer function",
+        "systems"
+      ],
+      "why": "Practical MATLAB simulation for control design"
+    },
+    {
+      "id": "f027",
+      "subject": "Control Systems",
+      "branch": "ECE/EEE",
+      "title": "PID Controller – Explained Simply",
+      "url": "https://www.youtube.com/results?search_query=PID%20Controller%20%E2%80%93%20Explained%20Simply%20The%20Engineering%20Mindset",
+      "channel": "The Engineering Mindset",
+      "duration": "30 min",
+      "rating": 4.8,
+      "tags": [
+        "pid",
+        "ece",
+        "control",
+        "eee",
+        "transfer function",
+        "systems"
+      ],
+      "why": "Best visual PID explanation for beginners"
+    },
+    {
+      "id": "f028",
+      "subject": "Communication Systems",
+      "branch": "ECE",
+      "title": "Communication Systems – NPTEL",
+      "url": "https://www.youtube.com/results?search_query=Communication%20Systems%20%E2%80%93%20NPTEL",
+      "channel": "NPTEL",
+      "duration": "35 h",
+      "rating": 4.8,
+      "tags": [
+        "wireless",
+        "communication",
+        "modulation",
+        "ece",
+        "systems"
+      ],
+      "why": "AM, FM, PM, PCM, digital comms — complete course"
+    },
+    {
+      "id": "f029",
+      "subject": "Communication Systems",
+      "branch": "ECE",
+      "title": "Wireless Communications – MIT OCW",
+      "url": "https://www.youtube.com/results?search_query=Wireless%20Communications%20%E2%80%93%20MIT%20OCW%20MIT%20OpenCourseWare",
+      "channel": "MIT OpenCourseWare",
+      "duration": "20 h",
+      "rating": 4.8,
+      "tags": [
+        "wireless",
+        "communication",
+        "modulation",
+        "ece",
+        "systems"
+      ],
+      "why": "4G/5G fundamentals, OFDM, MIMO — MIT quality"
+    },
+    {
+      "id": "f030",
+      "subject": "Communication Systems",
+      "branch": "ECE",
+      "title": "Digital Communications – IIT KGP NPTEL",
+      "url": "https://www.youtube.com/results?search_query=Digital%20Communications%20%E2%80%93%20IIT%20KGP%20NPTEL",
+      "channel": "NPTEL",
+      "duration": "30 h",
+      "rating": 4.7,
+      "tags": [
+        "wireless",
+        "communication",
+        "modulation",
+        "ece",
+        "systems"
+      ],
+      "why": "PSK, QAM, channel coding, Shannon theory"
+    },
+    {
+      "id": "f031",
+      "subject": "Power Electronics",
+      "branch": "EEE",
+      "title": "Power Electronics – NPTEL IIT Madras",
+      "url": "https://www.youtube.com/results?search_query=Power%20Electronics%20%E2%80%93%20NPTEL%20IIT%20Madras",
+      "channel": "NPTEL",
+      "duration": "40 h",
+      "rating": 4.9,
+      "tags": [
+        "eee",
+        "power",
+        "electronics"
+      ],
+      "why": "Rectifiers, choppers, inverters — IIT Madras benchmark"
+    },
+    {
+      "id": "f032",
+      "subject": "Power Electronics",
+      "branch": "EEE",
+      "title": "Power Electronics – Gate Smashers",
+      "url": "https://www.youtube.com/results?search_query=Power%20Electronics%20%E2%80%93%20Gate%20Smashers",
+      "channel": "Gate Smashers",
+      "duration": "20 h",
+      "rating": 4.8,
+      "tags": [
+        "eee",
+        "power",
+        "electronics"
+      ],
+      "why": "GATE-ready PE; SCR, MOSFET, converter circuits"
+    },
+    {
+      "id": "f033",
+      "subject": "Power Electronics",
+      "branch": "EEE",
+      "title": "Power Electronics – Michel van Biezen",
+      "url": "https://www.youtube.com/results?search_query=Power%20Electronics%20%E2%80%93%20Michel%20van%20Biezen",
+      "channel": "Michel van Biezen",
+      "duration": "15 h",
+      "rating": 4.7,
+      "tags": [
+        "eee",
+        "power",
+        "electronics"
+      ],
+      "why": "DC-DC converters, PWM, boost/buck explained clearly"
+    },
+    {
+      "id": "f034",
+      "subject": "Power Electronics",
+      "branch": "EEE",
+      "title": "Buck-Boost Converter Design – Texas Instruments",
+      "url": "https://www.youtube.com/results?search_query=Buck-Boost%20Converter%20Design%20%E2%80%93%20Texas%20Instruments",
+      "channel": "Texas Instruments",
+      "duration": "1 h",
+      "rating": 4.7,
+      "tags": [
+        "eee",
+        "power",
+        "electronics"
+      ],
+      "why": "Industry-led practical converter design tutorial"
+    },
+    {
+      "id": "f035",
+      "subject": "Electrical Machines",
+      "branch": "EEE",
+      "title": "Electrical Machines – NPTEL IIT Kharagpur",
+      "url": "https://www.youtube.com/results?search_query=Electrical%20Machines%20%E2%80%93%20NPTEL%20IIT%20Kharagpur",
+      "channel": "NPTEL",
+      "duration": "45 h",
+      "rating": 4.9,
+      "tags": [
+        "eee",
+        "machines",
+        "electrical"
+      ],
+      "why": "DC machines, transformers, induction motors — gold standard"
+    },
+    {
+      "id": "f036",
+      "subject": "Electrical Machines",
+      "branch": "EEE",
+      "title": "Electrical Machines – Gate Smashers",
+      "url": "https://www.youtube.com/results?search_query=Electrical%20Machines%20%E2%80%93%20Gate%20Smashers",
+      "channel": "Gate Smashers",
+      "duration": "25 h",
+      "rating": 4.8,
+      "tags": [
+        "eee",
+        "machines",
+        "electrical"
+      ],
+      "why": "GATE-focused EM; equivalent circuits, torque-speed"
+    },
+    {
+      "id": "f037",
+      "subject": "Electrical Machines",
+      "branch": "EEE",
+      "title": "Transformers Explained – The Engineering Mindset",
+      "url": "https://www.youtube.com/results?search_query=Transformers%20Explained%20%E2%80%93%20The%20Engineering%20Mindset",
+      "channel": "The Engineering Mindset",
+      "duration": "1 h",
+      "rating": 4.8,
+      "tags": [
+        "eee",
+        "machines",
+        "electrical"
+      ],
+      "why": "Core principles, losses, efficiency — visual clarity"
+    },
+    {
+      "id": "f038",
+      "subject": "Electrical Machines",
+      "branch": "EEE",
+      "title": "Three Phase Induction Motor – Easy Engineering",
+      "url": "https://www.youtube.com/results?search_query=Three%20Phase%20Induction%20Motor%20%E2%80%93%20Easy%20Engineering",
+      "channel": "Easy Engineering",
+      "duration": "45 min",
+      "rating": 4.7,
+      "tags": [
+        "eee",
+        "machines",
+        "electrical"
+      ],
+      "why": "Working principle, slip, torque — great animation"
+    },
+    {
+      "id": "f039",
+      "subject": "Power Systems",
+      "branch": "EEE",
+      "title": "Power Systems – NPTEL IIT Roorkee",
+      "url": "https://www.youtube.com/results?search_query=Power%20Systems%20%E2%80%93%20NPTEL%20IIT%20Roorkee",
+      "channel": "NPTEL",
+      "duration": "35 h",
+      "rating": 4.8,
+      "tags": [
+        "distribution",
+        "power",
+        "eee",
+        "transmission",
+        "systems"
+      ],
+      "why": "Load flow, fault analysis, stability — complete PS"
+    },
+    {
+      "id": "f040",
+      "subject": "Power Systems",
+      "branch": "EEE",
+      "title": "Power Systems – Gate Smashers",
+      "url": "https://www.youtube.com/results?search_query=Power%20Systems%20%E2%80%93%20Gate%20Smashers",
+      "channel": "Gate Smashers",
+      "duration": "20 h",
+      "rating": 4.8,
+      "tags": [
+        "distribution",
+        "power",
+        "eee",
+        "transmission",
+        "systems"
+      ],
+      "why": "GATE-ready; per unit, symmetrical faults, protection"
+    },
+    {
+      "id": "f041",
+      "subject": "Power Systems",
+      "branch": "EEE",
+      "title": "Smart Grid & Renewable Energy – MIT OCW",
+      "url": "https://www.youtube.com/results?search_query=Smart%20Grid%20%26%20Renewable%20Energy%20%E2%80%93%20MIT%20OCW%20MIT%20OpenCourseWare",
+      "channel": "MIT OpenCourseWare",
+      "duration": "15 h",
+      "rating": 4.7,
+      "tags": [
+        "distribution",
+        "power",
+        "eee",
+        "transmission",
+        "systems"
+      ],
+      "why": "Solar, wind, grid integration — future energy systems"
+    },
+    {
+      "id": "f042",
+      "subject": "VLSI Design",
+      "branch": "ECE",
+      "title": "VLSI Design – NPTEL IIT Madras",
+      "url": "https://www.youtube.com/results?search_query=VLSI%20Design%20%E2%80%93%20NPTEL%20IIT%20Madras",
+      "channel": "NPTEL",
+      "duration": "35 h",
+      "rating": 4.9,
+      "tags": [
+        "design",
+        "ece",
+        "chip design",
+        "cmos",
+        "vlsi"
+      ],
+      "why": "CMOS design, layout, static timing analysis — top VLSI"
+    },
+    {
+      "id": "f043",
+      "subject": "VLSI Design",
+      "branch": "ECE",
+      "title": "VLSI Physical Design – IIT Bombay NPTEL",
+      "url": "https://www.youtube.com/results?search_query=VLSI%20Physical%20Design%20%E2%80%93%20IIT%20Bombay%20NPTEL",
+      "channel": "NPTEL",
+      "duration": "25 h",
+      "rating": 4.8,
+      "tags": [
+        "design",
+        "ece",
+        "chip design",
+        "cmos",
+        "vlsi"
+      ],
+      "why": "Floorplan, routing, DRC — chip design flow"
+    },
+    {
+      "id": "f044",
+      "subject": "VLSI Design",
+      "branch": "ECE",
+      "title": "Cadence Virtuoso Tutorial – Beginners",
+      "url": "https://www.youtube.com/results?search_query=Cadence%20Virtuoso%20Tutorial%20%E2%80%93%20Beginners%20VLSI%20Expert",
+      "channel": "VLSI Expert",
+      "duration": "6 h",
+      "rating": 4.6,
+      "tags": [
+        "design",
+        "ece",
+        "chip design",
+        "cmos",
+        "vlsi"
+      ],
+      "why": "Hands-on schematic capture and layout in Cadence"
+    },
+    {
+      "id": "f045",
+      "subject": "Microprocessors",
+      "branch": "ECE/EEE",
+      "title": "8085 Microprocessor – Bharat Acharya",
+      "url": "https://www.youtube.com/results?search_query=8085%20Microprocessor%20%E2%80%93%20Bharat%20Acharya%20Bharat%20Acharya%20Education",
+      "channel": "Bharat Acharya Education",
+      "duration": "15 h",
+      "rating": 4.8,
+      "tags": [
+        "8085",
+        "microprocessors",
+        "arm",
+        "ece",
+        "eee",
+        "microprocessor"
+      ],
+      "why": "Instruction set, interrupts, interfacing — classic 8085"
+    },
+    {
+      "id": "f046",
+      "subject": "Microprocessors",
+      "branch": "ECE/EEE",
+      "title": "ARM Cortex-M Embedded Systems",
+      "url": "https://www.youtube.com/results?search_query=ARM%20Cortex-M%20Embedded%20Systems%20Fastbit%20EBA",
+      "channel": "Fastbit EBA",
+      "duration": "15 h",
+      "rating": 4.8,
+      "tags": [
+        "8085",
+        "microprocessors",
+        "arm",
+        "ece",
+        "eee",
+        "microprocessor"
+      ],
+      "why": "STM32, bare-metal programming — industry-standard ARM"
+    },
+    {
+      "id": "f047",
+      "subject": "Microprocessors",
+      "branch": "ECE/EEE",
+      "title": "Arduino for Beginners – Paul McWhorter",
+      "url": "https://www.youtube.com/results?search_query=Arduino%20for%20Beginners%20%E2%80%93%20Paul%20McWhorter",
+      "channel": "Paul McWhorter",
+      "duration": "20 h",
+      "rating": 4.8,
+      "tags": [
+        "8085",
+        "microprocessors",
+        "arm",
+        "ece",
+        "eee",
+        "microprocessor"
+      ],
+      "why": "Complete Arduino series; sensors, motors, IoT projects"
+    },
+    {
+      "id": "f048",
+      "subject": "Microprocessors",
+      "branch": "ECE/EEE",
+      "title": "Raspberry Pi Full Course – freeCodeCamp",
+      "url": "https://www.youtube.com/results?search_query=Raspberry%20Pi%20Full%20Course%20%E2%80%93%20freeCodeCamp",
+      "channel": "freeCodeCamp",
+      "duration": "3 h",
+      "rating": 4.7,
+      "tags": [
+        "8085",
+        "microprocessors",
+        "arm",
+        "ece",
+        "eee",
+        "microprocessor"
+      ],
+      "why": "GPIO, Python, camera, IoT — hands-on Raspberry Pi"
+    },
+    {
+      "id": "f049",
+      "subject": "Instrumentation",
+      "branch": "ECE/EEE",
+      "title": "Instrumentation & Measurement – NPTEL",
+      "url": "https://www.youtube.com/results?search_query=Instrumentation%20%26%20Measurement%20%E2%80%93%20NPTEL",
+      "channel": "NPTEL",
+      "duration": "25 h",
+      "rating": 4.8,
+      "tags": [
+        "eee",
+        "instrumentation",
+        "ece"
+      ],
+      "why": "Sensors, transducers, oscilloscopes, ADC/DAC — complete"
+    },
+    {
+      "id": "f050",
+      "subject": "Instrumentation",
+      "branch": "ECE/EEE",
+      "title": "How Oscilloscopes Work – Keysight",
+      "url": "https://www.youtube.com/results?search_query=How%20Oscilloscopes%20Work%20%E2%80%93%20Keysight%20Keysight%20Technologies",
+      "channel": "Keysight Technologies",
+      "duration": "30 min",
+      "rating": 4.7,
+      "tags": [
+        "eee",
+        "instrumentation",
+        "ece"
+      ],
+      "why": "Practical oscilloscope tutorial from industry leader"
+    },
+    {
+      "id": "f051",
+      "subject": "Engineering Maths",
+      "branch": "ECE/EEE",
+      "title": "Engineering Mathematics – NPTEL",
+      "url": "https://www.youtube.com/results?search_query=Engineering%20Mathematics%20%E2%80%93%20NPTEL",
+      "channel": "NPTEL",
+      "duration": "40 h",
+      "rating": 4.8,
+      "tags": [
+        "eee",
+        "ece",
+        "engineering",
+        "maths"
+      ],
+      "why": "Calculus, ODEs, linear algebra, complex analysis — GATE"
+    },
+    {
+      "id": "f052",
+      "subject": "Engineering Maths",
+      "branch": "ECE/EEE",
+      "title": "Differential Equations – MIT OCW 18.03",
+      "url": "https://www.youtube.com/results?search_query=Differential%20Equations%20%E2%80%93%20MIT%20OCW%2018.03%20MIT%20OpenCourseWare",
+      "channel": "MIT OpenCourseWare",
+      "duration": "30 h",
+      "rating": 4.9,
+      "tags": [
+        "eee",
+        "ece",
+        "engineering",
+        "maths"
+      ],
+      "why": "MIT ODEs — essential for circuits and control systems"
+    },
+    {
+      "id": "f053",
+      "subject": "Engineering Maths",
+      "branch": "ECE/EEE",
+      "title": "Probability for ECE – MIT 6.041",
+      "url": "https://www.youtube.com/results?search_query=Probability%20for%20ECE%20%E2%80%93%20MIT%206.041%20MIT%20OpenCourseWare",
+      "channel": "MIT OpenCourseWare",
+      "duration": "25 h",
+      "rating": 4.9,
+      "tags": [
+        "eee",
+        "ece",
+        "engineering",
+        "maths"
+      ],
+      "why": "Random variables, distributions — crucial for comms & ML"
+    },
+    {
+      "id": "f054",
+      "subject": "Engineering Maths",
+      "branch": "ECE/EEE",
+      "title": "Linear Algebra – 3Blue1Brown",
+      "url": "https://www.youtube.com/results?search_query=Linear%20Algebra%20%E2%80%93%203Blue1Brown",
+      "channel": "3Blue1Brown",
+      "duration": "3 h",
+      "rating": 5.0,
+      "tags": [
+        "eee",
+        "ece",
+        "engineering",
+        "maths"
+      ],
+      "why": "Visual linear algebra — matrices, eigenvectors for DSP"
+    },
+    {
+      "id": "f055",
+      "subject": "Simulation Tools",
+      "branch": "ECE/EEE",
+      "title": "LTspice for Beginners – Full Tutorial",
+      "url": "https://www.youtube.com/results?search_query=LTspice%20for%20Beginners%20%E2%80%93%20Full%20Tutorial%20Swiss%20Alps%20Simulation",
+      "channel": "Swiss Alps Simulation",
+      "duration": "8 h",
+      "rating": 4.8,
+      "tags": [
+        "eee",
+        "tools",
+        "ece",
+        "simulation"
+      ],
+      "why": "Free circuit simulator; AC/DC/transient analysis"
+    },
+    {
+      "id": "f056",
+      "subject": "Simulation Tools",
+      "branch": "ECE/EEE",
+      "title": "MATLAB for ECE Engineers – MATLAB Tech Talks",
+      "url": "https://www.youtube.com/results?search_query=MATLAB%20for%20ECE%20Engineers%20%E2%80%93%20MATLAB%20Tech%20Talks%20MathWorks",
+      "channel": "MathWorks",
+      "duration": "6 h",
+      "rating": 4.8,
+      "tags": [
+        "eee",
+        "tools",
+        "ece",
+        "simulation"
+      ],
+      "why": "Signal processing, control, filter design in MATLAB"
+    },
+    {
+      "id": "f057",
+      "subject": "Simulation Tools",
+      "branch": "ECE/EEE",
+      "title": "Proteus PCB Design – Tutorial Series",
+      "url": "https://www.youtube.com/results?search_query=Proteus%20PCB%20Design%20%E2%80%93%20Tutorial%20Series%20ElectronicClinic",
+      "channel": "ElectronicClinic",
+      "duration": "10 h",
+      "rating": 4.6,
+      "tags": [
+        "eee",
+        "tools",
+        "ece",
+        "simulation"
+      ],
+      "why": "Schematic to PCB layout in Proteus — beginners"
+    },
+    {
+      "id": "f058",
+      "subject": "Simulation Tools",
+      "branch": "ECE/EEE",
+      "title": "KiCad PCB Design – Full Course",
+      "url": "https://www.youtube.com/results?search_query=KiCad%20PCB%20Design%20%E2%80%93%20Full%20Course%20Contextual%20Electronics",
+      "channel": "Contextual Electronics",
+      "duration": "8 h",
+      "rating": 4.7,
+      "tags": [
+        "eee",
+        "tools",
+        "ece",
+        "simulation"
+      ],
+      "why": "Professional open-source PCB design from scratch"
+    },
+    {
+      "id": "f059",
+      "subject": "RF & Microwave",
+      "branch": "ECE",
+      "title": "RF Engineering – Everything RF",
+      "url": "https://www.youtube.com/results?search_query=RF%20Engineering%20%E2%80%93%20Everything%20RF",
+      "channel": "Everything RF",
+      "duration": "varies",
+      "rating": 4.7,
+      "tags": [
+        "ece",
+        "microwave"
+      ],
+      "why": "S-parameters, Smith chart, RF design concepts"
+    },
+    {
+      "id": "f060",
+      "subject": "IoT & Embedded",
+      "branch": "ECE/EEE",
+      "title": "IoT Full Course – freeCodeCamp",
+      "url": "https://www.youtube.com/results?search_query=IoT%20Full%20Course%20%E2%80%93%20freeCodeCamp",
+      "channel": "freeCodeCamp",
+      "duration": "3 h",
+      "rating": 4.7,
+      "tags": [
+        "iot",
+        "raspberry pi",
+        "embedded",
+        "ece",
+        "arduino",
+        "eee"
+      ],
+      "why": "IoT protocols, MQTT, NodeMCU — full stack IoT"
+    }
+  ],
+  "premium_resources": [
+    {
+      "id": "p001",
+      "platform": "NPTEL",
+      "title": "Analog Electronic Circuits – IIT Kharagpur",
+      "url": "https://nptel.ac.in/courses?searchText=Analog%20Electronic%20Circuits%20%E2%80%93%20IIT%20Kharagpur",
+      "instructor": "Pradip Mandal",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "subject": "Analog Electronics",
+      "rating": 4.9,
+      "tags": [
+        "analog",
+        "electronics",
+        "nptel"
+      ],
+      "why": "Masterclass on BJT, FET, op-amp circuits — IIT KGP"
+    },
+    {
+      "id": "p002",
+      "platform": "NPTEL",
+      "title": "Digital Electronic Circuits – IIT Madras",
+      "url": "https://nptel.ac.in/courses?searchText=Digital%20Electronic%20Circuits%20%E2%80%93%20IIT%20Madras",
+      "instructor": "Nagendra Krishnapura",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "subject": "Digital Electronics",
+      "rating": 4.9,
+      "tags": [
+        "nptel",
+        "digital",
+        "logic gates",
+        "electronics",
+        "sequential"
+      ],
+      "why": "Logic gates to sequential circuits — IIT Madras quality"
+    },
+    {
+      "id": "p003",
+      "platform": "NPTEL",
+      "title": "Signals & Systems – IIT Delhi",
+      "url": "https://nptel.ac.in/courses?searchText=Signals%20%26%20Systems%20%E2%80%93%20IIT%20Delhi",
+      "instructor": "S Dasgupta",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "subject": "Signals & Systems",
+      "rating": 4.8,
+      "tags": [
+        "nptel",
+        "dsp",
+        "signals",
+        "gate ece",
+        "systems"
+      ],
+      "why": "Comprehensive S&S for GATE ECE/EEE — must do"
+    },
+    {
+      "id": "p004",
+      "platform": "NPTEL",
+      "title": "Control Engineering – IIT Madras",
+      "url": "https://nptel.ac.in/courses?searchText=Control%20Engineering%20%E2%80%93%20IIT%20Madras",
+      "instructor": "M Gopalakrishnan",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "subject": "Control Systems",
+      "rating": 4.9,
+      "tags": [
+        "nptel",
+        "pid",
+        "control",
+        "transfer function",
+        "systems"
+      ],
+      "why": "Root locus, Bode, Nyquist — definitive control course"
+    },
+    {
+      "id": "p005",
+      "platform": "NPTEL",
+      "title": "Power Electronics – IIT Madras",
+      "url": "https://nptel.ac.in/courses?searchText=Power%20Electronics%20%E2%80%93%20IIT%20Madras",
+      "instructor": "Vinod John",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "subject": "Power Electronics",
+      "rating": 4.9,
+      "tags": [
+        "nptel",
+        "power",
+        "electronics"
+      ],
+      "why": "Converters, inverters, drives — IIT Madras benchmark"
+    },
+    {
+      "id": "p006",
+      "platform": "NPTEL",
+      "title": "Electrical Machines I – IIT Kharagpur",
+      "url": "https://nptel.ac.in/courses?searchText=Electrical%20Machines%20I%20%E2%80%93%20IIT%20Kharagpur",
+      "instructor": "D P Kothari",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "subject": "Electrical Machines",
+      "rating": 4.9,
+      "tags": [
+        "machines",
+        "nptel",
+        "electrical"
+      ],
+      "why": "DC machines & transformers — gold standard for GATE EEE"
+    },
+    {
+      "id": "p007",
+      "platform": "NPTEL",
+      "title": "Electrical Machines II – IIT Kharagpur",
+      "url": "https://nptel.ac.in/courses?searchText=Electrical%20Machines%20II%20%E2%80%93%20IIT%20Kharagpur",
+      "instructor": "D P Kothari",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "subject": "Electrical Machines",
+      "rating": 4.9,
+      "tags": [
+        "machines",
+        "nptel",
+        "electrical"
+      ],
+      "why": "Induction & synchronous machines — Part 2"
+    },
+    {
+      "id": "p008",
+      "platform": "NPTEL",
+      "title": "Power Systems Engineering – IIT Roorkee",
+      "url": "https://nptel.ac.in/courses?searchText=Power%20Systems%20Engineering%20%E2%80%93%20IIT%20Roorkee",
+      "instructor": "S N Singh",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "subject": "Power Systems",
+      "rating": 4.8,
+      "tags": [
+        "distribution",
+        "nptel",
+        "power",
+        "transmission",
+        "systems"
+      ],
+      "why": "Load flow, stability, protection — complete power systems"
+    },
+    {
+      "id": "p009",
+      "platform": "NPTEL",
+      "title": "Communication Systems – IIT Kanpur",
+      "url": "https://nptel.ac.in/courses?searchText=Communication%20Systems%20%E2%80%93%20IIT%20Kanpur",
+      "instructor": "A K Chaturvedi",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "subject": "Communication Systems",
+      "rating": 4.8,
+      "tags": [
+        "nptel",
+        "communication",
+        "wireless",
+        "modulation",
+        "systems"
+      ],
+      "why": "Analog + digital comms with mathematical rigor"
+    },
+    {
+      "id": "p010",
+      "platform": "NPTEL",
+      "title": "VLSI Design – IIT Madras",
+      "url": "https://nptel.ac.in/courses?searchText=VLSI%20Design%20%E2%80%93%20IIT%20Madras",
+      "instructor": "Nandita Dasgupta",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "subject": "VLSI Design",
+      "rating": 4.9,
+      "tags": [
+        "nptel",
+        "design",
+        "chip design",
+        "cmos",
+        "vlsi"
+      ],
+      "why": "MOS transistors to full CMOS chip design — best VLSI MOOC"
+    },
+    {
+      "id": "p011",
+      "platform": "NPTEL",
+      "title": "Electromagnetic Waves – IIT Madras",
+      "url": "https://nptel.ac.in/courses?searchText=Electromagnetic%20Waves%20%E2%80%93%20IIT%20Madras",
+      "instructor": "Girish Kumar",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "subject": "EMF & Waves",
+      "rating": 4.8,
+      "tags": [
+        "nptel",
+        "waves",
+        "emf"
+      ],
+      "why": "Maxwell's eqns, waveguides, antennas — full EM course"
+    },
+    {
+      "id": "p012",
+      "platform": "NPTEL",
+      "title": "Microprocessors & Microcontrollers – IIT Madras",
+      "url": "https://nptel.ac.in/courses?searchText=Microprocessors%20%26%20Microcontrollers%20%E2%80%93%20IIT%20Madras",
+      "instructor": "S Raman",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "subject": "Microprocessors",
+      "rating": 4.8,
+      "tags": [
+        "nptel",
+        "8085",
+        "microprocessors",
+        "arm",
+        "microprocessor"
+      ],
+      "why": "8085, 8051, ARM — complete microprocessor course"
+    },
+    {
+      "id": "p013",
+      "platform": "NPTEL",
+      "title": "DSP – Digital Signal Processing – IIT Delhi",
+      "url": "https://nptel.ac.in/courses?searchText=DSP%20%E2%80%93%20Digital%20Signal%20Processing%20%E2%80%93%20IIT%20Delhi",
+      "instructor": "S C Dutta Roy",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "subject": "DSP",
+      "rating": 4.9,
+      "tags": [
+        "nptel",
+        "dsp"
+      ],
+      "why": "DFT, FFT, IIR/FIR filters — legendary DSP course"
+    },
+    {
+      "id": "p014",
+      "platform": "NPTEL",
+      "title": "Embedded Systems – IIT Kharagpur",
+      "url": "https://nptel.ac.in/courses?searchText=Embedded%20Systems%20%E2%80%93%20IIT%20Kharagpur",
+      "instructor": "S K Nandy",
+      "price": "Free / ₹1000 cert",
+      "certificate": true,
+      "subject": "Embedded Systems",
+      "rating": 4.8,
+      "tags": [
+        "nptel",
+        "embedded",
+        "systems"
+      ],
+      "why": "Real-time OS, RTOS, ARM — complete embedded systems"
+    },
+    {
+      "id": "p015",
+      "platform": "Coursera",
+      "title": "Introduction to Electronics – Georgia Tech",
+      "url": "https://www.coursera.org/search?query=Introduction%20to%20Electronics%20%E2%80%93%20Georgia%20Tech",
+      "instructor": "Bonnie Ferri",
+      "price": "$49/mo",
+      "certificate": true,
+      "subject": "Basic Electronics",
+      "rating": 4.7,
+      "tags": [
+        "opamp",
+        "basic",
+        "coursera",
+        "bjt",
+        "diodes",
+        "electronics"
+      ],
+      "why": "Resistors, capacitors, op-amps — strong practical base"
+    },
+    {
+      "id": "p016",
+      "platform": "Coursera",
+      "title": "Linear Circuits 1 & 2 – Georgia Tech",
+      "url": "https://www.coursera.org/search?query=Linear%20Circuits%201%20%26%202%20%E2%80%93%20Georgia%20Tech",
+      "instructor": "David Barnett",
+      "price": "$49/mo",
+      "certificate": true,
+      "subject": "Circuit Theory",
+      "rating": 4.7,
+      "tags": [
+        "theory",
+        "circuit",
+        "coursera"
+      ],
+      "why": "DC/AC circuit analysis — KVL, KCL, phasors, resonance"
+    },
+    {
+      "id": "p017",
+      "platform": "Coursera",
+      "title": "Control of Mobile Robots – Georgia Tech",
+      "url": "https://www.coursera.org/search?query=Control%20of%20Mobile%20Robots%20%E2%80%93%20Georgia%20Tech",
+      "instructor": "Magnus Egerstedt",
+      "price": "$49/mo",
+      "certificate": true,
+      "subject": "Control Systems",
+      "rating": 4.7,
+      "tags": [
+        "pid",
+        "coursera",
+        "control",
+        "transfer function",
+        "systems"
+      ],
+      "why": "Feedback control + robotics — project-based learning"
+    },
+    {
+      "id": "p018",
+      "platform": "Coursera",
+      "title": "Digital Signal Processing Specialization – EPFL",
+      "url": "https://www.coursera.org/search?query=Digital%20Signal%20Processing%20Specialization%20%E2%80%93%20EPFL",
+      "instructor": "Paolo Prandoni",
+      "price": "$49/mo",
+      "certificate": true,
+      "subject": "DSP",
+      "rating": 4.8,
+      "tags": [
+        "coursera",
+        "dsp"
+      ],
+      "why": "4-course DSP from EPFL — rigorous, with MATLAB labs"
+    },
+    {
+      "id": "p019",
+      "platform": "Coursera",
+      "title": "Power Electronics Specialization – CU Boulder",
+      "url": "https://www.coursera.org/search?query=Power%20Electronics%20Specialization%20%E2%80%93%20CU%20Boulder",
+      "instructor": "Robert Erickson",
+      "price": "$49/mo",
+      "certificate": true,
+      "subject": "Power Electronics",
+      "rating": 4.9,
+      "tags": [
+        "coursera",
+        "power",
+        "electronics"
+      ],
+      "why": "3-course PE — converters, magnetics, control — world-class"
+    },
+    {
+      "id": "p020",
+      "platform": "Coursera",
+      "title": "IoT Specialization – UC San Diego",
+      "url": "https://www.coursera.org/search?query=IoT%20Specialization%20%E2%80%93%20UC%20San%20Diego",
+      "instructor": "Coursera Team",
+      "price": "$49/mo",
+      "certificate": true,
+      "subject": "IoT / Embedded",
+      "rating": 4.6,
+      "tags": [
+        "iot",
+        "embedded",
+        "coursera"
+      ],
+      "why": "5-course IoT path; Arduino, Raspberry Pi, sensors"
+    },
+    {
+      "id": "p021",
+      "platform": "Coursera",
+      "title": "Self-Driving Cars Specialization – Toronto",
+      "url": "https://www.coursera.org/search?query=Self-Driving%20Cars%20Specialization%20%E2%80%93%20Toronto",
+      "instructor": "Steven Waslander",
+      "price": "$49/mo",
+      "certificate": true,
+      "subject": "Autonomous Systems",
+      "rating": 4.7,
+      "tags": [
+        "autonomous",
+        "coursera",
+        "systems"
+      ],
+      "why": "State estimation, visual perception, motion planning"
+    },
+    {
+      "id": "p022",
+      "platform": "Coursera",
+      "title": "Machine Learning for Signal Processing – Illinois",
+      "url": "https://www.coursera.org/search?query=Machine%20Learning%20for%20Signal%20Processing%20%E2%80%93%20Illinois",
+      "instructor": "Paris Smaragdis",
+      "price": "$49/mo",
+      "certificate": true,
+      "subject": "ML + Signal Processing",
+      "rating": 4.7,
+      "tags": [
+        "signal",
+        "processing",
+        "coursera"
+      ],
+      "why": "Bridges ML and signal processing — ECE-specific ML"
+    },
+    {
+      "id": "p023",
+      "platform": "edX / MIT",
+      "title": "6.002x Circuits & Electronics",
+      "url": "https://www.edx.org/search?q=6.002x%20Circuits%20%26%20Electronics",
+      "instructor": "MIT",
+      "price": "Free / $150 cert",
+      "certificate": true,
+      "subject": "Circuit Theory",
+      "rating": 4.9,
+      "tags": [
+        "theory",
+        "circuit",
+        "edx",
+        "mit"
+      ],
+      "why": "MIT's foundational circuits MOOC — global benchmark"
+    },
+    {
+      "id": "p024",
+      "platform": "edX / Purdue",
+      "title": "Power Electronics",
+      "url": "https://www.edx.org/search?q=Power%20Electronics",
+      "instructor": "Purdue University",
+      "price": "$200",
+      "certificate": true,
+      "subject": "Power Electronics",
+      "rating": 4.7,
+      "tags": [
+        "edx",
+        "power",
+        "electronics",
+        "purdue"
+      ],
+      "why": "Switching converters, PWM, design methodology"
+    },
+    {
+      "id": "p025",
+      "platform": "edX / Georgia Tech",
+      "title": "Control Systems Technology",
+      "url": "https://www.edx.org/search?q=Control%20Systems%20Technology",
+      "instructor": "Georgia Tech",
+      "price": "$150",
+      "certificate": true,
+      "subject": "Control Systems",
+      "rating": 4.7,
+      "tags": [
+        "pid",
+        "georgia",
+        "edx",
+        "control",
+        "transfer function",
+        "tech",
+        "systems"
+      ],
+      "why": "PID + modern control with simulation-based labs"
+    },
+    {
+      "id": "p026",
+      "platform": "edX / MIT",
+      "title": "Autonomous Mobile Robots",
+      "url": "https://www.edx.org/search?q=Autonomous%20Mobile%20Robots",
+      "instructor": "ETH Zurich",
+      "price": "$150",
+      "certificate": true,
+      "subject": "Robotics",
+      "rating": 4.8,
+      "tags": [
+        "edx",
+        "robotics",
+        "mit"
+      ],
+      "why": "State estimation, localization, mapping for robotics"
+    },
+    {
+      "id": "p027",
+      "platform": "Udemy",
+      "title": "Complete Electrical Engineering Bootcamp",
+      "url": "https://www.udemy.com/courses/search/?q=Complete%20Electrical%20Engineering%20Bootcamp",
+      "instructor": "Mike Smit",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "subject": "General EEE",
+      "rating": 4.6,
+      "tags": [
+        "eee",
+        "udemy",
+        "general"
+      ],
+      "why": "Circuits, machines, power — full EEE practical bootcamp"
+    },
+    {
+      "id": "p028",
+      "platform": "Udemy",
+      "title": "Mastering Microcontroller & Embedded Systems – STM32",
+      "url": "https://www.udemy.com/courses/search/?q=Mastering%20Microcontroller%20%26%20Embedded%20Systems%20%E2%80%93%20STM32",
+      "instructor": "FastBit EBA",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "subject": "Embedded Systems",
+      "rating": 4.8,
+      "tags": [
+        "embedded",
+        "systems",
+        "udemy"
+      ],
+      "why": "Bare-metal STM32 in C — best-selling embedded course"
+    },
+    {
+      "id": "p029",
+      "platform": "Udemy",
+      "title": "Embedded Systems – ARM Cortex-M",
+      "url": "https://www.udemy.com/courses/search/?q=Embedded%20Systems%20%E2%80%93%20ARM%20Cortex-M",
+      "instructor": "FastBit EBA",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "subject": "Embedded / ARM",
+      "rating": 4.8,
+      "tags": [
+        "embedded",
+        "arm",
+        "udemy"
+      ],
+      "why": "Deep dive into DMA, UART, SPI, I2C on STM32"
+    },
+    {
+      "id": "p030",
+      "platform": "Udemy",
+      "title": "MATLAB & Simulink for Engineers",
+      "url": "https://www.udemy.com/courses/search/?q=MATLAB%20%26%20Simulink%20for%20Engineers",
+      "instructor": "Dr. Ryan Ahmed",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "subject": "MATLAB / Simulation",
+      "rating": 4.7,
+      "tags": [
+        "matlab",
+        "udemy",
+        "simulation"
+      ],
+      "why": "Controls, DSP, signal processing in MATLAB + Simulink"
+    },
+    {
+      "id": "p031",
+      "platform": "Udemy",
+      "title": "PCB Design with Altium Designer",
+      "url": "https://www.udemy.com/courses/search/?q=PCB%20Design%20with%20Altium%20Designer",
+      "instructor": "Phil's Lab",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "subject": "PCB Design",
+      "rating": 4.8,
+      "tags": [
+        "pcb",
+        "design",
+        "udemy"
+      ],
+      "why": "Schematic to professional PCB — industry-standard Altium"
+    },
+    {
+      "id": "p032",
+      "platform": "Udemy",
+      "title": "KiCad Like a Pro",
+      "url": "https://www.udemy.com/courses/search/?q=KiCad%20Like%20a%20Pro",
+      "instructor": "Peter Dalmaris",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "subject": "PCB Design",
+      "rating": 4.7,
+      "tags": [
+        "pcb",
+        "design",
+        "udemy"
+      ],
+      "why": "Free EDA tool — component placement, DRC, gerber output"
+    },
+    {
+      "id": "p033",
+      "platform": "Udemy",
+      "title": "VHDL in FPGA Design",
+      "url": "https://www.udemy.com/courses/search/?q=VHDL%20in%20FPGA%20Design",
+      "instructor": "Karel Bielik",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "subject": "FPGA / VHDL",
+      "rating": 4.6,
+      "tags": [
+        "vhdl",
+        "udemy",
+        "fpga"
+      ],
+      "why": "VHDL coding, ModelSim simulation, Xilinx FPGA projects"
+    },
+    {
+      "id": "p034",
+      "platform": "Udemy",
+      "title": "Python for Engineers (NumPy, SciPy, Control)",
+      "url": "https://www.udemy.com/courses/search/?q=Python%20for%20Engineers%20%28NumPy%2C%20SciPy%2C%20Control%29",
+      "instructor": "Jose Portilla",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "subject": "Python for ECE/EEE",
+      "rating": 4.7,
+      "tags": [
+        "python",
+        "for",
+        "ece",
+        "udemy",
+        "eee"
+      ],
+      "why": "SciPy signal processing, control systems with Python"
+    },
+    {
+      "id": "p035",
+      "platform": "Udemy",
+      "title": "Fundamentals of Electric Power Engineering",
+      "url": "https://www.udemy.com/courses/search/?q=Fundamentals%20of%20Electric%20Power%20Engineering",
+      "instructor": "Kirill Eremenko",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "subject": "Power Systems",
+      "rating": 4.5,
+      "tags": [
+        "distribution",
+        "power",
+        "udemy",
+        "transmission",
+        "systems"
+      ],
+      "why": "Practical grid, generation, distribution engineering"
+    },
+    {
+      "id": "p036",
+      "platform": "IEEE BLP",
+      "title": "IEEE Power & Energy Society – PE Courses",
+      "url": "https://www.google.com/search?q=IEEE%20Power%20%26%20Energy%20Society%20%E2%80%93%20PE%20Courses%20course",
+      "instructor": "IEEE PES",
+      "price": "$100–$300",
+      "certificate": true,
+      "subject": "Power Systems",
+      "rating": 4.8,
+      "tags": [
+        "distribution",
+        "power",
+        "blp",
+        "ieee",
+        "transmission",
+        "systems"
+      ],
+      "why": "Smart grid, renewable integration — IEEE professional certs"
+    },
+    {
+      "id": "p037",
+      "platform": "IEEE BLP",
+      "title": "IEEE Communications Society Courses",
+      "url": "https://www.google.com/search?q=IEEE%20Communications%20Society%20Courses%20course",
+      "instructor": "IEEE ComSoc",
+      "price": "$100–$250",
+      "certificate": true,
+      "subject": "Communication Systems",
+      "rating": 4.7,
+      "tags": [
+        "communication",
+        "wireless",
+        "modulation",
+        "blp",
+        "ieee",
+        "systems"
+      ],
+      "why": "5G, optical comms, IoT — IEEE-accredited comms courses"
+    },
+    {
+      "id": "p038",
+      "platform": "IEEE BLP",
+      "title": "IEEE Robotics & Automation Society",
+      "url": "https://www.google.com/search?q=IEEE%20Robotics%20%26%20Automation%20Society%20course",
+      "instructor": "IEEE RAS",
+      "price": "$100–$250",
+      "certificate": true,
+      "subject": "Robotics / Automation",
+      "rating": 4.7,
+      "tags": [
+        "ieee",
+        "automation",
+        "blp",
+        "robotics"
+      ],
+      "why": "Industrial robotics, autonomous systems — IEEE certified"
+    },
+    {
+      "id": "p039",
+      "platform": "IEEE BLP",
+      "title": "IEEE Signal Processing Society Courses",
+      "url": "https://www.google.com/search?q=IEEE%20Signal%20Processing%20Society%20Courses%20course",
+      "instructor": "IEEE SPS",
+      "price": "$100–$200",
+      "certificate": true,
+      "subject": "Signal Processing",
+      "rating": 4.8,
+      "tags": [
+        "ieee",
+        "signal",
+        "blp",
+        "processing"
+      ],
+      "why": "Advanced DSP, image processing, ML for signals"
+    },
+    {
+      "id": "p040",
+      "platform": "Texas Instruments",
+      "title": "TI Precision Labs – Analog Design",
+      "url": "https://www.google.com/search?q=TI%20Precision%20Labs%20%E2%80%93%20Analog%20Design%20course",
+      "instructor": "Texas Instruments",
+      "price": "Free",
+      "certificate": true,
+      "subject": "Analog Electronics",
+      "rating": 4.9,
+      "tags": [
+        "analog",
+        "instruments",
+        "electronics",
+        "texas"
+      ],
+      "why": "Industry-standard op-amp, ADC, sensor design — by TI engineers"
+    },
+    {
+      "id": "p041",
+      "platform": "Analog Devices",
+      "title": "Analog University – Circuits Curriculum",
+      "url": "https://www.google.com/search?q=Analog%20University%20%E2%80%93%20Circuits%20Curriculum%20course",
+      "instructor": "Analog Devices",
+      "price": "Free",
+      "certificate": true,
+      "subject": "Analog / Mixed Signal",
+      "rating": 4.8,
+      "tags": [
+        "analog",
+        "mixed",
+        "signal",
+        "devices"
+      ],
+      "why": "ADALM Pluto SDR labs; hardware-based learning"
+    },
+    {
+      "id": "p042",
+      "platform": "Arm Education",
+      "title": "Arm Professional Development Courses",
+      "url": "https://www.google.com/search?q=Arm%20Professional%20Development%20Courses%20course",
+      "instructor": "Arm",
+      "price": "Free / Paid",
+      "certificate": true,
+      "subject": "ARM / Embedded",
+      "rating": 4.8,
+      "tags": [
+        "embedded",
+        "education",
+        "arm"
+      ],
+      "why": "Official ARM Cortex architecture & embedded programming"
+    },
+    {
+      "id": "p043",
+      "platform": "Cisco",
+      "title": "CCNA 200-301 Networking (relevant for ECE comms)",
+      "url": "https://www.google.com/search?q=CCNA%20200-301%20Networking%20%28relevant%20for%20ECE%20comms%29%20course",
+      "instructor": "Cisco",
+      "price": "$330 exam",
+      "certificate": true,
+      "subject": "Networking / Comms",
+      "rating": 4.7,
+      "tags": [
+        "cisco",
+        "networking",
+        "comms"
+      ],
+      "why": "Gold-standard network cert; useful for ECE comm engineers"
+    },
+    {
+      "id": "p044",
+      "platform": "AWS",
+      "title": "AWS IoT Specialty Certification",
+      "url": "https://www.google.com/search?q=AWS%20IoT%20Specialty%20Certification%20course",
+      "instructor": "Amazon Web Services",
+      "price": "$300 exam",
+      "certificate": true,
+      "subject": "IoT / Cloud",
+      "rating": 4.7,
+      "tags": [
+        "iot",
+        "cloud",
+        "aws"
+      ],
+      "why": "IoT device management, edge computing, AWS Greengrass"
+    },
+    {
+      "id": "p045",
+      "platform": "Google",
+      "title": "TensorFlow Developer Certificate",
+      "url": "https://www.google.com/search?q=TensorFlow%20Developer%20Certificate%20course",
+      "instructor": "Google",
+      "price": "$100 exam",
+      "certificate": true,
+      "subject": "AI/ML for ECE",
+      "rating": 4.7,
+      "tags": [
+        "for",
+        "ece",
+        "google"
+      ],
+      "why": "ML for signal & image processing — ECE + AI overlap"
+    },
+    {
+      "id": "p046",
+      "platform": "Coursera",
+      "title": "Robotics Specialization – UPenn",
+      "url": "https://www.coursera.org/search?query=Robotics%20Specialization%20%E2%80%93%20UPenn",
+      "instructor": "Vijay Kumar",
+      "price": "$49/mo",
+      "certificate": true,
+      "subject": "Robotics",
+      "rating": 4.8,
+      "tags": [
+        "coursera",
+        "robotics"
+      ],
+      "why": "Aerial, mobile, perception, estimation — 6-course path"
+    },
+    {
+      "id": "p047",
+      "platform": "Coursera",
+      "title": "VLSI CAD: Logic to Layout – Illinois",
+      "url": "https://www.coursera.org/search?query=VLSI%20CAD%3A%20Logic%20to%20Layout%20%E2%80%93%20Illinois",
+      "instructor": "Rob A. Rutenbar",
+      "price": "$49/mo",
+      "certificate": true,
+      "subject": "VLSI / CAD",
+      "rating": 4.8,
+      "tags": [
+        "cad",
+        "vlsi",
+        "coursera"
+      ],
+      "why": "Logic synthesis, place & route, STA — complete EDA flow"
+    },
+    {
+      "id": "p048",
+      "platform": "edX / DelftX",
+      "title": "Solar Energy Engineering",
+      "url": "https://www.edx.org/search?q=Solar%20Energy%20Engineering",
+      "instructor": "TU Delft",
+      "price": "$150",
+      "certificate": true,
+      "subject": "Renewable Energy",
+      "rating": 4.7,
+      "tags": [
+        "edx",
+        "delftx",
+        "energy",
+        "renewable"
+      ],
+      "why": "Photovoltaics, grid integration, storage — solar deep dive"
+    },
+    {
+      "id": "p049",
+      "platform": "Udemy",
+      "title": "Electric Vehicle (EV) Engineering Masterclass",
+      "url": "https://www.udemy.com/courses/search/?q=Electric%20Vehicle%20%28EV%29%20Engineering%20Masterclass",
+      "instructor": "Vinod Kumar",
+      "price": "~₹499 (sale)",
+      "certificate": true,
+      "subject": "EV Technology",
+      "rating": 4.6,
+      "tags": [
+        "technology",
+        "udemy"
+      ],
+      "why": "Battery management, motor drives, EV architecture"
+    },
+    {
+      "id": "p050",
+      "platform": "Scaler",
+      "title": "ECE / VLSI Placement Bootcamp",
+      "url": "https://www.google.com/search?q=ECE%20/%20VLSI%20Placement%20Bootcamp%20course",
+      "instructor": "Scaler / InterviewBit",
+      "price": "₹80,000+",
+      "certificate": true,
+      "subject": "VLSI / Core ECE",
+      "rating": 4.7,
+      "tags": [
+        "scaler",
+        "core",
+        "vlsi",
+        "ece"
+      ],
+      "why": "VLSI design + digital circuits + placement prep — India's best"
+    },
+    {
+      "id": "p051",
+      "platform": "Pluralsight",
+      "title": "FPGA Development Path",
+      "url": "https://www.pluralsight.com/search?q=FPGA%20Development%20Path",
+      "instructor": "Pluralsight",
+      "price": "$29/mo",
+      "certificate": true,
+      "subject": "FPGA / HDL",
+      "rating": 4.6,
+      "tags": [
+        "hdl",
+        "pluralsight",
+        "fpga"
+      ],
+      "why": "Verilog + FPGA path with skill assessments"
+    },
+    {
+      "id": "p052",
+      "platform": "LinkedIn Learning",
+      "title": "Become an Electrical Engineer Path",
+      "url": "https://www.linkedin.com/learning/search?keywords=Become%20an%20Electrical%20Engineer%20Path",
+      "instructor": "LinkedIn",
+      "price": "$39.99/mo",
+      "certificate": true,
+      "subject": "General EEE",
+      "rating": 4.5,
+      "tags": [
+        "eee",
+        "learning",
+        "linkedin",
+        "general"
+      ],
+      "why": "Circuits to systems — LinkedIn profile badge on completion"
+    },
+    {
+      "id": "p053",
+      "platform": "Coursera",
+      "title": "Introduction to Semiconductor Devices – Penn State",
+      "url": "https://www.coursera.org/search?query=Introduction%20to%20Semiconductor%20Devices%20%E2%80%93%20Penn%20State",
+      "instructor": "S Datta",
+      "price": "$49/mo",
+      "certificate": true,
+      "subject": "Semiconductor Physics",
+      "rating": 4.7,
+      "tags": [
+        "coursera",
+        "physics",
+        "semiconductor"
+      ],
+      "why": "Quantum mechanics to MOSFET — semiconductor foundation"
+    },
+    {
+      "id": "p054",
+      "platform": "edX / Purdue",
+      "title": "Wireless Communications – Purdue",
+      "url": "https://www.edx.org/search?q=Wireless%20Communications%20%E2%80%93%20Purdue",
+      "instructor": "Purdue ECE Dept",
+      "price": "$150",
+      "certificate": true,
+      "subject": "Wireless Comms",
+      "rating": 4.7,
+      "tags": [
+        "edx",
+        "comms",
+        "purdue",
+        "wireless"
+      ],
+      "why": "OFDM, MIMO, 5G concepts — industry-relevant wireless"
+    },
+    {
+      "id": "p055",
+      "platform": "GATE Academy",
+      "title": "GATE ECE/EEE Full Preparation Course",
+      "url": "https://www.google.com/search?q=GATE%20ECE/EEE%20Full%20Preparation%20Course%20course",
+      "instructor": "GATE Academy",
+      "price": "₹15,000–30,000",
+      "certificate": true,
+      "subject": "All ECE/EEE Subjects",
+      "rating": 4.7,
+      "tags": [
+        "all",
+        "subjects",
+        "ece",
+        "eee",
+        "gate",
+        "academy"
+      ],
+      "why": "India's top GATE coaching; all subjects, mock tests, rank booster"
+    }
+  ]
+}

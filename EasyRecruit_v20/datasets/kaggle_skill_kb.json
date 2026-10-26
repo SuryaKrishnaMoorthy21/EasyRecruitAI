@@ -1,0 +1,5005 @@
+{
+  "version": "1.0",
+  "source": "Kaggle Resume Dataset 2484 resumes, 24 categories",
+  "total_resumes": 2484,
+  "categories": {
+    "INFORMATION-TECHNOLOGY": 120,
+    "BUSINESS-DEVELOPMENT": 120,
+    "ADVOCATE": 118,
+    "CHEF": 118,
+    "FINANCE": 118,
+    "ENGINEERING": 118,
+    "ACCOUNTANT": 118,
+    "FITNESS": 117,
+    "AVIATION": 117,
+    "SALES": 116,
+    "HEALTHCARE": 115,
+    "CONSULTANT": 115,
+    "BANKING": 115,
+    "CONSTRUCTION": 112,
+    "PUBLIC-RELATIONS": 111,
+    "HR": 110,
+    "DESIGNER": 107,
+    "ARTS": 103,
+    "TEACHER": 102,
+    "APPAREL": 97,
+    "DIGITAL-MEDIA": 96,
+    "AGRICULTURE": 63,
+    "AUTOMOBILE": 36,
+    "BPO": 22
+  },
+  "domains": {
+    "hr": {
+      "doc_count": 110,
+      "pattern_skills": [
+        "payroll",
+        "human resources",
+        "employee relations",
+        "recruitment",
+        "hris",
+        "compliance",
+        "excel",
+        "coaching",
+        "onboarding",
+        "adp",
+        "project management",
+        "communications",
+        "leadership",
+        "organizational development",
+        "medical",
+        "sap",
+        "conflict resolution",
+        "talent acquisition",
+        "osha",
+        "communication skills",
+        "interpersonal skills",
+        "marketing",
+        "presentation",
+        "detailoriented",
+        "accounting",
+        "time management",
+        "selfmotivated",
+        "organizational skills",
+        "negotiation"
+      ],
+      "discriminative_phrases": [
+        "human resources",
+        "employee relations",
+        "human resource",
+        "performance management",
+        "human resource management",
+        "hr generalist",
+        "resource management",
+        "employees and",
+        "policies and",
+        "hr manager",
+        "hr policies",
+        "training and",
+        "policies and procedures",
+        "workers compensation",
+        "of human",
+        "training and development",
+        "benefits administration",
+        "benefits and",
+        "personnel policies",
+        "human resources management",
+        "resources management",
+        "job descriptions",
+        "background checks",
+        "recruitment and",
+        "hire orientation",
+        "in human",
+        "of human resources",
+        "managers and",
+        "hr specialist",
+        "exit interviews"
+      ],
+      "full_skill_stats": [
+        {
+          "skill": "payroll",
+          "count": 150,
+          "pct": 136.4,
+          "importance": 2.774
+        },
+        {
+          "skill": "human resources",
+          "count": 101,
+          "pct": 91.8,
+          "importance": 2.6765
+        },
+        {
+          "skill": "employee relations",
+          "count": 67,
+          "pct": 60.9,
+          "importance": 2.4154
+        },
+        {
+          "skill": "recruitment",
+          "count": 65,
+          "pct": 59.1,
+          "importance": 2.0424
+        },
+        {
+          "skill": "hris",
+          "count": 46,
+          "pct": 41.8,
+          "importance": 1.9228
+        },
+        {
+          "skill": "compliance",
+          "count": 65,
+          "pct": 59.1,
+          "importance": 1.2807
+        },
+        {
+          "skill": "excel",
+          "count": 64,
+          "pct": 58.2,
+          "importance": 1.1343
+        },
+        {
+          "skill": "coaching",
+          "count": 37,
+          "pct": 33.6,
+          "importance": 1.0891
+        },
+        {
+          "skill": "onboarding",
+          "count": 26,
+          "pct": 23.6,
+          "importance": 1.0834
+        },
+        {
+          "skill": "adp",
+          "count": 27,
+          "pct": 24.5,
+          "importance": 1.0653
+        },
+        {
+          "skill": "project management",
+          "count": 64,
+          "pct": 58.2,
+          "importance": 1.0489
+        },
+        {
+          "skill": "communications",
+          "count": 75,
+          "pct": 68.2,
+          "importance": 1.0349
+        },
+        {
+          "skill": "leadership",
+          "count": 53,
+          "pct": 48.2,
+          "importance": 0.9074
+        },
+        {
+          "skill": "organizational development",
+          "count": 19,
+          "pct": 17.3,
+          "importance": 0.8544
+        },
+        {
+          "skill": "medical",
+          "count": 33,
+          "pct": 30.0,
+          "importance": 0.8193
+        },
+        {
+          "skill": "sap",
+          "count": 25,
+          "pct": 22.7,
+          "importance": 0.8115
+        },
+        {
+          "skill": "conflict resolution",
+          "count": 24,
+          "pct": 21.8,
+          "importance": 0.8059
+        },
+        {
+          "skill": "talent acquisition",
+          "count": 16,
+          "pct": 14.5,
+          "importance": 0.7928
+        },
+        {
+          "skill": "osha",
+          "count": 20,
+          "pct": 18.2,
+          "importance": 0.7154
+        },
+        {
+          "skill": "communication skills",
+          "count": 31,
+          "pct": 28.2,
+          "importance": 0.6725
+        },
+        {
+          "skill": "interpersonal skills",
+          "count": 23,
+          "pct": 20.9,
+          "importance": 0.6716
+        },
+        {
+          "skill": "marketing",
+          "count": 28,
+          "pct": 25.5,
+          "importance": 0.5213
+        },
+        {
+          "skill": "presentation",
+          "count": 19,
+          "pct": 17.3,
+          "importance": 0.5093
+        },
+        {
+          "skill": "succession planning",
+          "count": 9,
+          "pct": 8.2,
+          "importance": 0.4946
+        },
+        {
+          "skill": "detailoriented",
+          "count": 16,
+          "pct": 14.5,
+          "importance": 0.4635
+        },
+        {
+          "skill": "accounting",
+          "count": 20,
+          "pct": 18.2,
+          "importance": 0.4523
+        },
+        {
+          "skill": "time management",
+          "count": 16,
+          "pct": 14.5,
+          "importance": 0.4193
+        },
+        {
+          "skill": "selfmotivated",
+          "count": 13,
+          "pct": 11.8,
+          "importance": 0.3974
+        },
+        {
+          "skill": "teamwork",
+          "count": 10,
+          "pct": 9.1,
+          "importance": 0.3777
+        },
+        {
+          "skill": "organizational skills",
+          "count": 12,
+          "pct": 10.9,
+          "importance": 0.3631
+        },
+        {
+          "skill": "oracle",
+          "count": 10,
+          "pct": 9.1,
+          "importance": 0.3336
+        },
+        {
+          "skill": "diversity",
+          "count": 8,
+          "pct": 7.3,
+          "importance": 0.3292
+        },
+        {
+          "skill": "negotiation",
+          "count": 12,
+          "pct": 10.9,
+          "importance": 0.3219
+        },
+        {
+          "skill": "quickbooks",
+          "count": 9,
+          "pct": 8.2,
+          "importance": 0.3027
+        },
+        {
+          "skill": "less",
+          "count": 8,
+          "pct": 7.3,
+          "importance": 0.2956
+        },
+        {
+          "skill": "decisionmaking",
+          "count": 8,
+          "pct": 7.3,
+          "importance": 0.2616
+        },
+        {
+          "skill": "auditing",
+          "count": 7,
+          "pct": 6.4,
+          "importance": 0.2485
+        },
+        {
+          "skill": "mentoring",
+          "count": 7,
+          "pct": 6.4,
+          "importance": 0.2378
+        },
+        {
+          "skill": "critical thinking",
+          "count": 7,
+          "pct": 6.4,
+          "importance": 0.2378
+        },
+        {
+          "skill": "nursing",
+          "count": 6,
+          "pct": 5.5,
+          "importance": 0.218
+        },
+        {
+          "skill": "collaboration",
+          "count": 6,
+          "pct": 5.5,
+          "importance": 0.1948
+        },
+        {
+          "skill": "analytical skills",
+          "count": 5,
+          "pct": 4.5,
+          "importance": 0.1943
+        }
+      ]
+    },
+    "design": {
+      "doc_count": 403,
+      "pattern_skills": [
+        "marketing",
+        "communications",
+        "photoshop",
+        "illustrator",
+        "project management",
+        "excel",
+        "leadership",
+        "communication skills",
+        "html",
+        "presentation",
+        "indesign",
+        "autocad",
+        "payroll",
+        "time management",
+        "compliance",
+        "collaboration",
+        "public relations",
+        "detailoriented",
+        "negotiation",
+        "accounting"
+      ],
+      "discriminative_phrases": [
+        "social media",
+        "graphic designer",
+        "design and",
+        "designer to",
+        "to company name",
+        "to current",
+        "worked with",
+        "graphic design",
+        "customer service",
+        "digital media",
+        "product development",
+        "of arts",
+        "designer to company"
+      ],
+      "full_skill_stats": [
+        {
+          "skill": "marketing",
+          "count": 185,
+          "pct": 45.9,
+          "importance": 0.9401
+        },
+        {
+          "skill": "communications",
+          "count": 240,
+          "pct": 59.6,
+          "importance": 0.9039
+        },
+        {
+          "skill": "photoshop",
+          "count": 101,
+          "pct": 25.1,
+          "importance": 0.8722
+        },
+        {
+          "skill": "illustrator",
+          "count": 75,
+          "pct": 18.6,
+          "importance": 0.7337
+        },
+        {
+          "skill": "project management",
+          "count": 152,
+          "pct": 37.7,
+          "importance": 0.68
+        },
+        {
+          "skill": "excel",
+          "count": 140,
+          "pct": 34.7,
+          "importance": 0.6773
+        },
+        {
+          "skill": "leadership",
+          "count": 143,
+          "pct": 35.5,
+          "importance": 0.6682
+        },
+        {
+          "skill": "communication skills",
+          "count": 92,
+          "pct": 22.8,
+          "importance": 0.5448
+        },
+        {
+          "skill": "html",
+          "count": 52,
+          "pct": 12.9,
+          "importance": 0.4965
+        },
+        {
+          "skill": "presentation",
+          "count": 67,
+          "pct": 16.6,
+          "importance": 0.4902
+        },
+        {
+          "skill": "indesign",
+          "count": 43,
+          "pct": 10.7,
+          "importance": 0.4816
+        },
+        {
+          "skill": "autocad",
+          "count": 54,
+          "pct": 13.4,
+          "importance": 0.467
+        },
+        {
+          "skill": "payroll",
+          "count": 90,
+          "pct": 22.3,
+          "importance": 0.4543
+        },
+        {
+          "skill": "digital marketing",
+          "count": 38,
+          "pct": 9.4,
+          "importance": 0.4364
+        },
+        {
+          "skill": "time management",
+          "count": 56,
+          "pct": 13.9,
+          "importance": 0.4006
+        },
+        {
+          "skill": "seo",
+          "count": 33,
+          "pct": 8.2,
+          "importance": 0.3777
+        },
+        {
+          "skill": "compliance",
+          "count": 70,
+          "pct": 17.4,
+          "importance": 0.3765
+        },
+        {
+          "skill": "collaboration",
+          "count": 42,
+          "pct": 10.4,
+          "importance": 0.3721
+        },
+        {
+          "skill": "public relations",
+          "count": 43,
+          "pct": 10.7,
+          "importance": 0.3543
+        },
+        {
+          "skill": "detailoriented",
+          "count": 44,
+          "pct": 10.9,
+          "importance": 0.3479
+        },
+        {
+          "skill": "selfmotivated",
+          "count": 40,
+          "pct": 9.9,
+          "importance": 0.3337
+        },
+        {
+          "skill": "negotiation",
+          "count": 44,
+          "pct": 10.9,
+          "importance": 0.3222
+        },
+        {
+          "skill": "css",
+          "count": 27,
+          "pct": 6.7,
+          "importance": 0.3101
+        },
+        {
+          "skill": "branding",
+          "count": 29,
+          "pct": 7.2,
+          "importance": 0.3068
+        },
+        {
+          "skill": "accounting",
+          "count": 45,
+          "pct": 11.2,
+          "importance": 0.2778
+        },
+        {
+          "skill": "business development",
+          "count": 35,
+          "pct": 8.7,
+          "importance": 0.267
+        },
+        {
+          "skill": "lighting",
+          "count": 21,
+          "pct": 5.2,
+          "importance": 0.2611
+        },
+        {
+          "skill": "email marketing",
+          "count": 20,
+          "pct": 5.0,
+          "importance": 0.2598
+        },
+        {
+          "skill": "organizational skills",
+          "count": 31,
+          "pct": 7.7,
+          "importance": 0.2561
+        },
+        {
+          "skill": "medical",
+          "count": 37,
+          "pct": 9.2,
+          "importance": 0.2507
+        },
+        {
+          "skill": "human resources",
+          "count": 34,
+          "pct": 8.4,
+          "importance": 0.2459
+        },
+        {
+          "skill": "mentoring",
+          "count": 25,
+          "pct": 6.2,
+          "importance": 0.2318
+        },
+        {
+          "skill": "recruitment",
+          "count": 27,
+          "pct": 6.7,
+          "importance": 0.2316
+        },
+        {
+          "skill": "interpersonal skills",
+          "count": 29,
+          "pct": 7.2,
+          "importance": 0.2311
+        },
+        {
+          "skill": "salesforce",
+          "count": 22,
+          "pct": 5.5,
+          "importance": 0.23
+        },
+        {
+          "skill": "coaching",
+          "count": 28,
+          "pct": 6.9,
+          "importance": 0.225
+        },
+        {
+          "skill": "market research",
+          "count": 21,
+          "pct": 5.2,
+          "importance": 0.2227
+        },
+        {
+          "skill": "accounts management",
+          "count": 24,
+          "pct": 6.0,
+          "importance": 0.221
+        },
+        {
+          "skill": "creativity",
+          "count": 20,
+          "pct": 5.0,
+          "importance": 0.2137
+        },
+        {
+          "skill": "budgeting",
+          "count": 27,
+          "pct": 6.7,
+          "importance": 0.2073
+        },
+        {
+          "skill": "teamwork",
+          "count": 20,
+          "pct": 5.0,
+          "importance": 0.2062
+        },
+        {
+          "skill": "public speaking",
+          "count": 19,
+          "pct": 4.7,
+          "importance": 0.2052
+        },
+        {
+          "skill": "account management",
+          "count": 22,
+          "pct": 5.5,
+          "importance": 0.2043
+        }
+      ]
+    },
+    "cse": {
+      "doc_count": 120,
+      "pattern_skills": [
+        "project management",
+        "sql",
+        "linux",
+        "communications",
+        "vmware",
+        "ios",
+        "windows server",
+        "leadership",
+        "oracle",
+        "compliance",
+        "unix",
+        "html",
+        "crm",
+        "budgeting",
+        "strategic planning",
+        "procurement",
+        "java!sscript",
+        "php",
+        "excel",
+        "css",
+        "communication skills",
+        "sap",
+        "marketing",
+        "collaboration",
+        "interpersonal skills",
+        "negotiation",
+        "medical",
+        "accounting"
+      ],
+      "discriminative_phrases": [
+        "information technology",
+        "active directory",
+        "help desk",
+        "hardware and",
+        "technology specialist",
+        "information systems",
+        "information technology specialist",
+        "hardware and software",
+        "disaster recovery",
+        "technical support",
+        "project management",
+        "of information",
+        "software and",
+        "windows server",
+        "of information technology",
+        "operating systems",
+        "implementation of",
+        "systems and",
+        "network security",
+        "sql server",
+        "microsoft exchange",
+        "network and",
+        "windows xp",
+        "technology manager",
+        "microsoft certified",
+        "information technology manager"
+      ],
+      "full_skill_stats": [
+        {
+          "skill": "project management",
+          "count": 118,
+          "pct": 98.3,
+          "importance": 1.7728
+        },
+        {
+          "skill": "sql",
+          "count": 49,
+          "pct": 40.8,
+          "importance": 1.4823
+        },
+        {
+          "skill": "linux",
+          "count": 33,
+          "pct": 27.5,
+          "importance": 1.1936
+        },
+        {
+          "skill": "communications",
+          "count": 84,
+          "pct": 70.0,
+          "importance": 1.0625
+        },
+        {
+          "skill": "vmware",
+          "count": 25,
+          "pct": 20.8,
+          "importance": 1.044
+        },
+        {
+          "skill": "ios",
+          "count": 28,
+          "pct": 23.3,
+          "importance": 1.0049
+        },
+        {
+          "skill": "windows server",
+          "count": 24,
+          "pct": 20.0,
+          "importance": 0.9978
+        },
+        {
+          "skill": "leadership",
+          "count": 53,
+          "pct": 44.2,
+          "importance": 0.8318
+        },
+        {
+          "skill": "oracle",
+          "count": 27,
+          "pct": 22.5,
+          "importance": 0.8258
+        },
+        {
+          "skill": "compliance",
+          "count": 42,
+          "pct": 35.0,
+          "importance": 0.7586
+        },
+        {
+          "skill": "unix",
+          "count": 19,
+          "pct": 15.8,
+          "importance": 0.7376
+        },
+        {
+          "skill": "html",
+          "count": 22,
+          "pct": 18.3,
+          "importance": 0.7054
+        },
+        {
+          "skill": "crm",
+          "count": 18,
+          "pct": 15.0,
+          "importance": 0.6008
+        },
+        {
+          "skill": "budgeting",
+          "count": 23,
+          "pct": 19.2,
+          "importance": 0.593
+        },
+        {
+          "skill": "strategic planning",
+          "count": 20,
+          "pct": 16.7,
+          "importance": 0.5776
+        },
+        {
+          "skill": "procurement",
+          "count": 18,
+          "pct": 15.0,
+          "importance": 0.5404
+        },
+        {
+          "skill": "java!sscript",
+          "count": 13,
+          "pct": 10.8,
+          "importance": 0.503
+        },
+        {
+          "skill": "php",
+          "count": 12,
+          "pct": 10.0,
+          "importance": 0.5011
+        },
+        {
+          "skill": "excel",
+          "count": 30,
+          "pct": 25.0,
+          "importance": 0.4874
+        },
+        {
+          "skill": "mysql",
+          "count": 11,
+          "pct": 9.2,
+          "importance": 0.4701
+        },
+        {
+          "skill": "css",
+          "count": 12,
+          "pct": 10.0,
+          "importance": 0.4628
+        },
+        {
+          "skill": "communication skills",
+          "count": 23,
+          "pct": 19.2,
+          "importance": 0.4574
+        },
+        {
+          "skill": "sap",
+          "count": 15,
+          "pct": 12.5,
+          "importance": 0.4463
+        },
+        {
+          "skill": "marketing",
+          "count": 26,
+          "pct": 21.7,
+          "importance": 0.4437
+        },
+        {
+          "skill": "collaboration",
+          "count": 14,
+          "pct": 11.7,
+          "importance": 0.4166
+        },
+        {
+          "skill": "android",
+          "count": 9,
+          "pct": 7.5,
+          "importance": 0.4062
+        },
+        {
+          "skill": "interpersonal skills",
+          "count": 15,
+          "pct": 12.5,
+          "importance": 0.4015
+        },
+        {
+          "skill": "javascript",
+          "count": 10,
+          "pct": 8.3,
+          "importance": 0.3979
+        },
+        {
+          "skill": "negotiation",
+          "count": 16,
+          "pct": 13.3,
+          "importance": 0.3935
+        },
+        {
+          "skill": "medical",
+          "count": 17,
+          "pct": 14.2,
+          "importance": 0.3869
+        },
+        {
+          "skill": "hipaa",
+          "count": 10,
+          "pct": 8.3,
+          "importance": 0.3832
+        },
+        {
+          "skill": "agile",
+          "count": 9,
+          "pct": 7.5,
+          "importance": 0.3449
+        },
+        {
+          "skill": "pmp",
+          "count": 7,
+          "pct": 5.8,
+          "importance": 0.3122
+        },
+        {
+          "skill": "mentoring",
+          "count": 10,
+          "pct": 8.3,
+          "importance": 0.3114
+        },
+        {
+          "skill": "accounting",
+          "count": 15,
+          "pct": 12.5,
+          "importance": 0.311
+        },
+        {
+          "skill": "decisionmaking",
+          "count": 10,
+          "pct": 8.3,
+          "importance": 0.2998
+        },
+        {
+          "skill": "scrum",
+          "count": 7,
+          "pct": 5.8,
+          "importance": 0.2992
+        },
+        {
+          "skill": "python",
+          "count": 7,
+          "pct": 5.8,
+          "importance": 0.2977
+        },
+        {
+          "skill": "detailoriented",
+          "count": 11,
+          "pct": 9.2,
+          "importance": 0.2921
+        },
+        {
+          "skill": "requirements gathering",
+          "count": 6,
+          "pct": 5.0,
+          "importance": 0.2911
+        },
+        {
+          "skill": "conflict resolution",
+          "count": 9,
+          "pct": 7.5,
+          "importance": 0.277
+        },
+        {
+          "skill": "azure",
+          "count": 5,
+          "pct": 4.2,
+          "importance": 0.2639
+        },
+        {
+          "skill": "business analysis",
+          "count": 6,
+          "pct": 5.0,
+          "importance": 0.2528
+        },
+        {
+          "skill": "coaching",
+          "count": 9,
+          "pct": 7.5,
+          "importance": 0.2428
+        }
+      ]
+    },
+    "education": {
+      "doc_count": 102,
+      "pattern_skills": [
+        "classroom management",
+        "lesson planning",
+        "special education",
+        "communications",
+        "cpr",
+        "differentiated instruction",
+        "communication skills",
+        "leadership",
+        "first aid",
+        "excel",
+        "collaboration",
+        "critical thinking",
+        "time management",
+        "organizational skills",
+        "medical",
+        "interpersonal skills",
+        "payroll",
+        "compliance",
+        "marketing"
+      ],
+      "discriminative_phrases": [
+        "lesson plans",
+        "teacher to",
+        "special education",
+        "teacher summary",
+        "students to",
+        "teacher company",
+        "teacher company name",
+        "children s",
+        "students with",
+        "classroom management",
+        "students in",
+        "of students",
+        "students and",
+        "early childhood",
+        "social studies",
+        "parents and",
+        "lesson planning",
+        "learning and",
+        "teachers and",
+        "teacher to company",
+        "children and",
+        "activities and",
+        "of arts",
+        "childhood education",
+        "after school",
+        "student learning",
+        "small group",
+        "field trips",
+        "teaching methods",
+        "records of"
+      ],
+      "full_skill_stats": [
+        {
+          "skill": "classroom management",
+          "count": 31,
+          "pct": 30.4,
+          "importance": 1.4565
+        },
+        {
+          "skill": "lesson planning",
+          "count": 25,
+          "pct": 24.5,
+          "importance": 1.2175
+        },
+        {
+          "skill": "special education",
+          "count": 20,
+          "pct": 19.6,
+          "importance": 0.9961
+        },
+        {
+          "skill": "communications",
+          "count": 62,
+          "pct": 60.8,
+          "importance": 0.9226
+        },
+        {
+          "skill": "cpr",
+          "count": 22,
+          "pct": 21.6,
+          "importance": 0.7736
+        },
+        {
+          "skill": "differentiated instruction",
+          "count": 13,
+          "pct": 12.7,
+          "importance": 0.7358
+        },
+        {
+          "skill": "communication skills",
+          "count": 31,
+          "pct": 30.4,
+          "importance": 0.7252
+        },
+        {
+          "skill": "leadership",
+          "count": 39,
+          "pct": 38.2,
+          "importance": 0.7201
+        },
+        {
+          "skill": "first aid",
+          "count": 15,
+          "pct": 14.7,
+          "importance": 0.5832
+        },
+        {
+          "skill": "excel",
+          "count": 28,
+          "pct": 27.5,
+          "importance": 0.5352
+        },
+        {
+          "skill": "collaboration",
+          "count": 15,
+          "pct": 14.7,
+          "importance": 0.5251
+        },
+        {
+          "skill": "critical thinking",
+          "count": 14,
+          "pct": 13.7,
+          "importance": 0.5128
+        },
+        {
+          "skill": "time management",
+          "count": 18,
+          "pct": 17.6,
+          "importance": 0.5087
+        },
+        {
+          "skill": "organizational skills",
+          "count": 12,
+          "pct": 11.8,
+          "importance": 0.3916
+        },
+        {
+          "skill": "creativity",
+          "count": 9,
+          "pct": 8.8,
+          "importance": 0.38
+        },
+        {
+          "skill": "medical",
+          "count": 13,
+          "pct": 12.7,
+          "importance": 0.348
+        },
+        {
+          "skill": "interpersonal skills",
+          "count": 11,
+          "pct": 10.8,
+          "importance": 0.3464
+        },
+        {
+          "skill": "payroll",
+          "count": 16,
+          "pct": 15.7,
+          "importance": 0.3191
+        },
+        {
+          "skill": "compliance",
+          "count": 15,
+          "pct": 14.7,
+          "importance": 0.3187
+        },
+        {
+          "skill": "coaching",
+          "count": 10,
+          "pct": 9.8,
+          "importance": 0.3174
+        },
+        {
+          "skill": "conflict resolution",
+          "count": 8,
+          "pct": 7.8,
+          "importance": 0.2897
+        },
+        {
+          "skill": "nextjs",
+          "count": 7,
+          "pct": 6.9,
+          "importance": 0.2864
+        },
+        {
+          "skill": "mentoring",
+          "count": 7,
+          "pct": 6.9,
+          "importance": 0.2564
+        },
+        {
+          "skill": "work ethic",
+          "count": 7,
+          "pct": 6.9,
+          "importance": 0.2507
+        },
+        {
+          "skill": "presentation",
+          "count": 8,
+          "pct": 7.8,
+          "importance": 0.2312
+        },
+        {
+          "skill": "expressjs",
+          "count": 5,
+          "pct": 4.9,
+          "importance": 0.2299
+        },
+        {
+          "skill": "stem",
+          "count": 4,
+          "pct": 3.9,
+          "importance": 0.2283
+        },
+        {
+          "skill": "marketing",
+          "count": 11,
+          "pct": 10.8,
+          "importance": 0.2209
+        },
+        {
+          "skill": "public speaking",
+          "count": 5,
+          "pct": 4.9,
+          "importance": 0.2133
+        },
+        {
+          "skill": "teamwork",
+          "count": 5,
+          "pct": 4.9,
+          "importance": 0.2036
+        },
+        {
+          "skill": "human resources",
+          "count": 7,
+          "pct": 6.9,
+          "importance": 0.2
+        },
+        {
+          "skill": "selfmotivated",
+          "count": 6,
+          "pct": 5.9,
+          "importance": 0.1978
+        },
+        {
+          "skill": "accounting",
+          "count": 8,
+          "pct": 7.8,
+          "importance": 0.1951
+        },
+        {
+          "skill": "budgeting",
+          "count": 6,
+          "pct": 5.9,
+          "importance": 0.182
+        },
+        {
+          "skill": "elearning",
+          "count": 3,
+          "pct": 2.9,
+          "importance": 0.1797
+        },
+        {
+          "skill": "pilot",
+          "count": 4,
+          "pct": 3.9,
+          "importance": 0.1786
+        },
+        {
+          "skill": "diversity",
+          "count": 4,
+          "pct": 3.9,
+          "importance": 0.1775
+        },
+        {
+          "skill": "clinical",
+          "count": 5,
+          "pct": 4.9,
+          "importance": 0.1753
+        },
+        {
+          "skill": "photoshop",
+          "count": 5,
+          "pct": 4.9,
+          "importance": 0.1706
+        },
+        {
+          "skill": "nursing",
+          "count": 4,
+          "pct": 3.9,
+          "importance": 0.1568
+        },
+        {
+          "skill": "detailoriented",
+          "count": 5,
+          "pct": 4.9,
+          "importance": 0.1562
+        }
+      ]
+    },
+    "legal": {
+      "doc_count": 118,
+      "pattern_skills": [
+        "medical",
+        "communications",
+        "excel",
+        "clinical",
+        "leadership",
+        "payroll",
+        "interpersonal skills",
+        "conflict resolution",
+        "communication skills",
+        "detailoriented",
+        "compliance",
+        "patient care",
+        "nursing",
+        "organizational skills",
+        "coaching",
+        "time management",
+        "decisionmaking",
+        "marketing",
+        "project management",
+        "human resources",
+        "negotiation",
+        "cpr",
+        "critical thinking",
+        "presentation",
+        "accounting"
+      ],
+      "discriminative_phrases": [
+        "customer service",
+        "domestic violence",
+        "service advocate",
+        "advocate summary",
+        "mental health",
+        "customer satisfaction",
+        "data entry",
+        "crisis intervention"
+      ],
+      "full_skill_stats": [
+        {
+          "skill": "medical",
+          "count": 44,
+          "pct": 37.3,
+          "importance": 1.0183
+        },
+        {
+          "skill": "communications",
+          "count": 76,
+          "pct": 64.4,
+          "importance": 0.9776
+        },
+        {
+          "skill": "excel",
+          "count": 53,
+          "pct": 44.9,
+          "importance": 0.8757
+        },
+        {
+          "skill": "clinical",
+          "count": 26,
+          "pct": 22.0,
+          "importance": 0.7879
+        },
+        {
+          "skill": "leadership",
+          "count": 48,
+          "pct": 40.7,
+          "importance": 0.7661
+        },
+        {
+          "skill": "payroll",
+          "count": 42,
+          "pct": 35.6,
+          "importance": 0.7241
+        },
+        {
+          "skill": "interpersonal skills",
+          "count": 26,
+          "pct": 22.0,
+          "importance": 0.7077
+        },
+        {
+          "skill": "conflict resolution",
+          "count": 21,
+          "pct": 17.8,
+          "importance": 0.6573
+        },
+        {
+          "skill": "communication skills",
+          "count": 30,
+          "pct": 25.4,
+          "importance": 0.6067
+        },
+        {
+          "skill": "detailoriented",
+          "count": 22,
+          "pct": 18.6,
+          "importance": 0.5941
+        },
+        {
+          "skill": "compliance",
+          "count": 32,
+          "pct": 27.1,
+          "importance": 0.5878
+        },
+        {
+          "skill": "patient care",
+          "count": 16,
+          "pct": 13.6,
+          "importance": 0.5781
+        },
+        {
+          "skill": "nursing",
+          "count": 17,
+          "pct": 14.4,
+          "importance": 0.5759
+        },
+        {
+          "skill": "organizational skills",
+          "count": 20,
+          "pct": 16.9,
+          "importance": 0.5642
+        },
+        {
+          "skill": "coaching",
+          "count": 20,
+          "pct": 16.9,
+          "importance": 0.5488
+        },
+        {
+          "skill": "time management",
+          "count": 21,
+          "pct": 17.8,
+          "importance": 0.513
+        },
+        {
+          "skill": "decisionmaking",
+          "count": 15,
+          "pct": 12.7,
+          "importance": 0.4573
+        },
+        {
+          "skill": "marketing",
+          "count": 26,
+          "pct": 22.0,
+          "importance": 0.4513
+        },
+        {
+          "skill": "project management",
+          "count": 28,
+          "pct": 23.7,
+          "importance": 0.4278
+        },
+        {
+          "skill": "human resources",
+          "count": 17,
+          "pct": 14.4,
+          "importance": 0.42
+        },
+        {
+          "skill": "negotiation",
+          "count": 16,
+          "pct": 13.6,
+          "importance": 0.4002
+        },
+        {
+          "skill": "cpr",
+          "count": 13,
+          "pct": 11.0,
+          "importance": 0.3951
+        },
+        {
+          "skill": "critical thinking",
+          "count": 12,
+          "pct": 10.2,
+          "importance": 0.38
+        },
+        {
+          "skill": "presentation",
+          "count": 15,
+          "pct": 12.7,
+          "importance": 0.3748
+        },
+        {
+          "skill": "cpt",
+          "count": 8,
+          "pct": 6.8,
+          "importance": 0.3568
+        },
+        {
+          "skill": "client relations",
+          "count": 10,
+          "pct": 8.5,
+          "importance": 0.343
+        },
+        {
+          "skill": "accounting",
+          "count": 16,
+          "pct": 13.6,
+          "importance": 0.3373
+        },
+        {
+          "skill": "selfmotivated",
+          "count": 11,
+          "pct": 9.3,
+          "importance": 0.3134
+        },
+        {
+          "skill": "diagnosis",
+          "count": 7,
+          "pct": 5.9,
+          "importance": 0.3042
+        },
+        {
+          "skill": "collaboration",
+          "count": 10,
+          "pct": 8.5,
+          "importance": 0.3026
+        },
+        {
+          "skill": "mentoring",
+          "count": 9,
+          "pct": 7.6,
+          "importance": 0.285
+        },
+        {
+          "skill": "hipaa",
+          "count": 7,
+          "pct": 5.9,
+          "importance": 0.2728
+        },
+        {
+          "skill": "employee relations",
+          "count": 8,
+          "pct": 6.8,
+          "importance": 0.2689
+        },
+        {
+          "skill": "diversity",
+          "count": 7,
+          "pct": 5.9,
+          "importance": 0.2686
+        },
+        {
+          "skill": "strategic planning",
+          "count": 9,
+          "pct": 7.6,
+          "importance": 0.2643
+        },
+        {
+          "skill": "phlebotomy",
+          "count": 5,
+          "pct": 4.2,
+          "importance": 0.2561
+        },
+        {
+          "skill": "first aid",
+          "count": 7,
+          "pct": 5.9,
+          "importance": 0.2352
+        },
+        {
+          "skill": "work ethic",
+          "count": 7,
+          "pct": 5.9,
+          "importance": 0.2167
+        },
+        {
+          "skill": "special education",
+          "count": 5,
+          "pct": 4.2,
+          "importance": 0.2153
+        },
+        {
+          "skill": "medical coding",
+          "count": 4,
+          "pct": 3.4,
+          "importance": 0.2147
+        },
+        {
+          "skill": "teamwork",
+          "count": 6,
+          "pct": 5.1,
+          "importance": 0.2112
+        },
+        {
+          "skill": "business development",
+          "count": 8,
+          "pct": 6.8,
+          "importance": 0.2084
+        }
+      ]
+    },
+    "business": {
+      "doc_count": 257,
+      "pattern_skills": [
+        "business development",
+        "marketing",
+        "project management",
+        "leadership",
+        "communications",
+        "negotiation",
+        "accounts management",
+        "account management",
+        "crm",
+        "excel",
+        "forecasting",
+        "compliance",
+        "accounting",
+        "sql",
+        "payroll",
+        "coaching",
+        "human resources",
+        "communication skills",
+        "strategic planning",
+        "salesforce",
+        "presentation",
+        "medical",
+        "budgeting",
+        "investment",
+        "oracle",
+        "clinical",
+        "sap",
+        "public relations",
+        "time management"
+      ],
+      "discriminative_phrases": [
+        "business development",
+        "business development manager",
+        "development manager",
+        "sales and",
+        "of business",
+        "project management",
+        "january to",
+        "developed and",
+        "january company",
+        "january company name",
+        "marketing and",
+        "to company name",
+        "to january company"
+      ],
+      "full_skill_stats": [
+        {
+          "skill": "business development",
+          "count": 142,
+          "pct": 55.3,
+          "importance": 1.6988
+        },
+        {
+          "skill": "marketing",
+          "count": 150,
+          "pct": 58.4,
+          "importance": 1.1953
+        },
+        {
+          "skill": "project management",
+          "count": 160,
+          "pct": 62.3,
+          "importance": 1.1224
+        },
+        {
+          "skill": "leadership",
+          "count": 122,
+          "pct": 47.5,
+          "importance": 0.894
+        },
+        {
+          "skill": "communications",
+          "count": 144,
+          "pct": 56.0,
+          "importance": 0.8505
+        },
+        {
+          "skill": "negotiation",
+          "count": 66,
+          "pct": 25.7,
+          "importance": 0.7579
+        },
+        {
+          "skill": "accounts management",
+          "count": 48,
+          "pct": 18.7,
+          "importance": 0.6932
+        },
+        {
+          "skill": "account management",
+          "count": 47,
+          "pct": 18.3,
+          "importance": 0.6844
+        },
+        {
+          "skill": "crm",
+          "count": 41,
+          "pct": 16.0,
+          "importance": 0.639
+        },
+        {
+          "skill": "excel",
+          "count": 84,
+          "pct": 32.7,
+          "importance": 0.6372
+        },
+        {
+          "skill": "forecasting",
+          "count": 48,
+          "pct": 18.7,
+          "importance": 0.628
+        },
+        {
+          "skill": "compliance",
+          "count": 72,
+          "pct": 28.0,
+          "importance": 0.6072
+        },
+        {
+          "skill": "accounting",
+          "count": 57,
+          "pct": 22.2,
+          "importance": 0.5518
+        },
+        {
+          "skill": "sql",
+          "count": 37,
+          "pct": 14.4,
+          "importance": 0.5226
+        },
+        {
+          "skill": "payroll",
+          "count": 60,
+          "pct": 23.3,
+          "importance": 0.4749
+        },
+        {
+          "skill": "coaching",
+          "count": 37,
+          "pct": 14.4,
+          "importance": 0.4662
+        },
+        {
+          "skill": "human resources",
+          "count": 41,
+          "pct": 16.0,
+          "importance": 0.465
+        },
+        {
+          "skill": "communication skills",
+          "count": 50,
+          "pct": 19.5,
+          "importance": 0.4643
+        },
+        {
+          "skill": "strategic planning",
+          "count": 34,
+          "pct": 13.2,
+          "importance": 0.4585
+        },
+        {
+          "skill": "salesforce",
+          "count": 27,
+          "pct": 10.5,
+          "importance": 0.4426
+        },
+        {
+          "skill": "presentation",
+          "count": 38,
+          "pct": 14.8,
+          "importance": 0.4359
+        },
+        {
+          "skill": "medical",
+          "count": 40,
+          "pct": 15.6,
+          "importance": 0.425
+        },
+        {
+          "skill": "budgeting",
+          "count": 35,
+          "pct": 13.6,
+          "importance": 0.4214
+        },
+        {
+          "skill": "investment",
+          "count": 29,
+          "pct": 11.3,
+          "importance": 0.4115
+        },
+        {
+          "skill": "oracle",
+          "count": 28,
+          "pct": 10.9,
+          "importance": 0.3999
+        },
+        {
+          "skill": "pipeline",
+          "count": 23,
+          "pct": 8.9,
+          "importance": 0.3958
+        },
+        {
+          "skill": "lead generation",
+          "count": 20,
+          "pct": 7.8,
+          "importance": 0.3953
+        },
+        {
+          "skill": "market research",
+          "count": 22,
+          "pct": 8.6,
+          "importance": 0.3659
+        },
+        {
+          "skill": "client relations",
+          "count": 23,
+          "pct": 8.9,
+          "importance": 0.3622
+        },
+        {
+          "skill": "clinical",
+          "count": 26,
+          "pct": 10.1,
+          "importance": 0.3618
+        },
+        {
+          "skill": "sap",
+          "count": 26,
+          "pct": 10.1,
+          "importance": 0.3612
+        },
+        {
+          "skill": "mentoring",
+          "count": 24,
+          "pct": 9.3,
+          "importance": 0.3489
+        },
+        {
+          "skill": "public relations",
+          "count": 27,
+          "pct": 10.5,
+          "importance": 0.3488
+        },
+        {
+          "skill": "sales strategy",
+          "count": 15,
+          "pct": 5.8,
+          "importance": 0.3342
+        },
+        {
+          "skill": "equity",
+          "count": 22,
+          "pct": 8.6,
+          "importance": 0.3324
+        },
+        {
+          "skill": "branding",
+          "count": 19,
+          "pct": 7.4,
+          "importance": 0.3152
+        },
+        {
+          "skill": "time management",
+          "count": 28,
+          "pct": 10.9,
+          "importance": 0.3141
+        },
+        {
+          "skill": "html",
+          "count": 20,
+          "pct": 7.8,
+          "importance": 0.2994
+        },
+        {
+          "skill": "recruitment",
+          "count": 22,
+          "pct": 8.6,
+          "importance": 0.2959
+        },
+        {
+          "skill": "decisionmaking",
+          "count": 21,
+          "pct": 8.2,
+          "importance": 0.2939
+        },
+        {
+          "skill": "nextjs",
+          "count": 17,
+          "pct": 6.6,
+          "importance": 0.2761
+        }
+      ]
+    },
+    "healthcare": {
+      "doc_count": 232,
+      "pattern_skills": [
+        "medical",
+        "clinical",
+        "cpr",
+        "communications",
+        "leadership",
+        "payroll",
+        "nursing",
+        "compliance",
+        "first aid",
+        "patient care",
+        "marketing",
+        "communication skills",
+        "excel",
+        "project management",
+        "time management",
+        "accounting",
+        "interpersonal skills",
+        "coaching",
+        "accounts management",
+        "human resources",
+        "account management",
+        "recruitment",
+        "organizational skills",
+        "selfmotivated",
+        "strategic planning",
+        "business development",
+        "negotiation"
+      ],
+      "discriminative_phrases": [
+        "group fitness",
+        "personal trainer",
+        "patient care",
+        "personal training",
+        "customer service",
+        "fitness instructor",
+        "health and",
+        "to current",
+        "patients and",
+        "health care",
+        "of science"
+      ],
+      "full_skill_stats": [
+        {
+          "skill": "medical",
+          "count": 108,
+          "pct": 46.6,
+          "importance": 1.2713
+        },
+        {
+          "skill": "clinical",
+          "count": 66,
+          "pct": 28.4,
+          "importance": 1.0173
+        },
+        {
+          "skill": "cpr",
+          "count": 63,
+          "pct": 27.2,
+          "importance": 0.9739
+        },
+        {
+          "skill": "communications",
+          "count": 146,
+          "pct": 62.9,
+          "importance": 0.9552
+        },
+        {
+          "skill": "leadership",
+          "count": 113,
+          "pct": 48.7,
+          "importance": 0.9173
+        },
+        {
+          "skill": "payroll",
+          "count": 98,
+          "pct": 42.2,
+          "importance": 0.8593
+        },
+        {
+          "skill": "nursing",
+          "count": 44,
+          "pct": 19.0,
+          "importance": 0.7581
+        },
+        {
+          "skill": "compliance",
+          "count": 80,
+          "pct": 34.5,
+          "importance": 0.7474
+        },
+        {
+          "skill": "first aid",
+          "count": 42,
+          "pct": 18.1,
+          "importance": 0.7179
+        },
+        {
+          "skill": "patient care",
+          "count": 39,
+          "pct": 16.8,
+          "importance": 0.7168
+        },
+        {
+          "skill": "marketing",
+          "count": 81,
+          "pct": 34.9,
+          "importance": 0.715
+        },
+        {
+          "skill": "communication skills",
+          "count": 66,
+          "pct": 28.4,
+          "importance": 0.6789
+        },
+        {
+          "skill": "excel",
+          "count": 74,
+          "pct": 31.9,
+          "importance": 0.6219
+        },
+        {
+          "skill": "project management",
+          "count": 72,
+          "pct": 31.0,
+          "importance": 0.5595
+        },
+        {
+          "skill": "time management",
+          "count": 40,
+          "pct": 17.2,
+          "importance": 0.497
+        },
+        {
+          "skill": "accounting",
+          "count": 45,
+          "pct": 19.4,
+          "importance": 0.4826
+        },
+        {
+          "skill": "interpersonal skills",
+          "count": 33,
+          "pct": 14.2,
+          "importance": 0.4569
+        },
+        {
+          "skill": "coaching",
+          "count": 32,
+          "pct": 13.8,
+          "importance": 0.4466
+        },
+        {
+          "skill": "accounts management",
+          "count": 27,
+          "pct": 11.6,
+          "importance": 0.432
+        },
+        {
+          "skill": "human resources",
+          "count": 34,
+          "pct": 14.7,
+          "importance": 0.4272
+        },
+        {
+          "skill": "account management",
+          "count": 26,
+          "pct": 11.2,
+          "importance": 0.4194
+        },
+        {
+          "skill": "recruitment",
+          "count": 27,
+          "pct": 11.6,
+          "importance": 0.4022
+        },
+        {
+          "skill": "pharmacy",
+          "count": 19,
+          "pct": 8.2,
+          "importance": 0.3985
+        },
+        {
+          "skill": "hipaa",
+          "count": 20,
+          "pct": 8.6,
+          "importance": 0.3964
+        },
+        {
+          "skill": "organizational skills",
+          "count": 27,
+          "pct": 11.6,
+          "importance": 0.3874
+        },
+        {
+          "skill": "selfmotivated",
+          "count": 26,
+          "pct": 11.2,
+          "importance": 0.3768
+        },
+        {
+          "skill": "strategic planning",
+          "count": 24,
+          "pct": 10.3,
+          "importance": 0.3585
+        },
+        {
+          "skill": "work ethic",
+          "count": 22,
+          "pct": 9.5,
+          "importance": 0.3464
+        },
+        {
+          "skill": "business development",
+          "count": 26,
+          "pct": 11.2,
+          "importance": 0.3446
+        },
+        {
+          "skill": "negotiation",
+          "count": 26,
+          "pct": 11.2,
+          "importance": 0.3307
+        },
+        {
+          "skill": "critical thinking",
+          "count": 20,
+          "pct": 8.6,
+          "importance": 0.3221
+        },
+        {
+          "skill": "collaboration",
+          "count": 20,
+          "pct": 8.6,
+          "importance": 0.3078
+        },
+        {
+          "skill": "budgeting",
+          "count": 22,
+          "pct": 9.5,
+          "importance": 0.2934
+        },
+        {
+          "skill": "presentation",
+          "count": 23,
+          "pct": 9.9,
+          "importance": 0.2923
+        },
+        {
+          "skill": "conflict resolution",
+          "count": 18,
+          "pct": 7.8,
+          "importance": 0.2866
+        },
+        {
+          "skill": "bls",
+          "count": 12,
+          "pct": 5.2,
+          "importance": 0.2856
+        },
+        {
+          "skill": "decisionmaking",
+          "count": 18,
+          "pct": 7.8,
+          "importance": 0.2791
+        },
+        {
+          "skill": "emr",
+          "count": 12,
+          "pct": 5.2,
+          "importance": 0.2785
+        },
+        {
+          "skill": "teamwork",
+          "count": 14,
+          "pct": 6.0,
+          "importance": 0.2507
+        },
+        {
+          "skill": "detailoriented",
+          "count": 17,
+          "pct": 7.3,
+          "importance": 0.2335
+        },
+        {
+          "skill": "cpt",
+          "count": 10,
+          "pct": 4.3,
+          "importance": 0.2268
+        },
+        {
+          "skill": "public relations",
+          "count": 14,
+          "pct": 6.0,
+          "importance": 0.2004
+        }
+      ]
+    },
+    "agriculture": {
+      "doc_count": 63,
+      "pattern_skills": [
+        "communications",
+        "leadership",
+        "excel",
+        "project management",
+        "communication skills",
+        "presentation",
+        "compliance",
+        "marketing",
+        "medical",
+        "mentoring",
+        "strategic planning",
+        "recruitment",
+        "accounting",
+        "cpr",
+        "selfmotivated",
+        "human resources",
+        "public relations",
+        "budgeting",
+        "payroll"
+      ],
+      "discriminative_phrases": [
+        "of agriculture",
+        "land use",
+        "research assistant",
+        "university of",
+        "natural resources",
+        "of science",
+        "state university",
+        "agriculture education",
+        "of education",
+        "agriculture and"
+      ],
+      "full_skill_stats": [
+        {
+          "skill": "communications",
+          "count": 39,
+          "pct": 61.9,
+          "importance": 0.9396
+        },
+        {
+          "skill": "leadership",
+          "count": 31,
+          "pct": 49.2,
+          "importance": 0.9267
+        },
+        {
+          "skill": "excel",
+          "count": 27,
+          "pct": 42.9,
+          "importance": 0.8356
+        },
+        {
+          "skill": "project management",
+          "count": 28,
+          "pct": 44.4,
+          "importance": 0.8012
+        },
+        {
+          "skill": "communication skills",
+          "count": 17,
+          "pct": 27.0,
+          "importance": 0.6439
+        },
+        {
+          "skill": "presentation",
+          "count": 13,
+          "pct": 20.6,
+          "importance": 0.6084
+        },
+        {
+          "skill": "compliance",
+          "count": 17,
+          "pct": 27.0,
+          "importance": 0.5848
+        },
+        {
+          "skill": "marketing",
+          "count": 16,
+          "pct": 25.4,
+          "importance": 0.5201
+        },
+        {
+          "skill": "medical",
+          "count": 11,
+          "pct": 17.5,
+          "importance": 0.4768
+        },
+        {
+          "skill": "mentoring",
+          "count": 8,
+          "pct": 12.7,
+          "importance": 0.4744
+        },
+        {
+          "skill": "strategic planning",
+          "count": 8,
+          "pct": 12.7,
+          "importance": 0.4401
+        },
+        {
+          "skill": "recruitment",
+          "count": 8,
+          "pct": 12.7,
+          "importance": 0.4389
+        },
+        {
+          "skill": "accounting",
+          "count": 11,
+          "pct": 17.5,
+          "importance": 0.4344
+        },
+        {
+          "skill": "diversity",
+          "count": 6,
+          "pct": 9.5,
+          "importance": 0.4312
+        },
+        {
+          "skill": "public speaking",
+          "count": 6,
+          "pct": 9.5,
+          "importance": 0.4144
+        },
+        {
+          "skill": "cpr",
+          "count": 7,
+          "pct": 11.1,
+          "importance": 0.3985
+        },
+        {
+          "skill": "selfmotivated",
+          "count": 7,
+          "pct": 11.1,
+          "importance": 0.3736
+        },
+        {
+          "skill": "human resources",
+          "count": 8,
+          "pct": 12.7,
+          "importance": 0.3702
+        },
+        {
+          "skill": "public relations",
+          "count": 7,
+          "pct": 11.1,
+          "importance": 0.3689
+        },
+        {
+          "skill": "work ethic",
+          "count": 6,
+          "pct": 9.5,
+          "importance": 0.3479
+        },
+        {
+          "skill": "budgeting",
+          "count": 7,
+          "pct": 11.1,
+          "importance": 0.3438
+        },
+        {
+          "skill": "collaboration",
+          "count": 6,
+          "pct": 9.5,
+          "importance": 0.3401
+        },
+        {
+          "skill": "analytical skills",
+          "count": 5,
+          "pct": 7.9,
+          "importance": 0.3392
+        },
+        {
+          "skill": "payroll",
+          "count": 10,
+          "pct": 15.9,
+          "importance": 0.3229
+        },
+        {
+          "skill": "lesson planning",
+          "count": 4,
+          "pct": 6.3,
+          "importance": 0.3154
+        },
+        {
+          "skill": "interpersonal skills",
+          "count": 6,
+          "pct": 9.5,
+          "importance": 0.3059
+        },
+        {
+          "skill": "classroom management",
+          "count": 4,
+          "pct": 6.3,
+          "importance": 0.3043
+        },
+        {
+          "skill": "conflict resolution",
+          "count": 5,
+          "pct": 7.9,
+          "importance": 0.2931
+        },
+        {
+          "skill": "decisionmaking",
+          "count": 5,
+          "pct": 7.9,
+          "importance": 0.2855
+        },
+        {
+          "skill": "time management",
+          "count": 6,
+          "pct": 9.5,
+          "importance": 0.2745
+        },
+        {
+          "skill": "organizational skills",
+          "count": 5,
+          "pct": 7.9,
+          "importance": 0.2642
+        },
+        {
+          "skill": "teamwork",
+          "count": 4,
+          "pct": 6.3,
+          "importance": 0.2638
+        },
+        {
+          "skill": "detailoriented",
+          "count": 5,
+          "pct": 7.9,
+          "importance": 0.2529
+        },
+        {
+          "skill": "first aid",
+          "count": 4,
+          "pct": 6.3,
+          "importance": 0.2518
+        },
+        {
+          "skill": "critical thinking",
+          "count": 4,
+          "pct": 6.3,
+          "importance": 0.2372
+        },
+        {
+          "skill": "clinical",
+          "count": 4,
+          "pct": 6.3,
+          "importance": 0.227
+        },
+        {
+          "skill": "pandas",
+          "count": 2,
+          "pct": 3.2,
+          "importance": 0.223
+        },
+        {
+          "skill": "agile",
+          "count": 3,
+          "pct": 4.8,
+          "importance": 0.219
+        },
+        {
+          "skill": "creativity",
+          "count": 3,
+          "pct": 4.8,
+          "importance": 0.2051
+        },
+        {
+          "skill": "patient care",
+          "count": 3,
+          "pct": 4.8,
+          "importance": 0.203
+        },
+        {
+          "skill": "business development",
+          "count": 4,
+          "pct": 6.3,
+          "importance": 0.1952
+        }
+      ]
+    },
+    "sales": {
+      "doc_count": 227,
+      "pattern_skills": [
+        "public relations",
+        "marketing",
+        "communications",
+        "project management",
+        "communication skills",
+        "leadership",
+        "excel",
+        "photoshop",
+        "time management",
+        "presentation",
+        "branding",
+        "payroll",
+        "medical",
+        "negotiation",
+        "interpersonal skills",
+        "detailoriented",
+        "selfmotivated",
+        "organizational skills",
+        "compliance",
+        "human resources",
+        "accounting"
+      ],
+      "discriminative_phrases": [
+        "public relations",
+        "social media",
+        "press releases",
+        "sales associate",
+        "media relations",
+        "customer service",
+        "sales and",
+        "relations and",
+        "marketing and",
+        "relationships with",
+        "special events",
+        "public relations and",
+        "communication skills",
+        "to company name",
+        "customers to",
+        "to current"
+      ],
+      "full_skill_stats": [
+        {
+          "skill": "public relations",
+          "count": 111,
+          "pct": 48.9,
+          "importance": 1.6237
+        },
+        {
+          "skill": "marketing",
+          "count": 143,
+          "pct": 63.0,
+          "importance": 1.2901
+        },
+        {
+          "skill": "communications",
+          "count": 179,
+          "pct": 78.9,
+          "importance": 1.1969
+        },
+        {
+          "skill": "project management",
+          "count": 106,
+          "pct": 46.7,
+          "importance": 0.8418
+        },
+        {
+          "skill": "communication skills",
+          "count": 80,
+          "pct": 35.2,
+          "importance": 0.841
+        },
+        {
+          "skill": "leadership",
+          "count": 98,
+          "pct": 43.2,
+          "importance": 0.813
+        },
+        {
+          "skill": "excel",
+          "count": 79,
+          "pct": 34.8,
+          "importance": 0.6785
+        },
+        {
+          "skill": "photoshop",
+          "count": 36,
+          "pct": 15.9,
+          "importance": 0.5519
+        },
+        {
+          "skill": "time management",
+          "count": 43,
+          "pct": 18.9,
+          "importance": 0.5461
+        },
+        {
+          "skill": "presentation",
+          "count": 42,
+          "pct": 18.5,
+          "importance": 0.5455
+        },
+        {
+          "skill": "branding",
+          "count": 26,
+          "pct": 11.5,
+          "importance": 0.4884
+        },
+        {
+          "skill": "payroll",
+          "count": 50,
+          "pct": 22.0,
+          "importance": 0.4481
+        },
+        {
+          "skill": "medical",
+          "count": 37,
+          "pct": 16.3,
+          "importance": 0.4451
+        },
+        {
+          "skill": "negotiation",
+          "count": 34,
+          "pct": 15.0,
+          "importance": 0.442
+        },
+        {
+          "skill": "interpersonal skills",
+          "count": 30,
+          "pct": 13.2,
+          "importance": 0.4245
+        },
+        {
+          "skill": "detailoriented",
+          "count": 28,
+          "pct": 12.3,
+          "importance": 0.393
+        },
+        {
+          "skill": "selfmotivated",
+          "count": 26,
+          "pct": 11.5,
+          "importance": 0.3851
+        },
+        {
+          "skill": "client relations",
+          "count": 21,
+          "pct": 9.3,
+          "importance": 0.3744
+        },
+        {
+          "skill": "critical thinking",
+          "count": 21,
+          "pct": 9.3,
+          "importance": 0.3456
+        },
+        {
+          "skill": "organizational skills",
+          "count": 23,
+          "pct": 10.1,
+          "importance": 0.3373
+        },
+        {
+          "skill": "compliance",
+          "count": 35,
+          "pct": 15.4,
+          "importance": 0.3342
+        },
+        {
+          "skill": "illustrator",
+          "count": 19,
+          "pct": 8.4,
+          "importance": 0.33
+        },
+        {
+          "skill": "human resources",
+          "count": 25,
+          "pct": 11.0,
+          "importance": 0.321
+        },
+        {
+          "skill": "market research",
+          "count": 17,
+          "pct": 7.5,
+          "importance": 0.3201
+        },
+        {
+          "skill": "account management",
+          "count": 19,
+          "pct": 8.4,
+          "importance": 0.3132
+        },
+        {
+          "skill": "accounts management",
+          "count": 19,
+          "pct": 8.4,
+          "importance": 0.3107
+        },
+        {
+          "skill": "indesign",
+          "count": 15,
+          "pct": 6.6,
+          "importance": 0.2983
+        },
+        {
+          "skill": "business development",
+          "count": 22,
+          "pct": 9.7,
+          "importance": 0.298
+        },
+        {
+          "skill": "accounting",
+          "count": 27,
+          "pct": 11.9,
+          "importance": 0.2959
+        },
+        {
+          "skill": "strategic planning",
+          "count": 19,
+          "pct": 8.4,
+          "importance": 0.2901
+        },
+        {
+          "skill": "less",
+          "count": 16,
+          "pct": 7.0,
+          "importance": 0.2865
+        },
+        {
+          "skill": "salesforce",
+          "count": 14,
+          "pct": 6.2,
+          "importance": 0.2598
+        },
+        {
+          "skill": "public speaking",
+          "count": 13,
+          "pct": 5.7,
+          "importance": 0.2492
+        },
+        {
+          "skill": "recruitment",
+          "count": 16,
+          "pct": 7.0,
+          "importance": 0.2436
+        },
+        {
+          "skill": "coaching",
+          "count": 17,
+          "pct": 7.5,
+          "importance": 0.2425
+        },
+        {
+          "skill": "work ethic",
+          "count": 15,
+          "pct": 6.6,
+          "importance": 0.2414
+        },
+        {
+          "skill": "decisionmaking",
+          "count": 15,
+          "pct": 6.6,
+          "importance": 0.2377
+        },
+        {
+          "skill": "mentoring",
+          "count": 14,
+          "pct": 6.2,
+          "importance": 0.2304
+        },
+        {
+          "skill": "social media marketing",
+          "count": 10,
+          "pct": 4.4,
+          "importance": 0.2248
+        },
+        {
+          "skill": "seo",
+          "count": 11,
+          "pct": 4.8,
+          "importance": 0.2235
+        },
+        {
+          "skill": "conflict resolution",
+          "count": 13,
+          "pct": 5.7,
+          "importance": 0.2115
+        },
+        {
+          "skill": "email marketing",
+          "count": 9,
+          "pct": 4.0,
+          "importance": 0.2075
+        }
+      ]
+    },
+    "engineering": {
+      "doc_count": 154,
+      "pattern_skills": [
+        "autocad",
+        "project management",
+        "mechanical engineering",
+        "communications",
+        "leadership",
+        "excel",
+        "matlab",
+        "compliance",
+        "communication skills",
+        "solidworks",
+        "java!sscript",
+        "sql",
+        "mentoring",
+        "time management",
+        "oracle",
+        "medical",
+        "selfmotivated",
+        "marketing"
+      ],
+      "discriminative_phrases": [
+        "engineering manager",
+        "mechanical engineering",
+        "engineering technician",
+        "engineering intern",
+        "design and",
+        "of engineering",
+        "product development",
+        "electrical engineering",
+        "project management",
+        "test equipment",
+        "lean manufacturing",
+        "software development",
+        "to company name"
+      ],
+      "full_skill_stats": [
+        {
+          "skill": "autocad",
+          "count": 74,
+          "pct": 48.1,
+          "importance": 1.6746
+        },
+        {
+          "skill": "project management",
+          "count": 94,
+          "pct": 61.0,
+          "importance": 1.1004
+        },
+        {
+          "skill": "mechanical engineering",
+          "count": 29,
+          "pct": 18.8,
+          "importance": 0.9238
+        },
+        {
+          "skill": "communications",
+          "count": 79,
+          "pct": 51.3,
+          "importance": 0.7786
+        },
+        {
+          "skill": "leadership",
+          "count": 56,
+          "pct": 36.4,
+          "importance": 0.6848
+        },
+        {
+          "skill": "excel",
+          "count": 53,
+          "pct": 34.4,
+          "importance": 0.671
+        },
+        {
+          "skill": "matlab",
+          "count": 18,
+          "pct": 11.7,
+          "importance": 0.6118
+        },
+        {
+          "skill": "compliance",
+          "count": 43,
+          "pct": 27.9,
+          "importance": 0.6052
+        },
+        {
+          "skill": "communication skills",
+          "count": 38,
+          "pct": 24.7,
+          "importance": 0.5888
+        },
+        {
+          "skill": "solidworks",
+          "count": 16,
+          "pct": 10.4,
+          "importance": 0.5528
+        },
+        {
+          "skill": "electrical engineering",
+          "count": 14,
+          "pct": 9.1,
+          "importance": 0.4987
+        },
+        {
+          "skill": "java!sscript",
+          "count": 16,
+          "pct": 10.4,
+          "importance": 0.4824
+        },
+        {
+          "skill": "sql",
+          "count": 20,
+          "pct": 13.0,
+          "importance": 0.4715
+        },
+        {
+          "skill": "python",
+          "count": 13,
+          "pct": 8.4,
+          "importance": 0.4309
+        },
+        {
+          "skill": "mentoring",
+          "count": 17,
+          "pct": 11.0,
+          "importance": 0.4124
+        },
+        {
+          "skill": "time management",
+          "count": 22,
+          "pct": 14.3,
+          "importance": 0.4118
+        },
+        {
+          "skill": "oracle",
+          "count": 17,
+          "pct": 11.0,
+          "importance": 0.4051
+        },
+        {
+          "skill": "scrum",
+          "count": 12,
+          "pct": 7.8,
+          "importance": 0.3996
+        },
+        {
+          "skill": "linux",
+          "count": 14,
+          "pct": 9.1,
+          "importance": 0.3946
+        },
+        {
+          "skill": "medical",
+          "count": 21,
+          "pct": 13.6,
+          "importance": 0.3724
+        },
+        {
+          "skill": "selfmotivated",
+          "count": 16,
+          "pct": 10.4,
+          "importance": 0.3493
+        },
+        {
+          "skill": "hvac",
+          "count": 10,
+          "pct": 6.5,
+          "importance": 0.3381
+        },
+        {
+          "skill": "ios",
+          "count": 12,
+          "pct": 7.8,
+          "importance": 0.3356
+        },
+        {
+          "skill": "plumbing",
+          "count": 9,
+          "pct": 5.8,
+          "importance": 0.2997
+        },
+        {
+          "skill": "agile",
+          "count": 10,
+          "pct": 6.5,
+          "importance": 0.2986
+        },
+        {
+          "skill": "marketing",
+          "count": 22,
+          "pct": 14.3,
+          "importance": 0.2926
+        },
+        {
+          "skill": "jenkins",
+          "count": 7,
+          "pct": 4.5,
+          "importance": 0.2918
+        },
+        {
+          "skill": "critical thinking",
+          "count": 12,
+          "pct": 7.8,
+          "importance": 0.2911
+        },
+        {
+          "skill": "procurement",
+          "count": 12,
+          "pct": 7.8,
+          "importance": 0.2807
+        },
+        {
+          "skill": "javascript",
+          "count": 9,
+          "pct": 5.8,
+          "importance": 0.279
+        },
+        {
+          "skill": "sap",
+          "count": 12,
+          "pct": 7.8,
+          "importance": 0.2782
+        },
+        {
+          "skill": "unix",
+          "count": 9,
+          "pct": 5.8,
+          "importance": 0.2723
+        },
+        {
+          "skill": "detailoriented",
+          "count": 13,
+          "pct": 8.4,
+          "importance": 0.269
+        },
+        {
+          "skill": "less",
+          "count": 10,
+          "pct": 6.5,
+          "importance": 0.2639
+        },
+        {
+          "skill": "collaboration",
+          "count": 11,
+          "pct": 7.1,
+          "importance": 0.255
+        },
+        {
+          "skill": "coaching",
+          "count": 12,
+          "pct": 7.8,
+          "importance": 0.2523
+        },
+        {
+          "skill": "interpersonal skills",
+          "count": 12,
+          "pct": 7.8,
+          "importance": 0.2503
+        },
+        {
+          "skill": "presentation",
+          "count": 13,
+          "pct": 8.4,
+          "importance": 0.2489
+        },
+        {
+          "skill": "strategic planning",
+          "count": 11,
+          "pct": 7.1,
+          "importance": 0.2476
+        },
+        {
+          "skill": "machine learning",
+          "count": 6,
+          "pct": 3.9,
+          "importance": 0.2436
+        },
+        {
+          "skill": "jira",
+          "count": 7,
+          "pct": 4.5,
+          "importance": 0.2419
+        },
+        {
+          "skill": "decisionmaking",
+          "count": 10,
+          "pct": 6.5,
+          "importance": 0.2336
+        }
+      ]
+    },
+    "hospitality": {
+      "doc_count": 118,
+      "pattern_skills": [
+        "presentation",
+        "leadership",
+        "payroll",
+        "communications",
+        "excel",
+        "budgeting",
+        "marketing",
+        "work ethic",
+        "communication skills",
+        "compliance",
+        "time management",
+        "coaching",
+        "accounting",
+        "project management",
+        "medical",
+        "negotiation"
+      ],
+      "discriminative_phrases": [
+        "executive chef",
+        "food and",
+        "culinary arts",
+        "kitchen staff",
+        "food preparation",
+        "chef to",
+        "of food",
+        "sous chef",
+        "food items",
+        "sanitation and",
+        "menu items",
+        "food quality",
+        "chef to company",
+        "cost control",
+        "food cost",
+        "food service",
+        "food handling",
+        "food and beverage",
+        "proper food",
+        "kitchen equipment",
+        "menu development",
+        "of kitchen",
+        "menus and",
+        "executive chef to",
+        "quality and",
+        "chef company",
+        "chef company name",
+        "preparation and",
+        "chef summary",
+        "staff in"
+      ],
+      "full_skill_stats": [
+        {
+          "skill": "presentation",
+          "count": 46,
+          "pct": 39.0,
+          "importance": 1.1493
+        },
+        {
+          "skill": "leadership",
+          "count": 46,
+          "pct": 39.0,
+          "importance": 0.7341
+        },
+        {
+          "skill": "payroll",
+          "count": 36,
+          "pct": 30.5,
+          "importance": 0.6206
+        },
+        {
+          "skill": "communications",
+          "count": 45,
+          "pct": 38.1,
+          "importance": 0.5788
+        },
+        {
+          "skill": "excel",
+          "count": 35,
+          "pct": 29.7,
+          "importance": 0.5783
+        },
+        {
+          "skill": "budgeting",
+          "count": 22,
+          "pct": 18.6,
+          "importance": 0.5769
+        },
+        {
+          "skill": "marketing",
+          "count": 33,
+          "pct": 28.0,
+          "importance": 0.5727
+        },
+        {
+          "skill": "work ethic",
+          "count": 17,
+          "pct": 14.4,
+          "importance": 0.5263
+        },
+        {
+          "skill": "communication skills",
+          "count": 24,
+          "pct": 20.3,
+          "importance": 0.4853
+        },
+        {
+          "skill": "compliance",
+          "count": 25,
+          "pct": 21.2,
+          "importance": 0.4592
+        },
+        {
+          "skill": "time management",
+          "count": 18,
+          "pct": 15.3,
+          "importance": 0.4397
+        },
+        {
+          "skill": "coaching",
+          "count": 15,
+          "pct": 12.7,
+          "importance": 0.4116
+        },
+        {
+          "skill": "creativity",
+          "count": 11,
+          "pct": 9.3,
+          "importance": 0.4015
+        },
+        {
+          "skill": "accounting",
+          "count": 19,
+          "pct": 16.1,
+          "importance": 0.4006
+        },
+        {
+          "skill": "project management",
+          "count": 24,
+          "pct": 20.3,
+          "importance": 0.3667
+        },
+        {
+          "skill": "recruitment",
+          "count": 11,
+          "pct": 9.3,
+          "importance": 0.3222
+        },
+        {
+          "skill": "organizational skills",
+          "count": 11,
+          "pct": 9.3,
+          "importance": 0.3103
+        },
+        {
+          "skill": "medical",
+          "count": 13,
+          "pct": 11.0,
+          "importance": 0.3009
+        },
+        {
+          "skill": "negotiation",
+          "count": 12,
+          "pct": 10.2,
+          "importance": 0.3001
+        },
+        {
+          "skill": "forecasting",
+          "count": 10,
+          "pct": 8.5,
+          "importance": 0.2849
+        },
+        {
+          "skill": "detailoriented",
+          "count": 9,
+          "pct": 7.6,
+          "importance": 0.243
+        },
+        {
+          "skill": "human resources",
+          "count": 9,
+          "pct": 7.6,
+          "importance": 0.2223
+        },
+        {
+          "skill": "conflict resolution",
+          "count": 7,
+          "pct": 5.9,
+          "importance": 0.2191
+        },
+        {
+          "skill": "procurement",
+          "count": 7,
+          "pct": 5.9,
+          "importance": 0.2137
+        },
+        {
+          "skill": "decisionmaking",
+          "count": 7,
+          "pct": 5.9,
+          "importance": 0.2134
+        },
+        {
+          "skill": "nextjs",
+          "count": 6,
+          "pct": 5.1,
+          "importance": 0.2122
+        },
+        {
+          "skill": "client relations",
+          "count": 6,
+          "pct": 5.1,
+          "importance": 0.2058
+        },
+        {
+          "skill": "selfmotivated",
+          "count": 7,
+          "pct": 5.9,
+          "importance": 0.1995
+        },
+        {
+          "skill": "interpersonal skills",
+          "count": 7,
+          "pct": 5.9,
+          "importance": 0.1905
+        },
+        {
+          "skill": "public speaking",
+          "count": 5,
+          "pct": 4.2,
+          "importance": 0.1844
+        },
+        {
+          "skill": "cpr",
+          "count": 6,
+          "pct": 5.1,
+          "importance": 0.1824
+        },
+        {
+          "skill": "business development",
+          "count": 7,
+          "pct": 5.9,
+          "importance": 0.1824
+        },
+        {
+          "skill": "patient care",
+          "count": 5,
+          "pct": 4.2,
+          "importance": 0.1807
+        },
+        {
+          "skill": "strategic planning",
+          "count": 6,
+          "pct": 5.1,
+          "importance": 0.1762
+        },
+        {
+          "skill": "nursing",
+          "count": 5,
+          "pct": 4.2,
+          "importance": 0.1694
+        },
+        {
+          "skill": "employee relations",
+          "count": 5,
+          "pct": 4.2,
+          "importance": 0.168
+        },
+        {
+          "skill": "osha",
+          "count": 5,
+          "pct": 4.2,
+          "importance": 0.1667
+        },
+        {
+          "skill": "presentation skills",
+          "count": 4,
+          "pct": 3.4,
+          "importance": 0.1624
+        }
+      ]
+    },
+    "finance": {
+      "doc_count": 351,
+      "pattern_skills": [
+        "accounting",
+        "payroll",
+        "general ledger",
+        "excel",
+        "compliance",
+        "journal entries",
+        "forecasting",
+        "balance sheet",
+        "quickbooks",
+        "cash flow",
+        "equity",
+        "investment",
+        "budgeting",
+        "gaap",
+        "communications",
+        "auditing",
+        "leadership",
+        "project management",
+        "sap",
+        "marketing",
+        "cpa",
+        "communication skills",
+        "time management",
+        "oracle",
+        "organizational skills",
+        "human resources",
+        "negotiation",
+        "detailoriented",
+        "selfmotivated",
+        "presentation",
+        "procurement",
+        "decisionmaking",
+        "interpersonal skills",
+        "strategic planning",
+        "business development",
+        "medical"
+      ],
+      "discriminative_phrases": [
+        "general ledger",
+        "financial statements",
+        "accounts payable",
+        "balance sheet",
+        "financial reporting",
+        "journal entries",
+        "accounts receivable",
+        "accounting and",
+        "cash flow",
+        "preparation of",
+        "financial reports",
+        "of financial",
+        "fixed assets",
+        "month end",
+        "tax returns",
+        "finance manager",
+        "business administration",
+        "financial statement",
+        "financial analysis",
+        "bank reconciliations"
+      ],
+      "full_skill_stats": [
+        {
+          "skill": "accounting",
+          "count": 248,
+          "pct": 70.7,
+          "importance": 1.7578
+        },
+        {
+          "skill": "payroll",
+          "count": 280,
+          "pct": 79.8,
+          "importance": 1.6228
+        },
+        {
+          "skill": "general ledger",
+          "count": 130,
+          "pct": 37.0,
+          "importance": 1.3815
+        },
+        {
+          "skill": "excel",
+          "count": 203,
+          "pct": 57.8,
+          "importance": 1.1276
+        },
+        {
+          "skill": "compliance",
+          "count": 181,
+          "pct": 51.6,
+          "importance": 1.1176
+        },
+        {
+          "skill": "journal entries",
+          "count": 88,
+          "pct": 25.1,
+          "importance": 1.0368
+        },
+        {
+          "skill": "forecasting",
+          "count": 99,
+          "pct": 28.2,
+          "importance": 0.9483
+        },
+        {
+          "skill": "balance sheet",
+          "count": 76,
+          "pct": 21.7,
+          "importance": 0.9325
+        },
+        {
+          "skill": "quickbooks",
+          "count": 84,
+          "pct": 23.9,
+          "importance": 0.8854
+        },
+        {
+          "skill": "cash flow",
+          "count": 69,
+          "pct": 19.7,
+          "importance": 0.8281
+        },
+        {
+          "skill": "equity",
+          "count": 74,
+          "pct": 21.1,
+          "importance": 0.8187
+        },
+        {
+          "skill": "investment",
+          "count": 78,
+          "pct": 22.2,
+          "importance": 0.8105
+        },
+        {
+          "skill": "budgeting",
+          "count": 91,
+          "pct": 25.9,
+          "importance": 0.8022
+        },
+        {
+          "skill": "gaap",
+          "count": 61,
+          "pct": 17.4,
+          "importance": 0.7941
+        },
+        {
+          "skill": "communications",
+          "count": 182,
+          "pct": 51.9,
+          "importance": 0.787
+        },
+        {
+          "skill": "auditing",
+          "count": 65,
+          "pct": 18.5,
+          "importance": 0.7231
+        },
+        {
+          "skill": "leadership",
+          "count": 132,
+          "pct": 37.6,
+          "importance": 0.7082
+        },
+        {
+          "skill": "project management",
+          "count": 128,
+          "pct": 36.5,
+          "importance": 0.6574
+        },
+        {
+          "skill": "sap",
+          "count": 64,
+          "pct": 18.2,
+          "importance": 0.651
+        },
+        {
+          "skill": "marketing",
+          "count": 108,
+          "pct": 30.8,
+          "importance": 0.6301
+        },
+        {
+          "skill": "cpa",
+          "count": 47,
+          "pct": 13.4,
+          "importance": 0.6259
+        },
+        {
+          "skill": "communication skills",
+          "count": 91,
+          "pct": 25.9,
+          "importance": 0.6187
+        },
+        {
+          "skill": "time management",
+          "count": 66,
+          "pct": 18.8,
+          "importance": 0.5421
+        },
+        {
+          "skill": "oracle",
+          "count": 51,
+          "pct": 14.5,
+          "importance": 0.5333
+        },
+        {
+          "skill": "organizational skills",
+          "count": 50,
+          "pct": 14.2,
+          "importance": 0.4742
+        },
+        {
+          "skill": "human resources",
+          "count": 57,
+          "pct": 16.2,
+          "importance": 0.4734
+        },
+        {
+          "skill": "negotiation",
+          "count": 56,
+          "pct": 16.0,
+          "importance": 0.4708
+        },
+        {
+          "skill": "bank reconciliation",
+          "count": 31,
+          "pct": 8.8,
+          "importance": 0.4623
+        },
+        {
+          "skill": "detailoriented",
+          "count": 50,
+          "pct": 14.2,
+          "importance": 0.4539
+        },
+        {
+          "skill": "selfmotivated",
+          "count": 43,
+          "pct": 12.3,
+          "importance": 0.4119
+        },
+        {
+          "skill": "presentation",
+          "count": 46,
+          "pct": 13.1,
+          "importance": 0.3864
+        },
+        {
+          "skill": "procurement",
+          "count": 36,
+          "pct": 10.3,
+          "importance": 0.3695
+        },
+        {
+          "skill": "decisionmaking",
+          "count": 35,
+          "pct": 10.0,
+          "importance": 0.3587
+        },
+        {
+          "skill": "adp",
+          "count": 29,
+          "pct": 8.3,
+          "importance": 0.3586
+        },
+        {
+          "skill": "interpersonal skills",
+          "count": 38,
+          "pct": 10.8,
+          "importance": 0.3477
+        },
+        {
+          "skill": "strategic planning",
+          "count": 35,
+          "pct": 10.0,
+          "importance": 0.3456
+        },
+        {
+          "skill": "business development",
+          "count": 39,
+          "pct": 11.1,
+          "importance": 0.3416
+        },
+        {
+          "skill": "pivotstables",
+          "count": 23,
+          "pct": 6.6,
+          "importance": 0.3284
+        },
+        {
+          "skill": "taxation",
+          "count": 21,
+          "pct": 6.0,
+          "importance": 0.3221
+        },
+        {
+          "skill": "medical",
+          "count": 39,
+          "pct": 11.1,
+          "importance": 0.3034
+        },
+        {
+          "skill": "sql",
+          "count": 29,
+          "pct": 8.3,
+          "importance": 0.2999
+        },
+        {
+          "skill": "coaching",
+          "count": 31,
+          "pct": 8.8,
+          "importance": 0.286
+        }
+      ]
+    },
+    "construction": {
+      "doc_count": 112,
+      "pattern_skills": [
+        "construction management",
+        "project management",
+        "autocad",
+        "osha",
+        "compliance",
+        "communications",
+        "negotiation",
+        "detailoriented",
+        "procurement",
+        "budgeting",
+        "excel",
+        "leadership",
+        "plumbing",
+        "civil engineering",
+        "communication skills",
+        "cpr",
+        "hvac",
+        "first aid",
+        "marketing",
+        "time management",
+        "work ethic",
+        "decisionmaking",
+        "interpersonal skills",
+        "payroll",
+        "accounting"
+      ],
+      "discriminative_phrases": [
+        "construction manager",
+        "construction management",
+        "project manager",
+        "construction of",
+        "construction project",
+        "construction projects",
+        "construction and",
+        "of construction",
+        "job site",
+        "general contractor",
+        "project management",
+        "plans and",
+        "to complete",
+        "construction project manager",
+        "design and",
+        "civil engineering",
+        "general contractors",
+        "construction worker",
+        "manager to",
+        "completion of",
+        "change orders",
+        "design and construction"
+      ],
+      "full_skill_stats": [
+        {
+          "skill": "construction management",
+          "count": 36,
+          "pct": 32.1,
+          "importance": 1.6107
+        },
+        {
+          "skill": "project management",
+          "count": 92,
+          "pct": 82.1,
+          "importance": 1.4809
+        },
+        {
+          "skill": "autocad",
+          "count": 42,
+          "pct": 37.5,
+          "importance": 1.3068
+        },
+        {
+          "skill": "osha",
+          "count": 37,
+          "pct": 33.0,
+          "importance": 1.2999
+        },
+        {
+          "skill": "compliance",
+          "count": 52,
+          "pct": 46.4,
+          "importance": 1.0063
+        },
+        {
+          "skill": "communications",
+          "count": 69,
+          "pct": 61.6,
+          "importance": 0.9351
+        },
+        {
+          "skill": "negotiation",
+          "count": 34,
+          "pct": 30.4,
+          "importance": 0.8959
+        },
+        {
+          "skill": "detailoriented",
+          "count": 29,
+          "pct": 25.9,
+          "importance": 0.8251
+        },
+        {
+          "skill": "procurement",
+          "count": 25,
+          "pct": 22.3,
+          "importance": 0.8042
+        },
+        {
+          "skill": "budgeting",
+          "count": 29,
+          "pct": 25.9,
+          "importance": 0.8011
+        },
+        {
+          "skill": "excel",
+          "count": 43,
+          "pct": 38.4,
+          "importance": 0.7485
+        },
+        {
+          "skill": "leadership",
+          "count": 44,
+          "pct": 39.3,
+          "importance": 0.7398
+        },
+        {
+          "skill": "plumbing",
+          "count": 16,
+          "pct": 14.3,
+          "importance": 0.7327
+        },
+        {
+          "skill": "civil engineering",
+          "count": 14,
+          "pct": 12.5,
+          "importance": 0.6651
+        },
+        {
+          "skill": "communication skills",
+          "count": 30,
+          "pct": 26.8,
+          "importance": 0.6392
+        },
+        {
+          "skill": "cpr",
+          "count": 19,
+          "pct": 17.0,
+          "importance": 0.6084
+        },
+        {
+          "skill": "hvac",
+          "count": 13,
+          "pct": 11.6,
+          "importance": 0.6043
+        },
+        {
+          "skill": "first aid",
+          "count": 17,
+          "pct": 15.2,
+          "importance": 0.6019
+        },
+        {
+          "skill": "marketing",
+          "count": 28,
+          "pct": 25.0,
+          "importance": 0.512
+        },
+        {
+          "skill": "time management",
+          "count": 19,
+          "pct": 17.0,
+          "importance": 0.489
+        },
+        {
+          "skill": "work ethic",
+          "count": 13,
+          "pct": 11.6,
+          "importance": 0.424
+        },
+        {
+          "skill": "project scheduling",
+          "count": 8,
+          "pct": 7.1,
+          "importance": 0.4234
+        },
+        {
+          "skill": "decisionmaking",
+          "count": 13,
+          "pct": 11.6,
+          "importance": 0.4175
+        },
+        {
+          "skill": "blueprint reading",
+          "count": 7,
+          "pct": 6.2,
+          "importance": 0.3908
+        },
+        {
+          "skill": "pipeline",
+          "count": 9,
+          "pct": 8.0,
+          "importance": 0.3554
+        },
+        {
+          "skill": "interpersonal skills",
+          "count": 12,
+          "pct": 10.7,
+          "importance": 0.3441
+        },
+        {
+          "skill": "payroll",
+          "count": 18,
+          "pct": 16.1,
+          "importance": 0.3269
+        },
+        {
+          "skill": "revit",
+          "count": 6,
+          "pct": 5.4,
+          "importance": 0.3206
+        },
+        {
+          "skill": "conflict resolution",
+          "count": 9,
+          "pct": 8.0,
+          "importance": 0.2968
+        },
+        {
+          "skill": "accounting",
+          "count": 13,
+          "pct": 11.6,
+          "importance": 0.2888
+        },
+        {
+          "skill": "contract management",
+          "count": 6,
+          "pct": 5.4,
+          "importance": 0.2835
+        },
+        {
+          "skill": "organizational skills",
+          "count": 9,
+          "pct": 8.0,
+          "importance": 0.2675
+        },
+        {
+          "skill": "cost estimation",
+          "count": 4,
+          "pct": 3.6,
+          "importance": 0.2327
+        },
+        {
+          "skill": "quickbooks",
+          "count": 7,
+          "pct": 6.2,
+          "importance": 0.2312
+        },
+        {
+          "skill": "medical",
+          "count": 9,
+          "pct": 8.0,
+          "importance": 0.2194
+        },
+        {
+          "skill": "strategic planning",
+          "count": 7,
+          "pct": 6.2,
+          "importance": 0.2166
+        },
+        {
+          "skill": "presentation",
+          "count": 8,
+          "pct": 7.1,
+          "importance": 0.2106
+        },
+        {
+          "skill": "electrical engineering",
+          "count": 4,
+          "pct": 3.6,
+          "importance": 0.1959
+        },
+        {
+          "skill": "pmp",
+          "count": 4,
+          "pct": 3.6,
+          "importance": 0.1911
+        },
+        {
+          "skill": "nextjs",
+          "count": 5,
+          "pct": 4.5,
+          "importance": 0.1863
+        },
+        {
+          "skill": "human resources",
+          "count": 7,
+          "pct": 6.2,
+          "importance": 0.1822
+        }
+      ]
+    },
+    "aviation": {
+      "doc_count": 117,
+      "pattern_skills": [
+        "faa",
+        "compliance",
+        "aircraft maintenance",
+        "excel",
+        "leadership",
+        "communications",
+        "pilot",
+        "project management",
+        "procurement",
+        "negotiation",
+        "accounting",
+        "osha",
+        "medical",
+        "time management",
+        "critical thinking",
+        "cpr",
+        "autocad",
+        "communication skills",
+        "marketing"
+      ],
+      "discriminative_phrases": [
+        "aviation maintenance",
+        "of aviation",
+        "of aircraft",
+        "six sigma",
+        "aviation supply",
+        "safety and",
+        "quality assurance",
+        "test equipment",
+        "united states",
+        "maintenance and",
+        "flight test",
+        "marine corps",
+        "systems and"
+      ],
+      "full_skill_stats": [
+        {
+          "skill": "faa",
+          "count": 18,
+          "pct": 15.4,
+          "importance": 0.8333
+        },
+        {
+          "skill": "compliance",
+          "count": 43,
+          "pct": 36.8,
+          "importance": 0.7965
+        },
+        {
+          "skill": "aircraft maintenance",
+          "count": 16,
+          "pct": 13.7,
+          "importance": 0.7962
+        },
+        {
+          "skill": "excel",
+          "count": 47,
+          "pct": 40.2,
+          "importance": 0.7832
+        },
+        {
+          "skill": "leadership",
+          "count": 48,
+          "pct": 41.0,
+          "importance": 0.7726
+        },
+        {
+          "skill": "communications",
+          "count": 59,
+          "pct": 50.4,
+          "importance": 0.7654
+        },
+        {
+          "skill": "pilot",
+          "count": 17,
+          "pct": 14.5,
+          "importance": 0.6618
+        },
+        {
+          "skill": "project management",
+          "count": 40,
+          "pct": 34.2,
+          "importance": 0.6163
+        },
+        {
+          "skill": "procurement",
+          "count": 17,
+          "pct": 14.5,
+          "importance": 0.5235
+        },
+        {
+          "skill": "negotiation",
+          "count": 20,
+          "pct": 17.1,
+          "importance": 0.5045
+        },
+        {
+          "skill": "accounting",
+          "count": 22,
+          "pct": 18.8,
+          "importance": 0.4678
+        },
+        {
+          "skill": "aviation safety",
+          "count": 8,
+          "pct": 6.8,
+          "importance": 0.4527
+        },
+        {
+          "skill": "osha",
+          "count": 12,
+          "pct": 10.3,
+          "importance": 0.4036
+        },
+        {
+          "skill": "medical",
+          "count": 17,
+          "pct": 14.5,
+          "importance": 0.3968
+        },
+        {
+          "skill": "time management",
+          "count": 16,
+          "pct": 13.7,
+          "importance": 0.3942
+        },
+        {
+          "skill": "aircraft systems",
+          "count": 7,
+          "pct": 6.0,
+          "importance": 0.3898
+        },
+        {
+          "skill": "critical thinking",
+          "count": 12,
+          "pct": 10.3,
+          "importance": 0.3832
+        },
+        {
+          "skill": "airframe",
+          "count": 7,
+          "pct": 6.0,
+          "importance": 0.3697
+        },
+        {
+          "skill": "cpr",
+          "count": 12,
+          "pct": 10.3,
+          "importance": 0.3678
+        },
+        {
+          "skill": "autocad",
+          "count": 12,
+          "pct": 10.3,
+          "importance": 0.3574
+        },
+        {
+          "skill": "communication skills",
+          "count": 17,
+          "pct": 14.5,
+          "importance": 0.3467
+        },
+        {
+          "skill": "work ethic",
+          "count": 10,
+          "pct": 8.5,
+          "importance": 0.3122
+        },
+        {
+          "skill": "strategic planning",
+          "count": 10,
+          "pct": 8.5,
+          "importance": 0.2962
+        },
+        {
+          "skill": "powerplant",
+          "count": 5,
+          "pct": 4.3,
+          "importance": 0.2937
+        },
+        {
+          "skill": "organizational skills",
+          "count": 10,
+          "pct": 8.5,
+          "importance": 0.2845
+        },
+        {
+          "skill": "flight operations",
+          "count": 5,
+          "pct": 4.3,
+          "importance": 0.2829
+        },
+        {
+          "skill": "first aid",
+          "count": 8,
+          "pct": 6.8,
+          "importance": 0.2712
+        },
+        {
+          "skill": "matlab",
+          "count": 6,
+          "pct": 5.1,
+          "importance": 0.2684
+        },
+        {
+          "skill": "coaching",
+          "count": 9,
+          "pct": 7.7,
+          "importance": 0.2491
+        },
+        {
+          "skill": "interpersonal skills",
+          "count": 9,
+          "pct": 7.7,
+          "importance": 0.2471
+        },
+        {
+          "skill": "decisionmaking",
+          "count": 8,
+          "pct": 6.8,
+          "importance": 0.246
+        },
+        {
+          "skill": "detailoriented",
+          "count": 9,
+          "pct": 7.7,
+          "importance": 0.2451
+        },
+        {
+          "skill": "html",
+          "count": 7,
+          "pct": 6.0,
+          "importance": 0.2302
+        },
+        {
+          "skill": "marketing",
+          "count": 13,
+          "pct": 11.1,
+          "importance": 0.2276
+        },
+        {
+          "skill": "conflict resolution",
+          "count": 7,
+          "pct": 6.0,
+          "importance": 0.221
+        },
+        {
+          "skill": "budgeting",
+          "count": 8,
+          "pct": 6.8,
+          "importance": 0.2116
+        },
+        {
+          "skill": "mechanical engineering",
+          "count": 5,
+          "pct": 4.3,
+          "importance": 0.2096
+        },
+        {
+          "skill": "client relations",
+          "count": 6,
+          "pct": 5.1,
+          "importance": 0.2075
+        },
+        {
+          "skill": "expressjs",
+          "count": 5,
+          "pct": 4.3,
+          "importance": 0.2004
+        },
+        {
+          "skill": "human resources",
+          "count": 8,
+          "pct": 6.8,
+          "importance": 0.1993
+        }
+      ]
+    }
+  },
+  "global_skills": {
+    "communications": {
+      "count": 1479,
+      "pct": 59.5
+    },
+    "project management": {
+      "count": 1112,
+      "pct": 44.8
+    },
+    "customer :servicesuccessrelations": {
+      "count": 1037,
+      "pct": 41.7
+    },
+    "leadership": {
+      "count": 1026,
+      "pct": 41.3
+    },
+    "excel": {
+      "count": 960,
+      "pct": 38.6
+    },
+    "payroll": {
+      "count": 882,
+      "pct": 35.5
+    },
+    "marketing": {
+      "count": 870,
+      "pct": 35.0
+    },
+    "compliance": {
+      "count": 772,
+      "pct": 31.1
+    },
+    "communication skills": {
+      "count": 620,
+      "pct": 25.0
+    },
+    "accounting": {
+      "count": 560,
+      "pct": 22.5
+    },
+    "problemsolving": {
+      "count": 509,
+      "pct": 20.5
+    },
+    "medical": {
+      "count": 439,
+      "pct": 17.7
+    },
+    "quality :controlassurance": {
+      "count": 384,
+      "pct": 15.5
+    },
+    "time management": {
+      "count": 377,
+      "pct": 15.2
+    },
+    "human resources": {
+      "count": 365,
+      "pct": 14.7
+    },
+    "presentation": {
+      "count": 353,
+      "pct": 14.2
+    },
+    "negotiation": {
+      "count": 352,
+      "pct": 14.2
+    },
+    "business development": {
+      "count": 311,
+      "pct": 12.5
+    },
+    "budgeting": {
+      "count": 305,
+      "pct": 12.3
+    },
+    "forecast:ing": {
+      "count": 299,
+      "pct": 12.0
+    },
+    "detailoriented": {
+      "count": 278,
+      "pct": 11.2
+    },
+    "interpersonal skills": {
+      "count": 271,
+      "pct": 10.9
+    },
+    "coaching": {
+      "count": 264,
+      "pct": 10.6
+    },
+    "accounts :payablereceivable": {
+      "count": 249,
+      "pct": 10.0
+    },
+    "public relations": {
+      "count": 243,
+      "pct": 9.8
+    },
+    "organizational skills": {
+      "count": 241,
+      "pct": 9.7
+    },
+    "selfmotivated": {
+      "count": 233,
+      "pct": 9.4
+    },
+    "forecasting": {
+      "count": 233,
+      "pct": 9.4
+    },
+    "recruitment": {
+      "count": 212,
+      "pct": 8.5
+    },
+    "strategic planning": {
+      "count": 210,
+      "pct": 8.5
+    },
+    "photoshop": {
+      "count": 207,
+      "pct": 8.3
+    },
+    "autocad": {
+      "count": 206,
+      "pct": 8.3
+    },
+    "r: programming": {
+      "count": 198,
+      "pct": 8.0
+    },
+    "sap": {
+      "count": 189,
+      "pct": 7.6
+    },
+    "collaboration": {
+      "count": 189,
+      "pct": 7.6
+    },
+    "clinical": {
+      "count": 188,
+      "pct": 7.6
+    },
+    "cpr": {
+      "count": 186,
+      "pct": 7.5
+    },
+    "decisionmaking": {
+      "count": 184,
+      "pct": 7.4
+    },
+    "procurement": {
+      "count": 183,
+      "pct": 7.4
+    },
+    "risk :managementassessmentanalysis": {
+      "count": 180,
+      "pct": 7.2
+    },
+    "sql": {
+      "count": 178,
+      "pct": 7.2
+    },
+    "investment": {
+      "count": 175,
+      "pct": 7.0
+    },
+    "work ethic": {
+      "count": 174,
+      "pct": 7.0
+    },
+    "oracle": {
+      "count": 171,
+      "pct": 6.9
+    },
+    "conflict resolution": {
+      "count": 167,
+      "pct": 6.7
+    },
+    "quickbooks": {
+      "count": 166,
+      "pct": 6.7
+    },
+    "accounts management": {
+      "count": 164,
+      "pct": 6.6
+    },
+    "general ledger": {
+      "count": 161,
+      "pct": 6.5
+    },
+    "mentoring": {
+      "count": 160,
+      "pct": 6.4
+    },
+    "critical thinking": {
+      "count": 160,
+      "pct": 6.4
+    },
+    "account management": {
+      "count": 159,
+      "pct": 6.4
+    },
+    "html": {
+      "count": 143,
+      "pct": 5.8
+    },
+    "equity": {
+      "count": 138,
+      "pct": 5.6
+    },
+    "auditing": {
+      "count": 135,
+      "pct": 5.4
+    },
+    "osha": {
+      "count": 131,
+      "pct": 5.3
+    },
+    "illustrator": {
+      "count": 130,
+      "pct": 5.2
+    },
+    "employee relations": {
+      "count": 127,
+      "pct": 5.1
+    },
+    "first aid": {
+      "count": 127,
+      "pct": 5.1
+    },
+    "go:lang": {
+      "count": 126,
+      "pct": 5.1
+    },
+    "nursing": {
+      "count": 123,
+      "pct": 5.0
+    },
+    "crm": {
+      "count": 122,
+      "pct": 4.9
+    },
+    "client relations": {
+      "count": 117,
+      "pct": 4.7
+    },
+    "less": {
+      "count": 115,
+      "pct": 4.6
+    },
+    "performance :managementreviewappraisal": {
+      "count": 113,
+      "pct": 4.5
+    },
+    "adaptab:leility": {
+      "count": 110,
+      "pct": 4.4
+    },
+    "journal entries": {
+      "count": 107,
+      "pct": 4.3
+    },
+    "teamwork": {
+      "count": 105,
+      "pct": 4.2
+    },
+    "nextjs": {
+      "count": 103,
+      "pct": 4.1
+    },
+    "cash flow": {
+      "count": 99,
+      "pct": 4.0
+    },
+    "salesforce": {
+      "count": 99,
+      "pct": 4.0
+    },
+    "branding": {
+      "count": 94,
+      "pct": 3.8
+    },
+    "multitask:ing": {
+      "count": 94,
+      "pct": 3.8
+    },
+    "patient care": {
+      "count": 94,
+      "pct": 3.8
+    },
+    "analytical skills": {
+      "count": 93,
+      "pct": 3.7
+    },
+    "market research": {
+      "count": 93,
+      "pct": 3.7
+    },
+    "creativity": {
+      "count": 90,
+      "pct": 3.6
+    },
+    "balance sheet": {
+      "count": 90,
+      "pct": 3.6
+    },
+    "ios": {
+      "count": 90,
+      "pct": 3.6
+    },
+    "adp": {
+      "count": 87,
+      "pct": 3.5
+    },
+    "linux": {
+      "count": 87,
+      "pct": 3.5
+    },
+    "public speaking": {
+      "count": 86,
+      "pct": 3.5
+    },
+    "spring:sboot": {
+      "count": 86,
+      "pct": 3.5
+    },
+    "pipeline": {
+      "count": 80,
+      "pct": 3.2
+    },
+    "indesign": {
+      "count": 73,
+      "pct": 2.9
+    },
+    "diversity": {
+      "count": 72,
+      "pct": 2.9
+    },
+    "pilot": {
+      "count": 70,
+      "pct": 2.8
+    },
+    "gaap": {
+      "count": 69,
+      "pct": 2.8
+    },
+    "onboarding": {
+      "count": 68,
+      "pct": 2.7
+    },
+    "hris": {
+      "count": 67,
+      "pct": 2.7
+    },
+    "hipaa": {
+      "count": 67,
+      "pct": 2.7
+    },
+    "agile": {
+      "count": 67,
+      "pct": 2.7
+    },
+    "seo": {
+      "count": 66,
+      "pct": 2.7
+    },
+    "css": {
+      "count": 65,
+      "pct": 2.6
+    },
+    "digital marketing": {
+      "count": 65,
+      "pct": 2.6
+    },
+    "java!sscript": {
+      "count": 64,
+      "pct": 2.6
+    },
+    "unix": {
+      "count": 63,
+      "pct": 2.5
+    },
+    "cpa": {
+      "count": 62,
+      "pct": 2.5
+    },
+    "expressjs": {
+      "count": 61,
+      "pct": 2.5
+    },
+    "javascript": {
+      "count": 56,
+      "pct": 2.3
+    },
+    "presentation skills": {
+      "count": 55,
+      "pct": 2.2
+    },
+    "classroom management": {
+      "count": 55,
+      "pct": 2.2
+    },
+    "pharmacy": {
+      "count": 51,
+      "pct": 2.1
+    },
+    "mechanical engineering": {
+      "count": 49,
+      "pct": 2.0
+    },
+    "organizational development": {
+      "count": 47,
+      "pct": 1.9
+    },
+    "labor :lawrelationscompliance": {
+      "count": 46,
+      "pct": 1.9
+    },
+    "curriculum :developmentdesignplanning": {
+      "count": 46,
+      "pct": 1.9
+    },
+    "lesson planning": {
+      "count": 46,
+      "pct": 1.9
+    },
+    "windows server": {
+      "count": 45,
+      "pct": 1.8
+    },
+    "pivotstables": {
+      "count": 44,
+      "pct": 1.8
+    },
+    "construction management": {
+      "count": 44,
+      "pct": 1.8
+    },
+    "vmware": {
+      "count": 44,
+      "pct": 1.8
+    },
+    "php": {
+      "count": 44,
+      "pct": 1.8
+    },
+    "lighting": {
+      "count": 44,
+      "pct": 1.8
+    },
+    "safety :managementcomplianceregulations": {
+      "count": 42,
+      "pct": 1.7
+    },
+    "business analysis": {
+      "count": 42,
+      "pct": 1.7
+    },
+    "special education": {
+      "count": 41,
+      "pct": 1.7
+    },
+    "lead generation": {
+      "count": 41,
+      "pct": 1.7
+    },
+    "social media marketing": {
+      "count": 40,
+      "pct": 1.6
+    },
+    "python": {
+      "count": 40,
+      "pct": 1.6
+    },
+    "diagnosis": {
+      "count": 39,
+      "pct": 1.6
+    },
+    "mysql": {
+      "count": 39,
+      "pct": 1.6
+    },
+    "scrum": {
+      "count": 39,
+      "pct": 1.6
+    },
+    "plumbing": {
+      "count": 39,
+      "pct": 1.6
+    },
+    "adobe :xdcreative suite": {
+      "count": 36,
+      "pct": 1.4
+    },
+    "hvac": {
+      "count": 36,
+      "pct": 1.4
+    },
+    "matlab": {
+      "count": 35,
+      "pct": 1.4
+    },
+    "email marketing": {
+      "count": 35,
+      "pct": 1.4
+    },
+    "bank reconciliation": {
+      "count": 35,
+      "pct": 1.4
+    },
+    "cpt": {
+      "count": 34,
+      "pct": 1.4
+    },
+    "web design": {
+      "count": 34,
+      "pct": 1.4
+    },
+    "sem": {
+      "count": 34,
+      "pct": 1.4
+    },
+    "contract management": {
+      "count": 33,
+      "pct": 1.3
+    },
+    "jira": {
+      "count": 32,
+      "pct": 1.3
+    },
+    "solidworks": {
+      "count": 32,
+      "pct": 1.3
+    },
+    "civil engineering": {
+      "count": 32,
+      "pct": 1.3
+    },
+    "pmp": {
+      "count": 31,
+      "pct": 1.2
+    },
+    "taxation": {
+      "count": 30,
+      "pct": 1.2
+    },
+    "emr": {
+      "count": 30,
+      "pct": 1.2
+    },
+    "content marketing": {
+      "count": 30,
+      "pct": 1.2
+    },
+    "faa": {
+      "count": 29,
+      "pct": 1.2
+    },
+    "android": {
+      "count": 29,
+      "pct": 1.2
+    },
+    "talent acquisition": {
+      "count": 28,
+      "pct": 1.1
+    },
+    "electrical engineering": {
+      "count": 27,
+      "pct": 1.1
+    },
+    "tableau": {
+      "count": 26,
+      "pct": 1.0
+    },
+    "bls": {
+      "count": 26,
+      "pct": 1.0
+    },
+    "portfolio management": {
+      "count": 25,
+      "pct": 1.0
+    },
+    "vba": {
+      "count": 23,
+      "pct": 0.9
+    },
+    "instruction:al design": {
+      "count": 22,
+      "pct": 0.9
+    },
+    "aws": {
+      "count": 22,
+      "pct": 0.9
+    },
+    "sales strategy": {
+      "count": 21,
+      "pct": 0.8
+    },
+    "bloomberg": {
+      "count": 21,
+      "pct": 0.8
+    },
+    "differentiated instruction": {
+      "count": 20,
+      "pct": 0.8
+    },
+    "stem": {
+      "count": 19,
+      "pct": 0.8
+    },
+    "requirements gathering": {
+      "count": 19,
+      "pct": 0.8
+    },
+    "electronic health record:s": {
+      "count": 19,
+      "pct": 0.8
+    },
+    "aircraft maintenance": {
+      "count": 19,
+      "pct": 0.8
+    },
+    "tally": {
+      "count": 18,
+      "pct": 0.7
+    },
+    "project scheduling": {
+      "count": 17,
+      "pct": 0.7
+    },
+    "ppc": {
+      "count": 17,
+      "pct": 0.7
+    },
+    "ehr": {
+      "count": 17,
+      "pct": 0.7
+    },
+    "swift": {
+      "count": 16,
+      "pct": 0.6
+    },
+    "3d :modelingrenderinganimation": {
+      "count": 16,
+      "pct": 0.6
+    },
+    "revit": {
+      "count": 16,
+      "pct": 0.6
+    },
+    "video editing": {
+      "count": 16,
+      "pct": 0.6
+    },
+    "physical therapy": {
+      "count": 16,
+      "pct": 0.6
+    },
+    "brand identity": {
+      "count": 15,
+      "pct": 0.6
+    },
+    "succession planning": {
+      "count": 15,
+      "pct": 0.6
+    },
+    "phlebotomy": {
+      "count": 15,
+      "pct": 0.6
+    },
+    "icd10": {
+      "count": 15,
+      "pct": 0.6
+    },
+    "elearning": {
+      "count": 14,
+      "pct": 0.6
+    },
+    "bash": {
+      "count": 14,
+      "pct": 0.6
+    },
+    "lms": {
+      "count": 13,
+      "pct": 0.5
+    },
+    "perl": {
+      "count": 13,
+      "pct": 0.5
+    },
+    "airframe": {
+      "count": 13,
+      "pct": 0.5
+    },
+    "derivatives": {
+      "count": 13,
+      "pct": 0.5
+    },
+    "blueprint reading": {
+      "count": 12,
+      "pct": 0.5
+    },
+    "machine learning": {
+      "count": 12,
+      "pct": 0.5
+    },
+    "after effects": {
+      "count": 11,
+      "pct": 0.4
+    },
+    "typography": {
+      "count": 11,
+      "pct": 0.4
+    },
+    "azure": {
+      "count": 11,
+      "pct": 0.4
+    },
+    "medical coding": {
+      "count": 11,
+      "pct": 0.4
+    },
+    "vat": {
+      "count": 11,
+      "pct": 0.4
+    },
+    "workday": {
+      "count": 10,
+      "pct": 0.4
+    },
+    "sketch": {
+      "count": 10,
+      "pct": 0.4
+    },
+    "git": {
+      "count": 10,
+      "pct": 0.4
+    },
+    "prototyping": {
+      "count": 10,
+      "pct": 0.4
+    },
+    "reuters": {
+      "count": 10,
+      "pct": 0.4
+    },
+    "jenkins": {
+      "count": 10,
+      "pct": 0.4
+    },
+    "ifrs": {
+      "count": 10,
+      "pct": 0.4
+    },
+    "github": {
+      "count": 9,
+      "pct": 0.4
+    },
+    "pharmacology": {
+      "count": 9,
+      "pct": 0.4
+    },
+    "acls": {
+      "count": 9,
+      "pct": 0.4
+    },
+    "cost estimation": {
+      "count": 9,
+      "pct": 0.4
+    }
+  }
+}

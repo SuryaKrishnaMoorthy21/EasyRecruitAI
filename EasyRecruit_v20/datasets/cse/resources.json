@@ -1,0 +1,892 @@
+{
+  "meta": {
+    "domain": "CSE",
+    "domain_full": "Computer Science & Engineering",
+    "version": "1.0",
+    "description": "Curated free and premium learning resources for CS/IT students",
+    "last_updated": "2026-03-31"
+  },
+  "skill_topic_map": {
+    "dsa": ["dsa", "data structures", "algorithms", "leetcode", "competitive programming", "dynamic programming", "graph", "tree", "sorting", "recursion", "backtracking", "binary search", "array", "linked list", "stack", "queue", "heap"],
+    "dbms": ["dbms", "database", "sql", "mysql", "postgresql", "mongodb", "nosql", "normalization", "transactions", "concurrency", "er diagram", "schema"],
+    "os": ["os", "operating system", "process", "thread", "scheduling", "deadlock", "memory management", "virtual memory", "linux", "shell", "unix", "paging", "segmentation"],
+    "cn": ["cn", "computer networks", "networking", "tcp", "ip", "http", "dns", "osi", "routing", "subnetting", "socket", "wireshark", "ccna", "protocol"],
+    "oop": ["oop", "object oriented", "design patterns", "solid", "inheritance", "polymorphism", "encapsulation", "abstraction", "class", "interface"],
+    "se": ["se", "software engineering", "agile", "scrum", "git", "github", "sdlc", "testing", "uml", "devops", "ci/cd", "version control"],
+    "coa": ["coa", "computer organization", "computer architecture", "digital logic", "boolean", "pipeline", "cache", "cpu", "assembly", "microprocessor"],
+    "toc": ["toc", "theory of computation", "automata", "dfa", "nfa", "pda", "turing machine", "context free grammar", "regular expression", "formal language"],
+    "math": ["math", "discrete mathematics", "linear algebra", "probability", "statistics", "combinatorics", "graph theory", "set theory", "logic"],
+    "web": ["web", "html", "css", "javascript", "react", "angular", "vue", "django", "flask", "frontend", "backend", "full stack", "rest", "api"],
+    "ml": ["ml", "machine learning", "deep learning", "tensorflow", "pytorch", "neural network", "ai", "artificial intelligence", "data science", "nlp", "computer vision"],
+    "cloud": ["cloud", "aws", "azure", "gcp", "docker", "kubernetes", "devops", "microservices", "serverless", "containers"],
+    "python": ["python", "pandas", "numpy", "flask", "fastapi", "scripting"],
+    "java": ["java", "spring", "maven", "jvm", "junit", "hibernate"],
+    "cpp": ["c++", "cpp", "stl", "competitive programming", "template"],
+    "cybersecurity": ["cybersecurity", "security", "ethical hacking", "penetration testing", "encryption", "firewall", "ceh"],
+    "system_design": ["system design", "high level design", "hld", "low level design", "lld", "scalability", "load balancer", "microservices", "distributed systems"]
+  },
+  "free_resources": [
+    {
+      "id": "f001", "subject": "DSA", "title": "Data Structures & Algorithms Full Course",
+      "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM",
+      "channel": "freeCodeCamp", "duration": "8h 20m", "rating": 4.9,
+      "tags": ["dsa", "data structures", "algorithms"],
+      "why": "Best single-video DSA course; covers arrays to graphs"
+    },
+    {
+      "id": "f002", "subject": "DSA", "title": "DSA with Abdul Bari (Complete Playlist)",
+      "url": "https://www.youtube.com/playlist?list=PLDN4rrl48XKpZkf03iYFl-O29szjTrs_O",
+      "channel": "Abdul Bari", "duration": "Multi-video", "rating": 5.0,
+      "tags": ["dsa", "data structures", "algorithms"],
+      "why": "Gold-standard playlist; crystal-clear explanations"
+    },
+    {
+      "id": "f003", "subject": "DSA", "title": "Striver's A2Z DSA Sheet – Full Course",
+      "url": "https://www.youtube.com/playlist?list=PLgUwDviBIf0oF6QL8m22w1hIDC1vJ_BHz",
+      "channel": "take U forward", "duration": "Multi-video", "rating": 4.9,
+      "tags": ["dsa", "data structures", "algorithms", "placement"],
+      "why": "Most comprehensive for placement prep"
+    },
+    {
+      "id": "f004", "subject": "DSA", "title": "Dynamic Programming by Aditya Verma",
+      "url": "https://www.youtube.com/playlist?list=PL_z_8CaSLPWekqhdCPmFohncHwz8TY2Go",
+      "channel": "Aditya Verma", "duration": "Multi-video", "rating": 4.9,
+      "tags": ["dsa", "dynamic programming", "dp"],
+      "why": "Best DP playlist on YouTube, hands down"
+    },
+    {
+      "id": "f005", "subject": "DSA", "title": "Graph Theory – William Fiset",
+      "url": "https://www.youtube.com/playlist?list=PLDV1Zeh2NRsDGO4--qE8yH72HFL1Km93P",
+      "channel": "WilliamFiset", "duration": "Multi-video", "rating": 4.8,
+      "tags": ["dsa", "graph", "graph theory"],
+      "why": "Highly visual graph theory from scratch"
+    },
+    {
+      "id": "f006", "subject": "DSA", "title": "Sorting Algorithms Visualised",
+      "url": "https://www.youtube.com/watch?v=kgBjXUE_Nwc",
+      "channel": "freeCodeCamp", "duration": "1h 30m", "rating": 4.7,
+      "tags": ["dsa", "sorting", "algorithms"],
+      "why": "Interactive visual understanding of sorting"
+    },
+    {
+      "id": "f007", "subject": "DSA", "title": "Recursion & Backtracking – Apna College",
+      "url": "https://www.youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt",
+      "channel": "Apna College", "duration": "Multi-video", "rating": 4.8,
+      "tags": ["dsa", "recursion", "backtracking"],
+      "why": "Best Hindi+English recursion series for beginners"
+    },
+    {
+      "id": "f008", "subject": "DSA", "title": "Competitive Programming – Errichto",
+      "url": "https://www.youtube.com/c/Errichto/videos",
+      "channel": "Errichto", "duration": "Multi-video", "rating": 4.7,
+      "tags": ["dsa", "competitive programming", "codeforces"],
+      "why": "ICPC/Codeforces approach with editorial walkthroughs"
+    },
+    {
+      "id": "f009", "subject": "DSA", "title": "LeetCode 75 – NeetCode",
+      "url": "https://www.youtube.com/playlist?list=PLot-Xpze53ldVwtstag2TL4HQhAnC8ATf",
+      "channel": "NeetCode", "duration": "Multi-video", "rating": 4.9,
+      "tags": ["dsa", "leetcode", "interview prep"],
+      "why": "Top 75 LeetCode solutions with pattern explanation"
+    },
+    {
+      "id": "f010", "subject": "DSA", "title": "Data Structures Easy to Advanced – CS Dojo",
+      "url": "https://www.youtube.com/watch?v=RBSGKlAvoiM",
+      "channel": "CS Dojo", "duration": "3h 30m", "rating": 4.6,
+      "tags": ["dsa", "data structures", "beginner"],
+      "why": "Gentle intro perfect for beginners"
+    },
+    {
+      "id": "f011", "subject": "DBMS", "title": "DBMS Complete Course – Gate Smashers",
+      "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiFAN6I8CuViBuCdJgiOkT2Y",
+      "channel": "Gate Smashers", "duration": "Multi-video", "rating": 4.9,
+      "tags": ["dbms", "database", "sql", "gate"],
+      "why": "Best for GATE + interviews; covers ER, SQL, transactions"
+    },
+    {
+      "id": "f012", "subject": "DBMS", "title": "SQL Full Course – freeCodeCamp",
+      "url": "https://www.youtube.com/watch?v=HXV3zeQKqGY",
+      "channel": "freeCodeCamp", "duration": "4h 20m", "rating": 4.8,
+      "tags": ["dbms", "sql", "database"],
+      "why": "Complete SQL from SELECT to stored procedures"
+    },
+    {
+      "id": "f013", "subject": "DBMS", "title": "Database Design – Caleb Curry",
+      "url": "https://www.youtube.com/playlist?list=PL_c9BZzLwBRK0Pc28IdvPQizD2mJlgoID",
+      "channel": "Caleb Curry", "duration": "Multi-video", "rating": 4.7,
+      "tags": ["dbms", "er diagram", "normalization", "schema"],
+      "why": "ER diagrams, normalization, schema design"
+    },
+    {
+      "id": "f014", "subject": "DBMS", "title": "PostgreSQL for Beginners – Amigoscode",
+      "url": "https://www.youtube.com/watch?v=qw--VYLpxG4",
+      "channel": "Amigoscode", "duration": "2h 15m", "rating": 4.7,
+      "tags": ["dbms", "postgresql", "sql"],
+      "why": "Practical PostgreSQL with real projects"
+    },
+    {
+      "id": "f015", "subject": "DBMS", "title": "MongoDB Crash Course – Traversy Media",
+      "url": "https://www.youtube.com/watch?v=-56x56UppqQ",
+      "channel": "Traversy Media", "duration": "1h 30m", "rating": 4.6,
+      "tags": ["dbms", "mongodb", "nosql"],
+      "why": "NoSQL fundamentals in a fast-paced crash course"
+    },
+    {
+      "id": "f016", "subject": "DBMS", "title": "Normalization (1NF 2NF 3NF BCNF) – Neso Academy",
+      "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRi_CUQ-FXxgzKQ82DRINCH4",
+      "channel": "Neso Academy", "duration": "Multi-video", "rating": 4.8,
+      "tags": ["dbms", "normalization", "database design"],
+      "why": "Clearest normalization explanation with examples"
+    },
+    {
+      "id": "f017", "subject": "DBMS", "title": "Transactions & Concurrency – Jenny's Lectures",
+      "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31b33kF46f6aIe2wBKq0BKOU",
+      "channel": "Jenny's Lectures", "duration": "Multi-video", "rating": 4.7,
+      "tags": ["dbms", "transactions", "concurrency", "acid"],
+      "why": "ACID, serializability, deadlock explained well"
+    },
+    {
+      "id": "f018", "subject": "OS", "title": "Operating Systems – Gate Smashers (Full)",
+      "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGz9donHRrE9I3Mwn6XdP8p",
+      "channel": "Gate Smashers", "duration": "Multi-video", "rating": 4.9,
+      "tags": ["os", "operating system", "process", "memory management", "gate"],
+      "why": "Complete OS for GATE; processes to memory management"
+    },
+    {
+      "id": "f019", "subject": "OS", "title": "OS – Neso Academy Complete Playlist",
+      "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRiVhbXDGLXDk_OQAeuVcp2O",
+      "channel": "Neso Academy", "duration": "Multi-video", "rating": 4.8,
+      "tags": ["os", "operating system"],
+      "why": "University-level rigor; highly recommended"
+    },
+    {
+      "id": "f020", "subject": "OS", "title": "Process Scheduling Algorithms Visualised",
+      "url": "https://www.youtube.com/watch?v=EWkQl0n0w5M",
+      "channel": "Jenny's Lectures", "duration": "Multi-video", "rating": 4.7,
+      "tags": ["os", "scheduling", "process"],
+      "why": "FCFS, SJF, Round Robin with Gantt charts"
+    },
+    {
+      "id": "f021", "subject": "OS", "title": "Deadlock – Full Explanation – Jenny's Lectures",
+      "url": "https://www.youtube.com/playlist?list=PLdo5W4Nhv31bZSiqiOL5ta39vSnBxpOPT",
+      "channel": "Jenny's Lectures", "duration": "Multi-video", "rating": 4.8,
+      "tags": ["os", "deadlock", "banker's algorithm"],
+      "why": "Banker's algorithm and all deadlock concepts"
+    },
+    {
+      "id": "f022", "subject": "OS", "title": "Virtual Memory & Paging – Computerphile",
+      "url": "https://www.youtube.com/watch?v=5lFnKYCZT5o",
+      "channel": "Computerphile", "duration": "Short", "rating": 4.6,
+      "tags": ["os", "virtual memory", "paging"],
+      "why": "Intuitive short video on virtual memory"
+    },
+    {
+      "id": "f023", "subject": "OS", "title": "Linux Command Line Full Course – freeCodeCamp",
+      "url": "https://www.youtube.com/watch?v=ZtqBQ68cfJc",
+      "channel": "freeCodeCamp", "duration": "5h 20m", "rating": 4.8,
+      "tags": ["os", "linux", "shell", "command line"],
+      "why": "Practical Linux skills every CS student needs"
+    },
+    {
+      "id": "f024", "subject": "CN", "title": "Computer Networks – Gate Smashers",
+      "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiGFBD2-2joCpWOLUrDLvVV_",
+      "channel": "Gate Smashers", "duration": "Multi-video", "rating": 4.9,
+      "tags": ["cn", "networking", "osi", "tcp/ip", "routing"],
+      "why": "Best CN playlist; OSI, TCP/IP, routing protocols"
+    },
+    {
+      "id": "f025", "subject": "CN", "title": "Networking Fundamentals – Practical Networking",
+      "url": "https://www.youtube.com/playlist?list=PLIFyRwBY_4bRLmKfP1KnZA6rZbRHtxmXi",
+      "channel": "Practical Networking", "duration": "Multi-video", "rating": 4.8,
+      "tags": ["cn", "networking", "subnetting", "routing"],
+      "why": "Visual-first, subnetting and routing deep dives"
+    },
+    {
+      "id": "f026", "subject": "CN", "title": "TCP/IP Illustrated – Hussein Nasser",
+      "url": "https://www.youtube.com/playlist?list=PLQnljOFTspQUBSgBXilKhRMJ1ACqr7pTr",
+      "channel": "Hussein Nasser", "duration": "Multi-video", "rating": 4.7,
+      "tags": ["cn", "tcp", "ip", "networking"],
+      "why": "Deep-dive backend networking perspective"
+    },
+    {
+      "id": "f027", "subject": "CN", "title": "Wireshark Full Tutorial – David Bombal",
+      "url": "https://www.youtube.com/watch?v=lb1Dw0elw0Q",
+      "channel": "David Bombal", "duration": "3h", "rating": 4.7,
+      "tags": ["cn", "wireshark", "networking", "packet analysis"],
+      "why": "Hands-on packet analysis with real captures"
+    },
+    {
+      "id": "f028", "subject": "OOP", "title": "Object Oriented Programming – Mosh Hamedani",
+      "url": "https://www.youtube.com/watch?v=pTB0EiLXUC8",
+      "channel": "Programming with Mosh", "duration": "1h 30m", "rating": 4.8,
+      "tags": ["oop", "object oriented", "java", "class"],
+      "why": "Clean OOP principles with Java, perfect intro"
+    },
+    {
+      "id": "f029", "subject": "OOP", "title": "Design Patterns – Christopher Okhravi",
+      "url": "https://www.youtube.com/playlist?list=PLrhzvIcii6GNjpARdnO4ueTUAVR9eMBpc",
+      "channel": "Christopher Okhravi", "duration": "Multi-video", "rating": 4.9,
+      "tags": ["oop", "design patterns", "solid"],
+      "why": "Best design patterns series; GoF with modern examples"
+    },
+    {
+      "id": "f030", "subject": "OOP", "title": "SOLID Principles – Edureka",
+      "url": "https://www.youtube.com/watch?v=rtmFCcjEgEw",
+      "channel": "Edureka", "duration": "1h", "rating": 4.6,
+      "tags": ["oop", "solid", "design patterns"],
+      "why": "All 5 SOLID principles with Java code examples"
+    },
+    {
+      "id": "f031", "subject": "SE", "title": "Software Engineering – Sudhakar Atchala",
+      "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiEed7SKZBnC6ypFDWYLRvB2",
+      "channel": "Sudhakar Atchala", "duration": "Multi-video", "rating": 4.7,
+      "tags": ["se", "software engineering", "sdlc", "agile", "uml"],
+      "why": "SDLC, Agile, testing, UML — complete SE"
+    },
+    {
+      "id": "f032", "subject": "SE", "title": "Git & GitHub Full Course – freeCodeCamp",
+      "url": "https://www.youtube.com/watch?v=RGOj5yH7evk",
+      "channel": "freeCodeCamp", "duration": "3h 50m", "rating": 4.8,
+      "tags": ["se", "git", "github", "version control"],
+      "why": "Essential version control every dev must know"
+    },
+    {
+      "id": "f033", "subject": "COA", "title": "COA Complete – Gate Smashers",
+      "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiHMonh3G6QNKq-tA3tHJ_ux",
+      "channel": "Gate Smashers", "duration": "Multi-video", "rating": 4.9,
+      "tags": ["coa", "computer architecture", "pipeline", "cache", "gate"],
+      "why": "Number systems, pipelines, cache — full GATE coverage"
+    },
+    {
+      "id": "f034", "subject": "COA", "title": "Digital Logic – Neso Academy",
+      "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRjMH3mWf6kwqiTbT798eAOm",
+      "channel": "Neso Academy", "duration": "Multi-video", "rating": 4.8,
+      "tags": ["coa", "digital logic", "boolean algebra", "flip-flops"],
+      "why": "Boolean algebra, K-maps, flip-flops, adders"
+    },
+    {
+      "id": "f035", "subject": "COA", "title": "CPU Design – Ben Eater (Breadboard Computer)",
+      "url": "https://www.youtube.com/playlist?list=PLowKtXNTBypGqImE405J2565dvjafglHU",
+      "channel": "Ben Eater", "duration": "Multi-video", "rating": 5.0,
+      "tags": ["coa", "cpu", "computer architecture", "assembly"],
+      "why": "Build an 8-bit computer from scratch — legendary series"
+    },
+    {
+      "id": "f036", "subject": "TOC", "title": "Theory of Computation – Easy Engineering",
+      "url": "https://www.youtube.com/playlist?list=PLV8vIYTIdSnYsdt0Dh9uNFGoBno6jt6io",
+      "channel": "Easy Engineering", "duration": "Multi-video", "rating": 4.7,
+      "tags": ["toc", "automata", "dfa", "nfa", "turing machine"],
+      "why": "DFA, NFA, PDA, Turing machines — clear and complete"
+    },
+    {
+      "id": "f037", "subject": "TOC", "title": "Automata Theory – Neso Academy",
+      "url": "https://www.youtube.com/playlist?list=PLBlnK6fEyqRgp46KUv4ZY69yXmpwKOIev",
+      "channel": "Neso Academy", "duration": "Multi-video", "rating": 4.8,
+      "tags": ["toc", "automata", "formal language", "gate"],
+      "why": "Formal methods for CS — GATE-ready"
+    },
+    {
+      "id": "f038", "subject": "MATH", "title": "Discrete Mathematics – Gate Smashers",
+      "url": "https://www.youtube.com/playlist?list=PLxCzCOWd7aiH2wwES9vPWsEL6ipTaUSl3",
+      "channel": "Gate Smashers", "duration": "Multi-video", "rating": 4.8,
+      "tags": ["math", "discrete mathematics", "combinatorics", "graph theory"],
+      "why": "Sets, relations, graph theory, combinatorics"
+    },
+    {
+      "id": "f039", "subject": "MATH", "title": "MIT 6.042J – Mathematics for CS (Full)",
+      "url": "https://www.youtube.com/playlist?list=PLB7540DEDD482705B",
+      "channel": "MIT OpenCourseWare", "duration": "Multi-video", "rating": 4.9,
+      "tags": ["math", "discrete mathematics", "proofs"],
+      "why": "Rigorous mathematical foundations — MIT lecture quality"
+    },
+    {
+      "id": "f040", "subject": "MATH", "title": "Linear Algebra – 3Blue1Brown (Essence of LA)",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab",
+      "channel": "3Blue1Brown", "duration": "Multi-video", "rating": 5.0,
+      "tags": ["math", "linear algebra"],
+      "why": "Most beautiful visual introduction to linear algebra"
+    },
+    {
+      "id": "f041", "subject": "GENERAL", "title": "CS50 – Introduction to CS (Full – Harvard Free)",
+      "url": "https://www.youtube.com/watch?v=8mAITcNt710",
+      "channel": "CS50", "duration": "Full Course", "rating": 5.0,
+      "tags": ["general", "beginner", "c", "python", "sql", "web"],
+      "why": "Best free CS course in the world — Harvard quality"
+    },
+    {
+      "id": "f042", "subject": "GENERAL", "title": "MIT 6.006 Introduction to Algorithms",
+      "url": "https://www.youtube.com/playlist?list=PLUl4u3cNGP61Oq3tWYp6V_F-5jb5L2iHb",
+      "channel": "MIT OpenCourseWare", "duration": "Multi-video", "rating": 4.9,
+      "tags": ["dsa", "algorithms", "general"],
+      "why": "MIT's landmark algorithms course — free lectures"
+    },
+    {
+      "id": "f043", "subject": "GENERAL", "title": "System Design Interview – Gaurav Sen",
+      "url": "https://www.youtube.com/playlist?list=PLMCXHnjXnTnvo6alSjVkgxV-VH6EPyvoX",
+      "channel": "Gaurav Sen", "duration": "Multi-video", "rating": 4.9,
+      "tags": ["system design", "scalability", "distributed systems"],
+      "why": "Best system design playlist for FAANG prep"
+    },
+    {
+      "id": "f044", "subject": "GENERAL", "title": "Low Level Design – Concept && Coding",
+      "url": "https://www.youtube.com/playlist?list=PL6W8uoQQ2c63W58rpNFDwdrBnq5G3EfT7",
+      "channel": "Concept && Coding", "duration": "Multi-video", "rating": 4.8,
+      "tags": ["system design", "lld", "oop", "solid", "design patterns"],
+      "why": "LLD patterns, SOLID, OOP design for interviews"
+    },
+    {
+      "id": "f045", "subject": "GENERAL", "title": "Python Full Course – freeCodeCamp",
+      "url": "https://www.youtube.com/watch?v=rfscVS0vtbw",
+      "channel": "freeCodeCamp", "duration": "4h 26m", "rating": 4.8,
+      "tags": ["python", "programming", "beginner"],
+      "why": "Beginner-to-advanced Python in one sitting"
+    },
+    {
+      "id": "f046", "subject": "GENERAL", "title": "C++ for Competitive Programming – Luv",
+      "url": "https://www.youtube.com/playlist?list=PLauivoElc3ggagradg8MfOZreCMmXMmJ-",
+      "channel": "Luv", "duration": "Multi-video", "rating": 4.7,
+      "tags": ["cpp", "c++", "competitive programming", "stl"],
+      "why": "STL, templates, CP tricks — best C++ for CP"
+    },
+    {
+      "id": "f047", "subject": "GENERAL", "title": "Docker Full Course – TechWorld with Nana",
+      "url": "https://www.youtube.com/watch?v=3c-iBn73dDE",
+      "channel": "TechWorld with Nana", "duration": "5h 10m", "rating": 4.8,
+      "tags": ["cloud", "docker", "devops", "containers"],
+      "why": "Containers, images, docker-compose — practical"
+    },
+    {
+      "id": "f048", "subject": "GENERAL", "title": "Kubernetes Full Course – freeCodeCamp",
+      "url": "https://www.youtube.com/watch?v=d6WC5n9G_sM",
+      "channel": "freeCodeCamp", "duration": "3h 20m", "rating": 4.7,
+      "tags": ["cloud", "kubernetes", "devops"],
+      "why": "K8s fundamentals with hands-on demos"
+    },
+    {
+      "id": "f049", "subject": "GENERAL", "title": "Machine Learning – Andrew Ng (Stanford)",
+      "url": "https://www.youtube.com/playlist?list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU",
+      "channel": "Stanford Online", "duration": "Multi-video", "rating": 5.0,
+      "tags": ["ml", "machine learning", "ai", "neural network"],
+      "why": "The ML course that started the modern AI era"
+    },
+    {
+      "id": "f050", "subject": "GENERAL", "title": "Computer Science Crash Course – CrashCourse",
+      "url": "https://www.youtube.com/playlist?list=PL8dPuuaLjXtNlUrzyH5r6jN9ulIgZBpdo",
+      "channel": "CrashCourse", "duration": "40 episodes", "rating": 4.7,
+      "tags": ["general", "beginner", "overview"],
+      "why": "40-episode visual overview of all CS fundamentals"
+    },
+    {
+      "id": "f051", "subject": "WEB", "title": "HTML & CSS Full Course – Dave Gray",
+      "url": "https://www.youtube.com/watch?v=mU6anWqZJcc",
+      "channel": "Dave Gray", "duration": "11h 20m", "rating": 4.9,
+      "tags": ["web", "html", "css", "frontend"],
+      "why": "Most complete free HTML/CSS course with projects"
+    },
+    {
+      "id": "f052", "subject": "WEB", "title": "JavaScript Full Course – freeCodeCamp",
+      "url": "https://www.youtube.com/watch?v=PkZNo7MFNFg",
+      "channel": "freeCodeCamp", "duration": "3h 26m", "rating": 4.8,
+      "tags": ["web", "javascript", "frontend"],
+      "why": "Learn JavaScript from zero with clear examples"
+    },
+    {
+      "id": "f053", "subject": "WEB", "title": "React JS Full Course – Dave Gray",
+      "url": "https://www.youtube.com/watch?v=RVFAyFWO4go",
+      "channel": "Dave Gray", "duration": "9h", "rating": 4.8,
+      "tags": ["web", "react", "javascript", "frontend"],
+      "why": "Modern React with hooks and real-world projects"
+    },
+    {
+      "id": "f054", "subject": "WEB", "title": "Django Full Course – freeCodeCamp",
+      "url": "https://www.youtube.com/watch?v=F5mRW0jo-U4",
+      "channel": "freeCodeCamp", "duration": "3h 45m", "rating": 4.7,
+      "tags": ["web", "django", "python", "backend"],
+      "why": "Full Django web app from scratch — beginner friendly"
+    },
+    {
+      "id": "f055", "subject": "WEB", "title": "REST API Design – Traversy Media",
+      "url": "https://www.youtube.com/watch?v=Q-BpqyOT3a8",
+      "channel": "Traversy Media", "duration": "1h 20m", "rating": 4.7,
+      "tags": ["web", "rest", "api", "backend"],
+      "why": "REST principles with practical Node.js implementation"
+    },
+    {
+      "id": "f056", "subject": "ML", "title": "Deep Learning Crash Course – freeCodeCamp",
+      "url": "https://www.youtube.com/watch?v=VyWAvY2CF9c",
+      "channel": "freeCodeCamp", "duration": "2h 30m", "rating": 4.8,
+      "tags": ["ml", "deep learning", "neural network", "tensorflow"],
+      "why": "Covers neural nets, CNNs, RNNs with TensorFlow"
+    },
+    {
+      "id": "f057", "subject": "ML", "title": "TensorFlow 2.0 Full Course – freeCodeCamp",
+      "url": "https://www.youtube.com/watch?v=tPYj3fFJGjk",
+      "channel": "freeCodeCamp", "duration": "6h 27m", "rating": 4.8,
+      "tags": ["ml", "tensorflow", "deep learning", "python"],
+      "why": "Complete TensorFlow tutorial with real ML projects"
+    },
+    {
+      "id": "f058", "subject": "CYBERSECURITY", "title": "Ethical Hacking Full Course – freeCodeCamp",
+      "url": "https://www.youtube.com/watch?v=3Kq1MIfTWCE",
+      "channel": "freeCodeCamp", "duration": "15h", "rating": 4.8,
+      "tags": ["cybersecurity", "ethical hacking", "penetration testing"],
+      "why": "Comprehensive ethical hacking from enumeration to exploitation"
+    },
+    {
+      "id": "f059", "subject": "CYBERSECURITY", "title": "Network Security – Professor Messer",
+      "url": "https://www.youtube.com/watch?v=J0fIhE7ZXHM",
+      "channel": "Professor Messer", "duration": "Multi-video", "rating": 4.7,
+      "tags": ["cybersecurity", "network security", "security+"],
+      "why": "CompTIA Security+ prep — free and comprehensive"
+    },
+    {
+      "id": "f060", "subject": "SYSTEM_DESIGN", "title": "System Design Primer – Exponent",
+      "url": "https://www.youtube.com/playlist?list=PLrtCHHeadkHp92TyPt1Fj452_VGLipJnL",
+      "channel": "Exponent", "duration": "Multi-video", "rating": 4.9,
+      "tags": ["system design", "scalability", "distributed systems", "interview"],
+      "why": "Structured system design prep for FAANG interviews"
+    }
+  ],
+  "premium_resources": [
+    {
+      "id": "p001", "platform": "edX / Harvard", "title": "CS50: Intro to Computer Science",
+      "url": "https://www.edx.org/course/introduction-computer-science-harvardx-cs50x",
+      "instructor": "David Malan", "price": "Free / $149 cert", "certificate": true,
+      "subject": "General CS", "rating": 5.0,
+      "tags": ["general", "beginner", "c", "python", "sql", "web"],
+      "why": "World's most popular CS MOOC; C, Python, SQL, Web"
+    },
+    {
+      "id": "p002", "platform": "edX / Harvard", "title": "CS50's Python Programming",
+      "url": "https://www.edx.org/course/cs50s-introduction-to-programming-with-python",
+      "instructor": "David Malan", "price": "Free / $149 cert", "certificate": true,
+      "subject": "Python", "rating": 4.9,
+      "tags": ["python", "programming"],
+      "why": "Harvard quality Python — algorithms to OOP"
+    },
+    {
+      "id": "p003", "platform": "edX / Harvard", "title": "CS50's Web Programming (Django + JS)",
+      "url": "https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript",
+      "instructor": "Brian Yu", "price": "Free / $149 cert", "certificate": true,
+      "subject": "Web Dev", "rating": 4.9,
+      "tags": ["web", "django", "javascript", "html", "css"],
+      "why": "Full-stack web dev at Harvard level"
+    },
+    {
+      "id": "p004", "platform": "edX / Harvard", "title": "CS50's AI with Python",
+      "url": "https://www.edx.org/course/cs50s-introduction-to-artificial-intelligence-with-python",
+      "instructor": "Brian Yu", "price": "Free / $149 cert", "certificate": true,
+      "subject": "AI / ML", "rating": 4.9,
+      "tags": ["ml", "ai", "python", "machine learning"],
+      "why": "Harvard AI course — search, ML, neural nets, NLP"
+    },
+    {
+      "id": "p005", "platform": "edX / MIT", "title": "MITx 6.00.1x – Intro to CS & Programming",
+      "url": "https://www.edx.org/course/introduction-to-computer-science-and-programming-7",
+      "instructor": "Eric Grimson", "price": "Free / $150 cert", "certificate": true,
+      "subject": "Python / CS", "rating": 4.8,
+      "tags": ["python", "programming", "algorithms"],
+      "why": "MIT quality Python — algorithms to OOP"
+    },
+    {
+      "id": "p006", "platform": "edX / MIT", "title": "MITx 6.00.2x – Intro to Computational Thinking",
+      "url": "https://www.edx.org/course/introduction-to-computational-thinking-and-data-4",
+      "instructor": "Eric Grimson", "price": "Free / $150 cert", "certificate": true,
+      "subject": "Python / DS", "rating": 4.8,
+      "tags": ["python", "data science", "ml", "algorithms"],
+      "why": "Data structures, computational thinking, intro ML"
+    },
+    {
+      "id": "p007", "platform": "edX / UC San Diego", "title": "Data Structures Fundamentals",
+      "url": "https://www.edx.org/course/data-structures-fundamentals",
+      "instructor": "UC San Diego", "price": "$150", "certificate": true,
+      "subject": "DSA", "rating": 4.7,
+      "tags": ["dsa", "data structures", "algorithms"],
+      "why": "Rigorous DSA with industry-ready examples"
+    },
+    {
+      "id": "p008", "platform": "edX / Microsoft", "title": "DEV279x: Introduction to Python",
+      "url": "https://www.edx.org/course/introduction-to-python-absolute-beginners",
+      "instructor": "Microsoft", "price": "Free / $99 cert", "certificate": true,
+      "subject": "Python", "rating": 4.6,
+      "tags": ["python", "beginner"],
+      "why": "Microsoft-certified Python for absolute beginners"
+    },
+    {
+      "id": "p009", "platform": "Coursera", "title": "Algorithms I & II – Princeton",
+      "url": "https://www.coursera.org/learn/algorithms-part1",
+      "instructor": "Robert Sedgewick", "price": "$49/mo", "certificate": true,
+      "subject": "DSA", "rating": 4.9,
+      "tags": ["dsa", "algorithms", "java"],
+      "why": "Princeton's classic algorithms course — rigorous and complete"
+    },
+    {
+      "id": "p010", "platform": "Coursera", "title": "Data Structures & Algorithms Specialization",
+      "url": "https://www.coursera.org/specializations/data-structures-algorithms",
+      "instructor": "UC San Diego", "price": "$49/mo", "certificate": true,
+      "subject": "DSA", "rating": 4.8,
+      "tags": ["dsa", "data structures", "algorithms"],
+      "why": "6-course specialization covering DSA end-to-end"
+    },
+    {
+      "id": "p011", "platform": "Coursera", "title": "Machine Learning Specialization",
+      "url": "https://www.coursera.org/specializations/machine-learning-introduction",
+      "instructor": "Andrew Ng", "price": "$49/mo", "certificate": true,
+      "subject": "AI / ML", "rating": 5.0,
+      "tags": ["ml", "machine learning", "ai", "python"],
+      "why": "Andrew Ng's updated ML course — industry gold standard"
+    },
+    {
+      "id": "p012", "platform": "Coursera", "title": "Deep Learning Specialization",
+      "url": "https://www.coursera.org/specializations/deep-learning",
+      "instructor": "Andrew Ng", "price": "$49/mo", "certificate": true,
+      "subject": "Deep Learning", "rating": 4.9,
+      "tags": ["ml", "deep learning", "neural network", "tensorflow"],
+      "why": "5-course deep learning mastery by Andrew Ng"
+    },
+    {
+      "id": "p013", "platform": "Coursera", "title": "Google IT Support Professional Certificate",
+      "url": "https://www.coursera.org/professional-certificates/google-it-support",
+      "instructor": "Google", "price": "$49/mo", "certificate": true,
+      "subject": "IT / Systems", "rating": 4.8,
+      "tags": ["it", "systems", "networking", "os", "cybersecurity"],
+      "why": "Job-ready IT support skills certified by Google"
+    },
+    {
+      "id": "p014", "platform": "Coursera", "title": "IBM Data Science Professional Certificate",
+      "url": "https://www.coursera.org/professional-certificates/ibm-data-science",
+      "instructor": "IBM", "price": "$49/mo", "certificate": true,
+      "subject": "Data Science", "rating": 4.7,
+      "tags": ["data science", "python", "ml", "sql"],
+      "why": "10-course data science path with IBM credentials"
+    },
+    {
+      "id": "p015", "platform": "Coursera", "title": "Meta Frontend Developer Certificate",
+      "url": "https://www.coursera.org/professional-certificates/meta-front-end-developer",
+      "instructor": "Meta", "price": "$49/mo", "certificate": true,
+      "subject": "Web Dev", "rating": 4.8,
+      "tags": ["web", "react", "javascript", "html", "css", "frontend"],
+      "why": "Industry-recognized frontend certificate from Meta"
+    },
+    {
+      "id": "p016", "platform": "Coursera", "title": "Operating Systems & You: Becoming a Power User",
+      "url": "https://www.coursera.org/learn/os-power-user",
+      "instructor": "Google", "price": "$49/mo", "certificate": true,
+      "subject": "OS", "rating": 4.7,
+      "tags": ["os", "linux", "windows", "shell"],
+      "why": "Practical OS skills certified by Google"
+    },
+    {
+      "id": "p017", "platform": "Coursera", "title": "Database Management Essentials",
+      "url": "https://www.coursera.org/learn/database-management",
+      "instructor": "UC Davis", "price": "$49/mo", "certificate": true,
+      "subject": "DBMS", "rating": 4.7,
+      "tags": ["dbms", "database", "sql", "er diagram"],
+      "why": "Database design and SQL with real-world projects"
+    },
+    {
+      "id": "p018", "platform": "Coursera", "title": "Computer Communications Specialization",
+      "url": "https://www.coursera.org/specializations/computer-communications",
+      "instructor": "University of Colorado", "price": "$49/mo", "certificate": true,
+      "subject": "CN", "rating": 4.7,
+      "tags": ["cn", "networking", "tcp/ip", "protocol"],
+      "why": "Deep networking theory and protocol design"
+    },
+    {
+      "id": "p019", "platform": "Coursera", "title": "Software Design and Architecture Specialization",
+      "url": "https://www.coursera.org/specializations/software-design-architecture",
+      "instructor": "University of Alberta", "price": "$49/mo", "certificate": true,
+      "subject": "SE / OOP", "rating": 4.8,
+      "tags": ["se", "oop", "design patterns", "solid", "software architecture"],
+      "why": "4-course deep dive into software architecture and OOP"
+    },
+    {
+      "id": "p020", "platform": "Coursera", "title": "Cloud Computing Specialization – Illinois",
+      "url": "https://www.coursera.org/specializations/cloud-computing",
+      "instructor": "UIUC", "price": "$49/mo", "certificate": true,
+      "subject": "Cloud", "rating": 4.7,
+      "tags": ["cloud", "distributed systems", "mapreduce", "nosql"],
+      "why": "Distributed systems and cloud from first principles"
+    },
+    {
+      "id": "p021", "platform": "Udemy", "title": "Master the Coding Interview: DSA",
+      "url": "https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/",
+      "instructor": "Andrei Neagoie", "price": "~₹499 (sale)", "certificate": true,
+      "subject": "DSA", "rating": 4.7,
+      "tags": ["dsa", "data structures", "algorithms", "interview"],
+      "why": "Interview-focused DSA with FAANG prep exercises"
+    },
+    {
+      "id": "p022", "platform": "Udemy", "title": "JavaScript Algorithms & Data Structures",
+      "url": "https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/",
+      "instructor": "Colt Steele", "price": "~₹499 (sale)", "certificate": true,
+      "subject": "DSA / JS", "rating": 4.8,
+      "tags": ["dsa", "javascript", "algorithms"],
+      "why": "DSA in JavaScript — great for web dev interview prep"
+    },
+    {
+      "id": "p023", "platform": "Udemy", "title": "The Complete Python Bootcamp",
+      "url": "https://www.udemy.com/course/complete-python-bootcamp/",
+      "instructor": "Jose Portilla", "price": "~₹499 (sale)", "certificate": true,
+      "subject": "Python", "rating": 4.7,
+      "tags": ["python", "programming", "beginner"],
+      "why": "Most popular Python course on Udemy — beginner to advanced"
+    },
+    {
+      "id": "p024", "platform": "Udemy", "title": "Python for Machine Learning & Data Science",
+      "url": "https://www.udemy.com/course/python-for-machine-learning-and-data-science-masterclass/",
+      "instructor": "Jose Portilla", "price": "~₹499 (sale)", "certificate": true,
+      "subject": "Python / ML", "rating": 4.7,
+      "tags": ["python", "ml", "data science", "pandas", "numpy"],
+      "why": "Full ML stack in Python from data to deployment"
+    },
+    {
+      "id": "p025", "platform": "Udemy", "title": "The Complete SQL Bootcamp",
+      "url": "https://www.udemy.com/course/the-complete-sql-bootcamp/",
+      "instructor": "Jose Portilla", "price": "~₹499 (sale)", "certificate": true,
+      "subject": "DBMS / SQL", "rating": 4.7,
+      "tags": ["dbms", "sql", "postgresql"],
+      "why": "SQL from zero to advanced with PostgreSQL hands-on"
+    },
+    {
+      "id": "p026", "platform": "Udemy", "title": "MySQL Bootcamp: Go from SQL Beginner to Expert",
+      "url": "https://www.udemy.com/course/the-ultimate-mysql-bootcamp-go-from-sql-beginner-to-expert/",
+      "instructor": "Colt Steele", "price": "~₹499 (sale)", "certificate": true,
+      "subject": "DBMS", "rating": 4.7,
+      "tags": ["dbms", "mysql", "sql"],
+      "why": "Most practical MySQL course with real projects"
+    },
+    {
+      "id": "p027", "platform": "Udemy", "title": "Operating Systems: From 0 to 1",
+      "url": "https://www.udemy.com/course/operating-systems-from-scratch-part1/",
+      "instructor": "Tu Do", "price": "~₹499 (sale)", "certificate": true,
+      "subject": "OS", "rating": 4.6,
+      "tags": ["os", "operating system", "process", "memory"],
+      "why": "Hands-on OS implementation — build your own OS"
+    },
+    {
+      "id": "p028", "platform": "Udemy", "title": "The Complete Networking Fundamentals Course",
+      "url": "https://www.udemy.com/course/complete-networking-fundamentals-course-ccna-start/",
+      "instructor": "David Bombal", "price": "~₹499 (sale)", "certificate": true,
+      "subject": "CN", "rating": 4.7,
+      "tags": ["cn", "networking", "ccna", "cisco"],
+      "why": "CCNA preparation with Packet Tracer labs"
+    },
+    {
+      "id": "p029", "platform": "Udemy", "title": "Docker & Kubernetes: The Practical Guide",
+      "url": "https://www.udemy.com/course/docker-kubernetes-the-practical-guide/",
+      "instructor": "Maximilian Schwarzmüller", "price": "~₹499 (sale)", "certificate": true,
+      "subject": "DevOps", "rating": 4.7,
+      "tags": ["cloud", "docker", "kubernetes", "devops"],
+      "why": "Most comprehensive Docker + K8s course on Udemy"
+    },
+    {
+      "id": "p030", "platform": "Udemy", "title": "React – The Complete Guide (incl. Hooks, Redux)",
+      "url": "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+      "instructor": "Maximilian Schwarzmüller", "price": "~₹499 (sale)", "certificate": true,
+      "subject": "Web Dev", "rating": 4.8,
+      "tags": ["web", "react", "javascript", "redux", "frontend"],
+      "why": "Most popular React course — hooks, Redux, Next.js"
+    },
+    {
+      "id": "p031", "platform": "Udemy", "title": "System Design Interview – An Insider's Guide",
+      "url": "https://www.udemy.com/course/system-design-interview-prep/",
+      "instructor": "Frank Kane", "price": "~₹499 (sale)", "certificate": true,
+      "subject": "System Design", "rating": 4.6,
+      "tags": ["system design", "scalability", "distributed systems"],
+      "why": "Practical system design prep for senior roles"
+    },
+    {
+      "id": "p032", "platform": "Udemy", "title": "Machine Learning A-Z: Hands-on Python & R",
+      "url": "https://www.udemy.com/course/machinelearning/",
+      "instructor": "Kirill Eremenko", "price": "~₹499 (sale)", "certificate": true,
+      "subject": "ML", "rating": 4.5,
+      "tags": ["ml", "machine learning", "python", "r"],
+      "why": "40+ ML algorithms with Python and R templates"
+    },
+    {
+      "id": "p033", "platform": "Udemy", "title": "C++ From Beginner to Expert",
+      "url": "https://www.udemy.com/course/cpp-course/",
+      "instructor": "Arkadiusz Wlodarczyk", "price": "~₹499 (sale)", "certificate": true,
+      "subject": "C++", "rating": 4.5,
+      "tags": ["cpp", "c++", "programming"],
+      "why": "Complete C++ with OOP, STL, and modern features"
+    },
+    {
+      "id": "p034", "platform": "Udemy", "title": "Java Programming Masterclass",
+      "url": "https://www.udemy.com/course/java-the-complete-java-developer-course/",
+      "instructor": "Tim Buchalka", "price": "~₹499 (sale)", "certificate": true,
+      "subject": "Java", "rating": 4.6,
+      "tags": ["java", "oop", "programming"],
+      "why": "80+ hours of Java — from beginner to developer"
+    },
+    {
+      "id": "p035", "platform": "Udemy", "title": "Ethical Hacking Bootcamp – CEH Prep",
+      "url": "https://www.udemy.com/course/learn-ethical-hacking-from-scratch/",
+      "instructor": "Zaid Sabih", "price": "~₹499 (sale)", "certificate": true,
+      "subject": "Cybersecurity", "rating": 4.6,
+      "tags": ["cybersecurity", "ethical hacking", "security"],
+      "why": "Hands-on hacking lab with real exploits safely"
+    },
+    {
+      "id": "p036", "platform": "IEEE BLP", "title": "IEEE Learning Network – CS Fundamentals",
+      "url": "https://iln.ieee.org/",
+      "instructor": "IEEE", "price": "$50–$200", "certificate": true,
+      "subject": "General CS", "rating": 4.5,
+      "tags": ["general", "ieee", "professional"],
+      "why": "IEEE professional development with PDH credits"
+    },
+    {
+      "id": "p037", "platform": "IEEE BLP", "title": "IEEE Cybersecurity Courses Bundle",
+      "url": "https://iln.ieee.org/",
+      "instructor": "IEEE", "price": "$100–$300", "certificate": true,
+      "subject": "Cybersecurity", "rating": 4.5,
+      "tags": ["cybersecurity", "security", "ieee"],
+      "why": "IEEE-certified cybersecurity training bundle"
+    },
+    {
+      "id": "p038", "platform": "IEEE BLP", "title": "IEEE AI & Machine Learning Track",
+      "url": "https://iln.ieee.org/",
+      "instructor": "IEEE", "price": "$100–$250", "certificate": true,
+      "subject": "AI / ML", "rating": 4.5,
+      "tags": ["ml", "ai", "ieee"],
+      "why": "IEEE-certified AI/ML track for professionals"
+    },
+    {
+      "id": "p039", "platform": "NPTEL", "title": "Data Structures & Algorithms – IIT Madras",
+      "url": "https://nptel.ac.in/courses/106106127",
+      "instructor": "IIT Madras", "price": "Free / ₹1000 cert", "certificate": true,
+      "subject": "DSA", "rating": 4.8,
+      "tags": ["dsa", "data structures", "algorithms", "nptel", "gate"],
+      "why": "IIT faculty-taught DSA — recognized for GATE prep"
+    },
+    {
+      "id": "p040", "platform": "NPTEL", "title": "Database Management Systems – IIT Madras",
+      "url": "https://nptel.ac.in/courses/106105175",
+      "instructor": "IIT Madras", "price": "Free / ₹1000 cert", "certificate": true,
+      "subject": "DBMS", "rating": 4.8,
+      "tags": ["dbms", "database", "sql", "nptel", "gate"],
+      "why": "NPTEL's gold-standard DBMS course for GATE"
+    },
+    {
+      "id": "p041", "platform": "NPTEL", "title": "Operating Systems – IIT Madras",
+      "url": "https://nptel.ac.in/courses/106106144",
+      "instructor": "IIT Madras", "price": "Free / ₹1000 cert", "certificate": true,
+      "subject": "OS", "rating": 4.8,
+      "tags": ["os", "operating system", "nptel", "gate"],
+      "why": "Comprehensive OS theory with IIT Madras quality"
+    },
+    {
+      "id": "p042", "platform": "NPTEL", "title": "Computer Networks – IIT Kharagpur",
+      "url": "https://nptel.ac.in/courses/106105081",
+      "instructor": "IIT Kharagpur", "price": "Free / ₹1000 cert", "certificate": true,
+      "subject": "CN", "rating": 4.8,
+      "tags": ["cn", "networking", "nptel", "gate"],
+      "why": "IIT-level networking theory for GATE and interviews"
+    },
+    {
+      "id": "p043", "platform": "NPTEL", "title": "Theory of Computation – IIT Bombay",
+      "url": "https://nptel.ac.in/courses/106101081",
+      "instructor": "IIT Bombay", "price": "Free / ₹1000 cert", "certificate": true,
+      "subject": "TOC", "rating": 4.7,
+      "tags": ["toc", "automata", "turing machine", "nptel", "gate"],
+      "why": "Rigorous TOC by IIT Bombay — GATE-ready"
+    },
+    {
+      "id": "p044", "platform": "NPTEL", "title": "Discrete Mathematics – IIT Roorkee",
+      "url": "https://nptel.ac.in/courses/111107058",
+      "instructor": "IIT Roorkee", "price": "Free / ₹1000 cert", "certificate": true,
+      "subject": "Discrete Math", "rating": 4.7,
+      "tags": ["math", "discrete mathematics", "nptel"],
+      "why": "IIT Roorkee discrete math — essential for CS theory"
+    },
+    {
+      "id": "p045", "platform": "Google", "title": "Google Data Analytics Professional Certificate",
+      "url": "https://grow.google/certificates/data-analytics/",
+      "instructor": "Google", "price": "$49/mo Coursera", "certificate": true,
+      "subject": "Data Analytics", "rating": 4.8,
+      "tags": ["data science", "sql", "tableau", "r", "analytics"],
+      "why": "Job-ready data analytics with Google certification"
+    },
+    {
+      "id": "p046", "platform": "Google", "title": "Google UX Design Certificate",
+      "url": "https://grow.google/certificates/ux-design/",
+      "instructor": "Google", "price": "$49/mo Coursera", "certificate": true,
+      "subject": "UX / HCI", "rating": 4.7,
+      "tags": ["ux", "hci", "design", "figma"],
+      "why": "Professional UX design skills from Google"
+    },
+    {
+      "id": "p047", "platform": "AWS", "title": "AWS Certified Cloud Practitioner (CLF-C02)",
+      "url": "https://aws.amazon.com/training/learn-about/cloud-practitioner/",
+      "instructor": "Amazon Web Services", "price": "$100 exam", "certificate": true,
+      "subject": "Cloud", "rating": 4.8,
+      "tags": ["cloud", "aws", "devops"],
+      "why": "Most in-demand cloud cert — opens doors to cloud jobs"
+    },
+    {
+      "id": "p048", "platform": "Microsoft", "title": "AZ-900: Azure Fundamentals",
+      "url": "https://learn.microsoft.com/en-us/certifications/azure-fundamentals/",
+      "instructor": "Microsoft", "price": "$165 exam", "certificate": true,
+      "subject": "Cloud", "rating": 4.7,
+      "tags": ["cloud", "azure", "microsoft"],
+      "why": "Official Microsoft Azure foundation certification"
+    },
+    {
+      "id": "p049", "platform": "Cisco", "title": "CCNA 200-301 – Official Cert Guide",
+      "url": "https://learningnetwork.cisco.com/s/ccna",
+      "instructor": "Cisco", "price": "$330 exam", "certificate": true,
+      "subject": "CN / Networking", "rating": 4.8,
+      "tags": ["cn", "networking", "cisco", "ccna"],
+      "why": "Industry-standard networking certification from Cisco"
+    },
+    {
+      "id": "p050", "platform": "Scaler Academy", "title": "Scaler DSA & System Design (Paid Bootcamp)",
+      "url": "https://www.scaler.com/courses/dsa/",
+      "instructor": "Scaler", "price": "₹80,000–1,50,000", "certificate": true,
+      "subject": "DSA + Sys Design", "rating": 4.8,
+      "tags": ["dsa", "system design", "interview", "placement"],
+      "why": "Intensive DSA + System Design bootcamp for FAANG"
+    },
+    {
+      "id": "p051", "platform": "Naukri Learning", "title": "Full Stack Dev Program – UpGrad",
+      "url": "https://www.upgrad.com/full-stack-development/",
+      "instructor": "UpGrad", "price": "₹75,000+", "certificate": true,
+      "subject": "Full Stack", "rating": 4.5,
+      "tags": ["web", "full stack", "react", "node", "mongodb"],
+      "why": "University-partnered full stack bootcamp"
+    },
+    {
+      "id": "p052", "platform": "LinkedIn Learning", "title": "Become a Software Developer Path",
+      "url": "https://www.linkedin.com/learning/paths/become-a-software-developer",
+      "instructor": "LinkedIn", "price": "$39.99/mo", "certificate": true,
+      "subject": "General CS", "rating": 4.5,
+      "tags": ["general", "software development", "programming"],
+      "why": "LinkedIn-certified path that shows directly on your profile"
+    },
+    {
+      "id": "p053", "platform": "Pluralsight", "title": "Core Java Path",
+      "url": "https://www.pluralsight.com/paths/core-java",
+      "instructor": "Pluralsight", "price": "$29/mo", "certificate": true,
+      "subject": "Java", "rating": 4.5,
+      "tags": ["java", "oop", "programming"],
+      "why": "Skill IQ-assessed Java path for developers"
+    },
+    {
+      "id": "p054", "platform": "Brilliant.org", "title": "Computer Science Fundamentals",
+      "url": "https://brilliant.org/courses/computer-science-fundamentals/",
+      "instructor": "Brilliant", "price": "$24.99/mo", "certificate": true,
+      "subject": "General CS", "rating": 4.6,
+      "tags": ["general", "logic", "algorithms", "beginner"],
+      "why": "Interactive, gamified CS fundamentals — highly engaging"
+    },
+    {
+      "id": "p055", "platform": "Codecademy Pro", "title": "Computer Science Career Path",
+      "url": "https://www.codecademy.com/learn/paths/computer-science",
+      "instructor": "Codecademy", "price": "$24.99/mo", "certificate": true,
+      "subject": "General CS", "rating": 4.5,
+      "tags": ["general", "python", "algorithms", "web", "beginner"],
+      "why": "Hands-on CS career path with guided projects"
+    }
+  ]
+}

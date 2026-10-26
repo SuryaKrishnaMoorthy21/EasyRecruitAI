@@ -1,0 +1,50 @@
+EasyRecruit v20 (resume_parsing_fixed_v2 branch) - Build info
+
+NEW FEATURE: Multi-resume batch analysis
+-----------------------------------------
+The Analyze Resume page now accepts multiple resumes at once (click to
+browse and select several, or drag several in) and gives each one its
+own complete, separately-scored report.
+
+Backend (app/api/analysis_routes.py):
+  - The full single-resume pipeline (validate -> extract -> NLP -> score
+    -> optionally save -> build response) was extracted into a shared
+    _analyze_single_file() helper. The existing /analyze endpoint now
+    just calls it, so single-resume behavior is unchanged byte-for-byte.
+  - New POST /api/v1/analysis/analyze-batch accepts up to 15 files in
+    one request. Each file runs through the exact same helper,
+    concurrently (via asyncio.gather + the existing thread-pool
+    offloading), so a 5-resume batch doesn't take 5x as long, and a
+    slow or huge file never blocks the others.
+  - One bad file (wrong type, corrupt, scanned with no extractable
+    text) only produces an error entry for that file - it never fails
+    the whole batch. Response shape:
+    {total, succeeded, failed, results: [ per-file result or error ]}.
+  - Verified safe for concurrent use: the DB layer opens a fresh
+    SQLite connection per call (WAL mode), and spaCy/sentence-
+    transformers inference is safe to call concurrently from multiple
+    threads against the same shared model instance.
+
+Frontend (frontend/index.html):
+  - Upload zone now accepts multiple files (accumulates across clicks
+    and drags, de-duplicates, rejects wrong file types individually,
+    caps at 15 with a clear message). Selecting exactly one file
+    behaves exactly as before.
+  - Submitting 2+ files calls the new batch endpoint and renders a
+    completely separate results view: a summary card, a ranked jump-
+    list (highest score first, failures sink to the bottom, click any
+    row to jump to that resume), and one full self-contained report
+    per resume (score ring, keyword/skill/structure/semantic bars,
+    matched/missing skills, recommendations) - reusing the same visual
+    language as the single-resume view. Failed files get their own
+    clearly-labeled error card instead of a score.
+  - Tested directly (not just eyeballed): ran the actual JS functions
+    in a sandboxed harness against realistic mock data - confirmed
+    correct HTML output, correct de-duplication when re-adding a file,
+    correct removal/clear-all behavior, and correct score-based
+    ranking with failures sorted to the bottom.
+
+Everything from the previous fixes (install_and_run.bat Python 3.14
+bootstrap, model-loading resilience, background-thread scoring,
+detected_domain persistence, bias-compare-text endpoint, candidate
+modal recommendations fix) is unchanged and still in place.
